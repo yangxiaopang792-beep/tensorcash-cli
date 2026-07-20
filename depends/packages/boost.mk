@@ -20,6 +20,7 @@ define $(package)_set_vars
   $(package)_b2_opts+=--layout=system
   $(package)_b2_opts+=--prefix=$($(package)_staging_prefix_dir)
   $(package)_b2_opts+=--with-locale
+  $(package)_b2_opts+=--with-thread
   $(package)_b2_opts+=boost.locale.icu=off
   $(package)_b2_opts+=target-os=windows
   $(package)_b2_opts+=binary-format=pe
@@ -32,7 +33,7 @@ define $(package)_preprocess_cmds
 endef
 
 define $(package)_config_cmds
-  ./bootstrap.sh --with-libraries=locale --without-icu --prefix=$($(package)_staging_prefix_dir)
+  ./bootstrap.sh --with-libraries=locale,thread --without-icu --prefix=$($(package)_staging_prefix_dir)
 endef
 
 define $(package)_build_cmds
