@@ -1,0 +1,64 @@
+name: Build Windows wallet
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  windows-x64:
+    name: Windows 10/11 x64
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Install build tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            build-essential cmake ninja-build python3 curl git zip \
+            g++-mingw-w64-x86-64-posix nsis
+
+      - name: Cache depends
+        uses: actions/cache@v4
+        with:
+          path: depends/built
+          key: depends-win64-${{ hashFiles('depends/**') }}
+          restore-keys: depends-win64-
+
+      - name: Build GUI installer and CLI wallet
+        run: ./scripts/build-windows-x64.sh
+
+      - name: Upload installer artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tensorcash-windows-x64-installer
+          path: |
+            dist/windows-x64/tensorcash-win64-setup.exe
+            dist/windows-x64/SHA256SUMS
+          if-no-files-found: error
+
+      - name: Upload CLI artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tensorcash-windows-x64-cli
+          path: |
+            dist/windows-x64/tensorcash-cli-windows-x64.zip
+            dist/windows-x64/SHA256SUMS
+          if-no-files-found: error
+
+      - name: Attach files to tagged release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/windows-x64/tensorcash-win64-setup.exe
+            dist/windows-x64/tensorcash-cli-windows-x64.zip
+            dist/windows-x64/SHA256SUMS

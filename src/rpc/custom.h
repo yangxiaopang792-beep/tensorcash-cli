@@ -1,0 +1,4 @@
+#ifndef BITCOIN_RPC_CUSTOM_H
+#define BITCOIN_RPC_CUSTOM_H
+
+#endif // BITCOIN_RPC_CUSTOM_H

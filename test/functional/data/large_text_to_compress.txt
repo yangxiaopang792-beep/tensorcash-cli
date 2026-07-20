@@ -1,0 +1,1711 @@
+Table of Contents
+Filed pursuant to Rule 424(b)(4)
+
+Registration No. 333-114984
+
+ 
+
+Prospectus
+
+August 18, 2004
+
+ 
+
+19,605,052 Shares
+
+ 
+
+LOGO
+
+ 
+
+Class A Common Stock
+
+ 
+
+ 
+
+Google Inc. is offering 14,142,135 shares of Class A common stock and the selling stockholders are offering 5,462,917 shares of Class A common stock. We will not receive any proceeds from the sale of shares by the selling stockholders. This is our initial public offering and no public market currently exists for our shares. The initial public offering price is $85.00 per share.
+
+ 
+
+ 
+
+Following this offering, we will have two classes of authorized common stock, Class A common stock and Class B common stock. The rights of the holders of Class A common stock and Class B common stock are identical, except with respect to voting and conversion. Each share of Class A common stock is entitled to one vote per share. Each share of Class B common stock is entitled to ten votes per share and is convertible at any time into one share of Class A common stock.
+
+ 
+
+ 
+
+Our Class A common stock will be quoted on The Nasdaq National Market under the symbol “GOOG.”
+
+ 
+
+Investing in our Class A common stock involves risks. See “ Risk Factors” beginning on page 4.
+
+ 
+
+ 
+
+Price $85.00 A Share
+
+ 
+
+ 
+
+ 	  	Price to Public
+  	Underwriting
+Discounts and
+Commissions
+  	Proceeds to
+Google
+  	Proceeds to
+Selling
+Stockholders
+Per Share
+
+  	$	85.00	  	$	2.3839	  	$	82.6161	  	$	82.6161
+Total
+
+  	$	1,666,429,420	  	$	46,736,483	  	$	1,168,368,039	  	$	451,324,897
+ 
+
+ 
+
+The selling stockholders have granted the underwriters the right to purchase up to an additional 2,940,757 shares to cover over-allotments.
+
+ 
+
+The price to the public and allocation of shares were determined by an auction process. The minimum size for a bid in the auction was five shares of our Class A common stock. The method for submitting bids and a more detailed description of this auction process are included in “Auction Process” beginning on page 34. As part of this auction process, we attempted to assess the market demand for our Class A common stock and to set the size and price to the public of this offering to meet that demand. As a result, buyers should not expect to be able to sell their shares for a profit shortly after our Class A common stock begins trading. We determined the method for allocating shares to bidders who submitted successful bids following the closing of the auction.
+
+ 
+
+The Securities and Exchange Commission and state securities regulators have not approved or disapproved of these securities, or determined if this prospectus is truthful or complete. Any representation to the contrary is a criminal offense.
+
+ 
+
+It is expected that the shares will be delivered to purchasers on or about August 24, 2004.
+
+ 
+
+ 
+
+Morgan Stanley	 	Credit Suisse First Boston
+Goldman, Sachs & Co.	 	Citigroup
+Lehman Brothers	 	Allen & Company LLC
+JPMorgan	 	UBS Investment Bank
+WR Hambrecht+Co	 	Thomas Weisel Partners LLC
+Table of Contents
+TABLE OF CONTENTS
+
+ 
+
+ 	  	Page
+Prospectus Summary
+
+  	1
+Risk Factors
+
+  	4
+Special Note Regarding Forward-Looking Statements
+
+  	26
+Letter from the Founders
+
+  	27
+Auction Process
+
+  	34
+How to Participate in the Auction for our IPO
+
+  	42
+Use of Proceeds
+
+  	44
+Dividend Policy
+
+  	44
+Cash and Capitalization
+
+  	44
+Dilution
+
+  	46
+Selected Consolidated Financial Data
+
+  	48
+Management’s Discussion and Analysis of Financial Condition and Results of Operations
+
+  	50
+Business
+
+  	73
+Management
+
+  	87
+Certain Relationships and Related Party Transactions
+
+  	100
+Principal and Selling Stockholders
+
+  	102
+Description of Capital Stock
+
+  	105
+ 	  	Page
+Rescission Offer
+
+  	111
+Shares Eligible for Future Sale
+
+  	113
+Underwriters
+
+  	117
+Notice to Canadian Residents
+
+  	121
+Material United States Federal Tax Considerations for Non-U.S. Holders of Common Stock
+
+  	122
+Legal Matters
+
+  	124
+Experts
+
+  	124
+Where You Can Find Additional Information
+
+  	124
+Index to Consolidated Financial Statements
+
+  	F-1
+Index to Financial Statements of Applied Semantics, Inc.
+
+  	F-39
+Index to Condensed Financial Statements of Applied Semantics Inc.
+
+  	F-55
+Appendix A—Meet the Management Presentation
+
+  	A-1
+Appendix B—September 2004 Magazine Article
+
+  	B-1
+ 
+
+ 
+
+You should rely only on the information contained in this prospectus. We have not authorized anyone to provide you with information that is different from that contained in this prospectus. We are offering to sell, and seeking offers to buy, shares of our Class A common stock only in jurisdictions where offers and sales are permitted. The information in this prospectus is complete and accurate only as of the date of the front cover regardless of the time of delivery of this prospectus or of any sale of shares. Except where the context requires otherwise, in this prospectus, the “Company,” “Google,” “we,” “us” and “our” refer to Google Inc., a Delaware corporation, and, where appropriate, its subsidiaries.
+
+ 
+
+We have not undertaken any efforts to qualify this offering for offers to individual investors in any jurisdiction outside the U.S.; therefore, individual investors located outside the U.S. should not expect to be eligible to participate in this offering.
+
+ 
+
+Until September 12, 2004, all dealers that effect transactions in our shares, whether or not participating in this offering, may be required to deliver a prospectus. This is in addition to the dealers’ obligation to deliver a prospectus when acting as underwriters and with respect to their unsold allotments or subscriptions.
+
+Table of Contents
+PROSPECTUS SUMMARY
+
+ 
+
+This summary highlights information contained elsewhere in this prospectus and does not contain all of the information you should consider in making your investment decision. You should read this summary together with the more detailed information, including our financial statements and the related notes, elsewhere in this prospectus. You should carefully consider, among other things, the matters discussed in “Risk Factors.”
+
+ 
+
+Google Inc.
+
+ 
+
+Google is a global technology leader focused on improving the ways people connect with information. Our innovations in web search and advertising have made our web site a top Internet destination and our brand one of the most recognized in the world. We maintain the world’s largest online index of web sites and other content, and we make this information freely available to anyone with an Internet connection. Our automated search technology helps people obtain nearly instant access to relevant information from our vast online index.
+
+ 
+
+We generate revenue by delivering relevant, cost-effective online advertising. Businesses use our AdWords program to promote their products and services with targeted advertising. In addition, the thousands of third-party web sites that comprise our Google Network use our Google AdSense program to deliver relevant ads that generate revenue and enhance the user experience. Advertisers in our AdWords program pay us a fee each time a user clicks on one of their ads displayed either on our web sites or on the web sites of Google Network members that participate in our AdSense program. When a user clicks on an ad displayed on a web site of a Google Network member, we retain only a small portion of the advertiser fee, while most of the fee is paid to the Google Network member.
+
+ 
+
+Our mission is to organize the world’s information and make it universally accessible and useful. We believe that the most effective, and ultimately the most profitable, way to accomplish our mission is to put the needs of our users first. We have found that offering a high-quality user experience leads to increased traffic and strong word-of-mouth promotion. Our dedication to putting users first is reflected in three key commitments we have made to our users:
+
+ 
+
+ 	•	 	We will do our best to provide the most relevant and useful search results possible, independent of financial incentives. Our search results will be objective and we will not accept payment for inclusion or ranking in them.
+ 
+
+ 	•	 	We will do our best to provide the most relevant and useful advertising. Whenever someone pays for something, we will make it clear to our users. Advertisements should not be an annoying interruption.
+ 
+
+ 	•	 	We will never stop working to improve our user experience, our search technology and other important areas of information organization.
+ 
+
+We believe that our user focus is the foundation of our success to date. We also believe that this focus is critical for the creation of long-term value. We do not intend to compromise our user focus for short-term economic gain.
+
+ 
+
+Corporate Information
+
+ 
+
+We were incorporated in California in September 1998. In August 2003, we reincorporated in Delaware. Our principal executive offices are located at 1600 Amphitheatre Parkway, Mountain View, California 94043, and our telephone number is (650) 623-4000. We maintain a number of web sites including www.google.com. The information on our web sites is not part of this prospectus.
+
+ 
+
+Google® is a registered trademark in the U.S. and several other countries. Our unregistered trademarks include: AdSense, AdWords, Blogger, Froogle, Gmail, I’m Feeling Lucky and PageRank. All other trademarks, trade names and service marks appearing in this prospectus are the property of their respective holders.
+
+ 
+
+1
+
+Table of Contents
+The Offering
+
+ 
+
+Class A common stock offered:
+
+  	 
+By Google
+
+  	14,142,135 Shares
+By the selling stockholders
+
+  	5,462,917 Shares
+Total
+
+  	19,605,052 Shares
+Class A common stock to be outstanding after this offering
+
+  	33,603,386 Shares
+Class B common stock to be outstanding after this offering
+
+  	237,616,257 Shares
+Total common stock to be outstanding after this offering
+
+  	271,219,643 Shares
+Use of proceeds
+
+  	We intend to use the net proceeds from this offering for general corporate purposes, including working capital, and possible acquisitions of complementary businesses, technologies or other assets. We will not receive any of the proceeds from the sale of shares by the selling stockholders. See “Use of Proceeds” for additional information.
+Nasdaq symbol
+
+  	GOOG
+ 
+
+The number of shares of Class A and Class B common stock that will be outstanding after this offering is based on the number of shares outstanding at June 30, 2004 and includes (i) 2,700,000 shares of Class A common stock issued to Yahoo! Inc. in connection with a settlement arrangement, (ii) 62,187 shares of Class A common stock that will be sold in the offering by one of our selling stockholders following exercise of a warrant to purchase Class B common stock and (iii) the conversion of the shares of Class B common stock into Class A common stock in connection with this sale, and excludes:
+
+ 
+
+ 	•	 	1,933,953 shares of Class B common stock issuable upon the exercise of warrants outstanding at June 30, 2004, at a weighted average exercise price of $0.62 per share.
+ 
+
+ 	•	 	6,276,573 shares of Class A common stock issuable upon the exercise of options outstanding at June 30, 2004, at a weighted average exercise price of $9.42 per share.
+ 
+
+ 	•	 	10,456,084 shares of Class B common stock issuable upon the exercise of options outstanding at June 30, 2004, at a weighted average exercise price of $2.68 per share.
+ 
+
+ 	•	 	3,891,192 shares of common stock available for future issuance under our stock option plans at June 30, 2004.
+ 
+
+Unless otherwise indicated, all information in this prospectus assumes that the underwriters do not exercise the over-allotment option to purchase 2,940,757 additional shares of Class A common stock in this offering and that all shares of our preferred stock are converted into Class B common stock prior to this offering.
+
+ 
+
+The Auction Process
+
+ 
+
+The auction process being used for our initial public offering differs from methods that have been traditionally used in most other underwritten initial public offerings in the U.S. In particular, the initial public offering price and the allocation of shares were determined by an auction process conducted by us and our underwriters. You should be aware that we have selected an underwriting group that serves a broad range of the investing public, and each member of the underwriting group makes different suitability determinations with respect to investors participating in the auction process. We encourage you to discuss any questions you have regarding underwriter requirements with the underwriter through which you bid because these requirements could affect your ability to submit a bid. For more information about the auction process, see “Auction Process.”
+
+ 
+
+2
+
+Table of Contents
+Summary Consolidated Financial Data
+
+ 
+
+The following table summarizes financial data regarding our business and should be read together with “Management’s Discussion and Analysis of Financial Condition and Results of Operations” and our consolidated financial statements and the related notes included elsewhere in this prospectus.
+
+ 
+
+ 	 	Year Ended December 31,
+ 	Six Months Ended
+June 30,
+ 
+ 	 	1999
+ 	 	2000
+ 	 	2001
+ 	 	2002
+ 	 	2003
+ 	2003
+ 	2004
+ 
+ 	 	(in thousands, except per share data)	 
+ 	 	 	 	(unaudited)	 
+Consolidated Statements of Operations Data:
+
+ 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+Revenues
+
+ 	$	220	 	 	$	19,108	 	 	$	86,426	 	 	$	439,508	 	 	$	1,465,934	 	$	559,817	 	$	1,351,835	 
+Costs and expenses:
+
+ 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+Cost of revenues
+
+ 	 	908	 	 	 	6,081	 	 	 	14,228	 	 	 	131,510	 	 	 	625,854	 	 	204,596	 	 	641,775	 
+Research and development
+
+ 	 	2,930	 	 	 	10,516	 	 	 	16,500	 	 	 	31,748	 	 	 	91,228	 	 	29,997	 	 	80,781	 
+Sales and marketing
+
+ 	 	1,677	 	 	 	10,385	 	 	 	20,076	 	 	 	43,849	 	 	 	120,328	 	 	42,589	 	 	104,681	 
+General and administrative
+
+ 	 	1,221	 	 	 	4,357	 	 	 	12,275	 	 	 	24,300	 	 	 	56,699	 	 	22,562	 	 	47,083	 
+Stock-based compensation
+
+ 	 	—	 	 	 	2,506	 	 	 	12,383	 	 	 	21,635	 	 	 	229,361	 	 	70,583	 	 	151,234	 
+ 	 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+Total costs and expenses
+
+ 	 	6,736	 	 	 	33,845	 	 	 	75,462	 	 	 	253,042	 	 	 	1,123,470	 	 	370,327	 	 	1,025,554	 
+ 	 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+Income (loss) from operations
+
+ 	 	(6,516	)	 	 	(14,737	)	 	 	10,964	 	 	 	186,466	 	 	 	342,464	 	 	189,490	 	 	326,281	 
+Interest income (expense) and other, net
+
+ 	 	440	 	 	 	47	 	 	 	(896	)	 	 	(1,551	)	 	 	4,190	 	 	719	 	 	(1,198	)
+ 	 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+Income (loss) before income taxes
+
+ 	 	(6,076	)	 	 	(14,690	)	 	 	10,068	 	 	 	184,915	 	 	 	346,654	 	 	190,209	 	 	325,083	 
+Provision for income taxes
+
+ 	 	—	 	 	 	—	 	 	 	3,083	 	 	 	85,259	 	 	 	241,006	 	 	132,241	 	 	182,047	 
+ 	 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+Net income (loss)
+
+ 	$	(6,076	)	 	$	(14,690	)	 	$	6,985	 	 	$	99,656	 	 	$	105,648	 	$	57,968	 	$	143,036	 
+ 	 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+Net income (loss) per share:
+
+ 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+Basic
+
+ 	$	(0.14	)	 	$	(0.22	)	 	$	0.07	 	 	$	0.86	 	 	$	0.77	 	$	0.44	 	$	0.93	 
+Diluted
+
+ 	$	(0.14	)	 	$	(0.22	)	 	$	0.04	 	 	$	0.45	 	 	$	0.41	 	$	0.23	 	$	0.54	 
+Number of shares used in per share calculations:
+
+ 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+Basic
+
+ 	 	42,445	 	 	 	67,032	 	 	 	94,523	 	 	 	115,242	 	 	 	137,697	 	 	131,525	 	 	153,263	 
+Diluted
+
+ 	 	42,445	 	 	 	67,032	 	 	 	186,776	 	 	 	220,633	 	 	 	256,638	 	 	253,024	 	 	265,223	 
+ 
+
+The following table presents a summary of our balance sheet data at June 30, 2004:
+
+ 
+
+ 	•	 	On an actual basis.
+ 
+
+ 	•	 	On a pro forma as adjusted basis to give effect to the conversion of all outstanding shares of our preferred stock into shares of Class B common stock prior to the closing of this offering and to further give effect to the sale by us of shares of our Class A common stock at our initial public offering price of $ 85.00 per share, and the receipt of the net proceeds from this offering, after deducting underwriting discounts and commissions and estimated offering expenses payable by us, as set forth under “Use of Proceeds” and “Cash and Capitalization.”
+ 
+
+ 	 	At June 30, 2004
+ 
+ 	 	Actual
+ 	 	
+Pro Forma
+
+as Adjusted
+
+ 
+ 	 	(in thousands)	 
+ 	 	(unaudited)	 
+Consolidated Balance Sheet Data:
+
+ 	 	 	 	 	 	 	 
+Cash, cash equivalents and short-term investments
+
+ 	$	548,687	 	 	$	1,712,255	 
+Total assets
+
+ 	 	1,328,022	 	 	 	2,491,590	 
+Total long-term liabilities
+
+ 	 	58,766	 	 	 	58,766	 
+Deferred stock-based compensation
+
+ 	 	(352,815	)	 	 	(352,815	)
+Total stockholders’ equity
+
+ 	 	1,016,999	 	 	 	2,180,567	 
+ 
+
+3
+
+Table of Contents
+RISK FACTORS
+
+ 
+
+An investment in Google involves significant risks. You should read these risk factors carefully before deciding whether to invest in our company. The following is a description of what we consider our key challenges and risks.
+
+ 
+
+Risks Related to Our Business and Industry
+
+ 
+
+We face significant competition from Microsoft and Yahoo.
+
+ 
+
+We face formidable competition in every aspect of our business, and particularly from other companies that seek to connect people with information on the web and provide them with relevant advertising. Currently, we consider our primary competitors to be Microsoft and Yahoo. Microsoft has announced plans to develop a new web search technology that may make web search a more integrated part of the Windows operating system. We expect that Microsoft will increasingly use its financial and engineering resources to compete with us. Yahoo has become an increasingly significant competitor, having acquired Overture Services, which offers Internet advertising solutions that compete with our AdWords and AdSense programs, as well as the Inktomi, AltaVista and AllTheWeb search engines. Since June 2000, Yahoo has used, to varying degrees, our web search technology on its web site to provide web search services to its users. We have notified Yahoo of our election to terminate our agreement effective July 2004. This agreement with Yahoo accounted for less than 3% of our revenues for the year ended December 31, 2003 and less than 2% of our revenues for the six months ended June 30, 2004.
+
+ 
+
+Both Microsoft and Yahoo have more employees than we do (in Microsoft’s case, currently more than 20 times as many). Microsoft also has significantly more cash resources than we do. Both of these companies also have longer operating histories and more established relationships with customers. They can use their experience and resources against us in a variety of competitive ways, including by making acquisitions, investing more aggressively in research and development and competing more aggressively for advertisers and web sites. Microsoft and Yahoo also may have a greater ability to attract and retain users than we do because they operate Internet portals with a broad range of products and services. If Microsoft or Yahoo are successful in providing similar or better web search results compared to ours or leverage their platforms to make their web search services easier to access than ours, we could experience a significant decline in user traffic. Any such decline in traffic could negatively affect our revenues.
+
+ 
+
+We face competition from other Internet companies, including web search providers, Internet advertising companies and destination web sites that may also bundle their services with Internet access.
+
+ 
+
+In addition to Microsoft and Yahoo, we face competition from other web search providers, including companies that are not yet known to us. We compete with Internet advertising companies, particularly in the areas of pay-for-performance and keyword-targeted Internet advertising. Also, we may compete with companies that sell products and services online because these companies, like us, are trying to attract users to their web sites to search for information about products and services.
+
+ 
+
+We also compete with destination web sites that seek to increase their search-related traffic. These destination web sites may include those operated by Internet access providers, such as cable and DSL service providers. Because our users need to access our services through Internet access providers, they have direct relationships with these providers. If an access provider or a computer or computing device manufacturer offers online services that compete with ours, the user may find it more convenient to use the services of the access provider or manufacturer. In addition, the access provider or manufacturer may make it hard to access our services by not listing them in the access provider’s or manufacturer’s own menu of offerings. Also, because the access provider gathers information from the user in connection with the establishment of a billing relationship, the access provider may be more effective than we are in tailoring services and advertisements to the specific tastes of the user.
+
+ 
+
+4
+
+Table of Contents
+There has been a trend toward industry consolidation among our competitors, and so smaller competitors today may become larger competitors in the future. If our competitors are more successful than we are at generating traffic, our revenues may decline.
+
+ 
+
+We face competition from traditional media companies, and we may not be included in the advertising budgets of large advertisers, which could harm our operating results.
+
+ 
+
+In addition to Internet companies, we face competition from companies that offer traditional media advertising opportunities. Most large advertisers have set advertising budgets, a very small portion of which is allocated to Internet advertising. We expect that large advertisers will continue to focus most of their advertising efforts on traditional media. If we fail to convince these companies to spend a portion of their advertising budgets with us, or if our existing advertisers reduce the amount they spend on our programs, our operating results would be harmed.
+
+ 
+
+We expect our growth rates to decline and anticipate downward pressure on our operating margin in the future.
+
+ 
+
+We expect that in the future our revenue growth rate will decline and anticipate that there will be downward pressure on our operating margin. We believe our revenue growth rate will decline as a result of increasing competition and the inevitable decline in growth rates as our revenues increase to higher levels. We believe our operating margin will decline as a result of increasing competition and increased expenditures for all aspects of our business as a percentage of our revenues, including product development and sales and marketing expenses. Our operating margin may decline to the extent the proportion of our revenues generated from our Google Network members increases. The margin on revenue we generate from our Google Network members is generally significantly less than the margin on revenue we generate from advertising on our web sites. Additionally, the margin we earn on revenue generated from our Google Network could decrease in the future if our Google Network members require a greater portion of the advertising fees.
+
+ 
+
+Our operating results may fluctuate, which makes our results difficult to predict and could cause our results to fall short of expectations.
+
+ 
+
+Our operating results may fluctuate as a result of a number of factors, many of which are outside of our control. For these reasons, comparing our operating results on a period-to-period basis may not be meaningful, and you should not rely on our past results as an indication of our future performance. Our quarterly and annual expenses as a percentage of our revenues may be significantly different from our historical or projected rates. Our operating results in future quarters may fall below expectations. Any of these events could cause our stock price to fall. Each of the risk factors listed in this “Risk Factors” section, and the following factors, may affect our operating results:
+
+ 
+
+ 	•	 	Our ability to continue to attract users to our web sites.
+ 
+
+ 	•	 	Our ability to attract advertisers to our AdWords program.
+ 
+
+ 	•	 	Our ability to attract web sites to our AdSense program.
+ 
+
+ 	•	 	The mix in our revenues between those generated on our web sites and those generated through our Google Network.
+ 
+
+ 	•	 	The amount and timing of operating costs and capital expenditures related to the maintenance and expansion of our businesses, operations and infrastructure.
+ 
+
+ 	•	 	Our focus on long term goals over short term results.
+ 
+
+ 	•	 	The results of our investments in risky projects.
+ 
+
+ 	•	 	General economic conditions and those economic conditions specific to the Internet and Internet advertising.
+ 
+
+5
+
+Table of Contents
+ 	•	 	Our ability to keep our web sites operational at a reasonable cost and without service interruptions.
+ 
+
+ 	•	 	Our ability to forecast revenue from agreements under which we guarantee minimum payments.
+ 
+
+ 	•	 	Geopolitical events such as war, threat of war or terrorist actions.
+ 
+
+Because our business is changing and evolving, our historical operating results may not be useful to you in predicting our future operating results. In addition, advertising spending has historically been cyclical in nature, reflecting overall economic conditions as well as budgeting and buying patterns. For example, in 1999, advertisers spent heavily on Internet advertising. This was followed by a lengthy downturn in ad spending on the web. Also, user traffic tends to be seasonal. Our rapid growth has masked the cyclicality and seasonality of our business. As our growth slows, we expect that the cyclicality and seasonality in our business may become more pronounced and may in the future cause our operating results to fluctuate.
+
+ 
+
+If we do not continue to innovate and provide products and services that are useful to users, we may not remain competitive, and our revenues and operating results could suffer.
+
+ 
+
+Our success depends on providing products and services that people use for a high quality Internet experience. Our competitors are constantly developing innovations in web search, online advertising and providing information to people. As a result, we must continue to invest significant resources in research and development in order to enhance our web search technology and our existing products and services and introduce new high-quality products and services that people will use. If we are unable to predict user preferences or industry changes, or if we are unable to modify our products and services on a timely basis, we may lose users, advertisers and Google Network members. Our operating results would also suffer if our innovations are not responsive to the needs of our users, advertisers and Google Network members, are not appropriately timed with market opportunity or are not effectively brought to market. As search technology continues to develop, our competitors may be able to offer search results that are, or that are perceived to be, substantially similar or better than those generated by our search services. This may force us to compete on bases in addition to quality of search results and to expend significant resources in order to remain competitive.
+
+ 
+
+We generate our revenue almost entirely from advertising, and the reduction in spending by or loss of advertisers could seriously harm our business.
+
+ 
+
+We generated approximately 97% of our revenues in 2003 and 98% of our revenues in the six months ended June 30, 2004 from our advertisers. Our advertisers can generally terminate their contracts with us at any time. Advertisers will not continue to do business with us if their investment in advertising with us does not generate sales leads, and ultimately customers, or if we do not deliver their advertisements in an appropriate and effective manner. If we are unable to remain competitive and provide value to our advertisers, they may stop placing ads with us, which would negatively affect our revenues and business.
+
+ 
+
+We rely on our Google Network members for a significant portion of our revenues, and otherwise benefit from our association with them. The loss of these members could prevent us from receiving the benefits we receive from our association with these Google Network members, which could adversely affect our business.
+
+ 
+
+We provide advertising, web search and other services to members of our Google Network. The revenues generated from the fees advertisers pay us when users click on ads that we have delivered to our Google Network members’ web sites represented approximately 43% of our revenues in 2003, and approximately 50% of our revenues for the six months ended June 30, 2004. We consider this network to be critical to the future growth of our revenues. However, some of the participants in this network may compete with us in one or more areas. Therefore, they may decide in the future to terminate their agreements with us. If our Google Network members decide to use a competitor’s or their own web search or advertising services, our revenues would decline.
+
+ 
+
+Our agreements with a few of the largest Google Network members account for a significant portion of revenues derived from our AdSense program. In addition, advertising and other fees generated from one Google
+
+ 
+
+6
+
+Table of Contents
+Network member, America Online, Inc., primarily through our AdSense program accounted for approximately 15%, 16% and 13% of our revenues in 2002, 2003 and in the six months ended June 30, 2004. Also, certain of our key network members operate high-profile web sites, and we derive tangible and intangible benefits from this affiliation. If one or more of these key relationships is terminated or not renewed, and is not replaced with a comparable relationship, our business would be adversely affected.
+
+ 
+
+Our business and operations are experiencing rapid growth. If we fail to effectively manage our growth, our business and operating results could be harmed and we may have to incur significant expenditures to address the additional operational and control requirements of this growth.
+
+ 
+
+We have experienced, and continue to experience, rapid growth in our headcount and operations, which has placed, and will continue to place, significant demands on our management, operational and financial infrastructure. If we do not effectively manage our growth, the quality of our products and services could suffer, which could negatively affect our brand and operating results. To effectively manage this growth, we will need to continue to improve our operational, financial and management controls and our reporting systems and procedures. These systems enhancements and improvements will require significant capital expenditures and allocation of valuable management resources. If the improvements are not implemented successfully, our ability to manage our growth will be impaired and we may have to make significant additional expenditures to address these issues, which could harm our financial position. The required improvements include:
+
+ 
+
+ 	•	 	Enhancing our information and communication systems to ensure that our offices around the world are well coordinated and that we can effectively communicate with our growing base of users, advertisers and Google Network members.
+ 
+
+ 	•	 	Enhancing systems of internal controls to ensure timely and accurate reporting of all of our operations.
+ 
+
+ 	•	 	Documenting all of our information technology systems and our business processes for our ad systems and our billing systems.
+ 
+
+ 	•	 	Improving our information technology infrastructure to maintain the effectiveness of our search systems.
+ 
+
+If we fail to maintain an effective system of internal controls, we may not be able to accurately report our financial results or prevent fraud. As a result, current and potential stockholders could lose confidence in our financial reporting, which would harm our business and the trading price of our stock.
+
+ 
+
+Effective internal controls are necessary for us to provide reliable financial reports and effectively prevent fraud. If we cannot provide reliable financial reports or prevent fraud, our brand and operating results could be harmed. We have in the past discovered, and may in the future discover, areas of our internal controls that need improvement. For example, during our 2002 audit, our external auditors brought to our attention a need to increase restrictions on employee access to our advertising system and automate more of our financial processes. The auditors identified these issues together as a “reportable condition,” which means that these were matters that in the auditors’ judgment could adversely affect our ability to record, process, summarize and report financial data consistent with the assertions of management in the financial statements. In 2003, we devoted significant resources to remediate and improve our internal controls. Although we believe that these efforts have strengthened our internal controls and addressed the concerns that gave rise to the “reportable condition” in 2002, we are continuing to work to improve our internal controls, including in the areas of access and security. We cannot be certain that these measures will ensure that we implement and maintain adequate controls over our financial processes and reporting in the future. Any failure to implement required new or improved controls, or difficulties encountered in their implementation, could harm our operating results or cause us to fail to meet our reporting obligations. Inferior internal controls could also cause investors to lose confidence in our reported financial information, which could have a negative effect on the trading price of our stock.
+
+ 
+
+7
+
+Table of Contents
+We intend to migrate critical financial functions to a third-party provider. If this potential transition is not successful, our business and operations could be disrupted and our operating results would be harmed.
+
+ 
+
+We have entered into an arrangement to transfer our worldwide billing, collection and credit evaluation functions to a third-party service provider, Bertelsmann AG; however, we cannot be sure that the arrangement will be completed and implemented. The third-party provider will also track, on an automated basis, a majority of our growing number of AdSense revenue share agreements. These functions are critical to our operations and involve sensitive interactions between us and our advertisers and members of our Google Network. If we do not successfully implement this project, our business, reputation and operating results could be harmed. We have no experience managing and implementing this type of large-scale, cross-functional, international infrastructure project. We also may not be able to integrate our systems and processes with those of the third-party service provider on a timely basis, or at all. Even if this integration is completed on time, the service provider may not perform to agreed upon service levels. Failure of the service provider to perform satisfactorily could result in customer dissatisfaction, disrupt our operations and adversely affect operating results. We will have significantly less control over the systems and processes than if we maintained and operated them ourselves, which increases our risk. If we need to find an alternative source for performing these functions, we may have to expend significant resources in doing so, and we cannot guarantee this would be accomplished in a timely manner or without significant additional disruption to our business.
+
+ 
+
+Our business depends on a strong brand, and if we are not able to maintain and enhance our brand, our ability to expand our base of users, advertisers and Google Network members will be impaired and our business and operating results will be harmed.
+
+ 
+
+We believe that the brand identity that we have developed has significantly contributed to the success of our business. We also believe that maintaining and enhancing the “Google” brand is critical to expanding our base of users, advertisers and Google Network members. Maintaining and enhancing our brand may require us to make substantial investments and these investments may not be successful. If we fail to promote and maintain the “Google” brand, or if we incur excessive expenses in this effort, our business, operating results and financial condition will be materially and adversely affected. We anticipate that, as our market becomes increasingly competitive, maintaining and enhancing our brand may become increasingly difficult and expensive. Maintaining and enhancing our brand will depend largely on our ability to be a technology leader and to continue to provide high quality products and services, which we may not do successfully. To date, we have engaged in relatively little direct brand promotion activities. This enhances the risk that we may not successfully implement brand enhancement efforts in the future.
+
+ 
+
+People have in the past expressed, and may in the future express, objections to aspects of our products. For example, people have raised privacy concerns relating to the ability of our recently announced Gmail email service to match relevant ads to the content of email messages. Some people have also reacted negatively to the fact that our search technology can be used to help people find hateful or derogatory information on the web. Aspects of our future products may raise similar public concerns. Publicity regarding such concerns could harm our brand. In addition, members of the Google Network and other third parties may take actions that could impair the value of our brand. We are aware that third parties, from time to time, use “Google” and similar variations in their domain names without our approval, and our brand may be harmed if users and advertisers associate these domains with us.
+
+ 
+
+Proprietary document formats may limit the effectiveness of our search technology by preventing our technology from accessing the content of documents in such formats which could limit the effectiveness of our products and services.
+
+ 
+
+An increasing amount of information on the Internet is provided in proprietary document formats such as Microsoft Word. The providers of the software application used to create these documents could engineer the document format to prevent or interfere with our ability to access the document contents with our search technology. This would mean that the document contents would not be included in our search results even if the contents were directly relevant to a search. These types of activities could assist our competitors or diminish the
+
+ 
+
+8
+
+Table of Contents
+value of our search results. The software providers may also seek to require us to pay them royalties in exchange for giving us the ability to search documents in their format. If the software provider also competes with us in the search business, they may give their search technology a preferential ability to search documents in their proprietary format. Any of these results could harm our brand and our operating results.
+
+ 
+
+New technologies could block our ads, which would harm our business.
+
+ 
+
+Technologies may be developed that can block the display of our ads. Most of our revenues are derived from fees paid to us by advertisers in connection with the display of ads on web pages. As a result, ad-blocking technology could, in the future, adversely affect our operating results.
+
+ 
+
+Our corporate culture has contributed to our success, and if we cannot maintain this culture as we grow, we could lose the innovation, creativity and teamwork fostered by our culture, and our business may be harmed.
+
+ 
+
+We believe that a critical contributor to our success has been our corporate culture, which we believe fosters innovation, creativity and teamwork. As our organization grows, and we are required to implement more complex organizational management structures, we may find it increasingly difficult to maintain the beneficial aspects of our corporate culture. This could negatively impact our future success. In addition, this offering may create disparities in wealth among Google employees, which may adversely impact relations among employees and our corporate culture in general.
+
+ 
+
+Our intellectual property rights are valuable, and any inability to protect them could reduce the value of our products, services and brand.
+
+ 
+
+Our patents, trademarks, trade secrets, copyrights and all of our other intellectual property rights are important assets for us. There are events that are outside of our control that pose a threat to our intellectual property rights. For example, effective intellectual property protection may not be available in every country in which our products and services are distributed or made available through the Internet. Also, the efforts we have taken to protect our proprietary rights may not be sufficient or effective. Any significant impairment of our intellectual property rights could harm our business or our ability to compete. Also, protecting our intellectual property rights is costly and time consuming. Any increase in the unauthorized use of our intellectual property could make it more expensive to do business and harm our operating results.
+
+ 
+
+We seek to obtain patent protection for our innovations. It is possible, however, that some of these innovations may not be protectable. In addition, given the costs of obtaining patent protection, we may choose not to protect certain innovations that later turn out to be important. Furthermore, there is always the possibility, despite our efforts, that the scope of the protection gained will be insufficient or that an issued patent may be deemed invalid or unenforceable.
+
+ 
+
+We also face risks associated with our trademarks. For example, there is a risk that the word “Google” could become so commonly used that it becomes synonymous with the word “search.” If this happens, we could lose protection for this trademark, which could result in other people using the word “Google” to refer to their own products, thus diminishing our brand.
+
+ 
+
+We also seek to maintain certain intellectual property as trade secrets. The secrecy could be compromised by third parties, or intentionally or accidentally by our employees, which would cause us to lose the competitive advantage resulting from these trade secrets.
+
+ 
+
+We are, and may in the future be, subject to intellectual property rights claims, which are costly to defend, could require us to pay damages and could limit our ability to use certain technologies in the future.
+
+ 
+
+Companies in the Internet, technology and media industries own large numbers of patents, copyrights, trademarks and trade secrets and frequently enter into litigation based on allegations of infringement or other
+
+ 
+
+9
+
+Table of Contents
+violations of intellectual property rights. As we face increasing competition, the possibility of intellectual property rights claims against us grows. Our technologies may not be able to withstand any third-party claims or rights against their use. Any intellectual property claims, with or without merit, could be time-consuming, expensive to litigate or settle and could divert management resources and attention. In addition, many of our agreements with members of our Google Network require us to indemnify these members for third-party intellectual property infringement claims, which would increase our costs as a result of defending such claims and may require that we pay damages if there were an adverse ruling in any such claims. An adverse determination also could prevent us from offering our products and services to others and may require that we procure substitute products or services for these members.
+
+ 
+
+With respect to any intellectual property rights claim, we may have to pay damages or stop using technology found to be in violation of a third party’s rights. We may have to seek a license for the technology, which may not be available on reasonable terms and may significantly increase our operating expenses. The technology also may not be available for license to us at all. As a result, we may also be required to develop alternative non-infringing technology, which could require significant effort and expense. If we cannot license or develop technology for the infringing aspects of our business, we may be forced to limit our product and service offerings and may be unable to compete effectively. Any of these results could harm our brand and operating results.
+
+ 
+
+From time to time, we receive notice letters from patent holders alleging that certain of our products and services infringe their patent rights. Some of these have resulted in litigation against us. For example, Overture Services (now owned by Yahoo) sued us, claiming that the Google AdWords program infringes certain claims of an Overture Services patent. It also claimed that the patent relates to Overture Services’ own bid-for-ad placement business model and its pay-for-performance technologies. We recently settled this dispute.
+
+ 
+
+Companies have also filed trademark infringement and related claims against us over the display of ads in response to user queries that include trademark terms. The outcomes of these lawsuits have differed from jurisdiction to jurisdiction. A court in France has held us liable for allowing advertisers to select certain trademarked terms as keywords. We have appealed this decision. We were also subject to two lawsuits in Germany on similar matters where one court preliminarily reached a similar conclusion as the court in France, while another court held that we are not liable for the actions of our advertisers prior to notification of trademark rights. We are litigating similar issues in other cases in the U.S., France, Germany and Italy.
+
+ 
+
+In order to provide users with more useful ads, we have recently revised our trademark policy in the U.S. and Canada. Under our new policy, we no longer disable ads due to selection by our advertisers of trademarks as keyword triggers for the ads. As a result of this change in policy, we may be subject to more trademark infringement lawsuits. Defending these lawsuits could take time and resources. Adverse results in these lawsuits may result in, or even compel, a change in this practice which could result in a loss of revenue for us, which could harm our business.
+
+ 
+
+We have also been notified by third parties that they believe features of certain of our products, including Google WebSearch, Google News and Google Image Search, violate their copyrights. Generally speaking, any time that we have a product or service that links to or hosts material in which others allege to own copyrights, we face the risk of being sued for copyright infringement or related claims. Because these products and services comprise the majority of our products and services, the risk of potential harm from such lawsuits is substantial.
+
+ 
+
+Expansion into international markets is important to our long-term success, and our inexperience in the operation of our business outside the U.S. increases the risk that our international expansion efforts will not be successful.
+
+ 
+
+We opened our first office outside the U.S. in 2001 and have only limited experience with operations outside the U.S. Expansion into international markets requires management attention and resources. In addition, we face the following additional risks associated with our expansion outside the U.S.:
+
+ 
+
+ 	•	 	Challenges caused by distance, language and cultural differences.
+ 
+
+10
+
+Table of Contents
+ 	•	 	Longer payment cycles in some countries.
+ 
+
+ 	•	 	Credit risk and higher levels of payment fraud.
+ 
+
+ 	•	 	Legal and regulatory restrictions.
+ 
+
+ 	•	 	Currency exchange rate fluctuations.
+ 
+
+ 	•	 	Foreign exchange controls that might prevent us from repatriating cash earned in countries outside the U.S.
+ 
+
+ 	•	 	Political and economic instability and export restrictions.
+ 
+
+ 	•	 	Potentially adverse tax consequences.
+ 
+
+ 	•	 	Higher costs associated with doing business internationally.
+ 
+
+These risks could harm our international expansion efforts, which would in turn harm our business and operating results.
+
+ 
+
+We compete internationally with local information providers and with U.S. competitors who are currently more successful than we are in various markets, and if we fail to compete effectively in international markets, our business will be harmed.
+
+ 
+
+We face different market characteristics and competition outside the U.S. In certain markets, other web search, advertising services and Internet companies have greater brand recognition, more users and more search traffic than we have. Even in countries where we have a significant user following, we may not be as successful in generating advertising revenue due to slower market development, our inability to provide attractive local advertising services or other factors. In order to compete, we need to improve our brand recognition and our selling efforts internationally and build stronger relationships with advertisers. We also need to better understand our international users and their preferences. If we fail to do so, our global expansion efforts may be more costly and less profitable than we expect.
+
+ 
+
+Our business may be adversely affected by malicious third-party applications that interfere with our receipt of information from, and provision of information to, our users, which may impair our users’ experience with our products and services.
+
+ 
+
+Our business may be adversely affected by malicious applications that make changes to our users’ computers and interfere with the Google experience. These applications have in the past attempted, and may in the future attempt, to change our users’ Internet experience, including hijacking queries to Google.com, altering or replacing Google search results, or otherwise interfering with our ability to connect with our users. The interference often occurs without disclosure to or consent from users, resulting in a negative experience that users may associate with Google. These applications may be difficult or impossible to uninstall or disable, may reinstall themselves and may circumvent other applications’ efforts to block or remove them. The ability to reach users and provide them with a superior experience is critical to our success. If our efforts to combat these malicious applications are unsuccessful, our reputation may be harmed, and our communications with certain users could be impaired. This could result in a decline in user traffic and associated ad revenues, which would damage our business.
+
+ 
+
+If we fail to detect click-through fraud, we could lose the confidence of our advertisers, thereby causing our business to suffer.
+
+ 
+
+We are exposed to the risk of fraudulent clicks on our ads by persons seeking to increase the advertising fees paid to our Google Network members. We have regularly refunded revenue that our advertisers have paid to us and that was later attributed to click-through fraud, and we expect to do so in the future. Click-through fraud occurs when a person clicks on a Google AdWords ad displayed on a web site in order to generate the revenue
+
+ 
+
+11
+
+Table of Contents
+share payment to the Google Network member rather than to view the underlying content. If we are unable to stop this fraudulent activity, these refunds may increase. If we find new evidence of past fraudulent clicks we may have to issue refunds retroactively of amounts previously paid to our Google Network members. This would negatively affect our profitability, and these types of fraudulent activities could hurt our brand. If fraudulent clicks are not detected, the affected advertisers may experience a reduced return on their investment in our advertising programs because the fraudulent clicks will not lead to potential revenue for the advertisers. This could lead the advertisers to become dissatisfied with our advertising programs, which could lead to loss of advertisers and revenue.
+
+ 
+
+Index spammers could harm the integrity of our web search results, which could damage our reputation and cause our users to be dissatisfied with our products and services.
+
+ 
+
+There is an ongoing and increasing effort by “index spammers” to develop ways to manipulate our web search results. For example, because our web search technology ranks a web page’s relevance based in part on the importance of the web sites that link to it, people have attempted to link a group of web sites together to manipulate web search results. We take this problem very seriously because providing relevant information to users is critical to our success. If our efforts to combat these and other types of index spamming are unsuccessful, our reputation for delivering relevant information could be diminished. This could result in a decline in user traffic, which would damage our business.
+
+ 
+
+Privacy concerns relating to elements of our technology could damage our reputation and deter current and potential users from using our products and services.
+
+ 
+
+From time to time, concerns may be expressed about whether our products and services compromise the privacy of users and others. Concerns about our collection, use or sharing of personal information or other privacy-related matters, even if unfounded, could damage our reputation and operating results. Recently, several groups have raised privacy concerns in connection with our Gmail free email service which we announced in April 2004 and these concerns have attracted a significant amount of public commentary and attention. The concerns relate principally to the fact that Gmail uses computers to match advertisements to the content of a user’s email message when email messages are viewed using the Gmail service. Privacy concerns have also arisen with our products that provide improved access to personal information that is already publicly available, but that we have made more readily accessible by the public.
+
+ 
+
+Our business is subject to a variety of U.S. and foreign laws, which could subject us to claims or other remedies based on the nature and content of the information searched or displayed by our products and services, and could limit our ability to provide information regarding regulated industries and products.
+
+ 
+
+The laws relating to the liability of providers of online services for activities of their users are currently unsettled both within the U.S. and abroad. Claims have been threatened and filed under both U.S. and foreign law for defamation, libel, invasion of privacy and other data protection claims, tort, unlawful activity, copyright or trademark infringement, or other theories based on the nature and content of the materials searched and the ads posted or the content generated by our users. From time to time we have received notices from individuals who do not want their names or web sites to appear in our web search results when certain keywords are searched. It is also possible that we could be held liable for misinformation provided over the web when that information appears in our web search results. If one of these complaints results in liability to us, it could be potentially costly, encourage similar lawsuits, distract management and harm our reputation and possibly our business. In addition, increased attention focused on these issues and legislative proposals could harm our reputation or otherwise affect the growth of our business.
+
+ 
+
+The application to us of existing laws regulating or requiring licenses for certain businesses of our advertisers, including, for example, distribution of pharmaceuticals, adult content, financial services, alcohol or firearms, can be unclear. Existing or new legislation could expose us to substantial liability, restrict our ability to
+
+ 
+
+12
+
+Table of Contents
+deliver services to our users, limit our ability to grow and cause us to incur significant expenses in order to comply with such laws and regulations.
+
+ 
+
+Several other federal laws could have an impact on our business. Compliance with these laws and regulations is complex and may impose significant additional costs on us. For example, the Digital Millennium Copyright Act has provisions that limit, but do not eliminate, our liability for listing or linking to third-party web sites that include materials that infringe copyrights or other rights, so long as we comply with the statutory requirements of this act. The Children’s Online Protection Act and the Children’s Online Privacy Protection Act restrict the distribution of materials considered harmful to children and impose additional restrictions on the ability of online services to collect information from minors. In addition, the Protection of Children from Sexual Predators Act of 1998 requires online service providers to report evidence of violations of federal child pornography laws under certain circumstances. Any failure on our part to comply with these regulations may subject us to additional liabilities.
+
+ 
+
+We also face risks associated with international data protection. The interpretation and application of data protection laws in Europe and elsewhere are still uncertain and in flux. It is possible that these laws may be interpreted and applied in a manner that is inconsistent with our data practices. If so, in addition to the possibility of fines, this could result in an order requiring that we change our data practices, which in turn could have a material effect on our business.
+
+ 
+
+We also face risks from legislation that could be passed in the future. For example, at least two states have introduced legislation that could interfere with or prohibit our Gmail free advertising-supported email service that was recently announced as a test service. The legislation, as originally proposed in California and Massachusetts, would make it more difficult for us to operate or would prohibit the aspects of the service that uses computers to match advertisements to the content of a user’s email message when email messages are viewed using the Gmail service. While the California legislation has been modified since being introduced so that it does not inhibit the operation of the Gmail service, the legislation has not been finally adopted. If this legislation is adopted as originally introduced, or other similar legislation is adopted, it could prevent us from implementing the Gmail service in the affected states. This could impair our ability to compete in the email services market.
+
+ 
+
+If we were to lose the services of Eric, Larry, Sergey or our senior management team, we may not be able to execute our business strategy.
+
+ 
+
+Our future success depends in a large part upon the continued service of key members of our senior management team. In particular, our CEO Eric Schmidt and our founders Larry Page and Sergey Brin are critical to the overall management of Google as well as the development of our technology, our culture and our strategic direction. All of our executive officers and key employees are at-will employees, and we do not maintain any key-person life insurance policies. The loss of any of our management or key personnel could seriously harm our business.
+
+ 
+
+The initial option grants to many of our senior management and key employees are fully vested. Therefore, these employees may not have sufficient financial incentive to stay with us, we may have to incur costs to replace key employees that leave, and our ability to execute our business model could be impaired if we cannot replace departing employees in a timely manner.
+
+ 
+
+Many of our senior management personnel and other key employees have become, or will soon become, substantially vested in their initial stock option grants. While we often grant additional stock options to management personnel and other key employees after their hire dates to provide additional incentives to remain employed by us, their initial grants are usually much larger than follow-on grants. Employees may be more likely to leave us after their initial option grant fully vests, especially if the shares underlying the options have significantly appreciated in value relative to the option exercise price. We have not given any additional grants to Eric, Larry or Sergey. Larry and Sergey are fully vested, and only a small portion of Eric’s stock is subject to
+
+ 
+
+13
+
+Table of Contents
+future vesting. If any members of our senior management team leave the company, our ability to successfully operate our business could be impaired. We also may have to incur significant costs in identifying, hiring, training and retaining replacements for departing employees.
+
+ 
+
+We rely on highly skilled personnel and, if we are unable to retain or motivate key personnel or hire qualified personnel, we may not be able to grow effectively.
+
+ 
+
+Our performance is largely dependent on the talents and efforts of highly skilled individuals. Our future success depends on our continuing ability to identify, hire, develop, motivate and retain highly skilled personnel for all areas of our organization. Competition in our industry for qualified employees is intense, and we are aware that certain of our competitors have directly targeted our employees. Our continued ability to compete effectively depends on our ability to attract new employees and to retain and motivate our existing employees.
+
+ 
+
+We have in the past maintained a rigorous, highly selective and time-consuming hiring process. We believe that our approach to hiring has significantly contributed to our success to date. As we grow, our hiring process may prevent us from hiring the personnel we need in a timely manner. In addition, as we become a more mature company, we may find our recruiting efforts more challenging. The incentives to attract, retain and motivate employees provided by our option grants or by future arrangements, such as through cash bonuses, may not be as effective as in the past. If we do not succeed in attracting excellent personnel or retaining or motivating existing personnel, we may be unable to grow effectively.
+
+ 
+
+Our CEO and our two founders run the business and affairs of the company collectively, which may harm their ability to manage effectively.
+
+ 
+
+Eric, our CEO, and Larry and Sergey, our founders and presidents, currently provide leadership to the company as a team. Our bylaws provide that our CEO and our presidents will together have general supervision, direction and control of the company, subject to the control of our board of directors. As a result, Eric, Larry and Sergey tend to operate the company collectively and to consult extensively with each other before significant decisions are made. This may slow the decision-making process, and a disagreement among these individuals could prevent key strategic decisions from being made in a timely manner. In the event our CEO and our two founders are unable to continue to work well together in providing cohesive leadership, our business could be harmed.
+
+ 
+
+We have a short operating history and a relatively new business model in an emerging and rapidly evolving market. This makes it difficult to evaluate our future prospects, may increase the risk that we will not continue to be successful and increases the risk of your investment.
+
+ 
+
+We first derived revenue from our online search business in 1999 and from our advertising services in 2000, and we have only a short operating history with our cost-per-click advertising model, which we launched in 2002. As a result, we have very little operating history for you to evaluate in assessing our future prospects. Also, we derive nearly all of our revenues from online advertising, which is an immature industry that has undergone rapid and dramatic changes in its short history. You must consider our business and prospects in light of the risks and difficulties we will encounter as an early-stage company in a new and rapidly evolving market. We may not be able to successfully address these risks and difficulties, which could materially harm our business and operating results.
+
+ 
+
+We may have difficulty scaling and adapting our existing architecture to accommodate increased traffic and technology advances or changing business requirements, which could lead to the loss of users, advertisers and Google Network members, and cause us to incur expenses to make architectural changes.
+
+ 
+
+To be successful, our network infrastructure has to perform well and be reliable. The greater the user traffic and the greater the complexity of our products and services, the more computing power we will need. In 2004,
+
+ 
+
+14
+
+Table of Contents
+we expect to spend substantial amounts to purchase or lease data centers and equipment and to upgrade our technology and network infrastructure to handle increased traffic on our web sites and to roll out new products and services. This expansion is going to be expensive and complex and could result in inefficiencies or operational failures. If we do not implement this expansion successfully, or if we experience inefficiencies and operational failures during the implementation, the quality of our products and services and our users’ experience could decline. This could damage our reputation and lead us to lose current and potential users, advertisers and Google Network members. The costs associated with these adjustments to our architecture could harm our operating results. Cost increases, loss of traffic or failure to accommodate new technologies or changing business requirements could harm our operating results and financial condition.
+
+ 
+
+We rely on bandwidth providers, data centers or other third parties for key aspects of the process of providing products and services to our users, and any failure or interruption in the services and products provided by these third parties could harm our ability to operate our business and damage our reputation.
+
+ 
+
+We rely on third-party vendors, including data center and bandwidth providers. Any disruption in the network access or co-location services provided by these third-party providers or any failure of these third-party providers to handle current or higher volumes of use could significantly harm our business. Any financial or other difficulties our providers face may have negative effects on our business, the nature and extent of which we cannot predict. We exercise little control over these third party vendors, which increases our vulnerability to problems with the services they provide. We license technology and related databases from third parties to facilitate aspects of our data center and connectivity operations including, among others, Internet traffic management services. We have experienced and expect to continue to experience interruptions and delays in service and availability for such elements. Any errors, failures, interruptions or delays experienced in connection with these third-party technologies and information services could negatively impact our relationship with users and adversely affect our brand and our business and could expose us to liabilities to third parties.
+
+ 
+
+Our systems are also heavily reliant on the availability of electricity, which also comes from third-party providers. If we were to experience a major power outage, we would have to rely on back-up generators. These back-up generators may not operate properly through a major power outage and their fuel supply could also be inadequate during a major power outage. This could result in a disruption of our business.
+
+ 
+
+Interruption or failure of our information technology and communications systems could impair our ability to effectively provide our products and services, which could damage our reputation and harm our operating results.
+
+ 
+
+Our provision of our products and services depends on the continuing operation of our information technology and communications systems. Any damage to or failure of our systems could result in interruptions in our service. Interruptions in our service could reduce our revenues and profits, and our brand could be damaged if people believe our system is unreliable. Our systems are vulnerable to damage or interruption from earthquakes, terrorist attacks, floods, fires, power loss, telecommunications failures, computer viruses, computer denial of service attacks or other attempts to harm our systems, and similar events. Some of our data centers are located in areas with a high risk of major earthquakes. Our data centers are also subject to break-ins, sabotage and intentional acts of vandalism, and to potential disruptions if the operators of these facilities have financial difficulties. Some of our systems are not fully redundant, and our disaster recovery planning cannot account for all eventualities. The occurrence of a natural disaster, a decision to close a facility we are using without adequate notice for financial reasons or other unanticipated problems at our data centers could result in lengthy interruptions in our service.
+
+ 
+
+We have experienced system failures in the past and may in the future. For example, in November 2003 we failed to provide web search results for approximately 20% of our traffic for a period of about 30 minutes. Any unscheduled interruption in our service puts a burden on our entire organization and would result in an immediate loss of revenue. If we experience frequent or persistent system failures on our web sites, our
+
+ 
+
+15
+
+Table of Contents
+reputation and brand could be permanently harmed. The steps we have taken to increase the reliability and redundancy of our systems are expensive, reduce our operating margin and may not be successful in reducing the frequency or duration of unscheduled downtime.
+
+ 
+
+More individuals are using non-PC devices to access the Internet, and versions of our web search technology developed for these devices may not be widely adopted by users of these devices.
+
+ 
+
+The number of people who access the Internet through devices other than personal computers, including mobile telephones, hand-held calendaring and email assistants, and television set-top devices, has increased dramatically in the past few years. The lower resolution, functionality and memory associated with alternative devices make the use of our products and services through such devices difficult. If we are unable to attract and retain a substantial number of alternative device users to our web search services or if we are slow to develop products and technologies that are more compatible with non-PC communications devices, we will fail to capture a significant share of an increasingly important portion of the market for online services.
+
+ 
+
+If we account for employee stock options using the fair value method, it could significantly reduce our net income.
+
+ 
+
+There has been ongoing public debate whether stock options granted to employees should be treated as a compensation expense and, if so, how to properly value such charges. On March 31, 2004, the Financial Accounting Standard Board (FASB) issued an Exposure Draft, Share-Based Payment: an amendment of FASB Statements No. 123 and 95, which would require a company to recognize, as an expense, the fair value of stock options and other stock-based compensation to employees beginning in 2005 and subsequent reporting periods. Currently, we record deferred stock-based compensation to the extent that the reassessed value for accounting purposes of the stock on the date of grant exceeds the exercise price of the option. We recognize compensation expense as we amortize the deferred stock-based compensation amounts on an accelerated basis over the related vesting periods. If we had used the fair value method of accounting for stock options granted to employees prior to July 1, 2004 using a Black Scholes option valuation formula, our net income would have been $2.4 million less than reported in the year ended December 31, 2003 and $2.8 million less than reported in the six months ended June 30, 2004. If we elect or are required to record an expense for our stock-based compensation plans using the fair value method as described in the Exposure Draft, we could have on-going accounting charges significantly greater than those we would have recorded under our current method of accounting for stock options. See Note 1 of Notes to Consolidated Financial Statements included in this prospectus for a more detailed presentation of accounting for stock-based compensation plans.
+
+ 
+
+Payments to certain of our Google Network members has exceeded the related fees we receive from our advertisers.
+
+ 
+
+We have entered into, and may continue to enter into, minimum fee guarantee agreements with a small number of Google Network members. In these agreements, we promise to make minimum payments to the Google Networks member for a pre-negotiated period of time, typically from three months to a year or more. It is difficult to forecast with certainty the fees that we will earn under our agreements, and sometimes the fees we earn fall short of the minimum guarantee payment amounts. Also, increasing competition for arrangements with web sites that are potential Google Network members could result in our entering into more of these minimum fee guarantee agreements under which guaranteed payments exceed the fees we receive from advertisers whose ads we place on those Google Network member sites. In each period to date, the aggregate fees we have earned under these agreements have exceeded the aggregate amounts we have been obligated to pay to the Google Network members. However, individual agreements have resulted in guaranteed minimum and other payments to a Google Network member in excess of the related fees we receive from advertisers. In 2003, we recognized $22.5 million in cost of revenues related to such payments in excess of revenues for such agreements. In the six months ended June 30, 2004, we recognized $18.2 million in cost of revenues related to such payments in excess of revenues for such agreements. At December 31, 2003 and June 30, 2004, our
+
+ 
+
+16
+
+Table of Contents
+aggregate outstanding minimum guarantee commitments totaled approximately $477.0 million and $369.4 million. These commitments expire between 2004 and 2007. We may recognize cost of revenues related to payments to certain Google Network members in excess of the related fees we receive from advertisers in the future in connection with certain AdSense agreements, which could adversely affect our profitability.
+
+ 
+
+To the extent our revenues are paid in foreign currencies, and currency exchange rates become unfavorable, we may lose some of the economic value of the revenues in U.S. dollar terms.
+
+ 
+
+As we expand our international operations, more of our customers may pay us in foreign currencies. Conducting business in currencies other than U.S. dollars subjects us to fluctuations in currency exchange rates. If the currency exchange rates were to change unfavorably, the value of net receivables we receive in foreign currencies and later convert to U.S. dollars after the unfavorable change would be diminished. This could have a negative impact on our reported operating results. Hedging strategies, such as forward contracts, options and foreign exchange swaps related to transaction exposures, that we may implement to mitigate this risk may not eliminate our exposure to foreign exchange fluctuations. Additionally, hedging programs expose us to risks that could adversely affect our operating results, including the following:
+
+ 
+
+ 	•	 	We have limited experience in implementing or operating hedging programs. Hedging programs are inherently risky and we could lose money as a result of poor trades.
+ 
+
+ 	•	 	We may be unable to hedge currency risk for some transactions because of a high level of uncertainty or the inability to reasonably estimate our foreign exchange exposures.
+ 
+
+ 	•	 	We may be unable to acquire foreign exchange hedging instruments in some of the geographic areas where we do business, or, where these derivatives are available, we may not be able to acquire enough of them to fully offset our exposure.
+ 
+
+We rely on insurance to mitigate some risks and, to the extent the cost of insurance increases or we are unable to maintain sufficient insurance to mitigate the risks, our operating results may be diminished.
+
+ 
+
+We contract for insurance to cover potential risks and liabilities. In the current environment, insurance companies are increasingly specific about what they will and will not insure. It is possible that we may not be able to get enough insurance to meet our needs, may have to pay very high prices for the coverage we do get or may not be able to acquire any insurance for certain types of business risk. This could leave us exposed to potential claims. If we were found liable for a significant claim in the future, our operating results could be negatively impacted. Also, to the extent the cost of maintaining insurance increases, our operating results will be negatively affected.
+
+ 
+
+Acquisitions could result in operating difficulties, dilution and other harmful consequences.
+
+ 
+
+We do not have a great deal of experience acquiring companies and the companies we have acquired have been small. We have evaluated, and expect to continue to evaluate, a wide array of potential strategic transactions. From time to time, we may engage in discussions regarding potential acquisitions. Any of these transactions could be material to our financial condition and results of operations. In addition, the process of integrating an acquired company, business or technology may create unforeseen operating difficulties and expenditures and is risky. The areas where we may face risks include:
+
+ 
+
+ 	•	 	The need to implement or remediate controls, procedures and policies appropriate for a larger public company at companies that prior to the acquisition lacked these controls, procedures and policies.
+ 
+
+ 	•	 	Diversion of management time and focus from operating our business to acquisition integration challenges.
+ 
+
+ 	•	 	Cultural challenges associated with integrating employees from the acquired company into our organization.
+ 
+
+17
+
+Table of Contents
+ 	•	 	Retaining employees from the businesses we acquire.
+ 
+
+ 	•	 	The need to integrate each company’s accounting, management information, human resource and other administrative systems to permit effective management.
+ 
+
+Foreign acquisitions involve unique risks in addition to those mentioned above, including those related to integration of operations across different cultures and languages, currency risks and the particular economic, political and regulatory risks associated with specific countries. Also, the anticipated benefit of many of our acquisitions may not materialize. Future acquisitions or dispositions could result in potentially dilutive issuances of our equity securities, the incurrence of debt, contingent liabilities or amortization expenses, or write-offs of goodwill, any of which could harm our financial condition. Future acquisitions may require us to obtain additional equity or debt financing, which may not be available on favorable terms or at all.
+
+ 
+
+We occasionally become subject to commercial disputes that could harm our business by distracting our management from the operation of our business, by increasing our expenses and, if we do not prevail, by subjecting us to potential monetary damages and other remedies.
+
+ 
+
+From time to time we are engaged in disputes regarding our commercial transactions. These disputes could result in monetary damages or other remedies that could adversely impact our financial position or operations. Even if we prevail in these disputes, they may distract our management from operating our business and the cost of defending these disputes would reduce our operating results.
+
+ 
+
+We have to keep up with rapid technological change to remain competitive in our rapidly evolving industry.
+
+ 
+
+Our future success will depend on our ability to adapt to rapidly changing technologies, to adapt our services to evolving industry standards and to improve the performance and reliability of our services. Our failure to adapt to such changes would harm our business. New technologies and advertising media could adversely affect us. In addition, the widespread adoption of new Internet, networking or telecommunications technologies or other technological changes could require substantial expenditures to modify or adapt our services or infrastructure.
+
+ 
+
+Our business depends on increasing use of the Internet by users searching for information, advertisers marketing products and services and web sites seeking to earn revenue to support their web content. If the Internet infrastructure does not grow and is not maintained to support these activities, our business will be harmed.
+
+ 
+
+Our success will depend on the continued growth and maintenance of the Internet infrastructure. This includes maintenance of a reliable network backbone with the necessary speed, data capacity and security for providing reliable Internet services. Internet infrastructure may be unable to support the demands placed on it if the number of Internet users continues to increase, or if existing or future Internet users access the Internet more often or increase their bandwidth requirements. In addition, viruses, worms and similar programs may harm the performance of the Internet. The Internet has experienced a variety of outages and other delays as a result of damage to portions of its infrastructure, and it could face outages and delays in the future. These outages and delays could reduce the level of Internet usage as well as our ability to provide our solutions.
+
+ 
+
+Shares issued and options granted under our stock plans exceeded limitations in federal and state securities laws, the result of which is that the holders of these shares and/or options may have rescission rights that could require us to reacquire the shares and/or options for an aggregate repurchase price of up to $25.9 million.
+
+ 
+
+Shares issued and options granted under our 1998 Stock Plan, our 2003 Stock Plan, our 2003 Stock Plan (No. 2) and our 2003 Stock Plan (No. 3) from September 2001 through July 2004 may not have been exempt from registration or qualification under federal securities laws and the securities laws of certain states. Certain
+
+ 
+
+18
+
+Table of Contents
+of the shares issued during this period may not have been exempt from registration and qualification requirements under Rule 701 under the Securities Act of 1933 and under those state securities laws that provide an exemption to the extent the requirements under Rule 701 are met. We became aware that we were approaching the numeric limitations prescribed by Rule 701 in September 2002 and thereafter determined that we could not continue to count on being able to rely on Rule 701 to provide an exemption from the registration requirements of the Securities Act of 1933. In addition, continued compliance under Rule 701 would have required broad dissemination of detailed financial information regarding our business, which would have been strategically disadvantageous to our company. In evaluating how to issue stock upon exercise of outstanding options in light of these limitations we determined we would utilize “private placement” exemptions provided by Section 4(2) of the Securities Act of 1933 in order to exempt these issuances from federal registration requirements notwithstanding the factual and legal uncertainties inherent in Section 4(2). These uncertainties arise because analyzing whether or not issuances of securities qualify for the exemptions afforded by Section 4(2) involves a number of subjective determinations including whether the number of offerees constitutes a general solicitation, the financial sophistication of offerees and their access to information regarding the issuer, as well as whether the offering was designed to result in a distribution of shares to the general public. We considered various alternatives in determining to rely on the exemption provided by Section 4(2) despite its inherent uncertainties. We considered ceasing granting options and shares to service providers. However, we determined that this would be detrimental to our development, as equity compensation was an essential ingredient to building our company. We also considered becoming a reporting company for the purposes of federal securities laws. We determined that this too would be contrary to the best interests of our stockholders. We therefore concluded that relying on Section 4(2) despite its uncertainties was in the best interest of our security holders. Because of this uncertainty, the options we granted and the shares issued upon exercise of these options during this period may have been issued in violation of either federal or state securities laws, or both, and may be subject to rescission. In order to address this issue, we intend to make a rescission offer to the holders of these shares and options as soon as practicable after the completion of the offering of our Class A common stock and, in any event within 30 days of the effective date of this registration statement, assuming the offering has been completed at such time. We will be making this rescission offer to 1,406 persons who are or were residents of Arkansas, California, Colorado, Connecticut, the District of Columbia, Georgia, Illinois, Maryland, Massachusetts, Michigan, Nevada, New Hampshire, New Jersey, New York, North Carolina, Pennsylvania, Texas, Virginia and Washington.
+
+ 
+
+If this rescission offer is accepted, we could be required to make aggregate payments to the holders of these shares and options of up to $25.9 million, which includes statutory interest. For options, this exposure reflects the costs of offering to rescind the issuance of the outstanding options by paying an amount equal to 20% of the aggregate exercise price for the entire option, plus statutory interest. However, it is possible that an optionholder could argue that this does not represent an adequate remedy for the issuance of the option in violation of applicable securities laws, and if a court were to impose a greater remedy, our exposure as a result of the rescission offer could be higher. For issuances of common stock, this exposure is calculated by reference to the acquisition price of the common stock, plus statutory interest. Federal securities laws do not provide that a rescission offer will terminate a purchaser’s right to rescind a sale of stock that was not registered as required or was not otherwise exempt from such registration requirements. If any or all of the offerees reject the rescission offer, we may continue to be liable under federal and state securities laws for up to an amount equal to the value of all options and common stock granted or issued since September 2001 plus any statutory interest we may be required to pay. We also understand that the Securities and Exchange Commission has initiated an informal inquiry into this matter and certain state regulators, including California, have requested additional information. If it is determined that we offered securities without properly registering them under federal or state law, or securing an exemption from registration, regulators could impose monetary fines or other sanctions as provided under these laws. See “Rescission Offer.”
+
+ 
+
+Risks Related to the Auction Process for Our Offering
+
+ 
+
+Our stock price could decline rapidly and significantly.
+
+ 
+
+Our initial public offering price will be determined by an auction process conducted by us and our underwriters. We believe this auction process will provide information with respect to the market demand for our
+
+ 
+
+19
+
+Table of Contents
+Class A common stock at the time of our initial public offering. However, this information may have no relation to market demand for our Class A common stock once trading begins. We expect that the bidding process will reveal a clearing price for shares of our Class A common stock offered in the auction. The auction clearing price is the highest price at which all of the shares offered (including shares subject to the underwriters’ over-allotment option) may be sold to potential investors. Although we and our underwriters may elect to set the initial public offering price below the auction clearing price, we intend to set an initial public offering price that is equal to the clearing price. If there is little or no demand for our shares at or above the initial public offering price once trading begins, the price of our shares would decline following our initial public offering.
+
+ 
+
+The auction process for our public offering may result in a phenomenon known as the “winner’s curse,” and, as a result, investors may experience significant losses.
+
+ 
+
+The auction process for our initial public offering may result in a phenomenon known as the “winner’s curse.” At the conclusion of the auction, bidders that receive allocations of shares in this offering (successful bidders) may infer that there is little incremental demand for our shares above or equal to the initial public offering price. As a result, successful bidders may conclude that they paid too much for our shares and could seek to immediately sell their shares to limit their losses should our stock price decline. In this situation, other investors that did not submit successful bids may wait for this selling to be completed, resulting in reduced demand for our Class A common stock in the public market and a significant decline in our stock price. Therefore, we caution investors that submitting successful bids and receiving allocations may be followed by a significant decline in the value of their investment in our Class A common stock shortly after our offering.
+
+ 
+
+The auction process for our initial public offering may result in a situation in which less price sensitive investors play a larger role in the determination of our offering price and constitute a larger portion of the investors in our offering, and, therefore, the offering price may not be sustainable once trading of our Class A common stock begins.
+
+ 
+
+In a typical initial public offering, a majority of the shares sold to the public are purchased by professional investors that have significant experience in determining valuations for companies in connection with initial public offerings. These professional investors typically have access to, or conduct their own independent, research and analysis regarding investments in initial public offerings. Other investors typically have less access to this level of research and analysis, and as a result, may be less sensitive to price in participating in our auction process. Because of our auction process and the broad consumer awareness of Google, these less price sensitive investors may have a greater influence in setting our initial public offering price and may have a higher level of participation in our offering than is normal for initial public offerings. This, in turn, could cause our auction process to result in an initial public offering price that is higher than the prices professional investors are willing to pay. As a result, our stock price may decrease once trading of our Class A common stock begins. Also, because professional investors may have a substantial degree of influence on the trading price of our shares over time, the price of our Class A common stock may decline after our offering. Further, if our initial public offering price is above the level that investors determine is reasonable for our shares, some investors may attempt to short the stock after trading begins, which would create additional downward pressure on the trading price of our Class A common stock.
+
+ 
+
+Successful bidders should not expect to sell our shares for a profit shortly after our Class A common stock begins trading.
+
+ 
+
+During the bidding process, we and our managing underwriters will monitor the master order book to evaluate the demand that exists for our initial public offering. Based on this information, we and our underwriters may revise the price range for our initial public offering set forth on the cover of this prospectus. In addition, we and the selling stockholders may decide to change the number of shares of Class A common stock offered through this prospectus. These increases in the initial public offering price and the number of shares offered may result in there being little or no demand for our shares at or above the initial public offering price. If this were to occur, the price of our shares would decline following this offering. If your objective is to make a short term profit by selling the shares you purchase in the offering shortly after trading begins, you should not submit a bid in the auction.
+
+ 
+
+20
+
+Table of Contents
+Successful bidders may receive the full number of shares subject to their bids, so potential investors should not make bids for more shares than they are prepared to purchase.
+
+ 
+
+We and our underwriters will conduct an auction to assess the demand for our shares of Class A common stock. We intend to set the initial public offering price equal to the auction clearing price. If we do this, the number of shares represented by successful bids will likely equal the number of shares offered by this prospectus, and successful bidders may be allocated all of the shares that they bid for in the auction. Therefore, we caution investors against submitting a bid that does not accurately represent the number of shares of our Class A common stock that they are willing and prepared to purchase.
+
+ 
+
+Our initial public offering price may have little or no relationship to the price that would be established using traditional valuation methods, and therefore, the initial public offering price may not be sustainable once trading begins.
+
+ 
+
+We intend to set an initial public offering price that is equal to the auction clearing price. The offering price of our shares may have little or no relationship to the price that would be established using traditional indicators of value, such as our future prospects and those of our industry in general; our sales, earnings and other financial and operating information; multiples of earnings, cash flows and other operating metrics; market prices of securities and other financial and operating information of companies engaged in activities similar to ours; and the views of research analysts. As a result, our initial public offering price may not be sustainable once trading begins, and the price of our Class A common stock may decline.
+
+ 
+
+If research analysts publish or establish target prices for our Class A common stock that are below the initial public offering price or then current trading market price of our shares, the price of our shares of Class A common stock may fall.
+
+ 
+
+Although the initial public offering price of our shares may have little or no relationship to the price determined using traditional valuation methods, we believe that research analysts will rely upon these methods to establish target prices for our Class A common stock. If research analysts, including research analysts affiliated with our underwriters, publish target prices for our Class A common stock that are below our initial public offering price or the then current trading market price of our shares, it could cause our stock price to decline significantly.
+
+ 
+
+Submitting a bid does not guarantee an allocation of shares of our Class A common stock, even if a bidder submits a bid at or above the initial public offering price.
+
+ 
+
+Our underwriters may require that bidders confirm their bids before the auction for our initial public offering closes. If a bidder is requested to confirm a bid and fails to do so, that bid will be rejected and will not receive an allocation of shares even if the bid is at or above the initial public offering price. In addition, we, in consultation with our underwriters, may determine, in our sole discretion, that some bids that are at or above the initial public offering price are manipulative and disruptive to the bidding process, in which case such bids will be rejected.
+
+ 
+
+The systems and procedures used to implement our auction and the results of our auction could harm our business and our brand.
+
+ 
+
+Only a small number of initial public offerings have been accomplished using auction processes in the U.S. and other countries, and none on the scale of our offering. We expect our auction structure to face scalability and operational challenges. Our underwriters’ systems that manage the auction process could fail to operate as anticipated. This could require us to delay our initial public offering, potentially even after our underwriters have started taking bids, and harm our brand. Our underwriters must modify their internal systems and procedures to accommodate our auction process. This could increase the risk that our underwriters’ systems or procedures fail to operate as anticipated.
+
+ 
+
+21
+
+Table of Contents
+Many of our users may submit bids in our auction with the hope of becoming stockholders. If these users either do not receive share allocations in our offering or if our share price immediately declines after the offering, our brand could be tarnished and users and investors could become frustrated with us, potentially decreasing their use of our products and services. If this occurs, our business could suffer.
+
+ 
+
+Risks Related to Our Offering
+
+ 
+
+If our involvement in a September 2004 magazine article about Google were held to be in violation of the Securities Act of 1933, we could be required to repurchase securities sold in this offering. You should rely only on statements made in this prospectus in determining whether to purchase our shares.
+
+ 
+
+Information about Google has been published in an article appearing in the September 2004 issue of Playboy Magazine and entitled “Playboy Interview: Google Guys.” The text of the article, which is included in this prospectus as Appendix B, contains information derived from an interview of Larry and Sergey conducted in April 2004, prior to the filing of our registration statement of which this prospectus is a part. The article includes quotations from Larry and Sergey, and has been reprinted by a number of news media outlets. The article presented certain statements about our company in isolation and did not disclose many of the related risks and uncertainties described in this prospectus. As a result, the article should not be considered in isolation and you should make your investment decision only after reading this entire prospectus carefully.
+
+ 
+
+You should carefully evaluate all the information in this prospectus, including the risks described in this section and throughout the prospectus. We have in the past received, and may continue to receive, a high degree of media coverage, including coverage that is not directly attributable to statements made by our officers and employees. You should rely only on the information contained in this prospectus in making your investment decision.
+
+ 
+
+We do not believe that our involvement in the Playboy Magazine article constitutes a violation of Section 5 of the Securities Act of 1933. However, if our involvement were held by a court to be in violation of the Securities Act of 1933, we could be required to repurchase the shares sold to purchasers in this offering at the original purchase price, plus statutory interest from the date of purchase, for a period of one year following the date of the violation. We would contest vigorously any claim that a violation of the Securities Act occurred. The SEC has also requested additional information concerning the publication of the article.
+
+ 
+
+Investors should be aware of the following modifications and updates to the article’s content:
+
+ 
+
+ 	•	 	The article states that our Gmail service, with one gigabyte of storage, has 200 times more storage than our primary competitors. While at the time of its introduction, Gmail had such a substantial storage capacity advantage over competitive offerings, competitors have substantially narrowed the gap.
+ 
+
+ 	•	 	The article indicates that we had about 1,000 employees. Currently, we have approximately 2,292 employees.
+ 
+
+ 	•	 	The article states that more than 65 million people use our search engine each day. We believe that, based on data compiled by an unrelated third party research organization, this number represents monthly, not daily, domestic visitors data.
+ 
+
+Our stock price may be volatile, and you may not be able to resell shares of our Class A common stock at or above the price you paid.
+
+ 
+
+Prior to this offering, our common stock has not been traded in a public market. We cannot predict the extent to which a trading market will develop or how liquid that market might become. The initial public offering price may not be indicative of prices that will prevail in the trading market. The trading price of our Class A common stock following this offering is therefore likely to be highly volatile and could be subject to wide fluctuations in price in response to various factors, some of which are beyond our control. These factors include:
+
+ 
+
+ 	•	 	Quarterly variations in our results of operations or those of our competitors.
+ 
+
+ 	•	 	Announcements by us or our competitors of acquisitions, new products, significant contracts, commercial relationships or capital commitments.
+ 
+
+22
+
+Table of Contents
+ 	•	 	Disruption to our operations or those of our Google Network members or our data centers.
+ 
+
+ 	•	 	The emergence of new sales channels in which we are unable to compete effectively.
+ 
+
+ 	•	 	Our ability to develop and market new and enhanced products on a timely basis.
+ 
+
+ 	•	 	Commencement of, or our involvement in, litigation.
+ 
+
+ 	•	 	Any major change in our board or management.
+ 
+
+ 	•	 	Changes in governmental regulations or in the status of our regulatory approvals.
+ 
+
+ 	•	 	Changes in earnings estimates or recommendations by securities analysts.
+ 
+
+ 	•	 	General economic conditions and slow or negative growth of related markets.
+ 
+
+In addition, the stock market in general, and the market for technology companies in particular, have experienced extreme price and volume fluctuations that have often been unrelated or disproportionate to the operating performance of those companies. Such fluctuations may be even more pronounced in the trading market shortly following this offering. These broad market and industry factors may seriously harm the market price of our Class A common stock, regardless of our actual operating performance. In addition, in the past, following periods of volatility in the overall market and the market price of a company’s securities, securities class action litigation has often been instituted against these companies. This litigation, if instituted against us, could result in substantial costs and a diversion of our management’s attention and resources.
+
+ 
+
+Future sales of shares by our stockholders could cause our stock price to decline.
+
+ 
+
+We cannot predict the effect, if any, that market sales of shares or the availability of shares for sale will have on the market price prevailing from time to time. Sales of our Class A common stock in the public market after the restrictions described in this prospectus lapse, or the perception that those sales may occur, could cause the trading price of our stock to decrease or to be lower than it might be in the absence of those sales or perceptions. Based on shares outstanding as of June 30, 2004, upon completion of this offering, we will have outstanding 271,219,643 shares of common stock, assuming no exercise of the underwriters’ over-allotment option. We have entered into contractual lock-up agreements with our officers, directors and certain employees and other securityholders, representing the holders of substantially all of our outstanding capital stock. We may, in our sole discretion, permit our officers, directors, employees and current stockholders who are subject to contractual lock-up agreements with us to sell shares prior to the expiration of their lock-up agreements. None of our officers, directors, employees or stockholders have entered into contractual lock-up agreements with the underwriters in connection with this offering. In addition, our employees can only sell vested shares.
+
+ 
+
+We have filed or plan to file shortly after the offering registration statements on Form S-8 and Form S-8/S-3, and a registration statement on Form S-1 relating to our rescission offer. As a result of these registration statements, the selling restriction agreements between us and our stockholders that are described in “Shares Eligible For Future Sale” and the provisions of Rules 144, 144(k) and 701, the restricted securities will first become available for sale in the public market as follows:
+
+ 
+
+Days After the Date of this Prospectus
+
+  	
+Additional Shares
+
+Eligible for Public Sale
+
+At 15 days after the date of this prospectus and various times thereafter
+
+  	4,667,483
+At 90 days after the date of this prospectus and various times thereafter
+
+  	39,071,376
+At 120 days after the date of this prospectus and various times thereafter
+
+  	24,874,091
+At 150 days after the date of this prospectus and various times thereafter
+
+  	24,874,091
+At 180 days after the date of this prospectus and various times thereafter
+
+  	176,794,161
+ 
+
+147,349,935 of these shares are held by directors, executive officers and other affiliates and will be subject to volume limitations under Rule 144 under the Securities Act of 1933 and various vesting agreements. If these additional shares are sold, or if it is perceived that they will be sold, in the public market, the trading price of our common stock could decline. The selling restriction agreements between us and our stockholders will allow significantly more shares to become freely tradeable soon after completion of the offering than is typical of initial public offerings.
+
+ 
+
+23
+
+Table of Contents
+In addition, we have agreed with our underwriters not to sell any shares of our common stock for a period of 180 days after the date of this prospectus. However, this agreement is subject to a number of exceptions, including an exception that allows us to issue an unlimited number of shares in connection with mergers and acquisition transactions, joint ventures or other strategic transactions. Morgan Stanley & Co. Incorporated and Credit Suisse First Boston LLC, on behalf of the underwriters, may release us from this lock-up arrangement without notice at any time. After the expiration of the 180-day period, there is no contractual restriction on our ability to issue additional shares. Any sales of common stock by us, or the perception that such sales could occur, could cause our stock price to decline.
+
+ 
+
+We may apply the proceeds of this offering to uses that do not improve our operating results or increase the value of your investment.
+
+ 
+
+We intend to use the net proceeds from this offering for general corporate purposes, including working capital and capital expenditures. We may also use a portion of the net proceeds to acquire or invest in companies and technologies that we believe will complement our business. However, we do not have more specific plans for the net proceeds from this offering and will have broad discretion in how we use the net proceeds of this offering. These proceeds could be applied in ways that do not improve our operating results or increase the value of your investment.
+
+ 
+
+Purchasers in this offering will experience immediate and substantial dilution in the book value of their investment.
+
+ 
+
+The initial public offering price of our Class A common stock is substantially higher than the net tangible book value per share of our Class A common stock immediately after this offering. Therefore, if you purchase our Class A common stock in this offering, you will incur an immediate dilution of $77.34 in net tangible book value per share from the price you paid, based on the initial offering price of $85.00 per share. The exercise of outstanding options and warrants will result in further dilution. For a further description of the dilution that you will experience immediately after this offering, please see “Dilution.”
+
+ 
+
+We do not intend to pay dividends on our common stock.
+
+ 
+
+We have never declared or paid any cash dividend on our capital stock. We currently intend to retain any future earnings and do not expect to pay any dividends in the foreseeable future.
+
+ 
+
+We will incur increased costs as a result of being a public company.
+
+ 
+
+As a public company, we will incur significant legal, accounting and other expenses that we did not incur as a private company. We will incur costs associated with our public company reporting requirements. We also anticipate that we will incur costs associated with recently adopted corporate governance requirements, including requirements under the Sarbanes-Oxley Act of 2002, as well as new rules implemented by the Securities and Exchange Commission and the NASD. We expect these rules and regulations to increase our legal and financial compliance costs and to make some activities more time-consuming and costly. We also expect these new rules and regulations may make it more difficult and more expensive for us to obtain director and officer liability insurance and we may be required to accept reduced policy limits and coverage or incur substantially higher costs to obtain the same or similar coverage. As a result, it may be more difficult for us to attract and retain qualified individuals to serve on our board of directors or as executive officers. We are currently evaluating and monitoring developments with respect to these new rules, and we cannot predict or estimate the amount of additional costs we may incur or the timing of such costs.
+
+ 
+
+The concentration of our capital stock ownership with our founders, executive officers, employees, and our directors and their affiliates will limit your ability to influence corporate matters.
+
+ 
+
+After our offering, our Class B common stock will have ten votes per share and our Class A common stock, which is the stock we are selling in this offering, will have one vote per share. We anticipate that our founders,
+
+ 
+
+24
+
+Table of Contents
+executive officers, directors (and their affiliates) and employees will together own approximately 84.8% of our Class B common stock, representing approximately 83.6% of the voting power of our outstanding capital stock. In particular, following this offering, our two founders and our CEO, Larry, Sergey and Eric, will control approximately 38.1% of our outstanding Class B common stock, representing approximately 37.6% of the voting power of our outstanding capital stock. Larry, Sergey and Eric will therefore have significant influence over management and affairs and over all matters requiring stockholder approval, including the election of directors and significant corporate transactions, such as a merger or other sale of our company or its assets, for the foreseeable future. In addition, because of this dual class structure, our founders, directors, executives and employees will continue to be able to control all matters submitted to our stockholders for approval even if they come to own less than 50% of the outstanding shares of our common stock. This concentrated control will limit your ability to influence corporate matters and, as a result, we may take actions that our stockholders do not view as beneficial. As a result, the market price of our Class A common stock could be adversely affected.
+
+ 
+
+Provisions in our charter documents and under Delaware law could discourage a takeover that stockholders may consider favorable.
+
+ 
+
+Provisions in our certificate of incorporation and bylaws, as amended and restated upon the closing of this offering, may have the effect of delaying or preventing a change of control or changes in our management. These provisions include the following:
+
+ 
+
+ 	•	 	Our certificate of incorporation provides for a dual class common stock structure. As a result of this structure our founders, executives and employees will have significant influence over all matters requiring stockholder approval, including the election of directors and significant corporate transactions, such as a merger or other sale of our company or its assets. This concentrated control could discourage others from initiating any potential merger, takeover or other change of control transaction that other stockholders may view as beneficial.
+ 
+
+ 	•	 	Our board of directors has the right to elect directors to fill a vacancy created by the expansion of the board of directors or the resignation, death or removal of a director, which prevents stockholders from being able to fill vacancies on our board of directors.
+ 
+
+ 	•	 	Our stockholders may not act by written consent. As a result, a holder, or holders, controlling a majority of our capital stock would not be able to take certain actions without holding a stockholders’ meeting.
+ 
+
+ 	•	 	Our certificate of incorporation prohibits cumulative voting in the election of directors. This limits the ability of minority stockholders to elect director candidates.
+ 
+
+ 	•	 	Stockholders must provide advance notice to nominate individuals for election to the board of directors or to propose matters that can be acted upon at a stockholders’ meeting. These provisions may discourage or deter a potential acquiror from conducting a solicitation of proxies to elect the acquiror’s own slate of directors or otherwise attempting to obtain control of our company.
+ 
+
+ 	•	 	Our board of directors may issue, without stockholder approval, shares of undesignated preferred stock. The ability to authorize undesignated preferred stock makes it possible for our board of directors to issue preferred stock with voting or other rights or preferences that could impede the success of any attempt to acquire us.
+ 
+
+As a Delaware corporation, we are also subject to certain Delaware anti-takeover provisions. Under Delaware law, a corporation may not engage in a business combination with any holder of 15% or more of its capital stock unless the holder has held the stock for three years or, among other things, the board of directors has approved the transaction. Our board of directors could rely on Delaware law to prevent or delay an acquisition of us. For a description of our capital stock, see “Description of Capital Stock.”
+
+ 
+
+25
+
+Table of Contents
+SPECIAL NOTE REGARDING FORWARD-LOOKING STATEMENTS
+
+ 
+
+This prospectus includes forward-looking statements. All statements other than statements of historical facts contained in this prospectus, including statements regarding our future financial position, business strategy and plans and objectives of management for future operations, are forward-looking statements. The words “believe,” “may,” “will,” “estimate,” “continue,” “anticipate,” “intend,” “expect” and similar expressions are intended to identify forward-looking statements. We have based these forward-looking statements largely on our current expectations and projections about future events and financial trends that we believe may affect our financial condition, results of operations, business strategy, short term and long term business operations and objectives, and financial needs. In addition, a number of our “objectives,” “intentions,” “expectations” or “goals” described in “Auction Process” for qualification of bidders, the bidding process, the auction closing process, the pricing process and the allocation process are also forward-looking statements. These statements are based on current expectations or objectives of the auction process being used for our initial public offering that are inherently uncertain. These forward-looking statements are subject to a number of risks, uncertainties and assumptions, including those described in “Risk Factors.”
+
+ 
+
+In light of these risks, uncertainties and assumptions, the forward-looking events and circumstances discussed in this prospectus may not occur and actual results could differ materially and adversely from those anticipated or implied in the forward-looking statements.
+
+Table of Contents
+LETTER FROM THE FOUNDERS
+
+“AN OWNER’S MANUAL” FOR GOOGLE’S SHAREHOLDERS1
+
+ 
+
+INTRODUCTION
+
+ 
+
+Google is not a conventional company. We do not intend to become one. Throughout Google’s evolution as a privately held company, we have managed Google differently. We have also emphasized an atmosphere of creativity and challenge, which has helped us provide unbiased, accurate and free access to information for those who rely on us around the world.
+
+ 
+
+Now the time has come for the company to move to public ownership. This change will bring important benefits for our employees, for our present and future shareholders, for our customers, and most of all for Google users. But the standard structure of public ownership may jeopardize the independence and focused objectivity that have been most important in Google’s past success and that we consider most fundamental for its future. Therefore, we have implemented a corporate structure that is designed to protect Google’s ability to innovate and retain its most distinctive characteristics. We are confident that, in the long run, this will benefit Google and its shareholders, old and new. We want to clearly explain our plans and the reasoning and values behind them. We are delighted you are considering an investment in Google and are reading this letter.
+
+ 
+
+Sergey and I intend to write you a letter like this one every year in our annual report. We’ll take turns writing the letter so you’ll hear directly from each of us. We ask that you read this letter in conjunction with the rest of this prospectus.
+
+ 
+
+SERVING END USERS
+
+ 
+
+Sergey and I founded Google because we believed we could provide an important service to the world—instantly delivering relevant information on virtually any topic. Serving our end users is at the heart of what we do and remains our number one priority.
+
+ 
+
+Our goal is to develop services that significantly improve the lives of as many people as possible. In pursuing this goal, we may do things that we believe have a positive impact on the world, even if the near term financial returns are not obvious. For example, we make our services as widely available as we can by supporting over 90 languages and by providing most services for free. Advertising is our principal source of revenue, and the ads we provide are relevant and useful rather than intrusive and annoying. We strive to provide users with great commercial information.
+
+ 
+
+We are proud of the products we have built, and we hope that those we create in the future will have an even greater positive impact on the world.
+
+ 
+
+LONG TERM FOCUS
+
+ 
+
+As a private company, we have concentrated on the long term, and this has served us well. As a public company, we will do the same. In our opinion, outside pressures too often tempt companies to sacrifice long term opportunities to meet quarterly market expectations. Sometimes this pressure has caused companies to manipulate financial results in order to “make their quarter.” In Warren Buffett’s words, “We won’t ‘smooth’ quarterly or annual results: If earnings figures are lumpy when they reach headquarters, they will be lumpy when they reach you.”
+
+ 
+
+If opportunities arise that might cause us to sacrifice short term results but are in the best long term interest of our shareholders, we will take those opportunities. We will have the fortitude to do this. We would request that our shareholders take the long term view.
+
+ 
+
+1 Much of this was inspired by Warren Buffett’s essays in his annual reports and his “An Owner’s Manual” to Berkshire Hathaway shareholders.
+
+ 
+
+27
+
+Table of Contents
+You might ask how long is long term? Usually we expect projects to have some realized benefit or progress within a year or two. But, we are trying to look forward as far as we can. Despite the quickly changing business and technology landscape, we try to look at three to five year scenarios in order to decide what to do now. We try to optimize total benefit over these multi-year scenarios. While we are strong advocates of this strategy, it is difficult to make good multi-year predictions in technology.
+
+ 
+
+Many companies are under pressure to keep their earnings in line with analysts’ forecasts. Therefore, they often accept smaller, predictable earnings rather than larger and less predictable returns. Sergey and I feel this is harmful, and we intend to steer in the opposite direction.
+
+ 
+
+Google has had adequate cash to fund our business and has generated additional cash through operations. This gives us the flexibility to weather costs, benefit from opportunities and optimize our long term earnings. For example, in our ads system we make many improvements that affect revenue in both directions. These are in areas like end user relevance and satisfaction, advertiser satisfaction, partner needs and targeting technology. We release improvements immediately rather than delaying them, even though delay might give “smoother” financial results. You have our commitment to execute quickly to achieve long term value rather than making the quarters more predictable.
+
+ 
+
+Our long term focus does have risks. Markets may have trouble evaluating long term value, thus potentially reducing the value of our company. Our long term focus may simply be the wrong business strategy. Competitors may be rewarded for short term tactics and grow stronger as a result. As potential investors, you should consider the risks around our long term focus.
+
+ 
+
+We will make business decisions with the long term welfare of our company and shareholders in mind and not based on accounting considerations.
+
+ 
+
+Although we may discuss long term trends in our business, we do not plan to give earnings guidance in the traditional sense. We are not able to predict our business within a narrow range for each quarter. We recognize that our duty is to advance our shareholders’ interests, and we believe that artificially creating short term target numbers serves our shareholders poorly. We would prefer not to be asked to make such predictions, and if asked we will respectfully decline. A management team distracted by a series of short term targets is as pointless as a dieter stepping on a scale every half hour.
+
+ 
+
+RISK VS REWARD IN THE LONG RUN
+
+ 
+
+Our business environment changes rapidly and needs long term investment. We will not hesitate to place major bets on promising new opportunities.
+
+ 
+
+We will not shy away from high-risk, high-reward projects because of short term earnings pressure. Some of our past bets have gone extraordinarily well, and others have not. Because we recognize the pursuit of such projects as the key to our long term success, we will continue to seek them out. For example, we would fund projects that have a 10% chance of earning a billion dollars over the long term. Do not be surprised if we place smaller bets in areas that seem very speculative or even strange when compared to our current businesses. Although we cannot quantify the specific level of risk we will undertake, as the ratio of reward to risk increases, we will accept projects further outside our current businesses, especially when the initial investment is small relative to the level of investment in our current businesses.
+
+ 
+
+We encourage our employees, in addition to their regular projects, to spend 20% of their time working on what they think will most benefit Google. This empowers them to be more creative and innovative. Many of our significant advances have happened in this manner. For example, AdSense for content and Google News were both prototyped in “20% time.” Most risky projects fizzle, often teaching us something. Others succeed and become attractive businesses.
+
+ 
+
+28
+
+Table of Contents
+As we seek to maximize value in the long term, we may have quarter-to-quarter volatility as we realize losses on some new projects and gains on others. We would love to better quantify our level of risk and reward for you going forward, but that is very difficult. Even though we are excited about risky projects, we expect to devote the vast majority of our resources to improvements to our main businesses (currently search and advertising). Most employees naturally gravitate toward incremental improvements in core areas so this tends to happen naturally.
+
+ 
+
+EXECUTIVE ROLES
+
+ 
+
+We run Google as a triumvirate. Sergey and I have worked closely together for the last eight years, five at Google. Eric, our CEO, joined Google three years ago. The three of us run the company collaboratively with Sergey and me as Presidents. The structure is unconventional, but we have worked successfully in this way.
+
+ 
+
+To facilitate timely decisions, Eric, Sergey and I meet daily to update each other on the business and to focus our collaborative thinking on the most important and immediate issues. Decisions are often made by one of us, with the others being briefed later. This works because we have tremendous trust and respect for each other and we generally think alike. Because of our intense long term working relationship, we can often predict differences of opinion among the three of us. We know that when we disagree, the correct decision is far from obvious. For important decisions, we discuss the issue with a larger team appropriate to the task. Differences are resolved through discussion and analysis and by reaching consensus. Eric, Sergey and I run the company without any significant internal conflict, but with healthy debate. As different topics come up, we often delegate decision-making responsibility to one of us.
+
+ 
+
+We hired Eric as a more experienced complement to Sergey and me to help us run the business. Eric was CTO of Sun Microsystems. He was also CEO of Novell and has a Ph.D. in computer science, a very unusual and important combination for Google given our scientific and technical culture. This partnership among the three of us has worked very well and we expect it to continue. The shared judgments and extra energy available from all three of us has significantly benefited Google.
+
+ 
+
+Eric has the legal responsibilities of the CEO and focuses on management of our vice presidents and the sales organization. Sergey focuses on engineering and business deals. I focus on engineering and product management. All three of us devote considerable time to overall management of the company and other fluctuating needs. We also have a distinguished board of directors to oversee the management of Google. We have a talented executive staff that manages day-to-day operations in areas such as finance, sales, engineering, human resources, public relations, legal and product management. We are extremely fortunate to have talented management that has grown the company to where it is today—they operate the company and deserve the credit.
+
+ 
+
+CORPORATE STRUCTURE
+
+ 
+
+We are creating a corporate structure that is designed for stability over long time horizons. By investing in Google, you are placing an unusual long term bet on the team, especially Sergey and me, and on our innovative approach.
+
+ 
+
+We want Google to become an important and significant institution. That takes time, stability and independence. We bridge the media and technology industries, both of which have experienced considerable consolidation and attempted hostile takeovers.
+
+ 
+
+In the transition to public ownership, we have set up a corporate structure that will make it harder for outside parties to take over or influence Google. This structure will also make it easier for our management team to follow the long term, innovative approach emphasized earlier. This structure, called a dual class voting structure, is described elsewhere in this prospectus. The Class A common stock we are offering has one vote per share, while the Class B common stock held by many current shareholders has 10 votes per share.
+
+ 
+
+29
+
+Table of Contents
+The main effect of this structure is likely to leave our team, especially Sergey and me, with increasingly significant control over the company’s decisions and fate, as Google shares change hands. After the IPO, Sergey, Eric and I will control 37.6% of the voting power of Google, and the executive management team and directors as a group will control 61.4% of the voting power. New investors will fully share in Google’s long term economic future but will have little ability to influence its strategic decisions through their voting rights.
+
+ 
+
+While this structure is unusual for technology companies, similar structures are common in the media business and has had a profound importance there. The New York Times Company, The Washington Post Company and Dow Jones, the publisher of The Wall Street Journal, all have similar dual class ownership structures. Media observers have pointed out that dual class ownership has allowed these companies to concentrate on their core, long term interest in serious news coverage, despite fluctuations in quarterly results. Berkshire Hathaway has implemented a dual class structure for similar reasons. From the point of view of long term success in advancing a company’s core values, we believe this structure has clearly been an advantage.
+
+ 
+
+Some academic studies have shown that from a purely economic point of view, dual class structures have not harmed the share price of companies. Other studies have concluded that dual class structures have negatively affected share prices, and we cannot assure you that this will not be the case with Google. The shares of each of our classes have identical economic rights and differ only as to voting rights.
+
+ 
+
+Google has prospered as a private company. We believe a dual class voting structure will enable Google, as a public company, to retain many of the positive aspects of being private. We understand some investors do not favor dual class structures. Some may believe that our dual class structure will give us the ability to take actions that benefit us, but not Google’s shareholders as a whole. We have considered this point of view carefully, and we and the board have not made our decision lightly. We are convinced that everyone associated with Google—including new investors—will benefit from this structure. However, you should be aware that Google and its shareholders may not realize these intended benefits.
+
+ 
+
+In addition, we have recently expanded our board of directors to include three additional members. John Hennessy is the President of Stanford and has a Doctoral degree in computer science. Art Levinson is CEO of Genentech and has a Ph.D. in biochemistry. Paul Otellini is President and COO of Intel. We could not be more excited about the caliber and experience of these directors.
+
+ 
+
+We believe we have a world class management team impassioned by Google’s mission and responsible for Google’s success. We believe the stability afforded by the dual class structure will enable us to retain our unique culture and continue to attract and retain talented people who are Google’s life blood. Our colleagues will be able to trust that they themselves and their labors of hard work, love and creativity will be well cared for by a company focused on stability and the long term.
+
+ 
+
+As an investor, you are placing a potentially risky long term bet on the team, especially Sergey and me. The two of us, Eric and the rest of the management team recognize that our individual and collective interests are deeply aligned with those of the new investors who choose to support Google. Sergey and I are committed to Google for the long term. The broader Google team has also demonstrated an extraordinary commitment to our long term success. With continued hard work and good fortune, this commitment will last and flourish.
+
+ 
+
+When Sergey and I founded Google, we hoped, but did not expect, it would reach its current size and influence. Our intense and enduring interest was to objectively help people find information efficiently. We also believed that searching and organizing all the world’s information was an unusually important task that should be carried out by a company that is trustworthy and interested in the public good. We believe a well functioning society should have abundant, free and unbiased access to high quality information. Google therefore has a responsibility to the world. The dual class structure helps ensure that this responsibility is met. We believe that fulfilling this responsibility will deliver increased value to our shareholders.
+
+ 
+
+30
+
+Table of Contents
+IPO PRICING AND ALLOCATION
+
+ 
+
+It is important to us to have a fair process for our IPO that is inclusive of both small and large investors. It is also crucial that we achieve a good outcome for Google and its current shareholders. This has led us to pursue an auction-based IPO for our entire offering. Our goal is to have a share price that reflects an efficient market valuation of Google that moves rationally based on changes in our business and the stock market. (The auction process is discussed in more detail elsewhere in this prospectus.)
+
+ 
+
+Many companies going public have suffered from unreasonable speculation, small initial share float, and stock price volatility that hurt them and their investors in the long run. We believe that our auction-based IPO will minimize these problems, though there is no guarantee that it will.
+
+ 
+
+An auction is an unusual process for an IPO in the United States. Our experience with auction-based advertising systems has been helpful in the auction design process for the IPO. As in the stock market, if people bid for more shares than are available and bid at high prices, the IPO price will be higher. Of course, the IPO price will be lower if there are not enough bidders or if people bid lower prices. This is a simplification, but it captures the basic issues. Our goal is to have the price of our shares at the IPO and in the aftermarket reflect an efficient market price—in other words, a price set by rational and informed buyers and sellers. We seek to achieve a relatively stable price in the days following the IPO and that buyers and sellers receive an efficient market price at the IPO. We will try to achieve this outcome, but of course may not be successful. Our goal of achieving a relatively stable market price may result in Google determining with our underwriters to set the initial public offering price below the auction clearing price.
+
+ 
+
+We are working to create a sufficient supply of shares to meet investor demand at IPO time and after. We are encouraging current shareholders to consider selling some of their shares as part of the offering. These shares will supplement the shares the company sells to provide more supply for investors and hopefully provide a more stable price. Sergey and I, among others, are currently planning to sell a fraction of our shares in the IPO. The more shares current shareholders sell, the more likely it is that they believe the price is not unfairly low. The supply of shares available will likely have an effect on the clearing price of the auction. Since the number of shares being sold is likely to be larger at a high price and smaller at a lower price, investors will likely want to consider the scope of current shareholder participation in the IPO. We may communicate from time to time that we are sellers rather than buyers at certain prices.
+
+ 
+
+While we have designed our IPO to be inclusive for both small and large investors, for a variety of reasons described in “Auction Process” not all interested investors will be able to receive an allocation of shares in our IPO.
+
+ 
+
+We would like you to invest for the long term, and you should not expect to sell Google shares for a profit shortly after Google’s IPO. We encourage investors not to invest in Google at IPO or for some time after, if they believe the price is not sustainable over the long term. Even in the long term, the trading price of Google’s stock may decline.
+
+ 
+
+We intend to take steps to help ensure shareholders are well informed. We encourage you to read this prospectus, especially the Risk Factors section. We think that short term speculation without paying attention to price is likely to lose you money, especially with our auction structure. In particular, we caution you that investing in Google through our auction could be followed by a significant decline in the value of your investment after the IPO.
+
+ 
+
+GOOGLERS
+
+ 
+
+Our employees, who have named themselves Googlers, are everything. Google is organized around the ability to attract and leverage the talent of exceptional technologists and business people. We have been lucky to recruit many creative, principled and hard working stars. We hope to recruit many more in the future. We will reward and treat them well.
+
+ 
+
+We provide many unusual benefits for our employees, including meals free of charge, doctors and washing machines. We are careful to consider the long term advantages to the company of these benefits. Expect us to add
+
+ 
+
+31
+
+Table of Contents
+benefits rather than pare them down over time. We believe it is easy to be penny wise and pound foolish with respect to benefits that can save employees considerable time and improve their health and productivity.
+
+ 
+
+The significant employee ownership of Google has made us what we are today. Because of our employee talent, Google is doing exciting work in nearly every area of computer science. We are in a very competitive industry where the quality of our product is paramount. Talented people are attracted to Google because we empower them to change the world; Google has large computational resources and distribution that enables individuals to make a difference. Our main benefit is a workplace with important projects, where employees can contribute and grow. We are focused on providing an environment where talented, hard working people are rewarded for their contributions to Google and for making the world a better place.
+
+ 
+
+DON’T BE EVIL
+
+ 
+
+Don’t be evil. We believe strongly that in the long term, we will be better served—as shareholders and in all other ways—by a company that does good things for the world even if we forgo some short term gains. This is an important aspect of our culture and is broadly shared within the company.
+
+ 
+
+Google users trust our systems to help them with important decisions: medical, financial and many others. Our search results are the best we know how to produce. They are unbiased and objective, and we do not accept payment for them or for inclusion or more frequent updating. We also display advertising, which we work hard to make relevant, and we label it clearly. This is similar to a well-run newspaper, where the advertisements are clear and the articles are not influenced by the advertisers’ payments. We believe it is important for everyone to have access to the best information and research, not only to the information people pay for you to see.
+
+ 
+
+MAKING THE WORLD A BETTER PLACE
+
+ 
+
+We aspire to make Google an institution that makes the world a better place. In pursuing this goal, we will always be mindful of our responsibilities to our shareholders, employees, customers and business partners. With our products, Google connects people and information all around the world for free. We are adding other powerful services such as Gmail, which provides an efficient one gigabyte Gmail account for free. We know that some people have raised privacy concerns, primarily over Gmail’s targeted ads, which could lead to negative perceptions about Google. However, we believe Gmail protects a user’s privacy. By releasing services, such as Gmail, for free, we hope to help bridge the digital divide. AdWords connects users and advertisers efficiently, helping both. AdSense helps fund a huge variety of online web sites and enables authors who could not otherwise publish. Last year we created Google Grants—a growing program in which hundreds of non-profits addressing issues, including the environment, poverty and human rights, receive free advertising. And now, we are in the process of establishing the Google Foundation. We intend to contribute significant resources to the foundation, including employee time and approximately 1% of Google’s equity and profits in some form. We hope someday this institution may eclipse Google itself in terms of overall world impact by ambitiously applying innovation and significant resources to the largest of the world’s problems.
+
+ 
+
+SUMMARY AND CONCLUSION
+
+ 
+
+Google is not a conventional company. Eric, Sergey and I intend to operate Google differently, applying the values it has developed as a private company to its future as a public company. Our mission and business description are available in the rest of this prospectus; we encourage you to carefully read this information. We will optimize for the long term rather than trying to produce smooth earnings for each quarter. We will support selected high-risk, high-reward projects and manage our portfolio of projects. We will run the company collaboratively with Eric, our CEO, as a team of three. We are conscious of our duty as fiduciaries for our shareholders, and we will fulfill those responsibilities. We will continue to strive to attract creative, committed new employees, and we will welcome support from new shareholders. We will live up to our “don’t be evil” principle by keeping user trust and not accepting payment for search results. We have a dual class structure that is biased toward stability and independence and that requires investors to bet on the team, especially Sergey and me.
+
+ 
+
+32
+
+Table of Contents
+In this letter we have talked about our IPO auction method and our desire for stability and access for all investors. We have discussed our goal to have investors who invest for the long term. Finally, we have discussed our desire to create an ideal working environment that will ultimately drive the success of Google by retaining and attracting talented Googlers.
+
+ 
+
+We have tried hard to anticipate your questions. It will be difficult for us to respond to them given legal constraints during our offering process. We look forward to a long and hopefully prosperous relationship with you, our new investors. We wrote this letter to help you understand our company.
+
+ 
+
+We have a strong commitment to our users worldwide, their communities, the web sites in our network, our advertisers, our investors, and of course our employees. Sergey and I, and the team will do our best to make Google a long term success and the world a better place.
+
+ 
+
+LOGO
+
+  	 	  	
+LOGO
+
+Larry Page
+
+  	 	  	
+Sergey Brin
+
+ 
+
+33

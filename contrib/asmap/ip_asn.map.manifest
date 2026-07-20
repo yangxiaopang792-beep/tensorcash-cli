@@ -1,0 +1,22 @@
+{
+  "artifact": "ip_asn.map",
+  "artifact_sha256": "469f1cd9523e0881f413184f3c75161db8d923123fc64b6c2476bdf2f930ca42",
+  "artifact_bytes": 1948961,
+  "decoded_map_version": "7a813b0b49c372e964babb0217943a5101fd56a2a8155ad87a3e838c2b82700f",
+  "built_utc_date": "2026-07-10",
+  "builder": "contrib/asmap/build-default-asmap.py",
+  "encoder": "contrib/asmap/asmap-tool.py encode",
+  "source": "iptoasn.com (Public Domain, PDDL v1.0; RouteViews-derived)",
+  "inputs": {
+    "https://iptoasn.com/data/ip2asn-v4.tsv.gz": {
+      "decompressed_sha256": "aa8d476dca55fd85e1533ea514c8ca03bbcfd46c58a3529aadb45e1fae628602",
+      "decompressed_bytes": 30031081
+    },
+    "https://iptoasn.com/data/ip2asn-v6.tsv.gz": {
+      "decompressed_sha256": "3c5499af392fef1a9ecd4ea9c87dbe2667c220f1252da697c1cc1cf184874e03",
+      "decompressed_bytes": 14917238
+    }
+  },
+  "filter": "dropped AS0 (unannounced) and ASN > 33521664 (asmap _CODER_ASN max; private/reserved 32-bit)",
+  "reproducibility": "Rebuildable from the pipeline at any time, but bit-identical reproduction of THIS artifact requires the same iptoasn snapshot. iptoasn regenerates the source daily; the decompressed_sha256 values above pin the exact inputs used so drift is detectable. To reproduce: fetch the inputs, verify their decompressed sha256 against this manifest, then run build-default-asmap.py."
+}

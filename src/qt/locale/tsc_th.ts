@@ -1,0 +1,15815 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="th">
+<context>
+    <name>ActiveContractsTab</name>
+    <message>
+        <source> BTC</source>
+        <translation type="unfinished"> BTC</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation type="unfinished">unknown</translation>
+    </message>
+    <message>
+        <source>Wallet unavailable</source>
+        <translation type="unfinished">Wallet unavailable</translation>
+    </message>
+    <message>
+        <source>Opening transaction for contract %1 is unknown. Refresh the contract list and try again.</source>
+        <translation type="unfinished">Opening transaction for contract %1 is unknown. Refresh the contract list and try again.</translation>
+    </message>
+    <message>
+        <source>Covenant script fingerprint missing for contract %1. Re-import the offer or acceptance.</source>
+        <translation type="unfinished">Covenant script fingerprint missing for contract %1. Re-import the offer or acceptance.</translation>
+    </message>
+    <message>
+        <source>Unable to locate the covenant output in opening transaction %1.</source>
+        <translation type="unfinished">Unable to locate the covenant output in opening transaction %1.</translation>
+    </message>
+    <message>
+        <source>Contract %1 is not tracked by this wallet.</source>
+        <translation type="unfinished">Contract %1 is not tracked by this wallet.</translation>
+    </message>
+    <message>
+        <source>Repay</source>
+        <translation type="unfinished">Repay</translation>
+    </message>
+    <message>
+        <source>Claim</source>
+        <translation type="unfinished">Claim</translation>
+    </message>
+    <message>
+        <source>Wait</source>
+        <translation type="unfinished">Wait</translation>
+    </message>
+    <message>
+        <source>Actions ▼</source>
+        <translation type="unfinished">Actions ▼</translation>
+    </message>
+    <message>
+        <source>Repay Loan</source>
+        <translation type="unfinished">Repay Loan</translation>
+    </message>
+    <message>
+        <source>Repay Unavailable</source>
+        <translation type="unfinished">Repay Unavailable</translation>
+    </message>
+    <message>
+        <source>Contract %1 is currently in '%2' state.</source>
+        <translation type="unfinished">Contract %1 is currently in '%2' state.</translation>
+    </message>
+    <message>
+        <source>This wallet is not the borrower for contract %1.</source>
+        <translation type="unfinished">This wallet is not the borrower for contract %1.</translation>
+    </message>
+    <message>
+        <source>Vault metadata for contract %1 is incomplete. Refresh the contract list or rescan the wallet.</source>
+        <translation type="unfinished">Vault metadata for contract %1 is incomplete. Refresh the contract list or rescan the wallet.</translation>
+    </message>
+    <message>
+        <source>Contract ID: %1</source>
+        <translation type="unfinished">Contract ID: %1</translation>
+    </message>
+    <message>
+        <source>Repay destination: %1</source>
+        <translation type="unfinished">Repay destination: %1</translation>
+    </message>
+    <message>
+        <source>Collateral return address: %1</source>
+        <translation type="unfinished">Collateral return address: %1</translation>
+    </message>
+    <message>
+        <source>Collateral size: %1</source>
+        <translation type="unfinished">Collateral size: %1</translation>
+    </message>
+    <message>
+        <source>Vault outpoint: %1</source>
+        <translation type="unfinished">Vault outpoint: %1</translation>
+    </message>
+    <message>
+        <source>Vault location inferred from opening transaction</source>
+        <translation type="unfinished">Vault location inferred from opening transaction</translation>
+    </message>
+    <message>
+        <source>Fee Rate (sat/vB):</source>
+        <translation type="unfinished">Fee Rate (sat/vB):</translation>
+    </message>
+    <message>
+        <source>Repay Failed</source>
+        <translation type="unfinished">Repay Failed</translation>
+    </message>
+    <message>
+        <source>Failed to build repay transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to build repay transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>No PSBT returned from build_repay_release</source>
+        <translation type="unfinished">No PSBT returned from build_repay_release</translation>
+    </message>
+    <message>
+        <source>Failed to sign repay transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to sign repay transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to broadcast repay transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to broadcast repay transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Repay Success</source>
+        <translation type="unfinished">Repay Success</translation>
+    </message>
+    <message>
+        <source>Transaction failed</source>
+        <translation type="unfinished">Transaction failed</translation>
+    </message>
+    <message>
+        <source>Failed to process repay transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to process repay transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to process repay transaction: Unknown error</source>
+        <translation type="unfinished">Failed to process repay transaction: Unknown error</translation>
+    </message>
+    <message>
+        <source>Claim Collateral</source>
+        <translation type="unfinished">Claim Collateral</translation>
+    </message>
+    <message>
+        <source>Claim Unavailable</source>
+        <translation type="unfinished">Claim Unavailable</translation>
+    </message>
+    <message>
+        <source>This wallet is not the lender for contract %1.</source>
+        <translation type="unfinished">This wallet is not the lender for contract %1.</translation>
+    </message>
+    <message>
+        <source>Cannot Claim Yet</source>
+        <translation type="unfinished">Cannot Claim Yet</translation>
+    </message>
+    <message>
+        <source>Collateral can only be claimed after maturity (block %1).\n\nWait %2 more blocks.</source>
+        <translation type="unfinished">Collateral can only be claimed after maturity (block %1).\n\nWait %2 more blocks.</translation>
+    </message>
+    <message>
+        <source>Waiting For Finality</source>
+        <translation type="unfinished">Waiting For Finality</translation>
+    </message>
+    <message>
+        <source>A reorg buffer of %1 blocks is required.\n\nNeed block %2, current height %3.</source>
+        <translation type="unfinished">A reorg buffer of %1 blocks is required.\n\nNeed block %2, current height %3.</translation>
+    </message>
+    <message>
+        <source>Maturity height: %1 (current %2)</source>
+        <translation type="unfinished">Maturity height: %1 (current %2)</translation>
+    </message>
+    <message>
+        <source>Reorg buffer: %1 blocks</source>
+        <translation type="unfinished">Reorg buffer: %1 blocks</translation>
+    </message>
+    <message>
+        <source>Claim Failed</source>
+        <translation type="unfinished">Claim Failed</translation>
+    </message>
+    <message>
+        <source>Failed to build sweep transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to build sweep transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>No PSBT returned from build_default_sweep</source>
+        <translation type="unfinished">No PSBT returned from build_default_sweep</translation>
+    </message>
+    <message>
+        <source>Failed to sign sweep transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to sign sweep transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to broadcast sweep transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to broadcast sweep transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Claim Success</source>
+        <translation type="unfinished">Claim Success</translation>
+    </message>
+    <message>
+        <source>Failed to process claim transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to process claim transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to process claim transaction: Unknown error</source>
+        <translation type="unfinished">Failed to process claim transaction: Unknown error</translation>
+    </message>
+    <message>
+        <source>Settlement Error</source>
+        <translation type="unfinished">Settlement Error</translation>
+    </message>
+    <message>
+        <source>Failed to query contract status:\n\n%1</source>
+        <translation type="unfinished">Failed to query contract status:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Deliver</source>
+        <translation type="unfinished">Deliver</translation>
+    </message>
+    <message>
+        <source>Counter-Deliver</source>
+        <translation type="unfinished">Counter-Deliver</translation>
+    </message>
+    <message>
+        <source>Refund Unclaimed Escrow</source>
+        <translation type="unfinished">Refund Unclaimed Escrow</translation>
+    </message>
+    <message>
+        <source>Claim IM Penalty</source>
+        <translation type="unfinished">Claim IM Penalty</translation>
+    </message>
+    <message>
+        <source>Cooperative Close</source>
+        <translation type="unfinished">Cooperative Close</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancel</translation>
+    </message>
+    <message>
+        <source>You already delivered. Waiting for counterparty.</source>
+        <translation type="unfinished">You already delivered. Waiting for counterparty.</translation>
+    </message>
+    <message>
+        <source>Deadline passed (needed: &lt; %1, current: %2)</source>
+        <translation type="unfinished">Deadline passed (needed: &lt; %1, current: %2)</translation>
+    </message>
+    <message>
+        <source>Too early - wait for Short deadline + safety margin (needed: ≥ %1, current: %2)</source>
+        <translation type="unfinished">Too early - wait for Short deadline + safety margin (needed: ≥ %1, current: %2)</translation>
+    </message>
+    <message>
+        <source>Your deadline passed (needed: &lt; %1, current: %2)</source>
+        <translation type="unfinished">Your deadline passed (needed: &lt; %1, current: %2)</translation>
+    </message>
+    <message>
+        <source>Counterparty must deliver first (no escrow detected)</source>
+        <translation type="unfinished">Counterparty must deliver first (no escrow detected)</translation>
+    </message>
+    <message>
+        <source>Await Long party delivery/claim</source>
+        <translation type="unfinished">Await Long party delivery/claim</translation>
+    </message>
+    <message>
+        <source>Deliver your asset and claim Short's delivery from escrow (recovers your IM atomically)</source>
+        <translation type="unfinished">Deliver your asset and claim Short's delivery from escrow (recovers your IM atomically)</translation>
+    </message>
+    <message>
+        <source>Deliver your asset and claim Long's delivery from escrow</source>
+        <translation type="unfinished">Deliver your asset and claim Long's delivery from escrow</translation>
+    </message>
+    <message>
+        <source>You must deliver first to create escrow</source>
+        <translation type="unfinished">You must deliver first to create escrow</translation>
+    </message>
+    <message>
+        <source>Too early (needed: ≥ %1, current: %2)</source>
+        <translation type="unfinished">Too early (needed: ≥ %1, current: %2)</translation>
+    </message>
+    <message>
+        <source>Get refund since counterparty didn't claim your escrow</source>
+        <translation type="unfinished">Get refund since counterparty didn't claim your escrow</translation>
+    </message>
+    <message>
+        <source>Cannot claim: Short delivered and already recovered their IM</source>
+        <translation type="unfinished">Cannot claim: Short delivered and already recovered their IM</translation>
+    </message>
+    <message>
+        <source>Claim Short's IM (Ghosted)</source>
+        <translation type="unfinished">Claim Short's IM (Ghosted)</translation>
+    </message>
+    <message>
+        <source>Sweep short party's IM vault as penalty for ghosting (never delivered)</source>
+        <translation type="unfinished">Sweep short party's IM vault as penalty for ghosting (never delivered)</translation>
+    </message>
+    <message>
+        <source>Cannot claim: Long delivered and already recovered their IM</source>
+        <translation type="unfinished">Cannot claim: Long delivered and already recovered their IM</translation>
+    </message>
+    <message>
+        <source>Claim Long's IM (Ghosted)</source>
+        <translation type="unfinished">Claim Long's IM (Ghosted)</translation>
+    </message>
+    <message>
+        <source>Sweep long party's IM vault as penalty for ghosting (never delivered)</source>
+        <translation type="unfinished">Sweep long party's IM vault as penalty for ghosting (never delivered)</translation>
+    </message>
+    <message>
+        <source>Mutually agree on settlement distribution (requires counterparty cooperation)</source>
+        <translation type="unfinished">Mutually agree on settlement distribution (requires counterparty cooperation)</translation>
+    </message>
+    <message>
+        <source>Not Implemented</source>
+        <translation type="unfinished">Not Implemented</translation>
+    </message>
+    <message>
+        <source>Delivery Error</source>
+        <translation type="unfinished">Delivery Error</translation>
+    </message>
+    <message>
+        <source>Delivery Unavailable</source>
+        <translation type="unfinished">Delivery Unavailable</translation>
+    </message>
+    <message>
+        <source>Deliver Asset</source>
+        <translation type="unfinished">Deliver Asset</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Forward Contract - Deliver Your Asset&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Forward Contract - Deliver Your Asset&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Your Role: %1</source>
+        <translation type="unfinished">Your Role: %1</translation>
+    </message>
+    <message>
+        <source>Current Block Height: %1</source>
+        <translation type="unfinished">Current Block Height: %1</translation>
+    </message>
+    <message>
+        <source>Your Delivery Deadline: %1</source>
+        <translation type="unfinished">Your Delivery Deadline: %1</translation>
+    </message>
+    <message>
+        <source>Blocks Remaining: %1</source>
+        <translation type="unfinished">Blocks Remaining: %1</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;What will happen:&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;What will happen:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>• Your delivery asset will be placed in escrow</source>
+        <translation type="unfinished">• Your delivery asset will be placed in escrow</translation>
+    </message>
+    <message>
+        <source>• Your initial margin (IM) will be refunded</source>
+        <translation type="unfinished">• Your initial margin (IM) will be refunded</translation>
+    </message>
+    <message>
+        <source>• Counter-party can then claim from escrow by delivering their asset</source>
+        <translation type="unfinished">• Counter-party can then claim from escrow by delivering their asset</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Advanced Options (Optional)&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Advanced Options (Optional)&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Vault location is auto-detected. Only specify if auto-detection fails:</source>
+        <translation type="unfinished">Vault location is auto-detected. Only specify if auto-detection fails:</translation>
+    </message>
+    <message>
+        <source>Vault txid (optional - leave empty for auto-detect)</source>
+        <translation type="unfinished">Vault txid (optional - leave empty for auto-detect)</translation>
+    </message>
+    <message>
+        <source>Vault vout: </source>
+        <translation type="unfinished">Vault vout: </translation>
+    </message>
+    <message>
+        <source>Delivery Failed</source>
+        <translation type="unfinished">Delivery Failed</translation>
+    </message>
+    <message>
+        <source>Failed to build self-delivery transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to build self-delivery transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>No PSBT returned from build_self_delivery</source>
+        <translation type="unfinished">No PSBT returned from build_self_delivery</translation>
+    </message>
+    <message>
+        <source>Failed to sign self-delivery transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to sign self-delivery transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to broadcast self-delivery transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to broadcast self-delivery transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Delivery Success</source>
+        <translation type="unfinished">Delivery Success</translation>
+    </message>
+    <message>
+        <source>Failed to process self-delivery transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to process self-delivery transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to process self-delivery transaction: Unknown error</source>
+        <translation type="unfinished">Failed to process self-delivery transaction: Unknown error</translation>
+    </message>
+    <message>
+        <source>Escrow Claim Error</source>
+        <translation type="unfinished">Escrow Claim Error</translation>
+    </message>
+    <message>
+        <source>Escrow Claim Unavailable</source>
+        <translation type="unfinished">Escrow Claim Unavailable</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Claim Asset from Escrow&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Claim Asset from Escrow&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Current Height: %1</source>
+        <translation type="unfinished">Current Height: %1</translation>
+    </message>
+    <message>
+        <source>Claim Deadline: %1</source>
+        <translation type="unfinished">Claim Deadline: %1</translation>
+    </message>
+    <message>
+        <source>• You will deliver your asset to counter-party</source>
+        <translation type="unfinished">• You will deliver your asset to counter-party</translation>
+    </message>
+    <message>
+        <source>• You will claim the escrowed asset</source>
+        <translation type="unfinished">• You will claim the escrowed asset</translation>
+    </message>
+    <message>
+        <source>• Both parties complete the forward contract</source>
+        <translation type="unfinished">• Both parties complete the forward contract</translation>
+    </message>
+    <message>
+        <source>Escrow Outpoint (txid:vout):</source>
+        <translation type="unfinished">Escrow Outpoint (txid:vout):</translation>
+    </message>
+    <message>
+        <source>Enter txid:vout (e.g., abc123...def456:0)</source>
+        <translation type="unfinished">Enter txid:vout (e.g., abc123...def456:0)</translation>
+    </message>
+    <message>
+        <source>Vault for margin recovery is auto-detected. Only specify if auto-detection fails:</source>
+        <translation type="unfinished">Vault for margin recovery is auto-detected. Only specify if auto-detection fails:</translation>
+    </message>
+    <message>
+        <source>Invalid Input</source>
+        <translation type="unfinished">Invalid Input</translation>
+    </message>
+    <message>
+        <source>Please provide the escrow outpoint (txid:vout)</source>
+        <translation type="unfinished">Please provide the escrow outpoint (txid:vout)</translation>
+    </message>
+    <message>
+        <source>Invalid Format</source>
+        <translation type="unfinished">Invalid Format</translation>
+    </message>
+    <message>
+        <source>Invalid Vout</source>
+        <translation type="unfinished">Invalid Vout</translation>
+    </message>
+    <message>
+        <source>Output index must be a non-negative integer</source>
+        <translation type="unfinished">Output index must be a non-negative integer</translation>
+    </message>
+    <message>
+        <source>Escrow Claim Failed</source>
+        <translation type="unfinished">Escrow Claim Failed</translation>
+    </message>
+    <message>
+        <source>Failed to build escrow claim transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to build escrow claim transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>No PSBT returned from build_escrow_claim</source>
+        <translation type="unfinished">No PSBT returned from build_escrow_claim</translation>
+    </message>
+    <message>
+        <source>Failed to sign escrow claim transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to sign escrow claim transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to broadcast escrow claim transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to broadcast escrow claim transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Escrow Claim Success</source>
+        <translation type="unfinished">Escrow Claim Success</translation>
+    </message>
+    <message>
+        <source>Failed to process escrow claim transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to process escrow claim transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to process escrow claim transaction: Unknown error</source>
+        <translation type="unfinished">Failed to process escrow claim transaction: Unknown error</translation>
+    </message>
+    <message>
+        <source>Escrow Refund Error</source>
+        <translation type="unfinished">Escrow Refund Error</translation>
+    </message>
+    <message>
+        <source>Escrow Refund Unavailable</source>
+        <translation type="unfinished">Escrow Refund Unavailable</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Refund Asset from Escrow&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Refund Asset from Escrow&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Required Height: %1</source>
+        <translation type="unfinished">Required Height: %1</translation>
+    </message>
+    <message>
+        <source>• Counter-party failed to claim before deadline</source>
+        <translation type="unfinished">• Counter-party failed to claim before deadline</translation>
+    </message>
+    <message>
+        <source>• Your escrowed asset will be returned to you</source>
+        <translation type="unfinished">• Your escrowed asset will be returned to you</translation>
+    </message>
+    <message>
+        <source>• You keep your IM refund from self-delivery</source>
+        <translation type="unfinished">• You keep your IM refund from self-delivery</translation>
+    </message>
+    <message>
+        <source>Refund Escrow</source>
+        <translation type="unfinished">Refund Escrow</translation>
+    </message>
+    <message>
+        <source>Escrow Refund Failed</source>
+        <translation type="unfinished">Escrow Refund Failed</translation>
+    </message>
+    <message>
+        <source>Failed to build escrow refund transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to build escrow refund transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>No PSBT returned from build_escrow_refund</source>
+        <translation type="unfinished">No PSBT returned from build_escrow_refund</translation>
+    </message>
+    <message>
+        <source>Failed to sign escrow refund transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to sign escrow refund transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to broadcast escrow refund transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to broadcast escrow refund transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Escrow Refund Success</source>
+        <translation type="unfinished">Escrow Refund Success</translation>
+    </message>
+    <message>
+        <source>Failed to process escrow refund transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to process escrow refund transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to process escrow refund transaction: Unknown error</source>
+        <translation type="unfinished">Failed to process escrow refund transaction: Unknown error</translation>
+    </message>
+    <message>
+        <source>IM Timeout Error</source>
+        <translation type="unfinished">IM Timeout Error</translation>
+    </message>
+    <message>
+        <source>Short party's IM vault</source>
+        <translation type="unfinished">Short party's IM vault</translation>
+    </message>
+    <message>
+        <source>Short party failed to deliver before deadline</source>
+        <translation type="unfinished">Short party failed to deliver before deadline</translation>
+    </message>
+    <message>
+        <source>Long party's IM vault</source>
+        <translation type="unfinished">Long party's IM vault</translation>
+    </message>
+    <message>
+        <source>Long party failed to claim after short delivered</source>
+        <translation type="unfinished">Long party failed to claim after short delivered</translation>
+    </message>
+    <message>
+        <source>IM Timeout Unavailable</source>
+        <translation type="unfinished">IM Timeout Unavailable</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Initial Margin Timeout Penalty&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Initial Margin Timeout Penalty&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Target Vault: %1</source>
+        <translation type="unfinished">Target Vault: %1</translation>
+    </message>
+    <message>
+        <source>Vault Type: %1</source>
+        <translation type="unfinished">Vault Type: %1</translation>
+    </message>
+    <message>
+        <source>Default Reason: %1</source>
+        <translation type="unfinished">Default Reason: %1</translation>
+    </message>
+    <message>
+        <source>• Counter-party's IM vault will be swept</source>
+        <translation type="unfinished">• Counter-party's IM vault will be swept</translation>
+    </message>
+    <message>
+        <source>• IM funds will be sent to your wallet as penalty</source>
+        <translation type="unfinished">• IM funds will be sent to your wallet as penalty</translation>
+    </message>
+    <message>
+        <source>• This compensates you for the defaulted contract</source>
+        <translation type="unfinished">• This compensates you for the defaulted contract</translation>
+    </message>
+    <message>
+        <source>IM Timeout Failed</source>
+        <translation type="unfinished">IM Timeout Failed</translation>
+    </message>
+    <message>
+        <source>Failed to build IM timeout transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to build IM timeout transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>No PSBT returned from build_im_timeout</source>
+        <translation type="unfinished">No PSBT returned from build_im_timeout</translation>
+    </message>
+    <message>
+        <source>Failed to sign IM timeout transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to sign IM timeout transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to broadcast IM timeout transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to broadcast IM timeout transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>IM Penalty Claimed</source>
+        <translation type="unfinished">IM Penalty Claimed</translation>
+    </message>
+    <message>
+        <source>Failed to process IM timeout transaction:\n\n%1</source>
+        <translation type="unfinished">Failed to process IM timeout transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to process IM timeout transaction: Unknown error</source>
+        <translation type="unfinished">Failed to process IM timeout transaction: Unknown error</translation>
+    </message>
+    <message>
+        <source>Type:</source>
+        <translation type="unfinished">Type:</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation type="unfinished">All</translation>
+    </message>
+    <message>
+        <source>Repo</source>
+        <translation type="unfinished">Repo</translation>
+    </message>
+    <message>
+        <source>Forward</source>
+        <translation type="unfinished">Forward</translation>
+    </message>
+    <message>
+        <source>Option</source>
+        <translation type="unfinished">Option</translation>
+    </message>
+    <message>
+        <source>Spot</source>
+        <translation type="unfinished">Spot</translation>
+    </message>
+    <message>
+        <source>Status:</source>
+        <translation type="unfinished">Status:</translation>
+    </message>
+    <message>
+        <source>Opened</source>
+        <translation type="unfinished">Opened</translation>
+    </message>
+    <message>
+        <source>Accepted</source>
+        <translation type="unfinished">Accepted</translation>
+    </message>
+    <message>
+        <source>Proposed</source>
+        <translation type="unfinished">Proposed</translation>
+    </message>
+    <message>
+        <source>Repaid</source>
+        <translation type="unfinished">Repaid</translation>
+    </message>
+    <message>
+        <source>Defaulted</source>
+        <translation type="unfinished">Defaulted</translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation type="unfinished">Refresh</translation>
+    </message>
+    <message>
+        <source>View Details</source>
+        <translation type="unfinished">View Details</translation>
+    </message>
+    <message>
+        <source> TSC</source>
+        <translation type="unfinished"> TSC</translation>
+    </message>
+    <message>
+        <source>Loan repaid successfully!\n\n</source>
+        <translation type="unfinished">ชำระเงินกู้สำเร็จแล้ว!\n\n</translation>
+    </message>
+    <message>
+        <source>The loan has not matured yet.\n\n</source>
+        <translation type="unfinished">สินเชื่อยังไม่ครบกำหนด\n\n</translation>
+    </message>
+    <message>
+        <source>Collateral claimed successfully!\n\n</source>
+        <translation type="unfinished">เรียกคืนหลักประกันสำเร็จแล้ว!\n\n</translation>
+    </message>
+    <message>
+        <source>Cooperative close requires interactive ceremony coordination.\n\n</source>
+        <translation type="unfinished">การปิดแบบร่วมมือต้องการการประสานงานพิธีกรรมแบบโต้ตอบ\n\n</translation>
+    </message>
+    <message>
+        <source>Your delivery deadline has passed.\n\n</source>
+        <translation type="unfinished">กำหนดเวลาการส่งมอบของคุณได้ผ่านไปแล้ว\n\n</translation>
+    </message>
+    <message>
+        <source>Self-delivery executed successfully!\n\n</source>
+        <translation type="unfinished">ดำเนินการส่งมอบด้วยตนเองสำเร็จแล้ว!\n\n</translation>
+    </message>
+    <message>
+        <source>Deadline for claiming from escrow has passed.\n\n</source>
+        <translation type="unfinished">กำหนดเวลาในการเรียกร้องจาก escrow ได้ผ่านไปแล้ว\n\n</translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;&lt;b&gt;✓ Auto-detected&lt;/b&gt; escrow from contract state.&lt;br&gt;</source>
+        <translation type="unfinished">&lt;i&gt;&lt;b&gt;✓ ตรวจพบอัตโนมัติ&lt;/b&gt; escrow จากสถานะสัญญา&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;&lt;b&gt;⚠ Manual entry required:&lt;/b&gt; Escrow not auto-detected.&lt;br&gt;</source>
+        <translation type="unfinished">&lt;i&gt;&lt;b&gt;⚠ ต้องกรอกข้อมูลด้วยตนเอง:&lt;/b&gt; ไม่สามารถตรวจพบ escrow อัตโนมัติ&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Escrow outpoint must be in format: txid:vout\n\n</source>
+        <translation type="unfinished">Escrow outpoint ต้องอยู่ในรูปแบบ: txid:vout\n\n</translation>
+    </message>
+    <message>
+        <source>Escrow claim executed successfully!\n\n</source>
+        <translation type="unfinished">ดำเนินการเรียกร้อง escrow สำเร็จแล้ว!\n\n</translation>
+    </message>
+    <message>
+        <source>Too early to claim escrow refund.\n\n</source>
+        <translation type="unfinished">ยังเร็วเกินไปที่จะเรียกร้องการคืนเงิน escrow\n\n</translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;&lt;b&gt;✓ Auto-detected&lt;/b&gt; escrow from your self-delivery transaction.&lt;br&gt;</source>
+        <translation type="unfinished">&lt;i&gt;&lt;b&gt;✓ ตรวจพบอัตโนมัติ&lt;/b&gt; escrow จากธุรกรรมการส่งมอบด้วยตนเองของคุณ&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Escrow refund executed successfully!\n\n</source>
+        <translation type="unfinished">ดำเนินการคืนเงิน escrow สำเร็จแล้ว!\n\n</translation>
+    </message>
+    <message>
+        <source>Too early to claim IM penalty.\n\n</source>
+        <translation type="unfinished">ยังเร็วเกินไปที่จะเรียกร้องค่าปรับ IM\n\n</translation>
+    </message>
+    <message>
+        <source>IM penalty claimed successfully!\n\n</source>
+        <translation type="unfinished">เรียกร้องค่าปรับ IM สำเร็จแล้ว!\n\n</translation>
+    </message>
+</context>
+<context>
+    <name>AssetBalanceWidget</name>
+    <message>
+        <source>Asset Balances</source>
+        <translation type="unfinished">Asset Balances</translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation type="unfinished">Refresh</translation>
+    </message>
+    <message>
+        <source>Refresh asset balances</source>
+        <translation type="unfinished">Refresh asset balances</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation type="unfinished">Hide</translation>
+    </message>
+    <message>
+        <source>Hide or show asset balance details</source>
+        <translation type="unfinished">Hide or show asset balance details</translation>
+    </message>
+    <message>
+        <source>Ticker/ID</source>
+        <translation type="unfinished">Ticker/ID</translation>
+    </message>
+    <message>
+        <source>Balance</source>
+        <translation type="unfinished">Balance</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation type="unfinished">Pending</translation>
+    </message>
+    <message>
+        <source>Locked</source>
+        <translation type="unfinished">Locked</translation>
+    </message>
+    <message>
+        <source>UTXOs</source>
+        <translation type="unfinished">UTXOs</translation>
+    </message>
+    <message>
+        <source>No assets found in this wallet</source>
+        <translation type="unfinished">No assets found in this wallet</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation type="unfinished">Show</translation>
+    </message>
+    <message>
+        <source>Asset ID copied to clipboard</source>
+        <translation type="unfinished">Asset ID copied to clipboard</translation>
+    </message>
+</context>
+<context>
+    <name>AssetPriceTab</name>
+    <message>
+        <source>Refresh Assets</source>
+        <translation type="unfinished">Refresh Assets</translation>
+    </message>
+    <message>
+        <source>Reload asset list from wallet and registry</source>
+        <translation type="unfinished">Reload asset list from wallet and registry</translation>
+    </message>
+    <message>
+        <source>Source:</source>
+        <translation type="unfinished">Source:</translation>
+    </message>
+    <message>
+        <source>Manual</source>
+        <translation type="unfinished">Manual</translation>
+    </message>
+    <message>
+        <source>Nostr</source>
+        <translation type="unfinished">Nostr</translation>
+    </message>
+    <message>
+        <source>Oracle</source>
+        <translation type="unfinished">Oracle</translation>
+    </message>
+    <message>
+        <source>Select pricing data source</source>
+        <translation type="unfinished">Select pricing data source</translation>
+    </message>
+    <message>
+        <source>Marks (own view of the market)</source>
+        <translation type="unfinished">Marks (own view of the market)</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation type="unfinished">Commit</translation>
+    </message>
+    <message>
+        <source>Commit marks to pricing engine</source>
+        <translation type="unfinished">Commit marks to pricing engine</translation>
+    </message>
+    <message>
+        <source>Copy Market</source>
+        <translation type="unfinished">Copy Market</translation>
+    </message>
+    <message>
+        <source>Copy prices from Market table</source>
+        <translation type="unfinished">Copy prices from Market table</translation>
+    </message>
+    <message>
+        <source>FX Matrix</source>
+        <translation type="unfinished">FX Matrix</translation>
+    </message>
+    <message>
+        <source>View FX cross rates matrix (read-only, no arbitrage)</source>
+        <translation type="unfinished">View FX cross rates matrix (read-only, no arbitrage)</translation>
+    </message>
+    <message>
+        <source>Correlation</source>
+        <translation type="unfinished">Correlation</translation>
+    </message>
+    <message>
+        <source>Edit correlation matrix</source>
+        <translation type="unfinished">Edit correlation matrix</translation>
+    </message>
+    <message>
+        <source>Rate Curves</source>
+        <translation type="unfinished">Rate Curves</translation>
+    </message>
+    <message>
+        <source>Edit rate term structures</source>
+        <translation type="unfinished">Edit rate term structures</translation>
+    </message>
+    <message>
+        <source>Asset</source>
+        <translation type="unfinished">Asset</translation>
+    </message>
+    <message>
+        <source>FX</source>
+        <translation type="unfinished">FX</translation>
+    </message>
+    <message>
+        <source>Rate %</source>
+        <translation type="unfinished">Rate %</translation>
+    </message>
+    <message>
+        <source>Vol %</source>
+        <translation type="unfinished">Vol %</translation>
+    </message>
+    <message>
+        <source>Market (market view of pricing)</source>
+        <translation type="unfinished">Market (market view of pricing)</translation>
+    </message>
+    <message>
+        <source>Calibrate</source>
+        <translation type="unfinished">Calibrate</translation>
+    </message>
+    <message>
+        <source>Calibrate prices from market data</source>
+        <translation type="unfinished">Calibrate prices from market data</translation>
+    </message>
+    <message>
+        <source>Data Feed</source>
+        <translation type="unfinished">Data Feed</translation>
+    </message>
+    <message>
+        <source>Select data feed source</source>
+        <translation type="unfinished">Select data feed source</translation>
+    </message>
+    <message>
+        <source>External API</source>
+        <translation type="unfinished">External API</translation>
+    </message>
+    <message>
+        <source>Native TSC</source>
+        <translation type="unfinished">Native TSC</translation>
+    </message>
+    <message>
+        <source>Invalid Input</source>
+        <translation type="unfinished">Invalid Input</translation>
+    </message>
+    <message>
+        <source>Please enter a valid non-negative number.</source>
+        <translation type="unfinished">Please enter a valid non-negative number.</translation>
+    </message>
+    <message>
+        <source>No Assets</source>
+        <translation type="unfinished">No Assets</translation>
+    </message>
+    <message>
+        <source>No assets to copy. Please refresh the asset list.</source>
+        <translation type="unfinished">No assets to copy. Please refresh the asset list.</translation>
+    </message>
+    <message>
+        <source>Success</source>
+        <translation type="unfinished">Success</translation>
+    </message>
+    <message>
+        <source>All mark prices have been copied from market prices.</source>
+        <translation type="unfinished">All mark prices have been copied from market prices.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Wallet model not available.</source>
+        <translation type="unfinished">Wallet model not available.</translation>
+    </message>
+    <message>
+        <source>No assets to commit. Please refresh the asset list.</source>
+        <translation type="unfinished">No assets to commit. Please refresh the asset list.</translation>
+    </message>
+    <message>
+        <source>Committed %1 asset marks to pricing engine.</source>
+        <translation type="unfinished">Committed %1 asset marks to pricing engine.</translation>
+    </message>
+    <message>
+        <source>\n%1 assets failed to commit (see log).</source>
+        <translation type="unfinished">\n%1 assets failed to commit (see log).</translation>
+    </message>
+    <message>
+        <source>Commit Complete</source>
+        <translation type="unfinished">Commit Complete</translation>
+    </message>
+    <message>
+        <source>Coming Soon</source>
+        <translation type="unfinished">Coming Soon</translation>
+    </message>
+    <message>
+        <source>FX Cross Rates Matrix (Marks)</source>
+        <translation type="unfinished">FX Cross Rates Matrix (Marks)</translation>
+    </message>
+    <message>
+        <source>FX Cross Rates Matrix (Market)</source>
+        <translation type="unfinished">FX Cross Rates Matrix (Market)</translation>
+    </message>
+    <message>
+        <source>Correlation Matrix (Marks)</source>
+        <translation type="unfinished">Correlation Matrix (Marks)</translation>
+    </message>
+    <message>
+        <source>Correlation Matrix (Market)</source>
+        <translation type="unfinished">Correlation Matrix (Market)</translation>
+    </message>
+    <message>
+        <source>Wallet model not available</source>
+        <translation type="unfinished">Wallet model not available</translation>
+    </message>
+    <message>
+        <source>Correlation matrix saved to pricing engine.</source>
+        <translation type="unfinished">Correlation matrix saved to pricing engine.</translation>
+    </message>
+    <message>
+        <source>Failed to save correlation matrix. Check debug.log for details.</source>
+        <translation type="unfinished">Failed to save correlation matrix. Check debug.log for details.</translation>
+    </message>
+    <message>
+        <source>Exception while saving correlation matrix: %1</source>
+        <translation type="unfinished">Exception while saving correlation matrix: %1</translation>
+    </message>
+    <message>
+        <source>Unknown exception while saving correlation matrix.</source>
+        <translation type="unfinished">Unknown exception while saving correlation matrix.</translation>
+    </message>
+    <message>
+        <source>Rate Term Structures (Marks)</source>
+        <translation type="unfinished">Rate Term Structures (Marks)</translation>
+    </message>
+    <message>
+        <source>Rate Term Structures (Market)</source>
+        <translation type="unfinished">Rate Term Structures (Market)</translation>
+    </message>
+    <message>
+        <source>All %1 rate term structures saved to pricing engine.</source>
+        <translation type="unfinished">All %1 rate term structures saved to pricing engine.</translation>
+    </message>
+    <message>
+        <source>Partial Success</source>
+        <translation type="unfinished">Partial Success</translation>
+    </message>
+    <message>
+        <source>%1 curves saved, %2 failed. Check debug.log for details.</source>
+        <translation type="unfinished">%1 curves saved, %2 failed. Check debug.log for details.</translation>
+    </message>
+    <message>
+        <source>Exception while saving rate curves: %1</source>
+        <translation type="unfinished">Exception while saving rate curves: %1</translation>
+    </message>
+    <message>
+        <source>Unknown exception while saving rate curves.</source>
+        <translation type="unfinished">Unknown exception while saving rate curves.</translation>
+    </message>
+    <message>
+        <source>TSC (Native): FX=1.0 (locked), Vol=0.0 (locked), Rate editable. </source>
+        <translation type="unfinished">TSC (Native): FX=1.0 (ล็อก), Vol=0.0 (ล็อก), อัตราสามารถแก้ไขได้ </translation>
+    </message>
+    <message>
+        <source>Market calibration will be available in a future update. </source>
+        <translation type="unfinished">การปรับเทียบตลาดจะมีในการอัปเดตในอนาคต </translation>
+    </message>
+    <message>
+        <source>Data feed selection will be available in a future update. </source>
+        <translation type="unfinished">การเลือกแหล่งข้อมูลจะมีในการอัปเดตในอนาคต </translation>
+    </message>
+    <message>
+        <source>This matrix shows implied FX cross rates between all asset pairs. </source>
+        <translation type="unfinished">เมทริกซ์นี้แสดงอัตรา FX ข้ามโดยนัยระหว่างคู่สินทรัพย์ทั้งหมด </translation>
+    </message>
+    <message>
+        <source>Edit correlations between asset pairs. Values must be between -1.0 and 1.0. </source>
+        <translation type="unfinished">แก้ไขความสัมพันธ์ระหว่างคู่สินทรัพย์ ค่าต้องอยู่ระหว่าง -1.0 ถึง 1.0 </translation>
+    </message>
+    <message>
+        <source>Edit interest rate term structures for each asset. </source>
+        <translation type="unfinished">แก้ไขโครงสร้างเทอมอัตราดอกเบี้ยสำหรับแต่ละสินทรัพย์ </translation>
+    </message>
+</context>
+<context>
+    <name>BridgeSessionsTab</name>
+    <message>
+        <source>Bridge:</source>
+        <translation type="unfinished">Bridge:</translation>
+    </message>
+    <message>
+        <source>● Disconnected</source>
+        <translation type="unfinished">● Disconnected</translation>
+    </message>
+    <message>
+        <source>Version: Unknown</source>
+        <translation type="unfinished">Version: Unknown</translation>
+    </message>
+    <message>
+        <source>Uptime: Unknown</source>
+        <translation type="unfinished">Uptime: Unknown</translation>
+    </message>
+    <message>
+        <source>Start New Session</source>
+        <translation type="unfinished">Start New Session</translation>
+    </message>
+    <message>
+        <source>Create a new cosign session as initiator</source>
+        <translation type="unfinished">Create a new cosign session as initiator</translation>
+    </message>
+    <message>
+        <source>Join Session</source>
+        <translation type="unfinished">Join Session</translation>
+    </message>
+    <message>
+        <source>Join an existing cosign session via invite link</source>
+        <translation type="unfinished">Join an existing cosign session via invite link</translation>
+    </message>
+    <message>
+        <source>Active Sessions</source>
+        <translation type="unfinished">Active Sessions</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation type="unfinished">Session ID</translation>
+    </message>
+    <message>
+        <source>SAS (Short Auth String)</source>
+        <translation type="unfinished">SAS (Short Auth String)</translation>
+    </message>
+    <message>
+        <source>Contract</source>
+        <translation type="unfinished">Contract</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation type="unfinished">Transport</translation>
+    </message>
+    <message>
+        <source>Relay URL</source>
+        <translation type="unfinished">Relay URL</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation type="unfinished">Started</translation>
+    </message>
+    <message>
+        <source>Handshake</source>
+        <translation type="unfinished">Handshake</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation type="unfinished">Actions</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Wallet model not available</source>
+        <translation type="unfinished">Wallet model not available</translation>
+    </message>
+    <message>
+        <source>Session manager not available</source>
+        <translation type="unfinished">Session manager not available</translation>
+    </message>
+    <message>
+        <source>Session Created</source>
+        <translation type="unfinished">Session Created</translation>
+    </message>
+    <message>
+        <source>Session created successfully!\n\nSession ID: %1\n\nYou can now share the invite link with your peer.</source>
+        <translation type="unfinished">Session created successfully!\n\nSession ID: %1\n\nYou can now share the invite link with your peer.</translation>
+    </message>
+    <message>
+        <source>Session Joined</source>
+        <translation type="unfinished">Session Joined</translation>
+    </message>
+    <message>
+        <source>Session joined successfully!\n\nSession ID: %1\n\nVerify the SAS matches with your peer.</source>
+        <translation type="unfinished">Session joined successfully!\n\nSession ID: %1\n\nVerify the SAS matches with your peer.</translation>
+    </message>
+    <message>
+        <source>Close Session</source>
+        <translation type="unfinished">Close Session</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to close this session?\n\nSession ID: %1</source>
+        <translation type="unfinished">Are you sure you want to close this session?\n\nSession ID: %1</translation>
+    </message>
+    <message>
+        <source>Session Closed</source>
+        <translation type="unfinished">Session Closed</translation>
+    </message>
+    <message>
+        <source>Session closed successfully.</source>
+        <translation type="unfinished">Session closed successfully.</translation>
+    </message>
+    <message>
+        <source>Failed to close session. It may have already been closed.</source>
+        <translation type="unfinished">Failed to close session. It may have already been closed.</translation>
+    </message>
+    <message>
+        <source>Session not found</source>
+        <translation type="unfinished">Session not found</translation>
+    </message>
+    <message>
+        <source>Handshake Failed</source>
+        <translation type="unfinished">Handshake Failed</translation>
+    </message>
+    <message>
+        <source>Failed to complete handshake:\n%1</source>
+        <translation type="unfinished">Failed to complete handshake:\n%1</translation>
+    </message>
+    <message>
+        <source>● Not Available</source>
+        <translation type="unfinished">● Not Available</translation>
+    </message>
+    <message>
+        <source>● Connected</source>
+        <translation type="unfinished">● Connected</translation>
+    </message>
+    <message>
+        <source>Version: %1</source>
+        <translation type="unfinished">Version: %1</translation>
+    </message>
+    <message>
+        <source>Uptime: %1h %2m %3s</source>
+        <translation type="unfinished">Uptime: %1h %2m %3s</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation type="unfinished">Error: %1</translation>
+    </message>
+    <message>
+        <source>Numeric: %1</source>
+        <translation type="unfinished">Numeric: %1</translation>
+    </message>
+    <message>
+        <source>Governance Vote\nProposal: %1\nAsset: %2</source>
+        <translation type="unfinished">Governance Vote\nProposal: %1\nAsset: %2</translation>
+    </message>
+    <message>
+        <source>Governance</source>
+        <translation type="unfinished">Governance</translation>
+    </message>
+    <message>
+        <source>Contract ID: %1\nType: %2</source>
+        <translation type="unfinished">Contract ID: %1\nType: %2</translation>
+    </message>
+    <message>
+        <source>auto</source>
+        <translation type="unfinished">auto</translation>
+    </message>
+    <message>
+        <source>Complete</source>
+        <translation type="unfinished">Complete</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation type="unfinished">Pending</translation>
+    </message>
+    <message>
+        <source>STEP 2: Handshake</source>
+        <translation type="unfinished">STEP 2: Handshake</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished">Close</translation>
+    </message>
+    <message>
+        <source>%1s ago</source>
+        <translation type="unfinished">%1s ago</translation>
+    </message>
+    <message>
+        <source>%1m ago</source>
+        <translation type="unfinished">%1m ago</translation>
+    </message>
+    <message>
+        <source>%1h ago</source>
+        <translation type="unfinished">%1h ago</translation>
+    </message>
+    <message>
+        <source>GOV: %1</source>
+        <translation type="unfinished">GOV: %1</translation>
+    </message>
+    <message>
+        <source>%1 (%2)</source>
+        <translation type="unfinished">%1 (%2)</translation>
+    </message>
+    <message>
+        <source>-</source>
+        <translation type="unfinished">-</translation>
+    </message>
+    <message>
+        <source>Ballot Published</source>
+        <translation type="unfinished">เผยแพร่บัตรลงคะแนนแล้ว</translation>
+    </message>
+    <message>
+        <source>Vote Failed</source>
+        <translation type="unfinished">การลงคะแนนล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Voting</source>
+        <translation type="unfinished">กำลังลงคะแนน</translation>
+    </message>
+</context>
+<context>
+    <name>CommitmentProofDialog</name>
+    <message>
+        <source>Add Commitment Proof</source>
+        <translation type="unfinished">Add Commitment Proof</translation>
+    </message>
+    <message>
+        <source>✓ No commitments required (no ICU assets received)</source>
+        <translation type="unfinished">✓ No commitments required (no ICU assets received)</translation>
+    </message>
+    <message>
+        <source>✓ This swap does not require commitment proofs\n\n</source>
+        <translation type="unfinished">✓ This swap does not require commitment proofs\n\n</translation>
+    </message>
+    <message>
+        <source>You are not receiving any ICU holder-only assets that require decryption verification.\n</source>
+        <translation type="unfinished">You are not receiving any ICU holder-only assets that require decryption verification.\n</translation>
+    </message>
+    <message>
+        <source>You can proceed directly to signing.</source>
+        <translation type="unfinished">You can proceed directly to signing.</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Pre-Signing Decryption Commitment&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3&gt;Pre-Signing Decryption Commitment&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>Ready to add commitment proof</source>
+        <translation type="unfinished">Ready to add commitment proof</translation>
+    </message>
+    <message>
+        <source>Commitment details will appear here after adding proof...</source>
+        <translation type="unfinished">Commitment details will appear here after adding proof...</translation>
+    </message>
+    <message>
+        <source>Add My Commitment Proof</source>
+        <translation type="unfinished">Add My Commitment Proof</translation>
+    </message>
+    <message>
+        <source>Decrypt counterparty's asset and add commitment OP_RETURN</source>
+        <translation type="unfinished">Decrypt counterparty's asset and add commitment OP_RETURN</translation>
+    </message>
+    <message>
+        <source>Verify Counterparty Commitment</source>
+        <translation type="unfinished">Verify Counterparty Commitment</translation>
+    </message>
+    <message>
+        <source>Verify that counterparty has added their commitment proof</source>
+        <translation type="unfinished">Verify that counterparty has added their commitment proof</translation>
+    </message>
+    <message>
+        <source>Continue to Signing</source>
+        <translation type="unfinished">Continue to Signing</translation>
+    </message>
+    <message>
+        <source>Error: Wallet model not available</source>
+        <translation type="unfinished">Error: Wallet model not available</translation>
+    </message>
+    <message>
+        <source>Adding commitment proof...</source>
+        <translation type="unfinished">Adding commitment proof...</translation>
+    </message>
+    <message>
+        <source>✓ No commitment required from your side\n\n</source>
+        <translation type="unfinished">✓ No commitment required from your side\n\n</translation>
+    </message>
+    <message>
+        <source>You are receiving a native asset (BTC/TSC) which doesn't require decryption verification.\n</source>
+        <translation type="unfinished">You are receiving a native asset (BTC/TSC) which doesn't require decryption verification.\n</translation>
+    </message>
+    <message>
+        <source>Waiting for counterparty to add their commitment proof...\n</source>
+        <translation type="unfinished">Waiting for counterparty to add their commitment proof...\n</translation>
+    </message>
+    <message>
+        <source>Checking for counterparty's commitment...</source>
+        <translation type="unfinished">Checking for counterparty's commitment...</translation>
+    </message>
+    <message>
+        <source>Failed: %1</source>
+        <translation type="unfinished">Failed: %1</translation>
+    </message>
+    <message>
+        <source>✗ Unable to add commitment proof.\n\n</source>
+        <translation type="unfinished">✗ Unable to add commitment proof.\n\n</translation>
+    </message>
+    <message>
+        <source>Wallet error:\n%1\n</source>
+        <translation type="unfinished">Wallet error:\n%1\n</translation>
+    </message>
+    <message>
+        <source>✓ Commitment proof added successfully\n\n</source>
+        <translation type="unfinished">✓ Commitment proof added successfully\n\n</translation>
+    </message>
+    <message>
+        <source>Commitment hash: %1\n\n</source>
+        <translation type="unfinished">Commitment hash: %1\n\n</translation>
+    </message>
+    <message>
+        <source>Details: %1\n</source>
+        <translation type="unfinished">Details: %1\n</translation>
+    </message>
+    <message>
+        <source>Decrypted ICU text (preview):\n%1\n</source>
+        <translation type="unfinished">Decrypted ICU text (preview):\n%1\n</translation>
+    </message>
+    <message>
+        <source>✓ Commitment added. Checking if ready...</source>
+        <translation type="unfinished">✓ Commitment added. Checking if ready...</translation>
+    </message>
+    <message>
+        <source>Exception: %1</source>
+        <translation type="unfinished">Exception: %1</translation>
+    </message>
+    <message>
+        <source>Verifying commitments...</source>
+        <translation type="unfinished">Verifying commitments...</translation>
+    </message>
+    <message>
+        <source>Failed to decode PSBT</source>
+        <translation type="unfinished">Failed to decode PSBT</translation>
+    </message>
+    <message>
+        <source>\n--- Verification Results ---\n</source>
+        <translation type="unfinished">\n--- Verification Results ---\n</translation>
+    </message>
+    <message>
+        <source>OP_RETURN outputs found: %1\n</source>
+        <translation type="unfinished">OP_RETURN outputs found: %1\n</translation>
+    </message>
+    <message>
+        <source>Expected commitments: %1\n</source>
+        <translation type="unfinished">Expected commitments: %1\n</translation>
+    </message>
+    <message>
+        <source>✓ All required commitment proofs present\n\n</source>
+        <translation type="unfinished">✓ All required commitment proofs present\n\n</translation>
+    </message>
+    <message>
+        <source>Commitments:\n</source>
+        <translation type="unfinished">Commitments:\n</translation>
+    </message>
+    <message>
+        <source>\n✓ Ready to sign transaction</source>
+        <translation type="unfinished">\n✓ Ready to sign transaction</translation>
+    </message>
+    <message>
+        <source>✓ All commitments verified. Ready to sign.</source>
+        <translation type="unfinished">✓ All commitments verified. Ready to sign.</translation>
+    </message>
+    <message>
+        <source>⚠ Only %1 of %2 required commitments found\n</source>
+        <translation type="unfinished">⚠ Only %1 of %2 required commitments found\n</translation>
+    </message>
+    <message>
+        <source>Waiting for counterparty to add their commitment proof...</source>
+        <translation type="unfinished">Waiting for counterparty to add their commitment proof...</translation>
+    </message>
+    <message>
+        <source>Waiting for counterparty's commitment</source>
+        <translation type="unfinished">Waiting for counterparty's commitment</translation>
+    </message>
+    <message>
+        <source>⚠ No commitments required for this swap (no ICU_KEYWRAP assets)\n</source>
+        <translation type="unfinished">⚠ No commitments required for this swap (no ICU_KEYWRAP assets)\n</translation>
+    </message>
+    <message>
+        <source>You can proceed to signing.</source>
+        <translation type="unfinished">You can proceed to signing.</translation>
+    </message>
+    <message>
+        <source>No commitments required</source>
+        <translation type="unfinished">No commitments required</translation>
+    </message>
+    <message>
+        <source>✗ No commitment proofs found</source>
+        <translation type="unfinished">✗ No commitment proofs found</translation>
+    </message>
+    <message>
+        <source>Error: No commitments found in PSBT</source>
+        <translation type="unfinished">Error: No commitments found in PSBT</translation>
+    </message>
+    <message>
+        <source>This atomic swap requires cryptographic proof that you can decrypt the received asset </source>
+        <translation type="unfinished">การแลกเปลี่ยนอะตอมนี้ต้องการหลักฐานทางการเข้ารหัสที่แสดงว่าคุณสามารถถอดรหัสสินทรัพย์ที่ได้รับ </translation>
+    </message>
+    <message>
+        <source>You are receiving a native asset (TSC) which doesn't require decryption verification.\n</source>
+        <translation type="unfinished">คุณกำลังรับสินทรัพย์ native (TSC) ซึ่งไม่ต้องการการยืนยันการถอดรหัส\n</translation>
+    </message>
+    <message>
+        <source>  %1. %2...\n</source>
+        <translation type="unfinished">  %1. %2...\n</translation>
+    </message>
+</context>
+<context>
+    <name>ContractDetailDialog</name>
+    <message>
+        <source>Contract Details</source>
+        <translation type="unfinished">Contract Details</translation>
+    </message>
+    <message>
+        <source>Contract Overview</source>
+        <translation type="unfinished">Contract Overview</translation>
+    </message>
+    <message>
+        <source>Pricing Breakdown</source>
+        <translation type="unfinished">Pricing Breakdown</translation>
+    </message>
+    <message>
+        <source>Metric</source>
+        <translation type="unfinished">Metric</translation>
+    </message>
+    <message>
+        <source>Marks</source>
+        <translation type="unfinished">Marks</translation>
+    </message>
+    <message>
+        <source>Market</source>
+        <translation type="unfinished">Market</translation>
+    </message>
+    <message>
+        <source>Show Raw JSON</source>
+        <translation type="unfinished">Show Raw JSON</translation>
+    </message>
+    <message>
+        <source>View the raw JSON representation of this contract</source>
+        <translation type="unfinished">View the raw JSON representation of this contract</translation>
+    </message>
+    <message>
+        <source>Show Script Preview</source>
+        <translation type="unfinished">Show Script Preview</translation>
+    </message>
+    <message>
+        <source>Preview the Bitcoin script for this contract (if available)</source>
+        <translation type="unfinished">Preview the Bitcoin script for this contract (if available)</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished">Close</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Contract ID:&lt;/b&gt; %1&lt;br&gt;&lt;b&gt;Type:&lt;/b&gt; %2</source>
+        <translation type="unfinished">&lt;b&gt;Contract ID:&lt;/b&gt; %1&lt;br&gt;&lt;b&gt;Type:&lt;/b&gt; %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Status:&lt;/b&gt; %1</source>
+        <translation type="unfinished">&lt;b&gt;Status:&lt;/b&gt; %1</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Role:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Role:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Collateral:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Collateral:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Principal:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Principal:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Interest:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Interest:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Total Repayment:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Total Repayment:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Principal Repayment:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Principal Repayment:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Interest Payment:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Interest Payment:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Maturity Height:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Maturity Height:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;%1:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%2&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;%1:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%2&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Opening Transaction:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Opening Transaction:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Closing Transaction:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Closing Transaction:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Borrower:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Borrower:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Lender:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Lender:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>Principal + Interest PV</source>
+        <translation type="unfinished">Principal + Interest PV</translation>
+    </message>
+    <message>
+        <source>Collateral PV</source>
+        <translation type="unfinished">Collateral PV</translation>
+    </message>
+    <message>
+        <source>Collateral Option Value</source>
+        <translation type="unfinished">Collateral Option Value</translation>
+    </message>
+    <message>
+        <source>Coverage Ratio</source>
+        <translation type="unfinished">Coverage Ratio</translation>
+    </message>
+    <message>
+        <source>Your MTM (Lender)</source>
+        <translation type="unfinished">Your MTM (Lender)</translation>
+    </message>
+    <message>
+        <source>Your MTM (Borrower)</source>
+        <translation type="unfinished">Your MTM (Borrower)</translation>
+    </message>
+    <message>
+        <source>Counterparty MTM (Borrower)</source>
+        <translation type="unfinished">Counterparty MTM (Borrower)</translation>
+    </message>
+    <message>
+        <source>Counterparty MTM (Lender)</source>
+        <translation type="unfinished">Counterparty MTM (Lender)</translation>
+    </message>
+    <message>
+        <source>Your Delivery PV (Long)</source>
+        <translation type="unfinished">Your Delivery PV (Long)</translation>
+    </message>
+    <message>
+        <source>Your Delivery PV (Short)</source>
+        <translation type="unfinished">Your Delivery PV (Short)</translation>
+    </message>
+    <message>
+        <source>Counterparty Delivery PV (Short)</source>
+        <translation type="unfinished">Counterparty Delivery PV (Short)</translation>
+    </message>
+    <message>
+        <source>Counterparty Delivery PV (Long)</source>
+        <translation type="unfinished">Counterparty Delivery PV (Long)</translation>
+    </message>
+    <message>
+        <source>Net Spread Value</source>
+        <translation type="unfinished">Net Spread Value</translation>
+    </message>
+    <message>
+        <source>Premium PV</source>
+        <translation type="unfinished">Premium PV</translation>
+    </message>
+    <message>
+        <source>Long Short Call Value</source>
+        <translation type="unfinished">Long Short Call Value</translation>
+    </message>
+    <message>
+        <source>Long Long Put Value</source>
+        <translation type="unfinished">Long Long Put Value</translation>
+    </message>
+    <message>
+        <source>Your MTM (Long)</source>
+        <translation type="unfinished">Your MTM (Long)</translation>
+    </message>
+    <message>
+        <source>Your MTM (Short)</source>
+        <translation type="unfinished">Your MTM (Short)</translation>
+    </message>
+    <message>
+        <source>Counterparty MTM (Short)</source>
+        <translation type="unfinished">Counterparty MTM (Short)</translation>
+    </message>
+    <message>
+        <source>Counterparty MTM (Long)</source>
+        <translation type="unfinished">Counterparty MTM (Long)</translation>
+    </message>
+    <message>
+        <source>Your IM Coverage (Long)</source>
+        <translation type="unfinished">Your IM Coverage (Long)</translation>
+    </message>
+    <message>
+        <source>Your IM Coverage (Short)</source>
+        <translation type="unfinished">Your IM Coverage (Short)</translation>
+    </message>
+    <message>
+        <source>Counterparty IM Coverage (Short)</source>
+        <translation type="unfinished">Counterparty IM Coverage (Short)</translation>
+    </message>
+    <message>
+        <source>Counterparty IM Coverage (Long)</source>
+        <translation type="unfinished">Counterparty IM Coverage (Long)</translation>
+    </message>
+    <message>
+        <source>Contract Raw JSON</source>
+        <translation type="unfinished">Contract Raw JSON</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Raw JSON Representation:&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Raw JSON Representation:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Copy to Clipboard</source>
+        <translation type="unfinished">Copy to Clipboard</translation>
+    </message>
+    <message>
+        <source>Script Preview</source>
+        <translation type="unfinished">Script Preview</translation>
+    </message>
+    <message>
+        <source>Bitcoin Script Preview</source>
+        <translation type="unfinished">Bitcoin Script Preview</translation>
+    </message>
+    <message>
+        <source>&lt;br&gt;&lt;br&gt;&lt;b&gt;Tip:&lt;/b&gt; Use the Repay/Claim action to generate a spend preview; the script will be shown here once available.</source>
+        <translation type="unfinished">&lt;br&gt;&lt;br&gt;&lt;b&gt;Tip:&lt;/b&gt; Use the Repay/Claim action to generate a spend preview; the script will be shown here once available.</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Decoded Script:&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Decoded Script:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Script Hex:&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Script Hex:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Script (Hex):&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Bitcoin Script (Hex):&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Contract Terms&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3&gt;เงื่อนไขสัญญา&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td colspan='2' style='background-color:#fff3cd; padding:8px; border-radius:4px;'&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td colspan='2' style='background-color:#fff3cd; padding:8px; border-radius:4px;'&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Transaction History&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3&gt;ประวัติธุรกรรม&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Addresses&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3&gt;ที่อยู่&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Script Type:&lt;/b&gt; Taproot v1 (P2TR)&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;ประเภทสคริปต์:&lt;/b&gt; Taproot v1 (P2TR)&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Script preview not available for this contract type.&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">ไม่สามารถแสดงตัวอย่างสคริปต์สำหรับประเภทสัญญานี้&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>ContractRegistryModel</name>
+    <message>
+        <source>Collateral: Assets locked by borrower</source>
+        <translation type="unfinished">Collateral: Assets locked by borrower</translation>
+    </message>
+    <message>
+        <source>Delivery legs: Long delivers first asset, Short delivers second asset</source>
+        <translation type="unfinished">Delivery legs: Long delivers first asset, Short delivers second asset</translation>
+    </message>
+    <message>
+        <source>Atomic swap: Alice delivers first asset, Bob delivers second asset</source>
+        <translation type="unfinished">Atomic swap: Alice delivers first asset, Bob delivers second asset</translation>
+    </message>
+    <message>
+        <source>Principal: Loan amount</source>
+        <translation type="unfinished">Principal: Loan amount</translation>
+    </message>
+    <message>
+        <source>Initial Margins: L = Long party margin, S = Short party margin</source>
+        <translation type="unfinished">Initial Margins: L = Long party margin, S = Short party margin</translation>
+    </message>
+    <message>
+        <source>Exchange rate: Bob's delivery / Alice's delivery</source>
+        <translation type="unfinished">Exchange rate: Bob's delivery / Alice's delivery</translation>
+    </message>
+    <message>
+        <source>Loan-to-Value ratio (Principal/Collateral)</source>
+        <translation type="unfinished">Loan-to-Value ratio (Principal/Collateral)</translation>
+    </message>
+    <message>
+        <source>Initial Margin percentages: L = Long IM%, S = Short IM%</source>
+        <translation type="unfinished">Initial Margin percentages: L = Long IM%, S = Short IM%</translation>
+    </message>
+    <message>
+        <source>Option premium paid by one party to the other</source>
+        <translation type="unfinished">Option premium paid by one party to the other</translation>
+    </message>
+    <message>
+        <source>Contract maturity date/blocks</source>
+        <translation type="unfinished">Contract maturity date/blocks</translation>
+    </message>
+    <message>
+        <source>Exercise/Settlement deadlines</source>
+        <translation type="unfinished">Exercise/Settlement deadlines</translation>
+    </message>
+    <message>
+        <source>Contract ID</source>
+        <translation type="unfinished">Contract ID</translation>
+    </message>
+    <message>
+        <source>MTM (Marks)</source>
+        <translation type="unfinished">MTM (Marks)</translation>
+    </message>
+    <message>
+        <source>MTM (Market)</source>
+        <translation type="unfinished">MTM (Market)</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">Type</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation type="unfinished">Role</translation>
+    </message>
+    <message>
+        <source>Primary Value</source>
+        <translation type="unfinished">Primary Value</translation>
+    </message>
+    <message>
+        <source>Secondary Value</source>
+        <translation type="unfinished">Secondary Value</translation>
+    </message>
+    <message>
+        <source>Key Metric</source>
+        <translation type="unfinished">Key Metric</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation type="unfinished">Status</translation>
+    </message>
+    <message>
+        <source>Timeline</source>
+        <translation type="unfinished">Timeline</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation type="unfinished">Actions</translation>
+    </message>
+    <message>
+        <source>Mark-to-market using internal pricing curves</source>
+        <translation type="unfinished">Mark-to-market using internal pricing curves</translation>
+    </message>
+    <message>
+        <source>Mark-to-market using market-calibrated curves</source>
+        <translation type="unfinished">Mark-to-market using market-calibrated curves</translation>
+    </message>
+    <message>
+        <source>Repo: Collateral | Forward/Option: Delivery legs | Spot: Trade amount</source>
+        <translation type="unfinished">Repo: Collateral | Forward/Option: Delivery legs | Spot: Trade amount</translation>
+    </message>
+    <message>
+        <source>Repo: Principal | Forward/Option: Margins | Spot: Price</source>
+        <translation type="unfinished">Repo: Principal | Forward/Option: Margins | Spot: Price</translation>
+    </message>
+    <message>
+        <source>Repo: LTV% | Forward: IM% | Option: Premium | Spot: -</source>
+        <translation type="unfinished">Repo: LTV% | Forward: IM% | Option: Premium | Spot: -</translation>
+    </message>
+    <message>
+        <source>Repo: Maturity | Forward/Option: Deadlines | Spot: -</source>
+        <translation type="unfinished">Repo: Maturity | Forward/Option: Deadlines | Spot: -</translation>
+    </message>
+    <message>
+        <source>Matured</source>
+        <translation type="unfinished">Matured</translation>
+    </message>
+    <message>
+        <source>%1 days (%2 blocks)</source>
+        <translation type="unfinished">%1 days (%2 blocks)</translation>
+    </message>
+    <message>
+        <source>%1 hours (%2 blocks)</source>
+        <translation type="unfinished">%1 hours (%2 blocks)</translation>
+    </message>
+    <message>
+        <source>%1 blocks</source>
+        <translation type="unfinished">%1 blocks</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation type="unfinished">N/A</translation>
+    </message>
+    <message>
+        <source>Rate: %1</source>
+        <translation type="unfinished">อัตรา: %1</translation>
+    </message>
+    <message>
+        <source>LTV %1%</source>
+        <translation type="unfinished">LTV %1%</translation>
+    </message>
+    <message>
+        <source>L: %1% | S: %2%</source>
+        <translation type="unfinished">L: %1% | S: %2%</translation>
+    </message>
+    <message>
+        <source>Premium: %1 %2</source>
+        <translation type="unfinished">เบี้ยประกัน: %1 %2</translation>
+    </message>
+    <message>
+        <source>No premium</source>
+        <translation type="unfinished">ไม่มีเบี้ยประกัน</translation>
+    </message>
+    <message>
+        <source>-</source>
+        <translation type="unfinished">-</translation>
+    </message>
+    <message>
+        <source>Long: %1</source>
+        <translation type="unfinished">Long: %1</translation>
+    </message>
+    <message>
+        <source>Block %1</source>
+        <translation type="unfinished">บล็อก %1</translation>
+    </message>
+    <message>
+        <source>--</source>
+        <translation type="unfinished">--</translation>
+    </message>
+    <message>
+        <source>+%1 TSC</source>
+        <translation type="unfinished">+%1 TSC</translation>
+    </message>
+    <message>
+        <source>%1 TSC</source>
+        <translation type="unfinished">%1 TSC</translation>
+    </message>
+    <message>
+        <source>0.00000000 TSC</source>
+        <translation type="unfinished">0.00000000 TSC</translation>
+    </message>
+</context>
+<context>
+    <name>ContractWizard</name>
+    <message>
+        <source>Contract Creation Wizard</source>
+        <translation type="unfinished">Contract Creation Wizard</translation>
+    </message>
+    <message>
+        <source>Session Transport</source>
+        <translation type="unfinished">Session Transport</translation>
+    </message>
+    <message>
+        <source>Choose how to establish secure bilateral sessions for this offer.</source>
+        <translation type="unfinished">Choose how to establish secure bilateral sessions for this offer.</translation>
+    </message>
+    <message>
+        <source>Transport Protocol</source>
+        <translation type="unfinished">Transport Protocol</translation>
+    </message>
+    <message>
+        <source>Auto (Recommended)</source>
+        <translation type="unfinished">Auto (Recommended)</translation>
+    </message>
+    <message>
+        <source>WebSocket Relay</source>
+        <translation type="unfinished">WebSocket Relay</translation>
+    </message>
+    <message>
+        <source>Tor Hidden Service</source>
+        <translation type="unfinished">Tor Hidden Service</translation>
+    </message>
+    <message>
+        <source>Protocol:</source>
+        <translation type="unfinished">Protocol:</translation>
+    </message>
+    <message>
+        <source>Tor Not Ready</source>
+        <translation type="unfinished">Tor Not Ready</translation>
+    </message>
+    <message>
+        <source>● Tor: Not Started</source>
+        <translation type="unfinished">● Tor: Not Started</translation>
+    </message>
+    <message>
+        <source>● Tor: Starting... (this may take 10-30 seconds)</source>
+        <translation type="unfinished">● Tor: Starting... (this may take 10-30 seconds)</translation>
+    </message>
+    <message>
+        <source>● Tor: Ready (SOCKS: %1)</source>
+        <translation type="unfinished">● Tor: Ready (SOCKS: %1)</translation>
+    </message>
+    <message>
+        <source>● Tor: Failed (%1)</source>
+        <translation type="unfinished">● Tor: Failed (%1)</translation>
+    </message>
+    <message>
+        <source>● Tor: Stopped</source>
+        <translation type="unfinished">● Tor: Stopped</translation>
+    </message>
+    <message>
+        <source>Review &amp;&amp; Create Offer</source>
+        <translation type="unfinished">Review &amp;&amp; Create Offer</translation>
+    </message>
+    <message>
+        <source>Review the contract terms below and click 'Finish' to create the offer.</source>
+        <translation type="unfinished">Review the contract terms below and click 'Finish' to create the offer.</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Contract Summary:&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Contract Summary:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Creating offer...</source>
+        <translation type="unfinished">Creating offer...</translation>
+    </message>
+    <message>
+        <source>Failed to create offer. Check error details above.</source>
+        <translation type="unfinished">Failed to create offer. Check error details above.</translation>
+    </message>
+    <message>
+        <source>Offer created successfully!</source>
+        <translation type="unfinished">Offer created successfully!</translation>
+    </message>
+    <message>
+        <source>Term sheet prepared. Counterparty address required to finalize.</source>
+        <translation type="unfinished">Term sheet prepared. Counterparty address required to finalize.</translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;Summary not available&lt;/i&gt;</source>
+        <translation type="unfinished">&lt;i&gt;Summary not available&lt;/i&gt;</translation>
+    </message>
+    <message>
+        <source>Tor is not ready. Please wait for Tor to start, or select a different transport.\n\n</source>
+        <translation type="unfinished">Tor ยังไม่พร้อม โปรดรอให้ Tor เริ่มต้น หรือเลือกการขนส่งอื่น\n\n</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Auto:&lt;/b&gt; Uses WebSocket relay for fast, reliable connections. </source>
+        <translation type="unfinished">&lt;b&gt;อัตโนมัติ:&lt;/b&gt; ใช้ WebSocket relay สำหรับการเชื่อมต่อที่รวดเร็วและเชื่อถือได้ </translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;WebSocket Relay:&lt;/b&gt; Fast connection through a central relay server. </source>
+        <translation type="unfinished">&lt;b&gt;WebSocket Relay:&lt;/b&gt; การเชื่อมต่อรวดเร็วผ่านเซิร์ฟเวอร์ relay กลาง </translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Tor Hidden Service:&lt;/b&gt; Maximum privacy using Tor network. </source>
+        <translation type="unfinished">&lt;b&gt;Tor Hidden Service:&lt;/b&gt; ความเป็นส่วนตัวสูงสุดโดยใช้เครือข่าย Tor </translation>
+    </message>
+</context>
+<context>
+    <name>CrossChainContractBuilder</name>
+    <message>
+        <source>Cross-Chain Settlement Offer</source>
+        <translation type="unfinished">Cross-Chain Settlement Offer</translation>
+    </message>
+    <message>
+        <source>Validation Error</source>
+        <translation type="unfinished">Validation Error</translation>
+    </message>
+    <message>
+        <source>TSC leg amount must be greater than zero.</source>
+        <translation type="unfinished">TSC leg amount must be greater than zero.</translation>
+    </message>
+    <message>
+        <source>External leg amount must be greater than zero.</source>
+        <translation type="unfinished">External leg amount must be greater than zero.</translation>
+    </message>
+    <message>
+        <source>A settlement profile must be selected (provides the external settlement address).</source>
+        <translation type="unfinished">A settlement profile must be selected (provides the external settlement address).</translation>
+    </message>
+    <message>
+        <source>TSC destination address is required.</source>
+        <translation type="unfinished">TSC destination address is required.</translation>
+    </message>
+    <message>
+        <source>TSC</source>
+        <translation type="unfinished">TSC</translation>
+    </message>
+    <message>
+        <source>External</source>
+        <translation type="unfinished">External</translation>
+    </message>
+    <message>
+        <source>Timeout Policy</source>
+        <translation type="unfinished">Timeout Policy</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Wallet model not available</source>
+        <translation type="unfinished">Wallet model not available</translation>
+    </message>
+    <message>
+        <source>Payload Validation Failed</source>
+        <translation type="unfinished">Payload Validation Failed</translation>
+    </message>
+    <message>
+        <source>The cross-chain payload did not pass validation:\n\n%1</source>
+        <translation type="unfinished">The cross-chain payload did not pass validation:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Post Failed</source>
+        <translation type="unfinished">Post Failed</translation>
+    </message>
+    <message>
+        <source>Failed to post cross-chain offer:\n\n%1</source>
+        <translation type="unfinished">Failed to post cross-chain offer:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Exception: %1</source>
+        <translation type="unfinished">Exception: %1</translation>
+    </message>
+    <message>
+        <source>Unknown exception while creating offer</source>
+        <translation type="unfinished">Unknown exception while creating offer</translation>
+    </message>
+    <message>
+        <source>Cross-Chain Settlement - Term Sheet</source>
+        <translation type="unfinished">Cross-Chain Settlement - Term Sheet</translation>
+    </message>
+    <message>
+        <source>TSC Leg (Your Side)</source>
+        <translation type="unfinished">TSC Leg (Your Side)</translation>
+    </message>
+    <message>
+        <source>Asset:</source>
+        <translation type="unfinished">Asset:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation type="unfinished">Amount:</translation>
+    </message>
+    <message>
+        <source>TSC Destination:</source>
+        <translation type="unfinished">TSC Destination:</translation>
+    </message>
+    <message>
+        <source>Address where you receive TSC</source>
+        <translation type="unfinished">Address where you receive TSC</translation>
+    </message>
+    <message>
+        <source>Generate</source>
+        <translation type="unfinished">Generate</translation>
+    </message>
+    <message>
+        <source>External Leg (Counterparty Chain)</source>
+        <translation type="unfinished">External Leg (Counterparty Chain)</translation>
+    </message>
+    <message>
+        <source>Chain:</source>
+        <translation type="unfinished">Chain:</translation>
+    </message>
+    <message>
+        <source>Bitcoin (BTC)</source>
+        <translation type="unfinished">Bitcoin (BTC)</translation>
+    </message>
+    <message>
+        <source>Ethereum (ETH)</source>
+        <translation type="unfinished">Ethereum (ETH)</translation>
+    </message>
+    <message>
+        <source>Tron (TRX)</source>
+        <translation type="unfinished">Tron (TRX)</translation>
+    </message>
+    <message>
+        <source>Adapter:</source>
+        <translation type="unfinished">Adapter:</translation>
+    </message>
+    <message>
+        <source>BTC Scriptless v1</source>
+        <translation type="unfinished">BTC Scriptless v1</translation>
+    </message>
+    <message>
+        <source>ETH HTLC v1</source>
+        <translation type="unfinished">ETH HTLC v1</translation>
+    </message>
+    <message>
+        <source>TRON HTLC v1</source>
+        <translation type="unfinished">TRON HTLC v1</translation>
+    </message>
+    <message>
+        <source>Settlement Profile:</source>
+        <translation type="unfinished">Settlement Profile:</translation>
+    </message>
+    <message>
+        <source>Rate: --</source>
+        <translation type="unfinished">Rate: --</translation>
+    </message>
+    <message>
+        <source>Funding Order</source>
+        <translation type="unfinished">Funding Order</translation>
+    </message>
+    <message>
+        <source>Who funds first:</source>
+        <translation type="unfinished">Who funds first:</translation>
+    </message>
+    <message>
+        <source>TSC First</source>
+        <translation type="unfinished">TSC First</translation>
+    </message>
+    <message>
+        <source>External First</source>
+        <translation type="unfinished">External First</translation>
+    </message>
+    <message>
+        <source>Confirmation Policy</source>
+        <translation type="unfinished">Confirmation Policy</translation>
+    </message>
+    <message>
+        <source>External min conf:</source>
+        <translation type="unfinished">External min conf:</translation>
+    </message>
+    <message>
+        <source>TSC min conf:</source>
+        <translation type="unfinished">TSC min conf:</translation>
+    </message>
+    <message>
+        <source>Reorg conf:</source>
+        <translation type="unfinished">Reorg conf:</translation>
+    </message>
+    <message>
+        <source>External lock (seconds):</source>
+        <translation type="unfinished">External lock (seconds):</translation>
+    </message>
+    <message>
+        <source>TSC lock (blocks):</source>
+        <translation type="unfinished">TSC lock (blocks):</translation>
+    </message>
+    <message>
+        <source>Claim budget (seconds):</source>
+        <translation type="unfinished">Claim budget (seconds):</translation>
+    </message>
+    <message>
+        <source>Reorg margin (seconds):</source>
+        <translation type="unfinished">Reorg margin (seconds):</translation>
+    </message>
+    <message>
+        <source>Fee Policy</source>
+        <translation type="unfinished">Fee Policy</translation>
+    </message>
+    <message>
+        <source>Claim strategy:</source>
+        <translation type="unfinished">Claim strategy:</translation>
+    </message>
+    <message>
+        <source>RBF or CPFP (UTXO chains)</source>
+        <translation type="unfinished">RBF or CPFP (UTXO chains)</translation>
+    </message>
+    <message>
+        <source>Gas Escalator (ETH/TRON)</source>
+        <translation type="unfinished">Gas Escalator (ETH/TRON)</translation>
+    </message>
+    <message>
+        <source>Fee funding mode:</source>
+        <translation type="unfinished">Fee funding mode:</translation>
+    </message>
+    <message>
+        <source>Reserved UTXO</source>
+        <translation type="unfinished">Reserved UTXO</translation>
+    </message>
+    <message>
+        <source>Reserved Balance</source>
+        <translation type="unfinished">Reserved Balance</translation>
+    </message>
+    <message>
+        <source>Settlement address: %1</source>
+        <translation type="unfinished">Settlement address: %1</translation>
+    </message>
+    <message>
+        <source>Rate: 1 TSC = %1 %2</source>
+        <translation type="unfinished">Rate: 1 TSC = %1 %2</translation>
+    </message>
+    <message>
+        <source>First funder's lock must be longer than second funder's</source>
+        <translation type="unfinished">First funder's lock must be longer than second funder's</translation>
+    </message>
+    <message>
+        <source>Timeout gap: %1s (required: &gt;= %2s)</source>
+        <translation type="unfinished">Timeout gap: %1s (required: &gt;= %2s)</translation>
+    </message>
+    <message>
+        <source>No profiles for this chain</source>
+        <translation type="unfinished">No profiles for this chain</translation>
+    </message>
+    <message>
+        <source>Add a settlement profile first via the Profiles button.</source>
+        <translation type="unfinished">Add a settlement profile first via the Profiles button.</translation>
+    </message>
+    <message>
+        <source>TSC (Native)</source>
+        <translation type="unfinished">TSC (Native)</translation>
+    </message>
+    <message>
+        <source>Cross-Chain Offer - Review &amp; Create</source>
+        <translation type="unfinished">Cross-Chain Offer - Review &amp; Create</translation>
+    </message>
+    <message>
+        <source>Review the cross-chain settlement terms. Click 'Finish' to create and publish.</source>
+        <translation type="unfinished">Review the cross-chain settlement terms. Click 'Finish' to create and publish.</translation>
+    </message>
+    <message>
+        <source>%1 funds first but has a shorter or equal lock (%2s) </source>
+        <translation type="unfinished">%1 ชำระเงินก่อนแต่มีล็อคที่สั้นกว่าหรือเท่ากัน (%2s) </translation>
+    </message>
+    <message>
+        <source>Timeout gap (%1s) must be &gt;= claim_budget + reorg_margin (%2s).\n\n</source>
+        <translation type="unfinished">ช่องว่างหมดเวลา (%1s) ต้องมากกว่าหรือเท่ากับ claim_budget + reorg_margin (%2s)\n\n</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Cross-Chain Settlement Summary&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3&gt;สรุปการชำระหนี้ข้ามเชน&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h4&gt;Trade Legs&lt;/h4&gt;</source>
+        <translation type="unfinished">&lt;h4&gt;ขาการซื้อขาย&lt;/h4&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;TSC Leg:&lt;/b&gt; %1 TSC&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ขา TSC:&lt;/b&gt; %1 TSC&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;External Leg:&lt;/b&gt; %1 %2 on %3&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ขาภายนอก:&lt;/b&gt; %1 %2 บน %3&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Exchange Rate:&lt;/b&gt; 1 TSC = %1 %2&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;อัตราแลกเปลี่ยน:&lt;/b&gt; 1 TSC = %1 %2&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h4&gt;Settlement&lt;/h4&gt;</source>
+        <translation type="unfinished">&lt;h4&gt;การชำระหนี้&lt;/h4&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Adapter:&lt;/b&gt; %1&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;อะแดปเตอร์:&lt;/b&gt; %1&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Funding Order:&lt;/b&gt; %1&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ลำดับการชำระเงิน:&lt;/b&gt; %1&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;External Address:&lt;/b&gt; &lt;code&gt;%1&lt;/code&gt;&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ที่อยู่ภายนอก:&lt;/b&gt; &lt;code&gt;%1&lt;/code&gt;&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;TSC Address:&lt;/b&gt; &lt;code&gt;%1&lt;/code&gt;&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ที่อยู่ TSC:&lt;/b&gt; &lt;code&gt;%1&lt;/code&gt;&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h4&gt;Confirmation Policy&lt;/h4&gt;</source>
+        <translation type="unfinished">&lt;h4&gt;นโยบายการยืนยัน&lt;/h4&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;External min conf:&lt;/b&gt; %1&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;การยืนยันขั้นต่ำภายนอก:&lt;/b&gt; %1&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;TSC min conf:&lt;/b&gt; %1&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;การยืนยันขั้นต่ำ TSC:&lt;/b&gt; %1&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Reorg conf:&lt;/b&gt; %1&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;การยืนยัน Reorg:&lt;/b&gt; %1&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h4&gt;Timeout Policy&lt;/h4&gt;</source>
+        <translation type="unfinished">&lt;h4&gt;นโยบายหมดเวลา&lt;/h4&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;External lock:&lt;/b&gt; %1 seconds (%2 hours)&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ล็อคภายนอก:&lt;/b&gt; %1 วินาที (%2 ชั่วโมง)&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;TSC lock:&lt;/b&gt; %1 blocks (~%2 hours)&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ล็อค TSC:&lt;/b&gt; %1 บล็อค (~%2 ชั่วโมง)&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Claim budget:&lt;/b&gt; %1 seconds (%2 hours)&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;งบประมาณการเรียกร้อง:&lt;/b&gt; %1 วินาที (%2 ชั่วโมง)&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Reorg margin:&lt;/b&gt; %1 seconds (%2 hours)&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ระยะขอบ Reorg:&lt;/b&gt; %1 วินาที (%2 ชั่วโมง)&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h4&gt;Fee Policy&lt;/h4&gt;</source>
+        <translation type="unfinished">&lt;h4&gt;นโยบายค่าธรรมเนียม&lt;/h4&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Claim/Refund strategy:&lt;/b&gt; %1&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;กลยุทธ์การเรียกร้อง/คืนเงิน:&lt;/b&gt; %1&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Fee funding mode:&lt;/b&gt; %1&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;โหมดการชำระค่าธรรมเนียม:&lt;/b&gt; %1&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h4&gt;Next Steps&lt;/h4&gt;</source>
+        <translation type="unfinished">&lt;h4&gt;ขั้นตอนต่อไป&lt;/h4&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;1. Offer will be published to the bulletin board as a SpotContract payload&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;1. ข้อเสนอจะถูกเผยแพร่ไปยังกระดานประกาศเป็น payload SpotContract&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;2. Counterparty reviews cross-chain terms and settlement address&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;2. คู่สัญญาตรวจสอบเงื่อนไขข้ามเชนและที่อยู่การชำระหนี้&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;3. Both parties establish a cosign session&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;3. ทั้งสองฝ่ายสร้างเซสชันการลงนามร่วม&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;4. Wallet drives the settlement ceremony in background&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;4. กระเป๋าเงินขับเคลื่อนพิธีกรรมการชำระหนี้ในพื้นหลัง&lt;/li&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>CrossChainProfileDialog</name>
+    <message>
+        <source>Settlement Profiles</source>
+        <translation type="unfinished">Settlement Profiles</translation>
+    </message>
+    <message>
+        <source>Saved Profiles</source>
+        <translation type="unfinished">Saved Profiles</translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation type="unfinished">ID</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation type="unfinished">Label</translation>
+    </message>
+    <message>
+        <source>Chain</source>
+        <translation type="unfinished">Chain</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation type="unfinished">Address</translation>
+    </message>
+    <message>
+        <source>Asset</source>
+        <translation type="unfinished">Asset</translation>
+    </message>
+    <message>
+        <source>Fee Speed</source>
+        <translation type="unfinished">Fee Speed</translation>
+    </message>
+    <message>
+        <source>Remove Selected</source>
+        <translation type="unfinished">Remove Selected</translation>
+    </message>
+    <message>
+        <source>Add New Profile</source>
+        <translation type="unfinished">Add New Profile</translation>
+    </message>
+    <message>
+        <source>Profile ID:</source>
+        <translation type="unfinished">Profile ID:</translation>
+    </message>
+    <message>
+        <source>e.g. btc-cold, eth-main</source>
+        <translation type="unfinished">e.g. btc-cold, eth-main</translation>
+    </message>
+    <message>
+        <source>Label:</source>
+        <translation type="unfinished">Label:</translation>
+    </message>
+    <message>
+        <source>Human-readable name</source>
+        <translation type="unfinished">Human-readable name</translation>
+    </message>
+    <message>
+        <source>Chain:</source>
+        <translation type="unfinished">Chain:</translation>
+    </message>
+    <message>
+        <source>Bitcoin (BTC)</source>
+        <translation type="unfinished">Bitcoin (BTC)</translation>
+    </message>
+    <message>
+        <source>Ethereum (ETH)</source>
+        <translation type="unfinished">Ethereum (ETH)</translation>
+    </message>
+    <message>
+        <source>Tron (TRX)</source>
+        <translation type="unfinished">Tron (TRX)</translation>
+    </message>
+    <message>
+        <source>Address:</source>
+        <translation type="unfinished">Address:</translation>
+    </message>
+    <message>
+        <source>bc1q... / 0x... / T...</source>
+        <translation type="unfinished">bc1q... / 0x... / T...</translation>
+    </message>
+    <message>
+        <source>Signing:</source>
+        <translation type="unfinished">Signing:</translation>
+    </message>
+    <message>
+        <source>Auto-derived from wallet seed</source>
+        <translation type="unfinished">Auto-derived from wallet seed</translation>
+    </message>
+    <message>
+        <source>derived:auto or imported:&lt;key-id&gt;</source>
+        <translation type="unfinished">derived:auto or imported:&lt;key-id&gt;</translation>
+    </message>
+    <message>
+        <source>Preferred Asset:</source>
+        <translation type="unfinished">Preferred Asset:</translation>
+    </message>
+    <message>
+        <source>BTC, ETH, USDT, etc.</source>
+        <translation type="unfinished">BTC, ETH, USDT, etc.</translation>
+    </message>
+    <message>
+        <source>Fee Speed:</source>
+        <translation type="unfinished">Fee Speed:</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation type="unfinished">Normal</translation>
+    </message>
+    <message>
+        <source>Fast</source>
+        <translation type="unfinished">Fast</translation>
+    </message>
+    <message>
+        <source>Urgent</source>
+        <translation type="unfinished">Urgent</translation>
+    </message>
+    <message>
+        <source>Add Profile</source>
+        <translation type="unfinished">Add Profile</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished">Close</translation>
+    </message>
+    <message>
+        <source>Bech32 (bc1...), Base58 (1... / 3...), or testnet (tb1... / m... / n...).</source>
+        <translation type="unfinished">Bech32 (bc1...), Base58 (1... / 3...), or testnet (tb1... / m... / n...).</translation>
+    </message>
+    <message>
+        <source>0x-prefixed, 40 hex chars. Use all-lowercase for settlement profiles.</source>
+        <translation type="unfinished">0x-prefixed, 40 hex chars. Use all-lowercase for settlement profiles.</translation>
+    </message>
+    <message>
+        <source>Base58 T-prefix (34 chars) or hex 41-prefix (42 chars).</source>
+        <translation type="unfinished">Base58 T-prefix (34 chars) or hex 41-prefix (42 chars).</translation>
+    </message>
+    <message>
+        <source>Validation</source>
+        <translation type="unfinished">Validation</translation>
+    </message>
+    <message>
+        <source>Profile ID is required.</source>
+        <translation type="unfinished">Profile ID is required.</translation>
+    </message>
+    <message>
+        <source>Label is required.</source>
+        <translation type="unfinished">Label is required.</translation>
+    </message>
+    <message>
+        <source>Address is required.</source>
+        <translation type="unfinished">Address is required.</translation>
+    </message>
+    <message>
+        <source>Signing reference is required.</source>
+        <translation type="unfinished">Signing reference is required.</translation>
+    </message>
+    <message>
+        <source>Preferred asset is required.</source>
+        <translation type="unfinished">Preferred asset is required.</translation>
+    </message>
+    <message>
+        <source>Failed to Add Profile</source>
+        <translation type="unfinished">Failed to Add Profile</translation>
+    </message>
+    <message>
+        <source>Could not save settlement profile:\n\n%1</source>
+        <translation type="unfinished">Could not save settlement profile:\n\n%1</translation>
+    </message>
+    <message>
+        <source>No Selection</source>
+        <translation type="unfinished">No Selection</translation>
+    </message>
+    <message>
+        <source>Select a profile to remove.</source>
+        <translation type="unfinished">Select a profile to remove.</translation>
+    </message>
+    <message>
+        <source>Remove Profile</source>
+        <translation type="unfinished">Remove Profile</translation>
+    </message>
+    <message>
+        <source>Remove settlement profile \"%1\"?\n\nThis cannot be undone.</source>
+        <translation type="unfinished">Remove settlement profile \"%1\"?\n\nThis cannot be undone.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Failed to remove profile.</source>
+        <translation type="unfinished">Failed to remove profile.</translation>
+    </message>
+</context>
+<context>
+    <name>CrossChainTradeView</name>
+    <message>
+        <source>Active Cross-Chain Trades</source>
+        <translation type="unfinished">Active Cross-Chain Trades</translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation type="unfinished">Refresh</translation>
+    </message>
+    <message>
+        <source>Swap ID</source>
+        <translation type="unfinished">Swap ID</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation type="unfinished">State</translation>
+    </message>
+    <message>
+        <source>Chain</source>
+        <translation type="unfinished">Chain</translation>
+    </message>
+    <message>
+        <source>Adapter</source>
+        <translation type="unfinished">Adapter</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation type="unfinished">Role</translation>
+    </message>
+    <message>
+        <source>Ext Conf</source>
+        <translation type="unfinished">Ext Conf</translation>
+    </message>
+    <message>
+        <source>TSC Conf</source>
+        <translation type="unfinished">TSC Conf</translation>
+    </message>
+    <message>
+        <source>Fee Level</source>
+        <translation type="unfinished">Fee Level</translation>
+    </message>
+    <message>
+        <source>Updated</source>
+        <translation type="unfinished">Updated</translation>
+    </message>
+    <message>
+        <source>%1 records, %2 active</source>
+        <translation type="unfinished">%1 records, %2 active</translation>
+    </message>
+    <message>
+        <source>Unknown (%1)</source>
+        <translation type="unfinished">Unknown (%1)</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation type="unfinished">แบบร่าง</translation>
+    </message>
+    <message>
+        <source>Posted</source>
+        <translation type="unfinished">โพสต์แล้ว</translation>
+    </message>
+    <message>
+        <source>Matched</source>
+        <translation type="unfinished">จับคู่แล้ว</translation>
+    </message>
+    <message>
+        <source>Session Established</source>
+        <translation type="unfinished">สร้างเซสชันแล้ว</translation>
+    </message>
+    <message>
+        <source>Terms Finalized</source>
+        <translation type="unfinished">เงื่อนไขสรุปแล้ว</translation>
+    </message>
+    <message>
+        <source>Funding Prepared</source>
+        <translation type="unfinished">เตรียมเงินทุนแล้ว</translation>
+    </message>
+    <message>
+        <source>Counterparty Lock Seen</source>
+        <translation type="unfinished">เห็นล็อคคู่สัญญา</translation>
+    </message>
+    <message>
+        <source>Counterparty Lock Confirmed</source>
+        <translation type="unfinished">ยืนยันล็อคคู่สัญญา</translation>
+    </message>
+    <message>
+        <source>Local Lock Confirmed</source>
+        <translation type="unfinished">ยืนยันล็อคในท้องถิ่น</translation>
+    </message>
+    <message>
+        <source>Claim Ready</source>
+        <translation type="unfinished">พร้อมเรียกร้อง</translation>
+    </message>
+    <message>
+        <source>Claim Broadcast</source>
+        <translation type="unfinished">กระจายการเรียกร้องแล้ว</translation>
+    </message>
+    <message>
+        <source>Emergency Claim</source>
+        <translation type="unfinished">การเรียกร้องฉุกเฉิน</translation>
+    </message>
+    <message>
+        <source>Claim Confirmed</source>
+        <translation type="unfinished">ยืนยันการเรียกร้องแล้ว</translation>
+    </message>
+    <message>
+        <source>Refund Ready</source>
+        <translation type="unfinished">พร้อมคืนเงิน</translation>
+    </message>
+    <message>
+        <source>Refund Broadcast</source>
+        <translation type="unfinished">กระจายการคืนเงินแล้ว</translation>
+    </message>
+    <message>
+        <source>Refunded</source>
+        <translation type="unfinished">คืนเงินแล้ว</translation>
+    </message>
+    <message>
+        <source>Completed</source>
+        <translation type="unfinished">เสร็จสมบูรณ์</translation>
+    </message>
+    <message>
+        <source>Aborted</source>
+        <translation type="unfinished">ยกเลิกแล้ว</translation>
+    </message>
+</context>
+<context>
+    <name>ExchangeP2PPage</name>
+    <message>
+        <source>Market</source>
+        <translation type="unfinished">Market</translation>
+    </message>
+    <message>
+        <source>Book</source>
+        <translation type="unfinished">Book</translation>
+    </message>
+    <message>
+        <source>Risk</source>
+        <translation type="unfinished">Risk</translation>
+    </message>
+    <message>
+        <source>Pricing</source>
+        <translation type="unfinished">Pricing</translation>
+    </message>
+    <message>
+        <source>Structuring</source>
+        <translation type="unfinished">Structuring</translation>
+    </message>
+    <message>
+        <source>P2P Sessions</source>
+        <translation type="unfinished">P2P Sessions</translation>
+    </message>
+</context>
+<context>
+    <name>FinalContractReviewDialog</name>
+    <message>
+        <source>Review Final Contract</source>
+        <translation type="unfinished">Review Final Contract</translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;Perspective:&lt;/i&gt; &lt;b&gt;%1&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;i&gt;Perspective:&lt;/i&gt; &lt;b&gt;%1&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Offer ID:&lt;/b&gt; %1</source>
+        <translation type="unfinished">&lt;b&gt;Offer ID:&lt;/b&gt; %1</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Session:&lt;/b&gt; %1</source>
+        <translation type="unfinished">&lt;b&gt;Session:&lt;/b&gt; %1</translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;No summary available.&lt;/i&gt;</source>
+        <translation type="unfinished">&lt;i&gt;No summary available.&lt;/i&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;ul style='margin-top: 0; margin-bottom: 0; padding-left: 20px;'&gt;</source>
+        <translation type="unfinished">&lt;ul style='margin-top: 0; margin-bottom: 0; padding-left: 20px;'&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;%1&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;%1&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;/ul&gt;</source>
+        <translation type="unfinished">&lt;/ul&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Critical Checks&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Critical Checks&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Fee Strategy for Your Funding:&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Fee Strategy for Your Funding:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Low (2 sat/vB)</source>
+        <translation type="unfinished">Low (2 sat/vB)</translation>
+    </message>
+    <message>
+        <source>Medium (10 sat/vB)</source>
+        <translation type="unfinished">Medium (10 sat/vB)</translation>
+    </message>
+    <message>
+        <source>High (50 sat/vB)</source>
+        <translation type="unfinished">High (50 sat/vB)</translation>
+    </message>
+    <message>
+        <source>Choose the fee rate for funding your side of the contract</source>
+        <translation type="unfinished">Choose the fee rate for funding your side of the contract</translation>
+    </message>
+    <message>
+        <source>View Contract JSON</source>
+        <translation type="unfinished">View Contract JSON</translation>
+    </message>
+    <message>
+        <source>View Details JSON</source>
+        <translation type="unfinished">View Details JSON</translation>
+    </message>
+    <message>
+        <source>View Pricing</source>
+        <translation type="unfinished">View Pricing</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancel</translation>
+    </message>
+    <message>
+        <source>Accept &amp;&amp; Continue</source>
+        <translation type="unfinished">Accept &amp;&amp; Continue</translation>
+    </message>
+    <message>
+        <source>Contract JSON</source>
+        <translation type="unfinished">Contract JSON</translation>
+    </message>
+    <message>
+        <source>Details JSON</source>
+        <translation type="unfinished">Details JSON</translation>
+    </message>
+    <message>
+        <source>Copy JSON</source>
+        <translation type="unfinished">Copy JSON</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished">Close</translation>
+    </message>
+    <message>
+        <source>Pricing</source>
+        <translation type="unfinished">Pricing</translation>
+    </message>
+    <message>
+        <source>Pricing data not available for this contract.</source>
+        <translation type="unfinished">Pricing data not available for this contract.</translation>
+    </message>
+    <message>
+        <source>Pricing dialog would open here with contract type: %1\n\n</source>
+        <translation type="unfinished">กล่องโต้ตอบราคาจะเปิดที่นี่พร้อมประเภทสัญญา: %1\n\n</translation>
+    </message>
+</context>
+<context>
+    <name>ForwardContractBuilder</name>
+    <message>
+        <source>Option Contract Builder</source>
+        <translation type="unfinished">Option Contract Builder</translation>
+    </message>
+    <message>
+        <source>Forward Contract Builder</source>
+        <translation type="unfinished">Forward Contract Builder</translation>
+    </message>
+    <message>
+        <source>Validation Error</source>
+        <translation type="unfinished">Validation Error</translation>
+    </message>
+    <message>
+        <source>Long position size must be greater than zero.</source>
+        <translation type="unfinished">Long position size must be greater than zero.</translation>
+    </message>
+    <message>
+        <source>Price must be greater than zero.</source>
+        <translation type="unfinished">Price must be greater than zero.</translation>
+    </message>
+    <message>
+        <source>Long initial margin percentage cannot be negative.</source>
+        <translation type="unfinished">Long initial margin percentage cannot be negative.</translation>
+    </message>
+    <message>
+        <source>Short initial margin percentage cannot be negative.</source>
+        <translation type="unfinished">Short initial margin percentage cannot be negative.</translation>
+    </message>
+    <message>
+        <source>Long initial margin amount cannot be negative.</source>
+        <translation type="unfinished">Long initial margin amount cannot be negative.</translation>
+    </message>
+    <message>
+        <source>Short initial margin amount cannot be negative.</source>
+        <translation type="unfinished">Short initial margin amount cannot be negative.</translation>
+    </message>
+    <message>
+        <source>For options, at least one party must post initial margin.</source>
+        <translation type="unfinished">For options, at least one party must post initial margin.</translation>
+    </message>
+    <message>
+        <source>Premium amount must be greater than zero for options.</source>
+        <translation type="unfinished">Premium amount must be greater than zero for options.</translation>
+    </message>
+    <message>
+        <source>Premium destination address is required when you receive the premium.</source>
+        <translation type="unfinished">Premium destination address is required when you receive the premium.</translation>
+    </message>
+    <message>
+        <source>Your margin destination address is required.</source>
+        <translation type="unfinished">Your margin destination address is required.</translation>
+    </message>
+    <message>
+        <source>Your settlement address is required.</source>
+        <translation type="unfinished">Your settlement address is required.</translation>
+    </message>
+    <message>
+        <source>Maturity period must be greater than zero.</source>
+        <translation type="unfinished">Maturity period must be greater than zero.</translation>
+    </message>
+    <message>
+        <source>Delivery gap cannot be negative.</source>
+        <translation type="unfinished">Delivery gap cannot be negative.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Wallet model not available</source>
+        <translation type="unfinished">Wallet model not available</translation>
+    </message>
+    <message>
+        <source>Exception while creating offer: %1</source>
+        <translation type="unfinished">Exception while creating offer: %1</translation>
+    </message>
+    <message>
+        <source>Your Role</source>
+        <translation type="unfinished">Your Role</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Long Party&lt;/b&gt; (delivers long asset, receives short asset at settlement)</source>
+        <translation type="unfinished">&lt;b&gt;Long Party&lt;/b&gt; (delivers long asset, receives short asset at settlement)</translation>
+    </message>
+    <message>
+        <source>Flip Long ↔ Short</source>
+        <translation type="unfinished">Flip Long ↔ Short</translation>
+    </message>
+    <message>
+        <source>Swap all long and short parameters (delivery assets, sizes, initial margins)</source>
+        <translation type="unfinished">Swap all long and short parameters (delivery assets, sizes, initial margins)</translation>
+    </message>
+    <message>
+        <source>Delivery Obligations</source>
+        <translation type="unfinished">Delivery Obligations</translation>
+    </message>
+    <message>
+        <source>The long party delivers (pays out) the long leg and receives the short party's delivery leg.</source>
+        <translation type="unfinished">The long party delivers (pays out) the long leg and receives the short party's delivery leg.</translation>
+    </message>
+    <message>
+        <source>Long Party Delivers:</source>
+        <translation type="unfinished">Long Party Delivers:</translation>
+    </message>
+    <message>
+        <source>Short Delivers  →  </source>
+        <translation type="unfinished">Short Delivers  →  </translation>
+    </message>
+    <message>
+        <source>(calculated)</source>
+        <translation type="unfinished">(calculated)</translation>
+    </message>
+    <message>
+        <source>Initial Margin</source>
+        <translation type="unfinished">Initial Margin</translation>
+    </message>
+    <message>
+        <source>Long IM:</source>
+        <translation type="unfinished">Long IM:</translation>
+    </message>
+    <message>
+        <source>As % of notional</source>
+        <translation type="unfinished">As % of notional</translation>
+    </message>
+    <message>
+        <source>Absolute amount</source>
+        <translation type="unfinished">Absolute amount</translation>
+    </message>
+    <message>
+        <source>Short IM:</source>
+        <translation type="unfinished">Short IM:</translation>
+    </message>
+    <message>
+        <source>Delivery Deadlines</source>
+        <translation type="unfinished">Delivery Deadlines</translation>
+    </message>
+    <message>
+        <source>Period:</source>
+        <translation type="unfinished">Period:</translation>
+    </message>
+    <message>
+        <source>Days</source>
+        <translation type="unfinished">Days</translation>
+    </message>
+    <message>
+        <source>Weeks</source>
+        <translation type="unfinished">Weeks</translation>
+    </message>
+    <message>
+        <source>Months</source>
+        <translation type="unfinished">Months</translation>
+    </message>
+    <message>
+        <source>Years</source>
+        <translation type="unfinished">Years</translation>
+    </message>
+    <message>
+        <source>  Gap:</source>
+        <translation type="unfinished">  Gap:</translation>
+    </message>
+    <message>
+        <source> blks</source>
+        <translation type="unfinished"> blks</translation>
+    </message>
+    <message>
+        <source>  Safety:</source>
+        <translation type="unfinished">  Safety:</translation>
+    </message>
+    <message>
+        <source>Absolute heights</source>
+        <translation type="unfinished">Absolute heights</translation>
+    </message>
+    <message>
+        <source>Short: </source>
+        <translation type="unfinished">Short: </translation>
+    </message>
+    <message>
+        <source>Long: </source>
+        <translation type="unfinished">Long: </translation>
+    </message>
+    <message>
+        <source>Current:</source>
+        <translation type="unfinished">Current:</translation>
+    </message>
+    <message>
+        <source>→ Targets:</source>
+        <translation type="unfinished">→ Targets:</translation>
+    </message>
+    <message>
+        <source>Settlement &amp;&amp; Margin Addresses (Advanced)</source>
+        <translation type="unfinished">Settlement &amp;&amp; Margin Addresses (Advanced)</translation>
+    </message>
+    <message>
+        <source>Margin Refund Dest:</source>
+        <translation type="unfinished">Margin Refund Dest:</translation>
+    </message>
+    <message>
+        <source>Address to refund your initial margin</source>
+        <translation type="unfinished">Address to refund your initial margin</translation>
+    </message>
+    <message>
+        <source>Generate</source>
+        <translation type="unfinished">Generate</translation>
+    </message>
+    <message>
+        <source>Settlement Receive Dest:</source>
+        <translation type="unfinished">Settlement Receive Dest:</translation>
+    </message>
+    <message>
+        <source>Address to receive your settlement asset</source>
+        <translation type="unfinished">Address to receive your settlement asset</translation>
+    </message>
+    <message>
+        <source>Premium Payment (Optional)</source>
+        <translation type="unfinished">Premium Payment (Optional)</translation>
+    </message>
+    <message>
+        <source>Enable premium payment</source>
+        <translation type="unfinished">Enable premium payment</translation>
+    </message>
+    <message>
+        <source>Premium Asset:</source>
+        <translation type="unfinished">Premium Asset:</translation>
+    </message>
+    <message>
+        <source>Premium Amount:</source>
+        <translation type="unfinished">Premium Amount:</translation>
+    </message>
+    <message>
+        <source>Premium Payer:</source>
+        <translation type="unfinished">Premium Payer:</translation>
+    </message>
+    <message>
+        <source>Long Party</source>
+        <translation type="unfinished">Long Party</translation>
+    </message>
+    <message>
+        <source>Short Party</source>
+        <translation type="unfinished">Short Party</translation>
+    </message>
+    <message>
+        <source>Premium Destination:</source>
+        <translation type="unfinished">Premium Destination:</translation>
+    </message>
+    <message>
+        <source>Address to receive premium (only if you receive it)</source>
+        <translation type="unfinished">Address to receive premium (only if you receive it)</translation>
+    </message>
+    <message>
+        <source>Pricing Breakdown</source>
+        <translation type="unfinished">Pricing Breakdown</translation>
+    </message>
+    <message>
+        <source>Absolute</source>
+        <translation type="unfinished">Absolute</translation>
+    </message>
+    <message>
+        <source>Per Notional</source>
+        <translation type="unfinished">Per Notional</translation>
+    </message>
+    <message>
+        <source>PV Receive:</source>
+        <translation type="unfinished">PV Receive:</translation>
+    </message>
+    <message>
+        <source>PV Pay:</source>
+        <translation type="unfinished">PV Pay:</translation>
+    </message>
+    <message>
+        <source>Net Spread Value:</source>
+        <translation type="unfinished">Net Spread Value:</translation>
+    </message>
+    <message>
+        <source>Premium PV:</source>
+        <translation type="unfinished">Premium PV:</translation>
+    </message>
+    <message>
+        <source>Long Short Call Value:</source>
+        <translation type="unfinished">Long Short Call Value:</translation>
+    </message>
+    <message>
+        <source>Long Long Put Value:</source>
+        <translation type="unfinished">Long Long Put Value:</translation>
+    </message>
+    <message>
+        <source>Long MTM:</source>
+        <translation type="unfinished">Long MTM:</translation>
+    </message>
+    <message>
+        <source>Short MTM:</source>
+        <translation type="unfinished">Short MTM:</translation>
+    </message>
+    <message>
+        <source>IM Coverage Long:</source>
+        <translation type="unfinished">IM Coverage Long:</translation>
+    </message>
+    <message>
+        <source>IM Coverage Short:</source>
+        <translation type="unfinished">IM Coverage Short:</translation>
+    </message>
+    <message>
+        <source>View Greeks</source>
+        <translation type="unfinished">View Greeks</translation>
+    </message>
+    <message>
+        <source>TSC (Native)</source>
+        <translation type="unfinished">TSC (Native)</translation>
+    </message>
+    <message>
+        <source>Address to refund your (long party) initial margin</source>
+        <translation type="unfinished">Address to refund your (long party) initial margin</translation>
+    </message>
+    <message>
+        <source>Address to refund your (short party) initial margin</source>
+        <translation type="unfinished">Address to refund your (short party) initial margin</translation>
+    </message>
+    <message>
+        <source>Address to receive long asset at settlement</source>
+        <translation type="unfinished">Address to receive long asset at settlement</translation>
+    </message>
+    <message>
+        <source>Address to receive short asset at settlement</source>
+        <translation type="unfinished">Address to receive short asset at settlement</translation>
+    </message>
+    <message>
+        <source>TSC</source>
+        <translation type="unfinished">TSC</translation>
+    </message>
+    <message>
+        <source>units</source>
+        <translation type="unfinished">units</translation>
+    </message>
+    <message>
+        <source>IM Amount: %1 %2</source>
+        <translation type="unfinished">IM Amount: %1 %2</translation>
+    </message>
+    <message>
+        <source>Current block height: %1</source>
+        <translation type="unfinished">Current block height: %1</translation>
+    </message>
+    <message>
+        <source>Short deadline: block %1</source>
+        <translation type="unfinished">Short deadline: block %1</translation>
+    </message>
+    <message>
+        <source>Long deadline: block %1</source>
+        <translation type="unfinished">Long deadline: block %1</translation>
+    </message>
+    <message>
+        <source>Short delivery deadline: block %1 (maturity at %2 blocks)</source>
+        <translation type="unfinished">Short delivery deadline: block %1 (maturity at %2 blocks)</translation>
+    </message>
+    <message>
+        <source>Long delivery deadline: block %1 (maturity + %2 block gap)</source>
+        <translation type="unfinished">Long delivery deadline: block %1 (maturity + %2 block gap)</translation>
+    </message>
+    <message>
+        <source>Greeks</source>
+        <translation type="unfinished">Greeks</translation>
+    </message>
+    <message>
+        <source>Greeks Error</source>
+        <translation type="unfinished">Greeks Error</translation>
+    </message>
+    <message>
+        <source>Failed to open Greeks visualization:\n\n%1</source>
+        <translation type="unfinished">Failed to open Greeks visualization:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Review Forward/Option Contract</source>
+        <translation type="unfinished">Review Forward/Option Contract</translation>
+    </message>
+    <message>
+        <source>Review the contract terms below and click 'Finish' to create the offer.</source>
+        <translation type="unfinished">Review the contract terms below and click 'Finish' to create the offer.</translation>
+    </message>
+    <message>
+        <source>Error: Invalid wizard type</source>
+        <translation type="unfinished">Error: Invalid wizard type</translation>
+    </message>
+    <message>
+        <source>Option Contract</source>
+        <translation type="unfinished">Option Contract</translation>
+    </message>
+    <message>
+        <source>Forward Contract</source>
+        <translation type="unfinished">Forward Contract</translation>
+    </message>
+    <message>
+        <source>Each party receives the counterparty's delivery leg at settlement.</source>
+        <translation type="unfinished">Each party receives the counterparty's delivery leg at settlement.</translation>
+    </message>
+    <message>
+        <source>Pricing data unavailable - please ensure market data is loaded.</source>
+        <translation type="unfinished">Pricing data unavailable - please ensure market data is loaded.</translation>
+    </message>
+    <message>
+        <source>Pricing data unavailable - wallet model not found.</source>
+        <translation type="unfinished">Pricing data unavailable - wallet model not found.</translation>
+    </message>
+    <message>
+        <source>Error calculating pricing - market data may not be available.</source>
+        <translation type="unfinished">Error calculating pricing - market data may not be available.</translation>
+    </message>
+    <message>
+        <source>Option Contract Parameters</source>
+        <translation type="unfinished">Option Contract Parameters</translation>
+    </message>
+    <message>
+        <source>Option Parameters</source>
+        <translation type="unfinished">Option Parameters</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Direction:&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Direction:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Buy</source>
+        <translation type="unfinished">Buy</translation>
+    </message>
+    <message>
+        <source>Sell</source>
+        <translation type="unfinished">Sell</translation>
+    </message>
+    <message>
+        <source>(from maker's perspective)</source>
+        <translation type="unfinished">(from maker's perspective)</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Type:&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Type:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Call</source>
+        <translation type="unfinished">Call</translation>
+    </message>
+    <message>
+        <source>Put</source>
+        <translation type="unfinished">Put</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Base Asset:&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Base Asset:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Quote Asset:&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Quote Asset:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Strike Price:&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Strike Price:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>(base per quote)</source>
+        <translation type="unfinished">(base per quote)</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Notional:&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Notional:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>(reference for max payout and premium)</source>
+        <translation type="unfinished">(reference for max payout and premium)</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Max Payout:&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Max Payout:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Premium:&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Premium:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Expiry:&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Expiry:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Delivery Gap:</source>
+        <translation type="unfinished">Delivery Gap:</translation>
+    </message>
+    <message>
+        <source>blocks (between short and long delivery)</source>
+        <translation type="unfinished">blocks (between short and long delivery)</translation>
+    </message>
+    <message>
+        <source>Advanced: Settlement Addresses</source>
+        <translation type="unfinished">Advanced: Settlement Addresses</translation>
+    </message>
+    <message>
+        <source>Margin Refund:</source>
+        <translation type="unfinished">Margin Refund:</translation>
+    </message>
+    <message>
+        <source>Address to receive margin refund</source>
+        <translation type="unfinished">Address to receive margin refund</translation>
+    </message>
+    <message>
+        <source>Settlement:</source>
+        <translation type="unfinished">Settlement:</translation>
+    </message>
+    <message>
+        <source>Address to receive settlement</source>
+        <translation type="unfinished">Address to receive settlement</translation>
+    </message>
+    <message>
+        <source>Premium:</source>
+        <translation type="unfinished">Premium:</translation>
+    </message>
+    <message>
+        <source>Address to receive premium (if you receive it)</source>
+        <translation type="unfinished">Address to receive premium (if you receive it)</translation>
+    </message>
+    <message>
+        <source>Generate All Addresses</source>
+        <translation type="unfinished">Generate All Addresses</translation>
+    </message>
+    <message>
+        <source>Equivalent Forward Contract Structure</source>
+        <translation type="unfinished">Equivalent Forward Contract Structure</translation>
+    </message>
+    <message>
+        <source>The option parameters above will be converted to the following forward structure:</source>
+        <translation type="unfinished">The option parameters above will be converted to the following forward structure:</translation>
+    </message>
+    <message>
+        <source>Show Advanced Editor (modify auto-populated forward parameters)</source>
+        <translation type="unfinished">Show Advanced Editor (modify auto-populated forward parameters)</translation>
+    </message>
+    <message>
+        <source>Advanced Forward Parameters</source>
+        <translation type="unfinished">Advanced Forward Parameters</translation>
+    </message>
+    <message>
+        <source>Long Delivery Amount:</source>
+        <translation type="unfinished">Long Delivery Amount:</translation>
+    </message>
+    <message>
+        <source>(base asset)</source>
+        <translation type="unfinished">(base asset)</translation>
+    </message>
+    <message>
+        <source>Short Delivery Amount:</source>
+        <translation type="unfinished">Short Delivery Amount:</translation>
+    </message>
+    <message>
+        <source>(quote asset)</source>
+        <translation type="unfinished">(quote asset)</translation>
+    </message>
+    <message>
+        <source>Long Initial Margin:</source>
+        <translation type="unfinished">Long Initial Margin:</translation>
+    </message>
+    <message>
+        <source>Short Initial Margin:</source>
+        <translation type="unfinished">Short Initial Margin:</translation>
+    </message>
+    <message>
+        <source>Long (buyer)</source>
+        <translation type="unfinished">Long (buyer)</translation>
+    </message>
+    <message>
+        <source>Short (buyer)</source>
+        <translation type="unfinished">Short (buyer)</translation>
+    </message>
+    <message>
+        <source>  @  </source>
+        <translation type="unfinished">  @  </translation>
+    </message>
+    <message>
+        <source>  →  </source>
+        <translation type="unfinished">  →  </translation>
+    </message>
+    <message>
+        <source>Short: %1</source>
+        <translation type="unfinished">Short: %1</translation>
+    </message>
+    <message>
+        <source>Long: %1</source>
+        <translation type="unfinished">Long: %1</translation>
+    </message>
+    <message>
+        <source> | </source>
+        <translation type="unfinished"> | </translation>
+    </message>
+    <message>
+        <source>--</source>
+        <translation type="unfinished">--</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Warning:&lt;/b&gt; Modifying these values will override the auto-calculated option parameters. </source>
+        <translation type="unfinished">&lt;b&gt;คำเตือน:&lt;/b&gt; การแก้ไขค่าเหล่านี้จะแทนที่พารามิเตอร์ตัวเลือกที่คำนวณอัตโนมัติ </translation>
+    </message>
+</context>
+<context>
+    <name>GovernanceTab</name>
+    <message>
+        <source>● Not Connected</source>
+        <translation type="unfinished">● Not Connected</translation>
+    </message>
+    <message>
+        <source>Pubkey: Unknown</source>
+        <translation type="unfinished">Pubkey: Unknown</translation>
+    </message>
+    <message>
+        <source>Relays: 0</source>
+        <translation type="unfinished">Relays: 0</translation>
+    </message>
+    <message>
+        <source>Force Refresh</source>
+        <translation type="unfinished">Force Refresh</translation>
+    </message>
+    <message>
+        <source>Force immediate refresh from Nostr relays (bypasses 5-minute cache)</source>
+        <translation type="unfinished">Force immediate refresh from Nostr relays (bypasses 5-minute cache)</translation>
+    </message>
+    <message>
+        <source>Governance Proposals</source>
+        <translation type="unfinished">Governance Proposals</translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation type="unfinished">Refresh</translation>
+    </message>
+    <message>
+        <source>Manually refresh proposals from Nostr relays</source>
+        <translation type="unfinished">Manually refresh proposals from Nostr relays</translation>
+    </message>
+    <message>
+        <source>Asset:</source>
+        <translation type="unfinished">Asset:</translation>
+    </message>
+    <message>
+        <source>Filter proposals by asset</source>
+        <translation type="unfinished">Filter proposals by asset</translation>
+    </message>
+    <message>
+        <source>All Assets</source>
+        <translation type="unfinished">All Assets</translation>
+    </message>
+    <message>
+        <source>Asset</source>
+        <translation type="unfinished">Asset</translation>
+    </message>
+    <message>
+        <source>Issuer</source>
+        <translation type="unfinished">Issuer</translation>
+    </message>
+    <message>
+        <source>Flow</source>
+        <translation type="unfinished">Flow</translation>
+    </message>
+    <message>
+        <source>Policy Changes</source>
+        <translation type="unfinished">Policy Changes</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation type="unfinished">Created</translation>
+    </message>
+    <message>
+        <source>Expires</source>
+        <translation type="unfinished">Expires</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation type="unfinished">Status</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation type="unfinished">Actions</translation>
+    </message>
+    <message>
+        <source>Issuer Audit Log (Private Governance)</source>
+        <translation type="unfinished">Issuer Audit Log (Private Governance)</translation>
+    </message>
+    <message>
+        <source>Shows incoming private access requests and auto-sent responses</source>
+        <translation type="unfinished">Shows incoming private access requests and auto-sent responses</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation type="unfinished">Time</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">Type</translation>
+    </message>
+    <message>
+        <source>Proposal ID</source>
+        <translation type="unfinished">Proposal ID</translation>
+    </message>
+    <message>
+        <source>Holder Pubkey</source>
+        <translation type="unfinished">Holder Pubkey</translation>
+    </message>
+    <message>
+        <source>Refreshing...</source>
+        <translation type="unfinished">Refreshing...</translation>
+    </message>
+    <message>
+        <source>Refresh Failed</source>
+        <translation type="unfinished">Refresh Failed</translation>
+    </message>
+    <message>
+        <source>Failed to refresh governance proposals from Nostr relays.</source>
+        <translation type="unfinished">Failed to refresh governance proposals from Nostr relays.</translation>
+    </message>
+    <message>
+        <source>● Connected</source>
+        <translation type="unfinished">● Connected</translation>
+    </message>
+    <message>
+        <source>Pubkey: Initialized</source>
+        <translation type="unfinished">Pubkey: Initialized</translation>
+    </message>
+    <message>
+        <source>Status: Ready</source>
+        <translation type="unfinished">Status: Ready</translation>
+    </message>
+    <message>
+        <source>● Not Initialized</source>
+        <translation type="unfinished">● Not Initialized</translation>
+    </message>
+    <message>
+        <source>Status: %1</source>
+        <translation type="unfinished">Status: %1</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation type="unfinished">Expired</translation>
+    </message>
+    <message>
+        <source>Invalid Sig</source>
+        <translation type="unfinished">Invalid Sig</translation>
+    </message>
+    <message>
+        <source>Hash Fail</source>
+        <translation type="unfinished">Hash Fail</translation>
+    </message>
+    <message>
+        <source>Active</source>
+        <translation type="unfinished">Active</translation>
+    </message>
+    <message>
+        <source>Details</source>
+        <translation type="unfinished">Details</translation>
+    </message>
+    <message>
+        <source>Vote</source>
+        <translation type="unfinished">Vote</translation>
+    </message>
+    <message>
+        <source>🔒 Private - Access Required</source>
+        <translation type="unfinished">🔒 Private - Access Required</translation>
+    </message>
+    <message>
+        <source>Request Access</source>
+        <translation type="unfinished">Request Access</translation>
+    </message>
+    <message>
+        <source>Request Private Access</source>
+        <translation type="unfinished">Request Private Access</translation>
+    </message>
+    <message>
+        <source>Private access request dialog coming from TreasuryPage.\n\nProposal: %1</source>
+        <translation type="unfinished">Private access request dialog coming from TreasuryPage.\n\nProposal: %1</translation>
+    </message>
+    <message>
+        <source>✓ Private Access Granted</source>
+        <translation type="unfinished">✓ Private Access Granted</translation>
+    </message>
+    <message>
+        <source>⚠ Received - Verification Failed</source>
+        <translation type="unfinished">⚠ Received - Verification Failed</translation>
+    </message>
+    <message>
+        <source>📥 Request</source>
+        <translation type="unfinished">📥 Request</translation>
+    </message>
+    <message>
+        <source>✓ Verified</source>
+        <translation type="unfinished">✓ Verified</translation>
+    </message>
+    <message>
+        <source>✗ Failed</source>
+        <translation type="unfinished">✗ Failed</translation>
+    </message>
+    <message>
+        <source>📤 Auto-Sent</source>
+        <translation type="unfinished">📤 Auto-Sent</translation>
+    </message>
+    <message>
+        <source>✓ Sent</source>
+        <translation type="unfinished">✓ Sent</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Proposal not found</source>
+        <translation type="unfinished">Proposal not found</translation>
+    </message>
+    <message>
+        <source>Vote Failed</source>
+        <translation type="unfinished">Vote Failed</translation>
+    </message>
+    <message>
+        <source>Cannot vote: BIP-322 attestation is invalid.\n\nError: %1</source>
+        <translation type="unfinished">Cannot vote: BIP-322 attestation is invalid.\n\nError: %1</translation>
+    </message>
+    <message>
+        <source>Confirm Vote</source>
+        <translation type="unfinished">Confirm Vote</translation>
+    </message>
+    <message>
+        <source>Vote on governance proposal?\n\nAsset: %1\nIssuer: %2\n\nPolicy Changes:\n%3\n\nThis will sign a ballot PSBT voting for this proposal.</source>
+        <translation type="unfinished">Vote on governance proposal?\n\nAsset: %1\nIssuer: %2\n\nPolicy Changes:\n%3\n\nThis will sign a ballot PSBT voting for this proposal.</translation>
+    </message>
+    <message>
+        <source>N/A (public vote)</source>
+        <translation type="unfinished">N/A (public vote)</translation>
+    </message>
+    <message>
+        <source>This proposal does not include a template PSBT.\n\n</source>
+        <translation type="unfinished">This proposal does not include a template PSBT.\n\n</translation>
+    </message>
+    <message>
+        <source>This is a PRIVATE flow proposal - private voting will be implemented in PR3.</source>
+        <translation type="unfinished">This is a PRIVATE flow proposal - private voting will be implemented in PR3.</translation>
+    </message>
+    <message>
+        <source>Flow type: %1\n</source>
+        <translation type="unfinished">Flow type: %1\n</translation>
+    </message>
+    <message>
+        <source>Proposal ID: %1\n\n</source>
+        <translation type="unfinished">Proposal ID: %1\n\n</translation>
+    </message>
+    <message>
+        <source>Available fields: %1</source>
+        <translation type="unfinished">Available fields: %1</translation>
+    </message>
+    <message>
+        <source>Select Voting UTXOs</source>
+        <translation type="unfinished">Select Voting UTXOs</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation type="unfinished">Select</translation>
+    </message>
+    <message>
+        <source>Txid</source>
+        <translation type="unfinished">Txid</translation>
+    </message>
+    <message>
+        <source>Vout</source>
+        <translation type="unfinished">Vout</translation>
+    </message>
+    <message>
+        <source>Asset Units</source>
+        <translation type="unfinished">Asset Units</translation>
+    </message>
+    <message>
+        <source>Confirmations</source>
+        <translation type="unfinished">Confirmations</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Total voting power:&lt;/b&gt; %1 units (%2 UTXOs selected)</source>
+        <translation type="unfinished">&lt;b&gt;Total voting power:&lt;/b&gt; %1 units (%2 UTXOs selected)</translation>
+    </message>
+    <message>
+        <source>No Selection</source>
+        <translation type="unfinished">No Selection</translation>
+    </message>
+    <message>
+        <source>Please select at least one UTXO to vote with.</source>
+        <translation type="unfinished">Please select at least one UTXO to vote with.</translation>
+    </message>
+    <message>
+        <source>Wallet Locked</source>
+        <translation type="unfinished">Wallet Locked</translation>
+    </message>
+    <message>
+        <source>Please unlock the wallet to sign the governance ballot.</source>
+        <translation type="unfinished">Please unlock the wallet to sign the governance ballot.</translation>
+    </message>
+    <message>
+        <source>%1 UTXOs selected</source>
+        <translation type="unfinished">%1 UTXOs selected</translation>
+    </message>
+    <message>
+        <source>Vote Submitted</source>
+        <translation type="unfinished">Vote Submitted</translation>
+    </message>
+    <message>
+        <source>Failed to sign ballot:\n\n%1</source>
+        <translation type="unfinished">Failed to sign ballot:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Canonical ICU hash mismatch (expected: %1, got: %2)</source>
+        <translation type="unfinished">Canonical ICU hash mismatch (expected: %1, got: %2)</translation>
+    </message>
+    <message>
+        <source>Public proposal missing ICU text</source>
+        <translation type="unfinished">Public proposal missing ICU text</translation>
+    </message>
+    <message>
+        <source>Witness bundle hash mismatch (expected: %1, got: %2)</source>
+        <translation type="unfinished">Witness bundle hash mismatch (expected: %1, got: %2)</translation>
+    </message>
+    <message>
+        <source>Witness bundle hash provided but bundle missing</source>
+        <translation type="unfinished">Witness bundle hash provided but bundle missing</translation>
+    </message>
+    <message>
+        <source>Template PSBT hash mismatch (expected: %1, got: %2)</source>
+        <translation type="unfinished">Template PSBT hash mismatch (expected: %1, got: %2)</translation>
+    </message>
+    <message>
+        <source>Public proposal missing template PSBT</source>
+        <translation type="unfinished">Public proposal missing template PSBT</translation>
+    </message>
+    <message>
+        <source>Template PSBT hash missing</source>
+        <translation type="unfinished">Template PSBT hash missing</translation>
+    </message>
+    <message>
+        <source>Governance Proposal Details</source>
+        <translation type="unfinished">Governance Proposal Details</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Proposal ID:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Proposal ID:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Asset ID:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Asset ID:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Issuer Pubkey:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Issuer Pubkey:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Flow Type:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Flow Type:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Created:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Created:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Expires:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Expires:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Status:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Status:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>EXPIRED</source>
+        <translation type="unfinished">EXPIRED</translation>
+    </message>
+    <message>
+        <source>ACTIVE</source>
+        <translation type="unfinished">ACTIVE</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Title:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Title:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;br&gt;&lt;b&gt;Verification Status:&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;br&gt;&lt;b&gt;Verification Status:&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;table style='margin-left: 15px;'&gt;</source>
+        <translation type="unfinished">&lt;table style='margin-left: 15px;'&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;BIP-322 Signature:&lt;/td&gt;&lt;td style='color: %2;'&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;BIP-322 Signature:&lt;/td&gt;&lt;td style='color: %2;'&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>✓ Valid</source>
+        <translation type="unfinished">✓ Valid</translation>
+    </message>
+    <message>
+        <source>✗ Invalid</source>
+        <translation type="unfinished">✗ Invalid</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;Canonical ICU Hash:&lt;/td&gt;&lt;td style='color: %2;'&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;Canonical ICU Hash:&lt;/td&gt;&lt;td style='color: %2;'&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;Witness Bundle Hash:&lt;/td&gt;&lt;td style='color: %2;'&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;Witness Bundle Hash:&lt;/td&gt;&lt;td style='color: %2;'&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;Template PSBT Hash:&lt;/td&gt;&lt;td style='color: %2;'&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;Template PSBT Hash:&lt;/td&gt;&lt;td style='color: %2;'&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;/table&gt;</source>
+        <translation type="unfinished">&lt;/table&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;br&gt;&lt;b style='color: #d32f2f;'&gt;⚠ WARNING: DO NOT VOTE ON THIS PROPOSAL&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;br&gt;&lt;b style='color: #d32f2f;'&gt;⚠ WARNING: DO NOT VOTE ON THIS PROPOSAL&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;Errors: %1&lt;/i&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;i&gt;Errors: %1&lt;/i&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;br&gt;&lt;b&gt;BIP-322 Attestation:&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;br&gt;&lt;b&gt;BIP-322 Attestation:&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Address: %1&lt;br&gt;</source>
+        <translation type="unfinished">Address: %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Message: %1&lt;br&gt;</source>
+        <translation type="unfinished">Message: %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Signature: %1&lt;br&gt;</source>
+        <translation type="unfinished">Signature: %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;br&gt;&lt;b&gt;Policy Changes:&lt;/b&gt;&lt;br&gt;%1</source>
+        <translation type="unfinished">&lt;br&gt;&lt;b&gt;Policy Changes:&lt;/b&gt;&lt;br&gt;%1</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Governance Text&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Governance Text&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source> (not published for private flows)</source>
+        <translation type="unfinished"> (not published for private flows)</translation>
+    </message>
+    <message>
+        <source>Canonical Hash: %1\n</source>
+        <translation type="unfinished">Canonical Hash: %1\n</translation>
+    </message>
+    <message>
+        <source>Verification: %1\n\n</source>
+        <translation type="unfinished">Verification: %1\n\n</translation>
+    </message>
+    <message>
+        <source>✓ VERIFIED (cached)</source>
+        <translation type="unfinished">✓ VERIFIED (cached)</translation>
+    </message>
+    <message>
+        <source>✗ FAILED - DO NOT SIGN</source>
+        <translation type="unfinished">✗ FAILED - DO NOT SIGN</translation>
+    </message>
+    <message>
+        <source>(No text provided - private flow)</source>
+        <translation type="unfinished">(No text provided - private flow)</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Witness Bundle (JSON):&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Witness Bundle (JSON):&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;No witness bundle was included with this proposal.&lt;/i&gt;</source>
+        <translation type="unfinished">&lt;i&gt;No witness bundle was included with this proposal.&lt;/i&gt;</translation>
+    </message>
+    <message>
+        <source>Save to File</source>
+        <translation type="unfinished">Save to File</translation>
+    </message>
+    <message>
+        <source>Save Proposal Details</source>
+        <translation type="unfinished">Save Proposal Details</translation>
+    </message>
+    <message>
+        <source>Text Files (*.txt);;All Files (*)</source>
+        <translation type="unfinished">Text Files (*.txt);;All Files (*)</translation>
+    </message>
+    <message>
+        <source>Save Failed</source>
+        <translation type="unfinished">Save Failed</translation>
+    </message>
+    <message>
+        <source>Unable to open %1 for writing</source>
+        <translation type="unfinished">Unable to open %1 for writing</translation>
+    </message>
+    <message>
+        <source>Saved</source>
+        <translation type="unfinished">Saved</translation>
+    </message>
+    <message>
+        <source>Proposal details saved to %1</source>
+        <translation type="unfinished">Proposal details saved to %1</translation>
+    </message>
+    <message>
+        <source>Copy to Clipboard</source>
+        <translation type="unfinished">Copy to Clipboard</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation type="unfinished">Copied</translation>
+    </message>
+    <message>
+        <source>Full proposal copied to clipboard</source>
+        <translation type="unfinished">Full proposal copied to clipboard</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished">Close</translation>
+    </message>
+    <message>
+        <source>%1s ago</source>
+        <translation type="unfinished">%1s ago</translation>
+    </message>
+    <message>
+        <source>%1m ago</source>
+        <translation type="unfinished">%1m ago</translation>
+    </message>
+    <message>
+        <source>%1h ago</source>
+        <translation type="unfinished">%1h ago</translation>
+    </message>
+    <message>
+        <source>%1d ago</source>
+        <translation type="unfinished">%1d ago</translation>
+    </message>
+    <message>
+        <source>Quorum: %1 bps</source>
+        <translation type="unfinished">Quorum: %1 bps</translation>
+    </message>
+    <message>
+        <source>Cap: %1 units</source>
+        <translation type="unfinished">Cap: %1 units</translation>
+    </message>
+    <message>
+        <source>Epoch: %1</source>
+        <translation type="unfinished">Epoch: %1</translation>
+    </message>
+    <message>
+        <source>(no changes)</source>
+        <translation type="unfinished">(no changes)</translation>
+    </message>
+    <message>
+        <source>This section shows private governance activity as an issuer:\n</source>
+        <translation type="unfinished">ส่วนนี้แสดงกิจกรรมการกำกับดูแลส่วนตัวในฐานะผู้ออก:\n</translation>
+    </message>
+    <message>
+        <source>Template PSBT hash mismatch!\n\n</source>
+        <translation type="unfinished">แฮช PSBT ของเทมเพลตไม่ตรงกัน!\n\n</translation>
+    </message>
+    <message>
+        <source>You don't own any UTXOs for this asset.\n\n</source>
+        <translation type="unfinished">คุณไม่มี UTXO ใดสำหรับสินทรัพย์นี้\n\n</translation>
+    </message>
+    <message>
+        <source>Select which UTXOs to use for voting:\n\n</source>
+        <translation type="unfinished">เลือก UTXO ที่จะใช้สำหรับการลงคะแนน:\n\n</translation>
+    </message>
+    <message>
+        <source>Your ballot has been signed and published to the bulletin board!\n\n</source>
+        <translation type="unfinished">บัตรลงคะแนนของคุณได้รับการลงนามและเผยแพร่ไปยังกระดานประกาศแล้ว!\n\n</translation>
+    </message>
+</context>
+<context>
+    <name>GreeksVisualizationDialog</name>
+    <message>
+        <source>Greeks Visualization</source>
+        <translation type="unfinished">Greeks Visualization</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Option Greeks Analysis&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3&gt;Option Greeks Analysis&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>Computing Greeks...</source>
+        <translation type="unfinished">Computing Greeks...</translation>
+    </message>
+    <message>
+        <source>Greek</source>
+        <translation type="unfinished">Greek</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation type="unfinished">Value</translation>
+    </message>
+    <message>
+        <source>Visual</source>
+        <translation type="unfinished">Visual</translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation type="unfinished">Refresh</translation>
+    </message>
+    <message>
+        <source>Copy to Clipboard</source>
+        <translation type="unfinished">Copy to Clipboard</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished">Close</translation>
+    </message>
+    <message>
+        <source>✓ Greeks copied to clipboard</source>
+        <translation type="unfinished">✓ Greeks copied to clipboard</translation>
+    </message>
+    <message>
+        <source>Greeks computed successfully</source>
+        <translation type="unfinished">Greeks computed successfully</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Wallet model not available</source>
+        <translation type="unfinished">Wallet model not available</translation>
+    </message>
+    <message>
+        <source>⚠ Error: %1</source>
+        <translation type="unfinished">⚠ Error: %1</translation>
+    </message>
+    <message>
+        <source>Greeks Error</source>
+        <translation type="unfinished">Greeks Error</translation>
+    </message>
+    <message>
+        <source>Failed to compute Greeks:\n\n%1</source>
+        <translation type="unfinished">Failed to compute Greeks:\n\n%1</translation>
+    </message>
+    <message>
+        <source>No Greeks</source>
+        <translation type="unfinished">No Greeks</translation>
+    </message>
+    <message>
+        <source>Greeks not available for this contract</source>
+        <translation type="unfinished">Greeks not available for this contract</translation>
+    </message>
+    <message>
+        <source>Delta</source>
+        <translation type="unfinished">Delta</translation>
+    </message>
+    <message>
+        <source>Collateral option delta</source>
+        <translation type="unfinished">Collateral option delta</translation>
+    </message>
+    <message>
+        <source>Gamma</source>
+        <translation type="unfinished">Gamma</translation>
+    </message>
+    <message>
+        <source>Collateral option gamma</source>
+        <translation type="unfinished">Collateral option gamma</translation>
+    </message>
+    <message>
+        <source>Vega</source>
+        <translation type="unfinished">Vega</translation>
+    </message>
+    <message>
+        <source>Collateral option vega</source>
+        <translation type="unfinished">Collateral option vega</translation>
+    </message>
+    <message>
+        <source>Theta</source>
+        <translation type="unfinished">Theta</translation>
+    </message>
+    <message>
+        <source>Collateral option theta (per day)</source>
+        <translation type="unfinished">Collateral option theta (per day)</translation>
+    </message>
+    <message>
+        <source>Rho</source>
+        <translation type="unfinished">Rho</translation>
+    </message>
+    <message>
+        <source>Collateral option rho</source>
+        <translation type="unfinished">Collateral option rho</translation>
+    </message>
+    <message>
+        <source>CALL SPREAD GREEKS</source>
+        <translation type="unfinished">CALL SPREAD GREEKS</translation>
+    </message>
+    <message>
+        <source>Delta A (Call)</source>
+        <translation type="unfinished">Delta A (Call)</translation>
+    </message>
+    <message>
+        <source>Call delta w.r.t. pay leg asset</source>
+        <translation type="unfinished">Call delta w.r.t. pay leg asset</translation>
+    </message>
+    <message>
+        <source>Delta B (Call)</source>
+        <translation type="unfinished">Delta B (Call)</translation>
+    </message>
+    <message>
+        <source>Call delta w.r.t. receive leg asset</source>
+        <translation type="unfinished">Call delta w.r.t. receive leg asset</translation>
+    </message>
+    <message>
+        <source>Gamma A (Call)</source>
+        <translation type="unfinished">Gamma A (Call)</translation>
+    </message>
+    <message>
+        <source>Call gamma w.r.t. pay leg asset</source>
+        <translation type="unfinished">Call gamma w.r.t. pay leg asset</translation>
+    </message>
+    <message>
+        <source>Gamma B (Call)</source>
+        <translation type="unfinished">Gamma B (Call)</translation>
+    </message>
+    <message>
+        <source>Call gamma w.r.t. receive leg asset</source>
+        <translation type="unfinished">Call gamma w.r.t. receive leg asset</translation>
+    </message>
+    <message>
+        <source>Vega A (Call)</source>
+        <translation type="unfinished">Vega A (Call)</translation>
+    </message>
+    <message>
+        <source>Call vega w.r.t. pay leg volatility</source>
+        <translation type="unfinished">Call vega w.r.t. pay leg volatility</translation>
+    </message>
+    <message>
+        <source>Vega B (Call)</source>
+        <translation type="unfinished">Vega B (Call)</translation>
+    </message>
+    <message>
+        <source>Call vega w.r.t. receive leg volatility</source>
+        <translation type="unfinished">Call vega w.r.t. receive leg volatility</translation>
+    </message>
+    <message>
+        <source>Theta (Call)</source>
+        <translation type="unfinished">Theta (Call)</translation>
+    </message>
+    <message>
+        <source>Call time decay (per day)</source>
+        <translation type="unfinished">Call time decay (per day)</translation>
+    </message>
+    <message>
+        <source>Rho (Call)</source>
+        <translation type="unfinished">Rho (Call)</translation>
+    </message>
+    <message>
+        <source>Call interest rate sensitivity</source>
+        <translation type="unfinished">Call interest rate sensitivity</translation>
+    </message>
+    <message>
+        <source>PUT SPREAD GREEKS</source>
+        <translation type="unfinished">PUT SPREAD GREEKS</translation>
+    </message>
+    <message>
+        <source>Delta A (Put)</source>
+        <translation type="unfinished">Delta A (Put)</translation>
+    </message>
+    <message>
+        <source>Put delta w.r.t. pay leg asset</source>
+        <translation type="unfinished">Put delta w.r.t. pay leg asset</translation>
+    </message>
+    <message>
+        <source>Delta B (Put)</source>
+        <translation type="unfinished">Delta B (Put)</translation>
+    </message>
+    <message>
+        <source>Put delta w.r.t. receive leg asset</source>
+        <translation type="unfinished">Put delta w.r.t. receive leg asset</translation>
+    </message>
+    <message>
+        <source>Gamma A (Put)</source>
+        <translation type="unfinished">Gamma A (Put)</translation>
+    </message>
+    <message>
+        <source>Put gamma w.r.t. pay leg asset</source>
+        <translation type="unfinished">Put gamma w.r.t. pay leg asset</translation>
+    </message>
+    <message>
+        <source>Gamma B (Put)</source>
+        <translation type="unfinished">Gamma B (Put)</translation>
+    </message>
+    <message>
+        <source>Put gamma w.r.t. receive leg asset</source>
+        <translation type="unfinished">Put gamma w.r.t. receive leg asset</translation>
+    </message>
+    <message>
+        <source>Vega A (Put)</source>
+        <translation type="unfinished">Vega A (Put)</translation>
+    </message>
+    <message>
+        <source>Put vega w.r.t. pay leg volatility</source>
+        <translation type="unfinished">Put vega w.r.t. pay leg volatility</translation>
+    </message>
+    <message>
+        <source>Vega B (Put)</source>
+        <translation type="unfinished">Vega B (Put)</translation>
+    </message>
+    <message>
+        <source>Put vega w.r.t. receive leg volatility</source>
+        <translation type="unfinished">Put vega w.r.t. receive leg volatility</translation>
+    </message>
+    <message>
+        <source>Theta (Put)</source>
+        <translation type="unfinished">Theta (Put)</translation>
+    </message>
+    <message>
+        <source>Put time decay (per day)</source>
+        <translation type="unfinished">Put time decay (per day)</translation>
+    </message>
+    <message>
+        <source>Rho (Put)</source>
+        <translation type="unfinished">Rho (Put)</translation>
+    </message>
+    <message>
+        <source>Put interest rate sensitivity</source>
+        <translation type="unfinished">Put interest rate sensitivity</translation>
+    </message>
+    <message>
+        <source>Greeks measure the sensitivity of the contract's value to various factors:&lt;br&gt;</source>
+        <translation type="unfinished">Greeks วัดความไวของมูลค่าสัญญาต่อปัจจัยต่างๆ:&lt;br&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>ImportOfferDialog</name>
+    <message>
+        <source>Import Contract Offer</source>
+        <translation type="unfinished">Import Contract Offer</translation>
+    </message>
+    <message>
+        <source>&lt;h2&gt;Import Contract Offer&lt;/h2&gt;</source>
+        <translation type="unfinished">&lt;h2&gt;Import Contract Offer&lt;/h2&gt;</translation>
+    </message>
+    <message>
+        <source>Import an offer from JSON, file, or active cosign session.</source>
+        <translation type="unfinished">Import an offer from JSON, file, or active cosign session.</translation>
+    </message>
+    <message>
+        <source>Import Method</source>
+        <translation type="unfinished">Import Method</translation>
+    </message>
+    <message>
+        <source>Manual JSON Paste</source>
+        <translation type="unfinished">Manual JSON Paste</translation>
+    </message>
+    <message>
+        <source>Load from File</source>
+        <translation type="unfinished">Load from File</translation>
+    </message>
+    <message>
+        <source>Receive from Cosign Session</source>
+        <translation type="unfinished">Receive from Cosign Session</translation>
+    </message>
+    <message>
+        <source>Offer JSON</source>
+        <translation type="unfinished">Offer JSON</translation>
+    </message>
+    <message>
+        <source>Paste offer JSON here...</source>
+        <translation type="unfinished">Paste offer JSON here...</translation>
+    </message>
+    <message>
+        <source>Paste from Clipboard</source>
+        <translation type="unfinished">Paste from Clipboard</translation>
+    </message>
+    <message>
+        <source>Cosign Session</source>
+        <translation type="unfinished">Cosign Session</translation>
+    </message>
+    <message>
+        <source>(No active sessions)</source>
+        <translation type="unfinished">(No active sessions)</translation>
+    </message>
+    <message>
+        <source>Receive Offer</source>
+        <translation type="unfinished">Receive Offer</translation>
+    </message>
+    <message>
+        <source>Import &amp;&amp; Review</source>
+        <translation type="unfinished">Import &amp;&amp; Review</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancel</translation>
+    </message>
+    <message>
+        <source>(No sessions with completed handshakes)</source>
+        <translation type="unfinished">(No sessions with completed handshakes)</translation>
+    </message>
+    <message>
+        <source>(Session manager not available)</source>
+        <translation type="unfinished">(Session manager not available)</translation>
+    </message>
+    <message>
+        <source>Clipboard Empty</source>
+        <translation type="unfinished">Clipboard Empty</translation>
+    </message>
+    <message>
+        <source>Clipboard does not contain any text.</source>
+        <translation type="unfinished">Clipboard does not contain any text.</translation>
+    </message>
+    <message>
+        <source>Pasted from clipboard. Click 'Import &amp;&amp; Review' to validate.</source>
+        <translation type="unfinished">Pasted from clipboard. Click 'Import &amp;&amp; Review' to validate.</translation>
+    </message>
+    <message>
+        <source>Load Offer JSON</source>
+        <translation type="unfinished">Load Offer JSON</translation>
+    </message>
+    <message>
+        <source>JSON Files (*.json);;All Files (*)</source>
+        <translation type="unfinished">JSON Files (*.json);;All Files (*)</translation>
+    </message>
+    <message>
+        <source>File Error</source>
+        <translation type="unfinished">File Error</translation>
+    </message>
+    <message>
+        <source>Could not open file:\n%1</source>
+        <translation type="unfinished">Could not open file:\n%1</translation>
+    </message>
+    <message>
+        <source>Loaded from file: %1</source>
+        <translation type="unfinished">Loaded from file: %1</translation>
+    </message>
+    <message>
+        <source>No Session Selected</source>
+        <translation type="unfinished">No Session Selected</translation>
+    </message>
+    <message>
+        <source>Please select an active cosign session.</source>
+        <translation type="unfinished">Please select an active cosign session.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Wallet model not available</source>
+        <translation type="unfinished">Wallet model not available</translation>
+    </message>
+    <message>
+        <source>Waiting for offer from session %1...</source>
+        <translation type="unfinished">Waiting for offer from session %1...</translation>
+    </message>
+    <message>
+        <source>Failed to receive offer: %1</source>
+        <translation type="unfinished">Failed to receive offer: %1</translation>
+    </message>
+    <message>
+        <source>No message received (timeout or no pending messages)</source>
+        <translation type="unfinished">No message received (timeout or no pending messages)</translation>
+    </message>
+    <message>
+        <source>Received offer via cosign session. Click 'Import &amp;&amp; Review' to validate.</source>
+        <translation type="unfinished">Received offer via cosign session. Click 'Import &amp;&amp; Review' to validate.</translation>
+    </message>
+    <message>
+        <source>Empty Input</source>
+        <translation type="unfinished">Empty Input</translation>
+    </message>
+    <message>
+        <source>Please paste or load an offer JSON.</source>
+        <translation type="unfinished">Please paste or load an offer JSON.</translation>
+    </message>
+    <message>
+        <source>Invalid JSON</source>
+        <translation type="unfinished">Invalid JSON</translation>
+    </message>
+    <message>
+        <source>The provided text is not valid JSON.</source>
+        <translation type="unfinished">The provided text is not valid JSON.</translation>
+    </message>
+    <message>
+        <source>Invalid Offer</source>
+        <translation type="unfinished">Invalid Offer</translation>
+    </message>
+    <message>
+        <source>Offer JSON does not contain a 'contract_type' field.</source>
+        <translation type="unfinished">Offer JSON does not contain a 'contract_type' field.</translation>
+    </message>
+    <message>
+        <source>Import Failed</source>
+        <translation type="unfinished">Import Failed</translation>
+    </message>
+    <message>
+        <source>Failed to import repo offer:\n\n%1</source>
+        <translation type="unfinished">Failed to import repo offer:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Success</source>
+        <translation type="unfinished">Success</translation>
+    </message>
+    <message>
+        <source>Contract opened successfully!\n\nTransaction ID: %1</source>
+        <translation type="unfinished">Contract opened successfully!\n\nTransaction ID: %1</translation>
+    </message>
+    <message>
+        <source>Coming Soon</source>
+        <translation type="unfinished">Coming Soon</translation>
+    </message>
+    <message>
+        <source>Forward contract import will be available in Phase 6.</source>
+        <translation type="unfinished">Forward contract import will be available in Phase 6.</translation>
+    </message>
+    <message>
+        <source>Spot contract import will be available in Phase 7.</source>
+        <translation type="unfinished">Spot contract import will be available in Phase 7.</translation>
+    </message>
+    <message>
+        <source>Unknown Contract Type</source>
+        <translation type="unfinished">Unknown Contract Type</translation>
+    </message>
+    <message>
+        <source>Unknown contract type: %1</source>
+        <translation type="unfinished">Unknown contract type: %1</translation>
+    </message>
+    <message>
+        <source>%1 - SAS: %2</source>
+        <translation type="unfinished">%1 - SAS: %2</translation>
+    </message>
+</context>
+<context>
+    <name>JoinSessionDialog</name>
+    <message>
+        <source>Join Cosign Session</source>
+        <translation type="unfinished">Join Cosign Session</translation>
+    </message>
+    <message>
+        <source>Paste the full invite link from your peer:</source>
+        <translation type="unfinished">Paste the full invite link from your peer:</translation>
+    </message>
+    <message>
+        <source>Full Invite Link</source>
+        <translation type="unfinished">Full Invite Link</translation>
+    </message>
+    <message>
+        <source>Paste full link: cosign:?r=...&amp;t=...#c=...</source>
+        <translation type="unfinished">Paste full link: cosign:?r=...&amp;t=...#c=...</translation>
+    </message>
+    <message>
+        <source>Paste from Clipboard</source>
+        <translation type="unfinished">Paste from Clipboard</translation>
+    </message>
+    <message>
+        <source>e.g., Repo contract negotiation</source>
+        <translation type="unfinished">e.g., Repo contract negotiation</translation>
+    </message>
+    <message>
+        <source>Context (optional):</source>
+        <translation type="unfinished">Context (optional):</translation>
+    </message>
+    <message>
+        <source>Join Session</source>
+        <translation type="unfinished">Join Session</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancel</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Wallet model not available</source>
+        <translation type="unfinished">Wallet model not available</translation>
+    </message>
+    <message>
+        <source>Please enter the full invite link</source>
+        <translation type="unfinished">Please enter the full invite link</translation>
+    </message>
+    <message>
+        <source>Joining...</source>
+        <translation type="unfinished">Joining...</translation>
+    </message>
+    <message>
+        <source>Failed to join session:\n%1</source>
+        <translation type="unfinished">Failed to join session:\n%1</translation>
+    </message>
+    <message>
+        <source>Session Joined</source>
+        <translation type="unfinished">Session Joined</translation>
+    </message>
+    <message>
+        <source>Successfully joined session!</source>
+        <translation type="unfinished">Successfully joined session!</translation>
+    </message>
+    <message>
+        <source>&lt;span style='font-size: 16px; font-weight: bold; color: white; background-color: #2196f3; padding: 6px 12px; border-radius: 3px;'&gt;</source>
+        <translation type="unfinished">&lt;span style='font-size: 16px; font-weight: bold; color: white; background-color: #2196f3; padding: 6px 12px; border-radius: 3px;'&gt;</translation>
+    </message>
+    <message>
+        <source>Invalid invite link. It must start with 'cosign:'\n\n</source>
+        <translation type="unfinished">ลิงก์คำเชิญไม่ถูกต้อง ต้องเริ่มต้นด้วย 'cosign:'\n\n</translation>
+    </message>
+    <message>
+        <source>Session ID: %1\n\n</source>
+        <translation type="unfinished">รหัสเซสชัน: %1\n\n</translation>
+    </message>
+</context>
+<context>
+    <name>MiningApisPage</name>
+    <message>
+        <source>Mining API</source>
+        <translation type="unfinished">Mining API</translation>
+    </message>
+    <message>
+        <source>Verification API</source>
+        <translation type="unfinished">Verification API</translation>
+    </message>
+    <message>
+        <source>Configuration</source>
+        <translation type="unfinished">Configuration</translation>
+    </message>
+    <message>
+        <source>Metrics &amp;&amp; Logs</source>
+        <translation type="unfinished">Metrics &amp;&amp; Logs</translation>
+    </message>
+    <message>
+        <source>Reorg Advisory</source>
+        <translation type="unfinished">Reorg Advisory</translation>
+    </message>
+    <message>
+        <source>Mining Status</source>
+        <translation type="unfinished">Mining Status</translation>
+    </message>
+    <message>
+        <source>Status:</source>
+        <translation type="unfinished">Status:</translation>
+    </message>
+    <message>
+        <source>● Stopped</source>
+        <translation type="unfinished">● Stopped</translation>
+    </message>
+    <message>
+        <source>Address:</source>
+        <translation type="unfinished">Address:</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation type="unfinished">None</translation>
+    </message>
+    <message>
+        <source>Uptime:</source>
+        <translation type="unfinished">Uptime:</translation>
+    </message>
+    <message>
+        <source>Start Mining</source>
+        <translation type="unfinished">Start Mining</translation>
+    </message>
+    <message>
+        <source>Stop Mining</source>
+        <translation type="unfinished">Stop Mining</translation>
+    </message>
+    <message>
+        <source>Mining Metrics</source>
+        <translation type="unfinished">Mining Metrics</translation>
+    </message>
+    <message>
+        <source>Solutions Received:</source>
+        <translation type="unfinished">Solutions Received:</translation>
+    </message>
+    <message>
+        <source>Usable Solutions:</source>
+        <translation type="unfinished">Usable Solutions:</translation>
+    </message>
+    <message>
+        <source>Invalid Responses:</source>
+        <translation type="unfinished">Invalid Responses:</translation>
+    </message>
+    <message>
+        <source>Late Duplicates:</source>
+        <translation type="unfinished">Late Duplicates:</translation>
+    </message>
+    <message>
+        <source>Usable Rate:</source>
+        <translation type="unfinished">Usable Rate:</translation>
+    </message>
+    <message>
+        <source>Rate Limited:</source>
+        <translation type="unfinished">Rate Limited:</translation>
+    </message>
+    <message>
+        <source>Network Errors:</source>
+        <translation type="unfinished">Network Errors:</translation>
+    </message>
+    <message>
+        <source>Last Solution:</source>
+        <translation type="unfinished">Last Solution:</translation>
+    </message>
+    <message>
+        <source>Never</source>
+        <translation type="unfinished">Never</translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation type="unfinished">Refresh</translation>
+    </message>
+    <message>
+        <source>Miner Throughput (vLLM)</source>
+        <translation type="unfinished">Miner Throughput (vLLM)</translation>
+    </message>
+    <message>
+        <source>Hashrate:</source>
+        <translation type="unfinished">Hashrate:</translation>
+    </message>
+    <message>
+        <source>Tokens/sec:</source>
+        <translation type="unfinished">Tokens/sec:</translation>
+    </message>
+    <message>
+        <source>Total Hashes:</source>
+        <translation type="unfinished">Total Hashes:</translation>
+    </message>
+    <message>
+        <source>Active Requests:</source>
+        <translation type="unfinished">Active Requests:</translation>
+    </message>
+    <message>
+        <source>Mining API Endpoints</source>
+        <translation type="unfinished">Mining API Endpoints</translation>
+    </message>
+    <message>
+        <source>Job Push:</source>
+        <translation type="unfinished">Job Push:</translation>
+    </message>
+    <message>
+        <source>tcp://localhost:6000</source>
+        <translation type="unfinished">tcp://localhost:6000</translation>
+    </message>
+    <message>
+        <source>Sol Pull:</source>
+        <translation type="unfinished">Sol Pull:</translation>
+    </message>
+    <message>
+        <source>tcp://*:7000</source>
+        <translation type="unfinished">tcp://*:7000</translation>
+    </message>
+    <message>
+        <source>Connection Health: ✓ OK</source>
+        <translation type="unfinished">Connection Health: ✓ OK</translation>
+    </message>
+    <message>
+        <source>Verification API Endpoints</source>
+        <translation type="unfinished">Verification API Endpoints</translation>
+    </message>
+    <message>
+        <source>Request Push:</source>
+        <translation type="unfinished">Request Push:</translation>
+    </message>
+    <message>
+        <source>tcp://localhost:5000</source>
+        <translation type="unfinished">tcp://localhost:5000</translation>
+    </message>
+    <message>
+        <source>Result Pull:</source>
+        <translation type="unfinished">Result Pull:</translation>
+    </message>
+    <message>
+        <source>tcp://*:5001</source>
+        <translation type="unfinished">tcp://*:5001</translation>
+    </message>
+    <message>
+        <source>API Status: ● Active</source>
+        <translation type="unfinished">API Status: ● Active</translation>
+    </message>
+    <message>
+        <source>Pending Validations</source>
+        <translation type="unfinished">Pending Validations</translation>
+    </message>
+    <message>
+        <source>Quick Validations:</source>
+        <translation type="unfinished">Quick Validations:</translation>
+    </message>
+    <message>
+        <source>0 pending</source>
+        <translation type="unfinished">0 pending</translation>
+    </message>
+    <message>
+        <source>Full Validations:</source>
+        <translation type="unfinished">Full Validations:</translation>
+    </message>
+    <message>
+        <source>Model Validations:</source>
+        <translation type="unfinished">Model Validations:</translation>
+    </message>
+    <message>
+        <source>Refresh Queues</source>
+        <translation type="unfinished">Refresh Queues</translation>
+    </message>
+    <message>
+        <source>Recent Validations:</source>
+        <translation type="unfinished">Recent Validations:</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">Type</translation>
+    </message>
+    <message>
+        <source>Block/Model Hash</source>
+        <translation type="unfinished">Block/Model Hash</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation type="unfinished">Status</translation>
+    </message>
+    <message>
+        <source>Timestamp</source>
+        <translation type="unfinished">Timestamp</translation>
+    </message>
+    <message>
+        <source>Mining API Configuration</source>
+        <translation type="unfinished">Mining API Configuration</translation>
+    </message>
+    <message>
+        <source>Verification API Configuration</source>
+        <translation type="unfinished">Verification API Configuration</translation>
+    </message>
+    <message>
+        <source>Note: Configuration is read from environment variables</source>
+        <translation type="unfinished">Note: Configuration is read from environment variables</translation>
+    </message>
+    <message>
+        <source>System Logs (Last 100):</source>
+        <translation type="unfinished">System Logs (Last 100):</translation>
+    </message>
+    <message>
+        <source>System logs will appear here...</source>
+        <translation type="unfinished">System logs will appear here...</translation>
+    </message>
+    <message>
+        <source>Export Logs</source>
+        <translation type="unfinished">Export Logs</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation type="unfinished">Clear</translation>
+    </message>
+    <message>
+        <source>Client model not available</source>
+        <translation type="unfinished">Client model not available</translation>
+    </message>
+    <message>
+        <source>Rotating (new per block)</source>
+        <translation type="unfinished">Rotating (new per block)</translation>
+    </message>
+    <message>
+        <source>● Active</source>
+        <translation type="unfinished">● Active</translation>
+    </message>
+    <message>
+        <source>Rotating (P2WPKH per block)</source>
+        <translation type="unfinished">Rotating (P2WPKH per block)</translation>
+    </message>
+    <message>
+        <source>Mining started with address rotation</source>
+        <translation type="unfinished">Mining started with address rotation</translation>
+    </message>
+    <message>
+        <source>Mining started with automatic P2WPKH rotation</source>
+        <translation type="unfinished">Mining started with automatic P2WPKH rotation</translation>
+    </message>
+    <message>
+        <source>Failed to start mining: %1</source>
+        <translation type="unfinished">Failed to start mining: %1</translation>
+    </message>
+    <message>
+        <source>Mining stopped successfully</source>
+        <translation type="unfinished">Mining stopped successfully</translation>
+    </message>
+    <message>
+        <source>Mining stopped</source>
+        <translation type="unfinished">Mining stopped</translation>
+    </message>
+    <message>
+        <source>Failed to stop mining: %1</source>
+        <translation type="unfinished">Failed to stop mining: %1</translation>
+    </message>
+    <message>
+        <source>Text Files</source>
+        <translation type="unfinished">Text Files</translation>
+    </message>
+    <message>
+        <source>Could not open file for writing</source>
+        <translation type="unfinished">Could not open file for writing</translation>
+    </message>
+    <message>
+        <source>Logs exported successfully</source>
+        <translation type="unfinished">Logs exported successfully</translation>
+    </message>
+    <message>
+        <source>Logs cleared</source>
+        <translation type="unfinished">Logs cleared</translation>
+    </message>
+    <message>
+        <source>Failed to update metrics: %1</source>
+        <translation type="unfinished">Failed to update metrics: %1</translation>
+    </message>
+    <message>
+        <source>Connection Health: ✓ OK (last check: now)</source>
+        <translation type="unfinished">Connection Health: ✓ OK (last check: now)</translation>
+    </message>
+    <message>
+        <source>Connection Health: ⚠ Degraded</source>
+        <translation type="unfinished">Connection Health: ⚠ Degraded</translation>
+    </message>
+    <message>
+        <source>Connection Health: ✗ Unavailable</source>
+        <translation type="unfinished">Connection Health: ✗ Unavailable</translation>
+    </message>
+    <message>
+        <source>Connection Health: ? Unknown</source>
+        <translation type="unfinished">Connection Health: ? Unknown</translation>
+    </message>
+    <message>
+        <source>API Status: ● Desktop Mode (HTTPS)</source>
+        <translation type="unfinished">API Status: ● Desktop Mode (HTTPS)</translation>
+    </message>
+    <message>
+        <source>Local quick validation + HTTPS gateway</source>
+        <translation type="unfinished">Local quick validation + HTTPS gateway</translation>
+    </message>
+    <message>
+        <source>Full/Model validation via HTTPS</source>
+        <translation type="unfinished">Full/Model validation via HTTPS</translation>
+    </message>
+    <message>
+        <source>API Status: ● Mock Mode</source>
+        <translation type="unfinished">API Status: ● Mock Mode</translation>
+    </message>
+    <message>
+        <source>In-process mock validation</source>
+        <translation type="unfinished">In-process mock validation</translation>
+    </message>
+    <message>
+        <source>Deterministic responses</source>
+        <translation type="unfinished">Deterministic responses</translation>
+    </message>
+    <message>
+        <source>API Status: ⚠ Degraded</source>
+        <translation type="unfinished">API Status: ⚠ Degraded</translation>
+    </message>
+    <message>
+        <source>API Status: ✗ Unavailable</source>
+        <translation type="unfinished">API Status: ✗ Unavailable</translation>
+    </message>
+    <message>
+        <source>API Status: ? Unknown</source>
+        <translation type="unfinished">API Status: ? Unknown</translation>
+    </message>
+    <message>
+        <source>Mock: instant</source>
+        <translation type="unfinished">Mock: instant</translation>
+    </message>
+    <message>
+        <source>%1 pending</source>
+        <translation type="unfinished">%1 pending</translation>
+    </message>
+    <message>
+        <source>? pending</source>
+        <translation type="unfinished">? pending</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation type="unfinished">OK</translation>
+    </message>
+    <message>
+        <source>Quick OK</source>
+        <translation type="unfinished">Quick OK</translation>
+    </message>
+    <message>
+        <source>FAIL</source>
+        <translation type="unfinished">FAIL</translation>
+    </message>
+    <message>
+        <source>GREEN</source>
+        <translation type="unfinished">GREEN</translation>
+    </message>
+    <message>
+        <source>AMBER</source>
+        <translation type="unfinished">AMBER</translation>
+    </message>
+    <message>
+        <source>RED</source>
+        <translation type="unfinished">RED</translation>
+    </message>
+    <message>
+        <source>PENDING</source>
+        <translation type="unfinished">PENDING</translation>
+    </message>
+    <message>
+        <source>%1s ago</source>
+        <translation type="unfinished">%1s ago</translation>
+    </message>
+    <message>
+        <source>%1m ago</source>
+        <translation type="unfinished">%1m ago</translation>
+    </message>
+    <message>
+        <source>%1h ago</source>
+        <translation type="unfinished">%1h ago</translation>
+    </message>
+    <message>
+        <source>ERROR: %1</source>
+        <translation type="unfinished">ERROR: %1</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>SUCCESS: %1</source>
+        <translation type="unfinished">SUCCESS: %1</translation>
+    </message>
+    <message>
+        <source>Success</source>
+        <translation type="unfinished">Success</translation>
+    </message>
+    <message>
+        <source>⚠️ PENDING REORG DECISION REQUIRED</source>
+        <translation type="unfinished">⚠️ PENDING REORG DECISION REQUIRED</translation>
+    </message>
+    <message>
+        <source>A deep chain reorganization has been detected. The node is paused awaiting your decision.</source>
+        <translation type="unfinished">A deep chain reorganization has been detected. The node is paused awaiting your decision.</translation>
+    </message>
+    <message>
+        <source>✓ ACCEPT REORG</source>
+        <translation type="unfinished">✓ ACCEPT REORG</translation>
+    </message>
+    <message>
+        <source>Accept the reorganization and switch to the new chain</source>
+        <translation type="unfinished">Accept the reorganization and switch to the new chain</translation>
+    </message>
+    <message>
+        <source>✗ REJECT REORG</source>
+        <translation type="unfinished">✗ REJECT REORG</translation>
+    </message>
+    <message>
+        <source>Reject the reorganization and stay on the current chain</source>
+        <translation type="unfinished">Reject the reorganization and stay on the current chain</translation>
+    </message>
+    <message>
+        <source>Reorg Advisory Status</source>
+        <translation type="unfinished">Reorg Advisory Status</translation>
+    </message>
+    <message>
+        <source>No advisories recorded</source>
+        <translation type="unfinished">No advisories recorded</translation>
+    </message>
+    <message>
+        <source>Clear All</source>
+        <translation type="unfinished">Clear All</translation>
+    </message>
+    <message>
+        <source>System monitoring for chain reorganizations...</source>
+        <translation type="unfinished">System monitoring for chain reorganizations...</translation>
+    </message>
+    <message>
+        <source>Advisory History</source>
+        <translation type="unfinished">Advisory History</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation type="unfinished">Time</translation>
+    </message>
+    <message>
+        <source>Severity</source>
+        <translation type="unfinished">Severity</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation type="unfinished">Depth</translation>
+    </message>
+    <message>
+        <source>Fork Depth</source>
+        <translation type="unfinished">Fork Depth</translation>
+    </message>
+    <message>
+        <source>TX Overlap</source>
+        <translation type="unfinished">TX Overlap</translation>
+    </message>
+    <message>
+        <source>LCA Height</source>
+        <translation type="unfinished">LCA Height</translation>
+    </message>
+    <message>
+        <source>Selected Advisory Details</source>
+        <translation type="unfinished">Selected Advisory Details</translation>
+    </message>
+    <message>
+        <source>Select an advisory from the table above to view details...</source>
+        <translation type="unfinished">Select an advisory from the table above to view details...</translation>
+    </message>
+    <message>
+        <source>Recommendations &amp; Actions</source>
+        <translation type="unfinished">Recommendations &amp; Actions</translation>
+    </message>
+    <message>
+        <source>Recommendations will appear here based on advisory data...</source>
+        <translation type="unfinished">Recommendations will appear here based on advisory data...</translation>
+    </message>
+    <message>
+        <source>Acknowledge</source>
+        <translation type="unfinished">Acknowledge</translation>
+    </message>
+    <message>
+        <source>Mark this advisory as reviewed</source>
+        <translation type="unfinished">Mark this advisory as reviewed</translation>
+    </message>
+    <message>
+        <source>Reorg advisories refreshed</source>
+        <translation type="unfinished">Reorg advisories refreshed</translation>
+    </message>
+    <message>
+        <source>Clear Advisories</source>
+        <translation type="unfinished">Clear Advisories</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to clear all reorg advisories?\n\nThis action cannot be undone.</source>
+        <translation type="unfinished">Are you sure you want to clear all reorg advisories?\n\nThis action cannot be undone.</translation>
+    </message>
+    <message>
+        <source>Cleared %1 advisories</source>
+        <translation type="unfinished">Cleared %1 advisories</translation>
+    </message>
+    <message>
+        <source>Cleared %1 reorg advisories</source>
+        <translation type="unfinished">Cleared %1 reorg advisories</translation>
+    </message>
+    <message>
+        <source>Failed to clear advisories: %1</source>
+        <translation type="unfinished">Failed to clear advisories: %1</translation>
+    </message>
+    <message>
+        <source>Advisory acknowledged (depth=%1)</source>
+        <translation type="unfinished">Advisory acknowledged (depth=%1)</translation>
+    </message>
+    <message>
+        <source>Advisory acknowledged and logged</source>
+        <translation type="unfinished">Advisory acknowledged and logged</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Reorg Advisory Details&lt;/b&gt;&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Reorg Advisory Details&lt;/b&gt;&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;LCA Height:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;LCA Height:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Current Chain Depth:&lt;/b&gt; %1 blocks orphaned&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Current Chain Depth:&lt;/b&gt; %1 blocks orphaned&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Fork Chain Depth:&lt;/b&gt; %1 blocks&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Fork Chain Depth:&lt;/b&gt; %1 blocks&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Transaction Overlap:&lt;/b&gt; %1%&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Transaction Overlap:&lt;/b&gt; %1%&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;First Block Delay:&lt;/b&gt; %1 seconds&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;First Block Delay:&lt;/b&gt; %1 seconds&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Current Segment:&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Current Segment:&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>  Blocks: %1, Clock time: %2s&lt;br&gt;</source>
+        <translation type="unfinished">  Blocks: %1, Clock time: %2s&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Fork Segment:&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Fork Segment:&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;br&gt;&lt;b&gt;Calibration:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;br&gt;&lt;b&gt;Calibration:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Valid</source>
+        <translation type="unfinished">Valid</translation>
+    </message>
+    <message>
+        <source>Invalid</source>
+        <translation type="unfinished">Invalid</translation>
+    </message>
+    <message>
+        <source>  Hashrate current: %1%&lt;br&gt;</source>
+        <translation type="unfinished">  Hashrate current: %1%&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>  Hashrate fork: %1%&lt;br&gt;</source>
+        <translation type="unfinished">  Hashrate fork: %1%&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Error loading advisory details: %1</source>
+        <translation type="unfinished">Error loading advisory details: %1</translation>
+    </message>
+    <message>
+        <source>✓ No chain reorganizations detected. System operating normally.</source>
+        <translation type="unfinished">✓ No chain reorganizations detected. System operating normally.</translation>
+    </message>
+    <message>
+        <source>%1 advisory(ies) recorded</source>
+        <translation type="unfinished">%1 advisory(ies) recorded</translation>
+    </message>
+    <message>
+        <source>HIGH</source>
+        <translation type="unfinished">HIGH</translation>
+    </message>
+    <message>
+        <source>MEDIUM</source>
+        <translation type="unfinished">MEDIUM</translation>
+    </message>
+    <message>
+        <source>LOW</source>
+        <translation type="unfinished">LOW</translation>
+    </message>
+    <message>
+        <source>⚠ Latest: %1 severity reorg detected. Depth: %2 blocks, TX Overlap: %3%</source>
+        <translation type="unfinished">⚠ Latest: %1 severity reorg detected. Depth: %2 blocks, TX Overlap: %3%</translation>
+    </message>
+    <message>
+        <source>Event %1</source>
+        <translation type="unfinished">Event %1</translation>
+    </message>
+    <message>
+        <source>● HIGH</source>
+        <translation type="unfinished">● HIGH</translation>
+    </message>
+    <message>
+        <source>● MEDIUM</source>
+        <translation type="unfinished">● MEDIUM</translation>
+    </message>
+    <message>
+        <source>● LOW</source>
+        <translation type="unfinished">● LOW</translation>
+    </message>
+    <message>
+        <source>Failed to update advisories: %1</source>
+        <translation type="unfinished">Failed to update advisories: %1</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Operator Recommendations&lt;/b&gt;&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Operator Recommendations&lt;/b&gt;&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;span style='color: #c62828;'&gt;&lt;b&gt;⚠ HIGH SEVERITY REORG&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;span style='color: #c62828;'&gt;&lt;b&gt;⚠ HIGH SEVERITY REORG&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>A significant chain reorganization has occurred. This may indicate:&lt;br&gt;</source>
+        <translation type="unfinished">A significant chain reorganization has occurred. This may indicate:&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>• A network attack (51% attack, selfish mining)&lt;br&gt;</source>
+        <translation type="unfinished">• A network attack (51% attack, selfish mining)&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>• Major network partition that has been resolved&lt;br&gt;</source>
+        <translation type="unfinished">• Major network partition that has been resolved&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>• Consensus issues requiring investigation&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">• Consensus issues requiring investigation&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Recommended Actions:&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Recommended Actions:&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>1. &lt;b&gt;PAUSE&lt;/b&gt; accepting high-value transactions temporarily&lt;br&gt;</source>
+        <translation type="unfinished">1. &lt;b&gt;PAUSE&lt;/b&gt; accepting high-value transactions temporarily&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>2. &lt;b&gt;VERIFY&lt;/b&gt; recent transactions have not been reversed&lt;br&gt;</source>
+        <translation type="unfinished">2. &lt;b&gt;VERIFY&lt;/b&gt; recent transactions have not been reversed&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>3. &lt;b&gt;CHECK&lt;/b&gt; network connectivity and peer diversity&lt;br&gt;</source>
+        <translation type="unfinished">3. &lt;b&gt;CHECK&lt;/b&gt; network connectivity and peer diversity&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>4. &lt;b&gt;MONITOR&lt;/b&gt; for additional reorg events&lt;br&gt;</source>
+        <translation type="unfinished">4. &lt;b&gt;MONITOR&lt;/b&gt; for additional reorg events&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>5. &lt;b&gt;CONSIDER&lt;/b&gt; increasing confirmation requirements&lt;br&gt;</source>
+        <translation type="unfinished">5. &lt;b&gt;CONSIDER&lt;/b&gt; increasing confirmation requirements&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;span style='color: #e65100;'&gt;&lt;b&gt;⚠ MEDIUM SEVERITY REORG&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;span style='color: #e65100;'&gt;&lt;b&gt;⚠ MEDIUM SEVERITY REORG&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>A notable chain reorganization has occurred. This could be:&lt;br&gt;</source>
+        <translation type="unfinished">A notable chain reorganization has occurred. This could be:&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>• Natural network latency causing temporary forks&lt;br&gt;</source>
+        <translation type="unfinished">• Natural network latency causing temporary forks&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>• Mining variance with competing blocks&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">• Mining variance with competing blocks&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>1. &lt;b&gt;REVIEW&lt;/b&gt; recent transaction confirmations&lt;br&gt;</source>
+        <translation type="unfinished">1. &lt;b&gt;REVIEW&lt;/b&gt; recent transaction confirmations&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>2. &lt;b&gt;MONITOR&lt;/b&gt; for repeated events&lt;br&gt;</source>
+        <translation type="unfinished">2. &lt;b&gt;MONITOR&lt;/b&gt; for repeated events&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>3. &lt;b&gt;VERIFY&lt;/b&gt; your node has good peer connectivity&lt;br&gt;</source>
+        <translation type="unfinished">3. &lt;b&gt;VERIFY&lt;/b&gt; your node has good peer connectivity&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;span style='color: #388e3c;'&gt;&lt;b&gt;✓ LOW SEVERITY REORG&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;span style='color: #388e3c;'&gt;&lt;b&gt;✓ LOW SEVERITY REORG&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>This is a minor chain reorganization, which is normal network behavior.&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">This is a minor chain reorganization, which is normal network behavior.&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>• No immediate action required&lt;br&gt;</source>
+        <translation type="unfinished">• No immediate action required&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>• Continue normal operations&lt;br&gt;</source>
+        <translation type="unfinished">• Continue normal operations&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>• Standard confirmation requirements remain adequate&lt;br&gt;</source>
+        <translation type="unfinished">• Standard confirmation requirements remain adequate&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;br&gt;&lt;b&gt;Transaction Analysis:&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;br&gt;&lt;b&gt;Transaction Analysis:&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Decision timeout: %1:%2 remaining</source>
+        <translation type="unfinished">Decision timeout: %1:%2 remaining</translation>
+    </message>
+    <message>
+        <source>Accept Reorganization</source>
+        <translation type="unfinished">Accept Reorganization</translation>
+    </message>
+    <message>
+        <source>Decision submitted: ACCEPT. Node will proceed with chain switch.</source>
+        <translation type="unfinished">Decision submitted: ACCEPT. Node will proceed with chain switch.</translation>
+    </message>
+    <message>
+        <source>Operator accepted pending reorg - chain switch proceeding</source>
+        <translation type="unfinished">Operator accepted pending reorg - chain switch proceeding</translation>
+    </message>
+    <message>
+        <source>Failed to submit decision: %1</source>
+        <translation type="unfinished">Failed to submit decision: %1</translation>
+    </message>
+    <message>
+        <source>RPC error: %1</source>
+        <translation type="unfinished">RPC error: %1</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation type="unfinished">Error: %1</translation>
+    </message>
+    <message>
+        <source>Reject Reorganization</source>
+        <translation type="unfinished">Reject Reorganization</translation>
+    </message>
+    <message>
+        <source>Decision submitted: REJECT. Node will stay on current chain.</source>
+        <translation type="unfinished">Decision submitted: REJECT. Node will stay on current chain.</translation>
+    </message>
+    <message>
+        <source>Operator rejected pending reorg - staying on current chain</source>
+        <translation type="unfinished">Operator rejected pending reorg - staying on current chain</translation>
+    </message>
+    <message>
+        <source>0s</source>
+        <translation type="unfinished">0s</translation>
+    </message>
+    <message>
+        <source>0</source>
+        <translation type="unfinished">0</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation type="unfinished">N/A</translation>
+    </message>
+    <message>
+        <source>--</source>
+        <translation type="unfinished">--</translation>
+    </message>
+    <message>
+        <source>Push Host: localhost\n</source>
+        <translation type="unfinished">Push Host: localhost\n</translation>
+    </message>
+    <message>
+        <source>Start mining with automatic address rotation?\n\n</source>
+        <translation type="unfinished">เริ่มการขุดด้วยการหมุนที่อยู่อัตโนมัติ?\n\n</translation>
+    </message>
+    <message>
+        <source>%1h %2m %3s</source>
+        <translation type="unfinished">%1h %2m %3s</translation>
+    </message>
+    <message>
+        <source>%1m %2s</source>
+        <translation type="unfinished">%1m %2s</translation>
+    </message>
+    <message>
+        <source>%1s</source>
+        <translation type="unfinished">%1s</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Severity Levels:&lt;/b&gt; </source>
+        <translation type="unfinished">&lt;b&gt;ระดับความรุนแรง:&lt;/b&gt; </translation>
+    </message>
+    <message>
+        <source>✓ High TX overlap (%1%) - Most transactions were included in both chains. </source>
+        <translation type="unfinished">✓ การทับซ้อน TX สูง (%1%) - ธุรกรรมส่วนใหญ่รวมอยู่ในทั้งสองเชน </translation>
+    </message>
+    <message>
+        <source>⚠ Moderate TX overlap (%1%) - Some transactions may have been affected. </source>
+        <translation type="unfinished">⚠ การทับซ้อน TX ปานกลาง (%1%) - ธุรกรรมบางส่วนอาจได้รับผลกระทบ </translation>
+    </message>
+    <message>
+        <source>⚠ Low TX overlap (%1%) - Significant transaction differences between chains. </source>
+        <translation type="unfinished">⚠ การทับซ้อน TX ต่ำ (%1%) - ความแตกต่างของธุรกรรมระหว่างเชนมีนัยสำคัญ </translation>
+    </message>
+    <message>
+        <source>&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; The winning fork (%1 blocks) was longer than the orphaned chain (%2 blocks). </source>
+        <translation type="unfinished">&lt;br&gt;&lt;b&gt;หมายเหตุ:&lt;/b&gt; ฟอร์ก(%1 บล็อค) ที่ชนะยาวกว่าเชนที่ถูกทิ้ง (%2 บล็อค) </translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Reorg Details:&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;รายละเอียด Reorg:&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to ACCEPT this chain reorganization?\n\n</source>
+        <translation type="unfinished">คุณแน่ใจหรือไม่ว่าต้องการยอมรับการจัดระเบียบเชนใหม่นี้?\n\n</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to REJECT this chain reorganization?\n\n</source>
+        <translation type="unfinished">คุณแน่ใจหรือไม่ว่าต้องการปฏิเสธการจัดระเบียบเชนใหม่นี้?\n\n</translation>
+    </message>
+</context>
+<context>
+    <name>ModelsPage</name>
+    <message>
+        <source>Register</source>
+        <translation type="unfinished">Register</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation type="unfinished">Commit</translation>
+    </message>
+    <message>
+        <source>My Deposits</source>
+        <translation type="unfinished">My Deposits</translation>
+    </message>
+    <message>
+        <source>Registry</source>
+        <translation type="unfinished">Registry</translation>
+    </message>
+    <message>
+        <source>Challenge</source>
+        <translation type="unfinished">Challenge</translation>
+    </message>
+    <message>
+        <source>Model Registration Details</source>
+        <translation type="unfinished">Model Registration Details</translation>
+    </message>
+    <message>
+        <source>Model Name:</source>
+        <translation type="unfinished">Model Name:</translation>
+    </message>
+    <message>
+        <source>e.g., tensor/gpt-model (max 80 bytes, printable ASCII)</source>
+        <translation type="unfinished">e.g., tensor/gpt-model (max 80 bytes, printable ASCII)</translation>
+    </message>
+    <message>
+        <source>Model Commit:</source>
+        <translation type="unfinished">Model Commit:</translation>
+    </message>
+    <message>
+        <source>e.g., v1.0.0 or commit hash (max 80 bytes, printable ASCII)</source>
+        <translation type="unfinished">e.g., v1.0.0 or commit hash (max 80 bytes, printable ASCII)</translation>
+    </message>
+    <message>
+        <source>Difficulty Multiplier:</source>
+        <translation type="unfinished">Difficulty Multiplier:</translation>
+    </message>
+    <message>
+        <source>Positive integer (e.g., 1000000)</source>
+        <translation type="unfinished">Positive integer (e.g., 1000000)</translation>
+    </message>
+    <message>
+        <source>IPFS CID (optional):</source>
+        <translation type="unfinished">IPFS CID (optional):</translation>
+    </message>
+    <message>
+        <source>e.g., QmYwAPJzv... (max 80 bytes)</source>
+        <translation type="unfinished">e.g., QmYwAPJzv... (max 80 bytes)</translation>
+    </message>
+    <message>
+        <source>Extra Metadata (optional):</source>
+        <translation type="unfinished">Extra Metadata (optional):</translation>
+    </message>
+    <message>
+        <source>Additional metadata (max 80 bytes, printable ASCII)</source>
+        <translation type="unfinished">Additional metadata (max 80 bytes, printable ASCII)</translation>
+    </message>
+    <message>
+        <source>Create Deposit Transaction</source>
+        <translation type="unfinished">Create Deposit Transaction</translation>
+    </message>
+    <message>
+        <source>Status and transaction details will appear here...</source>
+        <translation type="unfinished">Status and transaction details will appear here...</translation>
+    </message>
+    <message>
+        <source>Select a pending deposit from your wallet to complete registration:</source>
+        <translation type="unfinished">Select a pending deposit from your wallet to complete registration:</translation>
+    </message>
+    <message>
+        <source>Model Hash</source>
+        <translation type="unfinished">Model Hash</translation>
+    </message>
+    <message>
+        <source>Name@Commit</source>
+        <translation type="unfinished">Name@Commit</translation>
+    </message>
+    <message>
+        <source>Deposit TX</source>
+        <translation type="unfinished">Deposit TX</translation>
+    </message>
+    <message>
+        <source>Vout</source>
+        <translation type="unfinished">Vout</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation type="unfinished">Amount</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation type="unfinished">Status</translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation type="unfinished">Refresh</translation>
+    </message>
+    <message>
+        <source>Create Commit Transaction (Refund Deposit)</source>
+        <translation type="unfinished">Create Commit Transaction (Refund Deposit)</translation>
+    </message>
+    <message>
+        <source>Create Commit temporary</source>
+        <translation type="unfinished">Create Commit temporary</translation>
+    </message>
+    <message>
+        <source>Status will appear here...</source>
+        <translation type="unfinished">Status will appear here...</translation>
+    </message>
+    <message>
+        <source>Filter:</source>
+        <translation type="unfinished">Filter:</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation type="unfinished">All</translation>
+    </message>
+    <message>
+        <source>Pending Deposit</source>
+        <translation type="unfinished">Pending Deposit</translation>
+    </message>
+    <message>
+        <source>Pending Verification</source>
+        <translation type="unfinished">Pending Verification</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation type="unfinished">Registered</translation>
+    </message>
+    <message>
+        <source>Locked</source>
+        <translation type="unfinished">Locked</translation>
+    </message>
+    <message>
+        <source>Banned</source>
+        <translation type="unfinished">Banned</translation>
+    </message>
+    <message>
+        <source>Block Height</source>
+        <translation type="unfinished">Block Height</translation>
+    </message>
+    <message>
+        <source>Maturity</source>
+        <translation type="unfinished">Maturity</translation>
+    </message>
+    <message>
+        <source>Verification</source>
+        <translation type="unfinished">Verification</translation>
+    </message>
+    <message>
+        <source>Select a deposit to view details...</source>
+        <translation type="unfinished">Select a deposit to view details...</translation>
+    </message>
+    <message>
+        <source>Current Height: -</source>
+        <translation type="unfinished">Current Height: -</translation>
+    </message>
+    <message>
+        <source>Search:</source>
+        <translation type="unfinished">Search:</translation>
+    </message>
+    <message>
+        <source>Model name or hash...</source>
+        <translation type="unfinished">Model name or hash...</translation>
+    </message>
+    <message>
+        <source>Burn deposit</source>
+        <translation type="unfinished">Burn deposit</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Name</translation>
+    </message>
+    <message>
+        <source>Difficulty</source>
+        <translation type="unfinished">Difficulty</translation>
+    </message>
+    <message>
+        <source>Registered Height</source>
+        <translation type="unfinished">Registered Height</translation>
+    </message>
+    <message>
+        <source>Select a model to view details...</source>
+        <translation type="unfinished">Select a model to view details...</translation>
+    </message>
+    <message>
+        <source>Registered (non-default): 0</source>
+        <translation type="unfinished">Registered (non-default): 0</translation>
+    </message>
+    <message>
+        <source>Load blocks</source>
+        <translation type="unfinished">Load blocks</translation>
+    </message>
+    <message>
+        <source>Challenge Deposit</source>
+        <translation type="unfinished">Challenge Deposit</translation>
+    </message>
+    <message>
+        <source>Challenge Commits</source>
+        <translation type="unfinished">Challenge Commits</translation>
+    </message>
+    <message>
+        <source>Blocks (latest 0):</source>
+        <translation type="unfinished">Blocks (latest 0):</translation>
+    </message>
+    <message>
+        <source>Height</source>
+        <translation type="unfinished">Height</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation type="unfinished">Hash</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation type="unfinished">Time</translation>
+    </message>
+    <message>
+        <source>• Name exceeds 80 bytes (OP_RETURN limit)</source>
+        <translation type="unfinished">• Name exceeds 80 bytes (OP_RETURN limit)</translation>
+    </message>
+    <message>
+        <source>• Name contains non-printable characters</source>
+        <translation type="unfinished">• Name contains non-printable characters</translation>
+    </message>
+    <message>
+        <source>• Commit exceeds 80 bytes (OP_RETURN limit)</source>
+        <translation type="unfinished">• Commit exceeds 80 bytes (OP_RETURN limit)</translation>
+    </message>
+    <message>
+        <source>• Commit contains non-printable characters</source>
+        <translation type="unfinished">• Commit contains non-printable characters</translation>
+    </message>
+    <message>
+        <source>• Difficulty must be a positive integer</source>
+        <translation type="unfinished">• Difficulty must be a positive integer</translation>
+    </message>
+    <message>
+        <source>• CID exceeds 80 bytes (OP_RETURN limit)</source>
+        <translation type="unfinished">• CID exceeds 80 bytes (OP_RETURN limit)</translation>
+    </message>
+    <message>
+        <source>• Extra metadata exceeds 80 bytes (OP_RETURN limit)</source>
+        <translation type="unfinished">• Extra metadata exceeds 80 bytes (OP_RETURN limit)</translation>
+    </message>
+    <message>
+        <source>• Extra metadata contains non-printable characters</source>
+        <translation type="unfinished">• Extra metadata contains non-printable characters</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Validation Errors:&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Validation Errors:&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;✓ Fields valid - ready to create deposit&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;✓ Fields valid - ready to create deposit&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Wallet model not available</source>
+        <translation type="unfinished">Wallet model not available</translation>
+    </message>
+    <message>
+        <source>Invalid difficulty value</source>
+        <translation type="unfinished">Invalid difficulty value</translation>
+    </message>
+    <message>
+        <source>⚠️ CRITICAL WARNING - Model Deposit</source>
+        <translation type="unfinished">⚠️ CRITICAL WARNING - Model Deposit</translation>
+    </message>
+    <message>
+        <source>Please wait 10 seconds before proceeding...</source>
+        <translation type="unfinished">Please wait 10 seconds before proceeding...</translation>
+    </message>
+    <message>
+        <source>I Understand - Proceed (10)</source>
+        <translation type="unfinished">I Understand - Proceed (10)</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancel</translation>
+    </message>
+    <message>
+        <source>I Understand - Proceed (%1)</source>
+        <translation type="unfinished">I Understand - Proceed (%1)</translation>
+    </message>
+    <message>
+        <source>Please wait %1 seconds before proceeding...</source>
+        <translation type="unfinished">Please wait %1 seconds before proceeding...</translation>
+    </message>
+    <message>
+        <source>I Understand - Proceed</source>
+        <translation type="unfinished">I Understand - Proceed</translation>
+    </message>
+    <message>
+        <source>You may now proceed if you understand the risks.</source>
+        <translation type="unfinished">You may now proceed if you understand the risks.</translation>
+    </message>
+    <message>
+        <source>Final Confirmation</source>
+        <translation type="unfinished">Final Confirmation</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Please confirm the following deposit details:&lt;/b&gt;&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Please confirm the following deposit details:&lt;/b&gt;&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Model Name:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Model Name:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Model Commit:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Model Commit:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Difficulty:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Difficulty:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;IPFS CID:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;IPFS CID:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Extra Metadata:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Extra Metadata:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;br&gt;&lt;b&gt;Deposit Amount:&lt;/b&gt; ~5 BTC&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;br&gt;&lt;b&gt;Deposit Amount:&lt;/b&gt; ~5 BTC&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b style='color: #C62828;'&gt;This action cannot be undone. Proceed?&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b style='color: #C62828;'&gt;This action cannot be undone. Proceed?&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;✓ Deposit Transaction Created Successfully&lt;/b&gt;&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;✓ Deposit Transaction Created Successfully&lt;/b&gt;&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Transaction ID:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Transaction ID:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Model Hash:&lt;/b&gt; %2&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Model Hash:&lt;/b&gt; %2&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Deposit Address:&lt;/b&gt; %3&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Deposit Address:&lt;/b&gt; %3&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Deposit Output:&lt;/b&gt; %4&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Deposit Output:&lt;/b&gt; %4&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Deposit Amount:&lt;/b&gt; %5 BTC&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Deposit Amount:&lt;/b&gt; %5 BTC&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Raw Hex:&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Raw Hex:&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>⏳ &lt;b&gt;Next Step:&lt;/b&gt; Wait for confirmation, then go to Commit tab to complete registration.</source>
+        <translation type="unfinished">⏳ &lt;b&gt;Next Step:&lt;/b&gt; Wait for confirmation, then go to Commit tab to complete registration.</translation>
+    </message>
+    <message>
+        <source>Deposit transaction broadcast successfully</source>
+        <translation type="unfinished">Deposit transaction broadcast successfully</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;✗ Error Creating Deposit:&lt;/b&gt;&lt;br&gt;%1</source>
+        <translation type="unfinished">&lt;b&gt;✗ Error Creating Deposit:&lt;/b&gt;&lt;br&gt;%1</translation>
+    </message>
+    <message>
+        <source>Found %1 deposit(s) awaiting commit/verification in wallet</source>
+        <translation type="unfinished">Found %1 deposit(s) awaiting commit/verification in wallet</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation type="unfinished">Error: %1</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Selected Deposit:&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Selected Deposit:&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Transaction: %1&lt;br&gt;</source>
+        <translation type="unfinished">Transaction: %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Output: %2&lt;br&gt;</source>
+        <translation type="unfinished">Output: %2&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Model Hash: %3&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">Model Hash: %3&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Click 'Create Commit Transaction' to complete registration and receive refund.</source>
+        <translation type="unfinished">Click 'Create Commit Transaction' to complete registration and receive refund.</translation>
+    </message>
+    <message>
+        <source>No deposit selected</source>
+        <translation type="unfinished">No deposit selected</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;✓ Commit Transaction Created Successfully&lt;/b&gt;&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;✓ Commit Transaction Created Successfully&lt;/b&gt;&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Verdict:&lt;/b&gt; %2&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Verdict:&lt;/b&gt; %2&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Refund Amount:&lt;/b&gt; %3 BTC&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Refund Amount:&lt;/b&gt; %3 BTC&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Model Hash:&lt;/b&gt; %4&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Model Hash:&lt;/b&gt; %4&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>⏳ &lt;b&gt;Status:&lt;/b&gt; Wait for 100 confirmations for model to become active.</source>
+        <translation type="unfinished">⏳ &lt;b&gt;Status:&lt;/b&gt; Wait for 100 confirmations for model to become active.</translation>
+    </message>
+    <message>
+        <source>Commit transaction broadcast successfully</source>
+        <translation type="unfinished">Commit transaction broadcast successfully</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;✗ Error Creating Commit:&lt;/b&gt;&lt;br&gt;%1</source>
+        <translation type="unfinished">&lt;b&gt;✗ Error Creating Commit:&lt;/b&gt;&lt;br&gt;%1</translation>
+    </message>
+    <message>
+        <source>Starting temporary commit flow...\n</source>
+        <translation type="unfinished">Starting temporary commit flow...\n</translation>
+    </message>
+    <message>
+        <source>Funding tx created: %1\nWaiting for next block...</source>
+        <translation type="unfinished">Funding tx created: %1\nWaiting for next block...</translation>
+    </message>
+    <message>
+        <source>Funding confirmation</source>
+        <translation type="unfinished">Funding confirmation</translation>
+    </message>
+    <message>
+        <source>Timeout waiting for funding confirmation</source>
+        <translation type="unfinished">Timeout waiting for funding confirmation</translation>
+    </message>
+    <message>
+        <source>Split created from funding tx %1: %2\nWaiting for next block...</source>
+        <translation type="unfinished">Split created from funding tx %1: %2\nWaiting for next block...</translation>
+    </message>
+    <message>
+        <source>Split confirmation</source>
+        <translation type="unfinished">Split confirmation</translation>
+    </message>
+    <message>
+        <source>Timeout waiting for split confirmation</source>
+        <translation type="unfinished">Timeout waiting for split confirmation</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;✓ Temporary Commit Flow Completed&lt;/b&gt;&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;✓ Temporary Commit Flow Completed&lt;/b&gt;&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Commit Tx:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Commit Tx:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Verdict:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Verdict:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Refund Amount:&lt;/b&gt; %1 BTC&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Refund Amount:&lt;/b&gt; %1 BTC&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Model Hash:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Model Hash:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;br&gt;&lt;b&gt;Funding Tx:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;br&gt;&lt;b&gt;Funding Tx:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Split Tx:&lt;/b&gt; %1&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Split Tx:&lt;/b&gt; %1&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Used %1 UTXOs from split for funding.</source>
+        <translation type="unfinished">Used %1 UTXOs from split for funding.</translation>
+    </message>
+    <message>
+        <source>Commit transaction (temporary flow) broadcast successfully</source>
+        <translation type="unfinished">Commit transaction (temporary flow) broadcast successfully</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;✗ Error in temporary flow:&lt;/b&gt;&lt;br&gt;%1</source>
+        <translation type="unfinished">&lt;b&gt;✗ Error in temporary flow:&lt;/b&gt;&lt;br&gt;%1</translation>
+    </message>
+    <message>
+        <source>%1 blocks</source>
+        <translation type="unfinished">%1 blocks</translation>
+    </message>
+    <message>
+        <source>✓ Mature</source>
+        <translation type="unfinished">✓ Mature</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Model Registration Details&lt;/b&gt;&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Model Registration Details&lt;/b&gt;&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Status:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Status:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Deposit TX:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Deposit TX:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Deposit Vout:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Deposit Vout:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Deposit Height:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Deposit Height:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Commit TX:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Commit TX:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Commit Height:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Commit Height:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Verification Code:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Verification Code:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Verification Details:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Verification Details:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Current Height: %1</source>
+        <translation type="unfinished">Current Height: %1</translation>
+    </message>
+    <message>
+        <source>Burn ready: %1 (allowed at height %2, current %3)</source>
+        <translation type="unfinished">Burn ready: %1 (allowed at height %2, current %3)</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation type="unfinished">yes</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation type="unfinished">no</translation>
+    </message>
+    <message>
+        <source>Burn status error: %1</source>
+        <translation type="unfinished">Burn status error: %1</translation>
+    </message>
+    <message>
+        <source>Wallet or client model not available</source>
+        <translation type="unfinished">Wallet or client model not available</translation>
+    </message>
+    <message>
+        <source>Select a model first</source>
+        <translation type="unfinished">Select a model first</translation>
+    </message>
+    <message>
+        <source>Burn not available yet. Allowed at height %1 (current %2).</source>
+        <translation type="unfinished">Burn not available yet. Allowed at height %1 (current %2).</translation>
+    </message>
+    <message>
+        <source>Create burn transaction for model:\n%1</source>
+        <translation type="unfinished">Create burn transaction for model:\n%1</translation>
+    </message>
+    <message>
+        <source>\nBurn outpoint: %1</source>
+        <translation type="unfinished">\nBurn outpoint: %1</translation>
+    </message>
+    <message>
+        <source>\nThis action is irreversible. Proceed?</source>
+        <translation type="unfinished">\nThis action is irreversible. Proceed?</translation>
+    </message>
+    <message>
+        <source>Burn transaction created: %1</source>
+        <translation type="unfinished">Burn transaction created: %1</translation>
+    </message>
+    <message>
+        <source>Registered (non-default): %1</source>
+        <translation type="unfinished">Registered (non-default): %1</translation>
+    </message>
+    <message>
+        <source>Blocks (latest %1):</source>
+        <translation type="unfinished">Blocks (latest %1):</translation>
+    </message>
+    <message>
+        <source>Challenge Deposit Warning</source>
+        <translation type="unfinished">Challenge Deposit Warning</translation>
+    </message>
+    <message>
+        <source>Please wait 10 seconds...</source>
+        <translation type="unfinished">Please wait 10 seconds...</translation>
+    </message>
+    <message>
+        <source>Proceed (10)</source>
+        <translation type="unfinished">Proceed (10)</translation>
+    </message>
+    <message>
+        <source>Proceed (%1)</source>
+        <translation type="unfinished">Proceed (%1)</translation>
+    </message>
+    <message>
+        <source>Please wait %1 seconds...</source>
+        <translation type="unfinished">Please wait %1 seconds...</translation>
+    </message>
+    <message>
+        <source>Proceed</source>
+        <translation type="unfinished">Proceed</translation>
+    </message>
+    <message>
+        <source>You may proceed now.</source>
+        <translation type="unfinished">You may proceed now.</translation>
+    </message>
+    <message>
+        <source>Challenge deposit transaction created: %1</source>
+        <translation type="unfinished">Challenge deposit transaction created: %1</translation>
+    </message>
+    <message>
+        <source>No model selected for challenge commits.</source>
+        <translation type="unfinished">No model selected for challenge commits.</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation type="unfinished">Unknown</translation>
+    </message>
+    <message>
+        <source>%1: client model unavailable</source>
+        <translation type="unfinished">%1: client model unavailable</translation>
+    </message>
+    <message>
+        <source>%1: timeout waiting for new block</source>
+        <translation type="unfinished">%1: timeout waiting for new block</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Success</source>
+        <translation type="unfinished">Success</translation>
+    </message>
+    <message>
+        <source>Unknown RPC error</source>
+        <translation type="unfinished">ข้อผิดพลาด RPC ที่ไม่รู้จัก</translation>
+    </message>
+    <message>
+        <source>How it works</source>
+        <translation type="unfinished">วิธีการทำงาน</translation>
+    </message>
+    <message>
+        <source>Validate Model Data</source>
+        <translation type="unfinished">ตรวจสอบข้อมูลโมเดล</translation>
+    </message>
+    <message>
+        <source>Selected Deposit</source>
+        <translation type="unfinished">การฝากเงินที่เลือก</translation>
+    </message>
+    <message>
+        <source>No deposit selected. Choose a pending deposit to see the next available action.</source>
+        <translation type="unfinished">ไม่ได้เลือกการฝากเงิน เลือกการฝากเงินที่รอดำเนินการเพื่อดูการดำเนินการถัดไปที่มี</translation>
+    </message>
+    <message>
+        <source>Create Commits</source>
+        <translation type="unfinished">สร้าง Commit</translation>
+    </message>
+    <message>
+        <source>Select a deposit to create commit transactions.</source>
+        <translation type="unfinished">เลือกการฝากเงินเพื่อสร้างธุรกรรม commit</translation>
+    </message>
+    <message>
+        <source>Selection details, progress and commit results will appear here...</source>
+        <translation type="unfinished">รายละเอียดการเลือก ความคืบหน้า และผลลัพธ์ commit จะปรากฏที่นี่...</translation>
+    </message>
+    <message>
+        <source>Model name, hash or txid...</source>
+        <translation type="unfinished">ชื่อโมเดล แฮช หรือ txid...</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation type="unfinished">การดำเนินการ</translation>
+    </message>
+    <message>
+        <source>Reclaim Deposit</source>
+        <translation type="unfinished">เรียกคืนการฝากเงิน</translation>
+    </message>
+    <message>
+        <source>Available only for registered deposits after the unlock height is reached.</source>
+        <translation type="unfinished">ใช้ได้เฉพาะสำหรับการฝากเงินที่ลงทะเบียนหลังจากถึงความสูงปลดล็อค</translation>
+    </message>
+    <message>
+        <source>Create Challenge Commits</source>
+        <translation type="unfinished">สร้าง Challenge Commit</translation>
+    </message>
+    <message>
+        <source>Challenge Status</source>
+        <translation type="unfinished">สถานะการท้าทาย</translation>
+    </message>
+    <message>
+        <source>Deposit:</source>
+        <translation type="unfinished">การฝากเงิน:</translation>
+    </message>
+    <message>
+        <source>Select a model to see challenge status.</source>
+        <translation type="unfinished">เลือกโมเดลเพื่อดูสถานะการท้าทาย</translation>
+    </message>
+    <message>
+        <source>Deposit outpoint:</source>
+        <translation type="unfinished">Outpoint การฝากเงิน:</translation>
+    </message>
+    <message>
+        <source>-</source>
+        <translation type="unfinished">-</translation>
+    </message>
+    <message>
+        <source>Next action:</source>
+        <translation type="unfinished">การดำเนินการถัดไป:</translation>
+    </message>
+    <message>
+        <source>Select a model.</source>
+        <translation type="unfinished">เลือกโมเดล</translation>
+    </message>
+    <message>
+        <source>Verdict</source>
+        <translation type="unfinished">คำตัดสิน</translation>
+    </message>
+    <message>
+        <source>Fields changed. Click &lt;b&gt;Validate Model Data&lt;/b&gt; to re-check and enable registration.</source>
+        <translation type="unfinished">ฟิลด์มีการเปลี่ยนแปลง คลิก &lt;b&gt;ตรวจสอบข้อมูลโมเดล&lt;/b&gt; เพื่อตรวจสอบใหม่และเปิดใช้งานการลงทะเบียน</translation>
+    </message>
+    <message>
+        <source>• Model name is required</source>
+        <translation type="unfinished">• ต้องระบุชื่อโมเดล</translation>
+    </message>
+    <message>
+        <source>• Model commit is required</source>
+        <translation type="unfinished">• ต้องระบุ commit โมเดล</translation>
+    </message>
+    <message>
+        <source>• Difficulty is required</source>
+        <translation type="unfinished">• ต้องระบุความยาก</translation>
+    </message>
+    <message>
+        <source>• Node interface is not available for registry lookup</source>
+        <translation type="unfinished">• อินเทอร์เฟซโหนดไม่พร้อมใช้งานสำหรับการค้นหารีจิสทรี</translation>
+    </message>
+    <message>
+        <source>• Model with the same name and commit already exists in the registry</source>
+        <translation type="unfinished">• โมเดลที่มีชื่อและ commit เดียวกันมีอยู่แล้วในรีจิสทรี</translation>
+    </message>
+    <message>
+        <source>• Failed to query model registry: %1</source>
+        <translation type="unfinished">• ล้มเหลวในการสืบค้นรีจิสทรีโมเดล: %1</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;✓ Validation passed - model deposit can now be created&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;✓ การตรวจสอบผ่าน - สามารถสร้างการฝากเงินโมเดลได้แล้ว&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Model Registration Flow</source>
+        <translation type="unfinished">กระบวนการลงทะเบียนโมเดล</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;How model registration works&lt;/b&gt;&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;วิธีการลงทะเบียนโมเดลทำงาน&lt;/b&gt;&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Validate the model data before creating the deposit</source>
+        <translation type="unfinished">ตรวจสอบข้อมูลโมเดลก่อนสร้างการฝากเงิน</translation>
+    </message>
+    <message>
+        <source>&lt;b style='font-size: 14pt; color: #C62828;'&gt;⚠️ CRITICAL WARNING&lt;/b&gt;&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b style='font-size: 14pt; color: #C62828;'&gt;⚠️ คำเตือนสำคัญ&lt;/b&gt;&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;br&gt;&lt;b&gt;Deposit Amount:&lt;/b&gt; ~5 TSC&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;br&gt;&lt;b&gt;จำนวนการฝากเงิน:&lt;/b&gt; ~5 TSC&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Deposit Amount:&lt;/b&gt; %5 TSC&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;จำนวนการฝากเงิน:&lt;/b&gt; %5 TSC&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Choose how many commit transactions to create for the selected deposit.</source>
+        <translation type="unfinished">เลือกจำนวนธุรกรรม commit ที่จะสร้างสำหรับการฝากเงินที่เลือก</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Model:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;โมเดล:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Model: %1&lt;br&gt;</source>
+        <translation type="unfinished">โมเดล: %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Amount: %1&lt;br&gt;</source>
+        <translation type="unfinished">จำนวน: %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Current status: %1&lt;br&gt;</source>
+        <translation type="unfinished">สถานะปัจจุบัน: %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Click &lt;b&gt;Create Commits&lt;/b&gt; to choose the number of commit transactions to create.</source>
+        <translation type="unfinished">คลิก &lt;b&gt;สร้าง Commit&lt;/b&gt; เพื่อเลือกจำนวนธุรกรรม commit ที่จะสร้าง</translation>
+    </message>
+    <message>
+        <source>A commit flow is already in progress. Please wait for it to finish.</source>
+        <translation type="unfinished">กระบวนการ commit กำลังดำเนินการอยู่ โปรดรอให้เสร็จสิ้น</translation>
+    </message>
+    <message>
+        <source>Number of commit transactions to create (1-%1):</source>
+        <translation type="unfinished">จำนวนธุรกรรม commit ที่จะสร้าง (1-%1):</translation>
+    </message>
+    <message>
+        <source>Commit count must be a positive integer not greater than %1.</source>
+        <translation type="unfinished">จำนวน commit ต้องเป็นจำนวนเต็มบวกที่ไม่เกิน %1</translation>
+    </message>
+    <message>
+        <source>Commit count must be between 1 and %1.</source>
+        <translation type="unfinished">จำนวน commit ต้องอยู่ระหว่าง 1 ถึง %1</translation>
+    </message>
+    <message>
+        <source>Starting %1...\nRequested commit count: %2\n</source>
+        <translation type="unfinished">กำลังเริ่ม %1...\nจำนวน commit ที่ร้องขอ: %2\n</translation>
+    </message>
+    <message>
+        <source>Funding tx created: %1\nWaiting for funding transaction confirmation...</source>
+        <translation type="unfinished">สร้าง tx การชำระเงินแล้ว: %1\nกำลังรอการยืนยันธุรกรรมการชำระเงิน...</translation>
+    </message>
+    <message>
+        <source>Timeout waiting for funding transaction confirmation</source>
+        <translation type="unfinished">หมดเวลารอการยืนยันธุรกรรมการชำระเงิน</translation>
+    </message>
+    <message>
+        <source>Single commit requested; using funding transaction output directly.</source>
+        <translation type="unfinished">ขอ commit เดี่ยว; ใช้เอาต์พุตธุรกรรมการชำระเงินโดยตรง</translation>
+    </message>
+    <message>
+        <source>Split created from funding tx %1 into %2 outputs: %3\nWaiting for next block...</source>
+        <translation type="unfinished">สร้างการแยกจาก tx การชำระเงิน %1 เป็น %2 เอาต์พุต: %3\nกำลังรอบล็อคถัดไป...</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;✓ %1 Completed&lt;/b&gt;&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;✓ %1 เสร็จสมบูรณ์&lt;/b&gt;&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Commit Count:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;จำนวน Commit:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Refund Amount:&lt;/b&gt; %1 TSC&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;จำนวนการคืนเงิน:&lt;/b&gt; %1 TSC&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Split Tx:&lt;/b&gt; not used&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Split Tx:&lt;/b&gt; ไม่ได้ใช้&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Used %1 funding UTXO directly.</source>
+        <translation type="unfinished">ใช้ %1 UTXO การชำระเงินโดยตรง</translation>
+    </message>
+    <message>
+        <source>Used %1 split UTXOs for funding.</source>
+        <translation type="unfinished">ใช้ %1 UTXO การแยกสำหรับการชำระเงิน</translation>
+    </message>
+    <message>
+        <source>%1 broadcast successfully</source>
+        <translation type="unfinished">%1 กระจายสำเร็จ</translation>
+    </message>
+    <message>
+        <source>No action</source>
+        <translation type="unfinished">ไม่มีการดำเนินการ</translation>
+    </message>
+    <message>
+        <source>Create commit</source>
+        <translation type="unfinished">สร้าง commit</translation>
+    </message>
+    <message>
+        <source>Wait verification</source>
+        <translation type="unfinished">รอการยืนยัน</translation>
+    </message>
+    <message>
+        <source>Reclaim deposit</source>
+        <translation type="unfinished">เรียกคืนการฝากเงิน</translation>
+    </message>
+    <message>
+        <source>Wait maturity</source>
+        <translation type="unfinished">รอการครบกำหนด</translation>
+    </message>
+    <message>
+        <source>Next step: create a commit transaction from the Commit tab.</source>
+        <translation type="unfinished">ขั้นตอนถัดไป: สร้างธุรกรรม commit จากแท็บ Commit</translation>
+    </message>
+    <message>
+        <source>Next step: wait for verification to complete.</source>
+        <translation type="unfinished">ขั้นตอนถัดไป: รอให้การยืนยันเสร็จสิ้น</translation>
+    </message>
+    <message>
+        <source>Deposit is mature. You can reclaim it now.</source>
+        <translation type="unfinished">การฝากเงินครบกำหนดแล้ว คุณสามารถเรียกคืนได้ทันที</translation>
+    </message>
+    <message>
+        <source>Next step: wait until block %1 for maturity (%2 blocks left).</source>
+        <translation type="unfinished">ขั้นตอนถัดไป: รอจนถึงบล็อค %1 สำหรับการครบกำหนด (เหลืออีก %2 บล็อค)</translation>
+    </message>
+    <message>
+        <source>Deposit is registered and waiting for unlock height.</source>
+        <translation type="unfinished">การฝากเงินได้รับการลงทะเบียนและรอความสูงปลดล็อค</translation>
+    </message>
+    <message>
+        <source>No action available for this deposit.</source>
+        <translation type="unfinished">ไม่มีการดำเนินการสำหรับการฝากเงินนี้</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Viewed TXID:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;TXID ที่ดู:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Deposit Unlock Height:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;ความสูงปลดล็อคการฝากเงิน:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;br&gt;&lt;b&gt;Lifecycle&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;br&gt;&lt;b&gt;วงจรชีวิต&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;br&gt;&lt;b&gt;Verification Details:&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;br&gt;&lt;b&gt;รายละเอียดการยืนยัน:&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Broadcast a reclaim transaction for this mature deposit.</source>
+        <translation type="unfinished">กระจายธุรกรรมการเรียกคืนสำหรับการฝากเงินที่ครบกำหนดนี้</translation>
+    </message>
+    <message>
+        <source>This deposit is not reclaimable yet.</source>
+        <translation type="unfinished">การฝากเงินนี้ยังไม่สามารถเรียกคืนได้</translation>
+    </message>
+    <message>
+        <source>Broadcast a reclaim transaction for the selected mature model deposit?</source>
+        <translation type="unfinished">กระจายธุรกรรมการเรียกคืนสำหรับการฝากเงินโมเดลที่ครบกำหนดที่เลือก?</translation>
+    </message>
+    <message>
+        <source>Reclaim transaction broadcast: %1</source>
+        <translation type="unfinished">กระจายธุรกรรมการเรียกคืน: %1</translation>
+    </message>
+    <message>
+        <source>\nBurn already confirmed at height %1</source>
+        <translation type="unfinished">\nการเผาไหม้ยืนยันแล้วที่ความสูง %1</translation>
+    </message>
+    <message>
+        <source>Deposit has already been burned at height %1.</source>
+        <translation type="unfinished">การฝากเงินถูกเผาไหม้แล้วที่ความสูง %1</translation>
+    </message>
+    <message>
+        <source>Select a challenge block first.</source>
+        <translation type="unfinished">เลือกบล็อคการท้าทายก่อน</translation>
+    </message>
+    <message>
+        <source>No active challenge deposit for this model.</source>
+        <translation type="unfinished">ไม่มีการฝากเงินการท้าทายที่ใช้งานอยู่สำหรับโมเดลนี้</translation>
+    </message>
+    <message>
+        <source>Checking challenge deposit status...</source>
+        <translation type="unfinished">กำลังตรวจสอบสถานะการฝากเงินการท้าทาย...</translation>
+    </message>
+    <message>
+        <source>Load blocks and choose a block if you want to create a new challenge deposit.</source>
+        <translation type="unfinished">โหลดบล็อคและเลือกบล็อคหากต้องการสร้างการฝากเงินการท้าทายใหม่</translation>
+    </message>
+    <message>
+        <source>Choose how many challenge commits to create for the active challenge deposit.</source>
+        <translation type="unfinished">เลือกจำนวน commit การท้าทายที่จะสร้างสำหรับการฝากเงินการท้าทายที่ใช้งานอยู่</translation>
+    </message>
+    <message>
+        <source>No challenge deposit created for this model.</source>
+        <translation type="unfinished">ไม่มีการฝากเงินการท้าทายที่สร้างสำหรับโมเดลนี้</translation>
+    </message>
+    <message>
+        <source>Challenge deposit created and waiting for confirmation.</source>
+        <translation type="unfinished">สร้างการฝากเงินการท้าทายและรอการยืนยัน</translation>
+    </message>
+    <message>
+        <source>Challenge deposit is active until verdict height %1.</source>
+        <translation type="unfinished">การฝากเงินการท้าทายใช้งานอยู่จนถึงความสูงคำตัดสิน %1</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation type="unfinished">ไม่ทราบ</translation>
+    </message>
+    <message>
+        <source>Challenge cycle completed for this model.</source>
+        <translation type="unfinished">วงจรการท้าทายเสร็จสมบูรณ์สำหรับโมเดลนี้</translation>
+    </message>
+    <message>
+        <source>Load blocks, select a block, then create a challenge deposit.</source>
+        <translation type="unfinished">โหลดบล็อค เลือกบล็อค แล้วสร้างการฝากเงินการท้าทาย</translation>
+    </message>
+    <message>
+        <source>Wait for the challenge deposit to confirm before creating challenge commits.</source>
+        <translation type="unfinished">รอให้การฝากเงินการท้าทายยืนยันก่อนสร้าง commit การท้าทาย</translation>
+    </message>
+    <message>
+        <source>Challenge deposit is active. Use Create Challenge Commits to choose how many challenge commits to create.</source>
+        <translation type="unfinished">การฝากเงินการท้าทายใช้งานอยู่ ใช้ สร้าง Challenge Commit เพื่อเลือกจำนวน commit การท้าทายที่จะสร้าง</translation>
+    </message>
+    <message>
+        <source>Challenge finished at height %1. Create a new challenge deposit only for a future cycle.</source>
+        <translation type="unfinished">การท้าทายเสร็จสิ้นที่ความสูง %1 สร้างการฝากเงินการท้าทายใหม่เฉพาะสำหรับวงจรในอนาคต</translation>
+    </message>
+    <message>
+        <source>Challenge status is incomplete. Refresh this tab if needed.</source>
+        <translation type="unfinished">สถานะการท้าทายไม่สมบูรณ์ รีเฟรชแท็บนี้หากจำเป็น</translation>
+    </message>
+    <message>
+        <source>Challenge status unavailable.</source>
+        <translation type="unfinished">สถานะการท้าทายไม่พร้อมใช้งาน</translation>
+    </message>
+    <message>
+        <source>Refresh the tab and try again.</source>
+        <translation type="unfinished">รีเฟรชแท็บและลองอีกครั้ง</translation>
+    </message>
+    <message>
+        <source>Select a model and block first.</source>
+        <translation type="unfinished">เลือกโมเดลและบล็อคก่อน</translation>
+    </message>
+    <message>
+        <source>Select a model with an active challenge deposit.</source>
+        <translation type="unfinished">เลือกโมเดลที่มีการฝากเงินการท้าทายที่ใช้งานอยู่</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation type="unfinished">ไม่มี</translation>
+    </message>
+    <message>
+        <source>Pending confirm</source>
+        <translation type="unfinished">รอการยืนยัน</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation type="unfinished">เสร็จสิ้น</translation>
+    </message>
+    <message>
+        <source>Active</source>
+        <translation type="unfinished">ใช้งานอยู่</translation>
+    </message>
+    <message>
+        <source>Create a challenge deposit for the selected block.</source>
+        <translation type="unfinished">สร้างการฝากเงินการท้าทายสำหรับบล็อคที่เลือก</translation>
+    </message>
+    <message>
+        <source>&lt;b style='color:#C62828;'&gt;Important:&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b style='color:#C62828;'&gt;สำคัญ:&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Number of challenge commit transactions to create (1-%1):</source>
+        <translation type="unfinished">จำนวนธุรกรรม commit การท้าทายที่จะสร้าง (1-%1):</translation>
+    </message>
+    <message>
+        <source>Challenge commit count must be a positive integer not greater than %1.</source>
+        <translation type="unfinished">จำนวน commit การท้าทายต้องเป็นจำนวนเต็มบวกที่ไม่เกิน %1</translation>
+    </message>
+    <message>
+        <source>Challenge Flow</source>
+        <translation type="unfinished">กระบวนการท้าทาย</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;How challenge works&lt;/b&gt;&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;วิธีการท้าทายทำงาน&lt;/b&gt;&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Challenge commit count must be between 1 and %1.</source>
+        <translation type="unfinished">จำนวน commit การท้าทายต้องอยู่ระหว่าง 1 ถึง %1</translation>
+    </message>
+    <message>
+        <source>%1 completed: %2 challenge commit(s) created for model %3.</source>
+        <translation type="unfinished">%1 เสร็จสมบูรณ์: สร้าง commit การท้าทาย %2 รายการสำหรับโมเดล %3</translation>
+    </message>
+    <message>
+        <source>%1: transaction %2 is no longer in the mempool and has no confirmations</source>
+        <translation type="unfinished">%1: ธุรกรรม %2 ไม่อยู่ใน mempool อีกต่อไปและไม่มีการยืนยัน</translation>
+    </message>
+    <message>
+        <source>%1: timeout waiting for transaction %2 to reach %3 confirmation(s)</source>
+        <translation type="unfinished">%1: หมดเวลารอธุรกรรม %2 ถึง %3 การยืนยัน</translation>
+    </message>
+</context>
+<context>
+    <name>NewContractTab</name>
+    <message>
+        <source>Contract Type</source>
+        <translation type="unfinished">Contract Type</translation>
+    </message>
+    <message>
+        <source>Spot</source>
+        <translation type="unfinished">Spot</translation>
+    </message>
+    <message>
+        <source>Atomic swap for instant asset-for-asset exchange in a single settlement transaction.</source>
+        <translation type="unfinished">Atomic swap for instant asset-for-asset exchange in a single settlement transaction.</translation>
+    </message>
+    <message>
+        <source>Repo</source>
+        <translation type="unfinished">Repo</translation>
+    </message>
+    <message>
+        <source>Forward</source>
+        <translation type="unfinished">Forward</translation>
+    </message>
+    <message>
+        <source>Option</source>
+        <translation type="unfinished">Option</translation>
+    </message>
+    <message>
+        <source>Selected Contract Details</source>
+        <translation type="unfinished">Selected Contract Details</translation>
+    </message>
+    <message>
+        <source>Create New Offer</source>
+        <translation type="unfinished">Create New Offer</translation>
+    </message>
+    <message>
+        <source>Launch wizard to create a new contract offer</source>
+        <translation type="unfinished">Launch wizard to create a new contract offer</translation>
+    </message>
+    <message>
+        <source>Import Offer</source>
+        <translation type="unfinished">Import Offer</translation>
+    </message>
+    <message>
+        <source>Import an existing offer from JSON or cosign session</source>
+        <translation type="unfinished">Import an existing offer from JSON or cosign session</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Wallet model not available</source>
+        <translation type="unfinished">Wallet model not available</translation>
+    </message>
+    <message>
+        <source>Failed to generate repo term sheet.</source>
+        <translation type="unfinished">Failed to generate repo term sheet.</translation>
+    </message>
+    <message>
+        <source>Repo contract offer created!\n\nOffer ID: %1\n\nChoose how to share this offer:</source>
+        <translation type="unfinished">Repo contract offer created!\n\nOffer ID: %1\n\nChoose how to share this offer:</translation>
+    </message>
+    <message>
+        <source>Repo term sheet prepared!\n\nA counterparty must supply their repayment address to finalize.\n\nChoose how to proceed:</source>
+        <translation type="unfinished">Repo term sheet prepared!\n\nA counterparty must supply their repayment address to finalize.\n\nChoose how to proceed:</translation>
+    </message>
+    <message>
+        <source>Repo Contract Ready</source>
+        <translation type="unfinished">Repo Contract Ready</translation>
+    </message>
+    <message>
+        <source>Publish to Market</source>
+        <translation type="unfinished">Publish to Market</translation>
+    </message>
+    <message>
+        <source>Export Manually</source>
+        <translation type="unfinished">Export Manually</translation>
+    </message>
+    <message>
+        <source>Open Now</source>
+        <translation type="unfinished">Open Now</translation>
+    </message>
+    <message>
+        <source>Decide Later</source>
+        <translation type="unfinished">Decide Later</translation>
+    </message>
+    <message>
+        <source>Attach Proof of Funds?</source>
+        <translation type="unfinished">Attach Proof of Funds?</translation>
+    </message>
+    <message>
+        <source>Posted to Bulletin Board</source>
+        <translation type="unfinished">Posted to Bulletin Board</translation>
+    </message>
+    <message>
+        <source>Term sheet posted to Nostr!\n\nOffer ID: %1\n\nCounterparties can now review the terms and provide their addresses.</source>
+        <translation type="unfinished">Term sheet posted to Nostr!\n\nOffer ID: %1\n\nCounterparties can now review the terms and provide their addresses.</translation>
+    </message>
+    <message>
+        <source>Posting Failed</source>
+        <translation type="unfinished">Posting Failed</translation>
+    </message>
+    <message>
+        <source>Failed: %1</source>
+        <translation type="unfinished">Failed: %1</translation>
+    </message>
+    <message>
+        <source>Missing Counterparty Details</source>
+        <translation type="unfinished">Missing Counterparty Details</translation>
+    </message>
+    <message>
+        <source>Collect the counterparty's repayment address before exporting a finalized offer.</source>
+        <translation type="unfinished">Collect the counterparty's repayment address before exporting a finalized offer.</translation>
+    </message>
+    <message>
+        <source>Export Offer</source>
+        <translation type="unfinished">Export Offer</translation>
+    </message>
+    <message>
+        <source>Export via JSON or active cosign session.\n\nOffer ID: %1</source>
+        <translation type="unfinished">Export via JSON or active cosign session.\n\nOffer ID: %1</translation>
+    </message>
+    <message>
+        <source>Cannot open the contract until both parties' addresses are finalized.</source>
+        <translation type="unfinished">Cannot open the contract until both parties' addresses are finalized.</translation>
+    </message>
+    <message>
+        <source>Contract Opened</source>
+        <translation type="unfinished">Contract Opened</translation>
+    </message>
+    <message>
+        <source>Contract opened!\n\nTXID: %1</source>
+        <translation type="unfinished">Contract opened!\n\nTXID: %1</translation>
+    </message>
+    <message>
+        <source>Failed to generate forward term sheet.</source>
+        <translation type="unfinished">Failed to generate forward term sheet.</translation>
+    </message>
+    <message>
+        <source>Forward contract offer created!\n\nOffer ID: %1\n\nChoose how to share this offer:</source>
+        <translation type="unfinished">Forward contract offer created!\n\nOffer ID: %1\n\nChoose how to share this offer:</translation>
+    </message>
+    <message>
+        <source>Forward term sheet prepared!\n\nA counterparty must supply their settlement addresses to finalize.\n\nChoose how to proceed:</source>
+        <translation type="unfinished">Forward term sheet prepared!\n\nA counterparty must supply their settlement addresses to finalize.\n\nChoose how to proceed:</translation>
+    </message>
+    <message>
+        <source>Forward Contract Ready</source>
+        <translation type="unfinished">Forward Contract Ready</translation>
+    </message>
+    <message>
+        <source>Collect the counterparty's settlement addresses before exporting a finalized offer.</source>
+        <translation type="unfinished">Collect the counterparty's settlement addresses before exporting a finalized offer.</translation>
+    </message>
+    <message>
+        <source>Failed to generate option term sheet.</source>
+        <translation type="unfinished">Failed to generate option term sheet.</translation>
+    </message>
+    <message>
+        <source>Option contract offer created!\n\nOffer ID: %1\n\nChoose how to share this offer:</source>
+        <translation type="unfinished">Option contract offer created!\n\nOffer ID: %1\n\nChoose how to share this offer:</translation>
+    </message>
+    <message>
+        <source>Option term sheet prepared!\n\nA counterparty must supply their settlement addresses to finalize.\n\nChoose how to proceed:</source>
+        <translation type="unfinished">Option term sheet prepared!\n\nA counterparty must supply their settlement addresses to finalize.\n\nChoose how to proceed:</translation>
+    </message>
+    <message>
+        <source>Option Contract Ready</source>
+        <translation type="unfinished">Option Contract Ready</translation>
+    </message>
+    <message>
+        <source>Failed to generate spot term sheet.</source>
+        <translation type="unfinished">Failed to generate spot term sheet.</translation>
+    </message>
+    <message>
+        <source>Spot swap offer created!\n\nOffer ID: %1\n\nChoose how to share this offer:</source>
+        <translation type="unfinished">Spot swap offer created!\n\nOffer ID: %1\n\nChoose how to share this offer:</translation>
+    </message>
+    <message>
+        <source>Spot term sheet prepared!\n\nA counterparty must accept to finalize.\n\nChoose how to proceed:</source>
+        <translation type="unfinished">Spot term sheet prepared!\n\nA counterparty must accept to finalize.\n\nChoose how to proceed:</translation>
+    </message>
+    <message>
+        <source>Spot Swap Ready</source>
+        <translation type="unfinished">Spot Swap Ready</translation>
+    </message>
+    <message>
+        <source>Publish with Proof</source>
+        <translation type="unfinished">Publish with Proof</translation>
+    </message>
+    <message>
+        <source>Term sheet posted to Nostr!\n\nOffer ID: %1\n\nCounterparties can now review and accept the swap.</source>
+        <translation type="unfinished">Term sheet posted to Nostr!\n\nOffer ID: %1\n\nCounterparties can now review and accept the swap.</translation>
+    </message>
+    <message>
+        <source>Collect the counterparty's acceptance before exporting.</source>
+        <translation type="unfinished">Collect the counterparty's acceptance before exporting.</translation>
+    </message>
+    <message>
+        <source>Offer Imported</source>
+        <translation type="unfinished">Offer Imported</translation>
+    </message>
+    <message>
+        <source>Non-Recourse Collateralised Loan, borrow/lend an asset against another for a fixed maturity. </source>
+        <translation type="unfinished">สินเชื่อที่มีหลักประกันแบบไม่มีการไล่เบี้ย กู้/ให้กู้สินทรัพย์หนึ่งเทียบกับอีกสินทรัพย์หนึ่งสำหรับครบกำหนดคงที่ </translation>
+    </message>
+    <message>
+        <source>Both parties agree to physical delivery of two assets (quantities and price defined at inception) </source>
+        <translation type="unfinished">ทั้งสองฝ่ายตกลงส่งมอบจริงของสองสินทรัพย์ (ปริมาณและราคากำหนดที่จุดเริ่มต้น) </translation>
+    </message>
+    <message>
+        <source>Both parties agree physical delivery of two assets (quantities and price defined at inception) </source>
+        <translation type="unfinished">ทั้งสองฝ่ายตกลงส่งมอบจริงของสองสินทรัพย์ (ปริมาณและราคากำหนดที่จุดเริ่มต้น) </translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Spot Swap Features:&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;คุณสมบัติ Spot Swap:&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Repo Contract Features:&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;คุณสมบัติ Repo Contract:&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Forward Contract Features:&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;คุณสมบัติ Forward Contract:&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Option Contract Features:&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;คุณสมบัติ Option Contract:&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Would you like to attach a proof of funds to increase trust?\n\n</source>
+        <translation type="unfinished">คุณต้องการแนบหลักฐานเงินทุนเพื่อเพิ่มความน่าเชื่อถือหรือไม่?\n\n</translation>
+    </message>
+    <message>
+        <source>Contract offer imported successfully!\n\nOffer ID: %1\nType: %2\n\n</source>
+        <translation type="unfinished">นำเข้าข้อเสนอสัญญาสำเร็จ!\n\nรหัสข้อเสนอ: %1\nประเภท: %2\n\n</translation>
+    </message>
+</context>
+<context>
+    <name>OpenContractDialog</name>
+    <message>
+        <source>Open Contract</source>
+        <translation type="unfinished">Open Contract</translation>
+    </message>
+    <message>
+        <source>Contract Details</source>
+        <translation type="unfinished">Contract Details</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Contract:&lt;/b&gt; %1 (Accepted)</source>
+        <translation type="unfinished">&lt;b&gt;Contract:&lt;/b&gt; %1 (Accepted)</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Status:&lt;/b&gt; Ready to Build Opening Transaction</source>
+        <translation type="unfinished">&lt;b&gt;Status:&lt;/b&gt; Ready to Build Opening Transaction</translation>
+    </message>
+    <message>
+        <source>Funding Check</source>
+        <translation type="unfinished">Funding Check</translation>
+    </message>
+    <message>
+        <source>Next Steps</source>
+        <translation type="unfinished">Next Steps</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancel</translation>
+    </message>
+    <message>
+        <source>Build Opening Transaction</source>
+        <translation type="unfinished">Build Opening Transaction</translation>
+    </message>
+    <message>
+        <source>⚠ &lt;b&gt;Error:&lt;/b&gt; Wallet model not available.</source>
+        <translation type="unfinished">⚠ &lt;b&gt;Error:&lt;/b&gt; Wallet model not available.</translation>
+    </message>
+    <message>
+        <source>⚠ &lt;b&gt;Warning:&lt;/b&gt; Offer data not available. Cannot verify funding requirements.</source>
+        <translation type="unfinished">⚠ &lt;b&gt;Warning:&lt;/b&gt; Offer data not available. Cannot verify funding requirements.</translation>
+    </message>
+    <message>
+        <source>⚠ &lt;b&gt;Error:&lt;/b&gt; Could not determine funding requirements from offer data.</source>
+        <translation type="unfinished">⚠ &lt;b&gt;Error:&lt;/b&gt; Could not determine funding requirements from offer data.</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Status:&lt;/b&gt; %1</source>
+        <translation type="unfinished">&lt;b&gt;Status:&lt;/b&gt; %1</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Wallet model not available.</source>
+        <translation type="unfinished">Wallet model not available.</translation>
+    </message>
+    <message>
+        <source>Insufficient Funds</source>
+        <translation type="unfinished">Insufficient Funds</translation>
+    </message>
+    <message>
+        <source>You do not have enough funds to open this contract.</source>
+        <translation type="unfinished">You do not have enough funds to open this contract.</translation>
+    </message>
+    <message>
+        <source>Building opening transaction...</source>
+        <translation type="unfinished">Building opening transaction...</translation>
+    </message>
+    <message>
+        <source>Building PSBT...</source>
+        <translation type="unfinished">Building PSBT...</translation>
+    </message>
+    <message>
+        <source>Step 1/3: Building PSBT...</source>
+        <translation type="unfinished">Step 1/3: Building PSBT...</translation>
+    </message>
+    <message>
+        <source>Build Failed</source>
+        <translation type="unfinished">Build Failed</translation>
+    </message>
+    <message>
+        <source>Error building opening transaction: %1</source>
+        <translation type="unfinished">Error building opening transaction: %1</translation>
+    </message>
+    <message>
+        <source>Running adaptor ceremony...</source>
+        <translation type="unfinished">Running adaptor ceremony...</translation>
+    </message>
+    <message>
+        <source>Step 2/3: Running Fair-Sign adaptor ceremony...</source>
+        <translation type="unfinished">Step 2/3: Running Fair-Sign adaptor ceremony...</translation>
+    </message>
+    <message>
+        <source>Ceremony Failed</source>
+        <translation type="unfinished">Ceremony Failed</translation>
+    </message>
+    <message>
+        <source>Adaptor ceremony failed: %1</source>
+        <translation type="unfinished">Adaptor ceremony failed: %1</translation>
+    </message>
+    <message>
+        <source>Ceremony Incomplete</source>
+        <translation type="unfinished">Ceremony Incomplete</translation>
+    </message>
+    <message>
+        <source>Adaptor ceremony did not return a completed PSBT. Please retry or perform the ceremony manually.</source>
+        <translation type="unfinished">Adaptor ceremony did not return a completed PSBT. Please retry or perform the ceremony manually.</translation>
+    </message>
+    <message>
+        <source>Manual Ceremony Required</source>
+        <translation type="unfinished">Manual Ceremony Required</translation>
+    </message>
+    <message>
+        <source>No active cosign session. Manual adaptor ceremony not yet implemented in this version.</source>
+        <translation type="unfinished">No active cosign session. Manual adaptor ceremony not yet implemented in this version.</translation>
+    </message>
+    <message>
+        <source>Awaiting confirmation...</source>
+        <translation type="unfinished">Awaiting confirmation...</translation>
+    </message>
+    <message>
+        <source>Opening Transaction for Contract %1</source>
+        <translation type="unfinished">Opening Transaction for Contract %1</translation>
+    </message>
+    <message>
+        <source>Broadcast cancelled by user</source>
+        <translation type="unfinished">Broadcast cancelled by user</translation>
+    </message>
+    <message>
+        <source>Cancelled</source>
+        <translation type="unfinished">Cancelled</translation>
+    </message>
+    <message>
+        <source>Transaction broadcast cancelled.</source>
+        <translation type="unfinished">Transaction broadcast cancelled.</translation>
+    </message>
+    <message>
+        <source>Broadcasting transaction...</source>
+        <translation type="unfinished">Broadcasting transaction...</translation>
+    </message>
+    <message>
+        <source>Broadcast Failed</source>
+        <translation type="unfinished">Broadcast Failed</translation>
+    </message>
+    <message>
+        <source>Error broadcasting transaction: %1</source>
+        <translation type="unfinished">Error broadcasting transaction: %1</translation>
+    </message>
+    <message>
+        <source>Waiting for confirmations...</source>
+        <translation type="unfinished">Waiting for confirmations...</translation>
+    </message>
+    <message>
+        <source>UniValue exception: %1</source>
+        <translation type="unfinished">UniValue exception: %1</translation>
+    </message>
+    <message>
+        <source>Runtime error: %1</source>
+        <translation type="unfinished">Runtime error: %1</translation>
+    </message>
+    <message>
+        <source>Exception occurred: %1</source>
+        <translation type="unfinished">Exception occurred: %1</translation>
+    </message>
+    <message>
+        <source>Unknown exception occurred while building opening transaction</source>
+        <translation type="unfinished">Unknown exception occurred while building opening transaction</translation>
+    </message>
+    <message>
+        <source>Transaction Broadcast</source>
+        <translation type="unfinished">Transaction Broadcast</translation>
+    </message>
+    <message>
+        <source>✓ &lt;b&gt;Opening transaction broadcast successfully!&lt;/b&gt;</source>
+        <translation type="unfinished">✓ &lt;b&gt;Opening transaction broadcast successfully!&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Transaction Details</source>
+        <translation type="unfinished">Transaction Details</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Transaction ID:&lt;/b&gt;&lt;br&gt;%1</source>
+        <translation type="unfinished">&lt;b&gt;Transaction ID:&lt;/b&gt;&lt;br&gt;%1</translation>
+    </message>
+    <message>
+        <source>Confirmation Status</source>
+        <translation type="unfinished">Confirmation Status</translation>
+    </message>
+    <message>
+        <source>Waiting for confirmations... (0/1)</source>
+        <translation type="unfinished">Waiting for confirmations... (0/1)</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished">Close</translation>
+    </message>
+    <message>
+        <source>✓ &lt;b&gt;Transaction confirmed!&lt;/b&gt; (%1 confirmation%2)</source>
+        <translation type="unfinished">✓ &lt;b&gt;Transaction confirmed!&lt;/b&gt; (%1 confirmation%2)</translation>
+    </message>
+    <message>
+        <source>⚠ Error checking confirmations. Please check wallet manually.</source>
+        <translation type="unfinished">⚠ Error checking confirmations. Please check wallet manually.</translation>
+    </message>
+    <message>
+        <source>&lt;ol style='margin: 0; padding-left: 20px;'&gt;</source>
+        <translation type="unfinished">&lt;ol style='margin: 0; padding-left: 20px;'&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Your Contribution:&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;เงินสมทบของคุณ:&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>✓ &lt;b&gt;Transaction confirmed!&lt;/b&gt; (%1 confirmation)</source>
+        <translation type="unfinished">✓ &lt;b&gt;ยืนยันธุรกรรมแล้ว!&lt;/b&gt; (%1 การยืนยัน)</translation>
+    </message>
+    <message>
+        <source>✓ &lt;b&gt;Transaction confirmed!&lt;/b&gt; (%1 confirmations)</source>
+        <translation type="unfinished">✓ &lt;b&gt;ยืนยันธุรกรรมแล้ว!&lt;/b&gt; (%1 การยืนยัน)</translation>
+    </message>
+</context>
+<context>
+    <name>PricingBreakdownDialog</name>
+    <message>
+        <source>Pricing Breakdown</source>
+        <translation type="unfinished">Pricing Breakdown</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Contract Pricing Analysis&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3&gt;Contract Pricing Analysis&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>Price Source: &lt;b&gt;%1&lt;/b&gt;</source>
+        <translation type="unfinished">Price Source: &lt;b&gt;%1&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Metric</source>
+        <translation type="unfinished">Metric</translation>
+    </message>
+    <message>
+        <source>Mark Prices</source>
+        <translation type="unfinished">Mark Prices</translation>
+    </message>
+    <message>
+        <source>Market Prices</source>
+        <translation type="unfinished">Market Prices</translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation type="unfinished">Refresh</translation>
+    </message>
+    <message>
+        <source>Toggle Mark/Market</source>
+        <translation type="unfinished">Toggle Mark/Market</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished">Close</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Wallet model not available</source>
+        <translation type="unfinished">Wallet model not available</translation>
+    </message>
+    <message>
+        <source>Pricing Error</source>
+        <translation type="unfinished">Pricing Error</translation>
+    </message>
+    <message>
+        <source>Failed to calculate pricing:\n\n%1</source>
+        <translation type="unfinished">Failed to calculate pricing:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation type="unfinished">Value</translation>
+    </message>
+    <message>
+        <source>Principal + Interest PV</source>
+        <translation type="unfinished">Principal + Interest PV</translation>
+    </message>
+    <message>
+        <source>Collateral PV</source>
+        <translation type="unfinished">Collateral PV</translation>
+    </message>
+    <message>
+        <source>Collateral Option Value</source>
+        <translation type="unfinished">Collateral Option Value</translation>
+    </message>
+    <message>
+        <source>Coverage Ratio</source>
+        <translation type="unfinished">Coverage Ratio</translation>
+    </message>
+    <message>
+        <source>LTV</source>
+        <translation type="unfinished">LTV</translation>
+    </message>
+    <message>
+        <source>Over-Collateralization</source>
+        <translation type="unfinished">Over-Collateralization</translation>
+    </message>
+    <message>
+        <source>Lender MTM</source>
+        <translation type="unfinished">Lender MTM</translation>
+    </message>
+    <message>
+        <source>Borrower MTM</source>
+        <translation type="unfinished">Borrower MTM</translation>
+    </message>
+    <message>
+        <source>⚠ Warnings</source>
+        <translation type="unfinished">⚠ Warnings</translation>
+    </message>
+    <message>
+        <source>PV Receive (Long Delivers)</source>
+        <translation type="unfinished">PV Receive (Long Delivers)</translation>
+    </message>
+    <message>
+        <source>PV Pay (Short Delivers)</source>
+        <translation type="unfinished">PV Pay (Short Delivers)</translation>
+    </message>
+    <message>
+        <source>Net Spread Value</source>
+        <translation type="unfinished">Net Spread Value</translation>
+    </message>
+    <message>
+        <source>Premium PV</source>
+        <translation type="unfinished">Premium PV</translation>
+    </message>
+    <message>
+        <source>Alice Short Call Value</source>
+        <translation type="unfinished">Alice Short Call Value</translation>
+    </message>
+    <message>
+        <source>Alice Long Put Value</source>
+        <translation type="unfinished">Alice Long Put Value</translation>
+    </message>
+    <message>
+        <source>Alice (Long) MTM</source>
+        <translation type="unfinished">Alice (Long) MTM</translation>
+    </message>
+    <message>
+        <source>Bob (Short) MTM</source>
+        <translation type="unfinished">Bob (Short) MTM</translation>
+    </message>
+    <message>
+        <source>IM Coverage Alice</source>
+        <translation type="unfinished">IM Coverage Alice</translation>
+    </message>
+    <message>
+        <source>IM Coverage Bob</source>
+        <translation type="unfinished">IM Coverage Bob</translation>
+    </message>
+    <message>
+        <source>Exchange Rate</source>
+        <translation type="unfinished">Exchange Rate</translation>
+    </message>
+    <message>
+        <source>Alice Sends</source>
+        <translation type="unfinished">Alice Sends</translation>
+    </message>
+    <message>
+        <source>Alice Receives</source>
+        <translation type="unfinished">Alice Receives</translation>
+    </message>
+    <message>
+        <source>Bob Sends</source>
+        <translation type="unfinished">Bob Sends</translation>
+    </message>
+    <message>
+        <source>Bob Receives</source>
+        <translation type="unfinished">Bob Receives</translation>
+    </message>
+    <message>
+        <source>Note</source>
+        <translation type="unfinished">Note</translation>
+    </message>
+    <message>
+        <source>Spot contracts have simple exchange rate pricing only</source>
+        <translation type="unfinished">Spot contracts have simple exchange rate pricing only</translation>
+    </message>
+</context>
+<context>
+    <name>ProofBuilder</name>
+    <message>
+        <source>Build Proof of Funds</source>
+        <translation type="unfinished">Build Proof of Funds</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Proof of Funds Builder&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Proof of Funds Builder&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Asset: &lt;b&gt;TSC (Native Coin)&lt;/b&gt;</source>
+        <translation type="unfinished">Asset: &lt;b&gt;TSC (Native Coin)&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Asset ID: %1</source>
+        <translation type="unfinished">Asset ID: %1</translation>
+    </message>
+    <message>
+        <source>Available UTXOs:</source>
+        <translation type="unfinished">Available UTXOs:</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation type="unfinished">Select</translation>
+    </message>
+    <message>
+        <source>UTXO</source>
+        <translation type="unfinished">UTXO</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation type="unfinished">Address</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation type="unfinished">Amount</translation>
+    </message>
+    <message>
+        <source>Confirmations</source>
+        <translation type="unfinished">Confirmations</translation>
+    </message>
+    <message>
+        <source>Proof message format:</source>
+        <translation type="unfinished">Proof message format:</translation>
+    </message>
+    <message>
+        <source>Message will be shown after UTXO selection</source>
+        <translation type="unfinished">Message will be shown after UTXO selection</translation>
+    </message>
+    <message>
+        <source>Refresh UTXOs</source>
+        <translation type="unfinished">Refresh UTXOs</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancel</translation>
+    </message>
+    <message>
+        <source>Generate Proofs</source>
+        <translation type="unfinished">Generate Proofs</translation>
+    </message>
+    <message>
+        <source>&lt;font color='red'&gt;Error: Wallet model not available&lt;/font&gt;</source>
+        <translation type="unfinished">&lt;font color='red'&gt;Error: Wallet model not available&lt;/font&gt;</translation>
+    </message>
+    <message>
+        <source>Loading UTXOs...</source>
+        <translation type="unfinished">Loading UTXOs...</translation>
+    </message>
+    <message>
+        <source>&lt;font color='orange'&gt;No UTXOs found for this asset in your wallet.&lt;/font&gt;</source>
+        <translation type="unfinished">&lt;font color='orange'&gt;No UTXOs found for this asset in your wallet.&lt;/font&gt;</translation>
+    </message>
+    <message>
+        <source>Found %1 UTXO(s). Select UTXOs and click 'Generate Proofs'.</source>
+        <translation type="unfinished">Found %1 UTXO(s). Select UTXOs and click 'Generate Proofs'.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Wallet model not available</source>
+        <translation type="unfinished">Wallet model not available</translation>
+    </message>
+    <message>
+        <source>No Selection</source>
+        <translation type="unfinished">No Selection</translation>
+    </message>
+    <message>
+        <source>Please select at least one UTXO.</source>
+        <translation type="unfinished">Please select at least one UTXO.</translation>
+    </message>
+    <message>
+        <source>Generating proofs for %1 UTXO(s)...</source>
+        <translation type="unfinished">Generating proofs for %1 UTXO(s)...</translation>
+    </message>
+    <message>
+        <source>Signature Failed</source>
+        <translation type="unfinished">Signature Failed</translation>
+    </message>
+    <message>
+        <source>&lt;font color='green'&gt;Successfully generated %1 proof(s).&lt;/font&gt;</source>
+        <translation type="unfinished">&lt;font color='green'&gt;Successfully generated %1 proof(s).&lt;/font&gt;</translation>
+    </message>
+    <message>
+        <source>Success</source>
+        <translation type="unfinished">Success</translation>
+    </message>
+    <message>
+        <source>&lt;font color='orange'&gt;Generated %1 out of %2 proofs.&lt;/font&gt;</source>
+        <translation type="unfinished">&lt;font color='orange'&gt;Generated %1 out of %2 proofs.&lt;/font&gt;</translation>
+    </message>
+    <message>
+        <source>Partial Success</source>
+        <translation type="unfinished">Partial Success</translation>
+    </message>
+    <message>
+        <source>&lt;font color='red'&gt;Failed to generate any proofs.&lt;/font&gt;</source>
+        <translation type="unfinished">&lt;font color='red'&gt;Failed to generate any proofs.&lt;/font&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;Select one or more UTXOs to prove ownership of the required asset.&lt;/p&gt;</source>
+        <translation type="unfinished">&lt;p&gt;เลือก UTXO หนึ่งรายการหรือมากกว่าเพื่อพิสูจน์ความเป็นเจ้าของสินทรัพย์ที่ต้องการ&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>Failed to sign message for UTXO %1:%2.\n\n</source>
+        <translation type="unfinished">ล้มเหลวในการลงนามข้อความสำหรับ UTXO %1:%2\n\n</translation>
+    </message>
+    <message>
+        <source>Generated %1 proof(s) successfully.\n\n</source>
+        <translation type="unfinished">สร้าง %1 หลักฐานสำเร็จ\n\n</translation>
+    </message>
+    <message>
+        <source>Generated %1 out of %2 proofs.\n\n</source>
+        <translation type="unfinished">สร้าง %1 จาก %2 หลักฐาน\n\n</translation>
+    </message>
+    <message>
+        <source>Failed to generate any proofs.\n\n</source>
+        <translation type="unfinished">ล้มเหลวในการสร้างหลักฐานใดๆ\n\n</translation>
+    </message>
+</context>
+<context>
+    <name>PSBTPreviewDialog</name>
+    <message>
+        <source>PSBT Preview - Confirm Transaction</source>
+        <translation type="unfinished">PSBT Preview - Confirm Transaction</translation>
+    </message>
+    <message>
+        <source>Transaction Summary</source>
+        <translation type="unfinished">Transaction Summary</translation>
+    </message>
+    <message>
+        <source>Inputs</source>
+        <translation type="unfinished">Inputs</translation>
+    </message>
+    <message>
+        <source>TXID</source>
+        <translation type="unfinished">TXID</translation>
+    </message>
+    <message>
+        <source>Vout</source>
+        <translation type="unfinished">Vout</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation type="unfinished">Amount</translation>
+    </message>
+    <message>
+        <source>Outputs</source>
+        <translation type="unfinished">Outputs</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation type="unfinished">Address</translation>
+    </message>
+    <message>
+        <source>Show Raw PSBT</source>
+        <translation type="unfinished">Show Raw PSBT</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancel</translation>
+    </message>
+    <message>
+        <source>Broadcast Transaction</source>
+        <translation type="unfinished">Broadcast Transaction</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Network Fee:&lt;/b&gt; %1 BTC (~%2 sat/vB)</source>
+        <translation type="unfinished">&lt;b&gt;Network Fee:&lt;/b&gt; %1 BTC (~%2 sat/vB)</translation>
+    </message>
+    <message>
+        <source>Confirm Broadcast</source>
+        <translation type="unfinished">Confirm Broadcast</translation>
+    </message>
+    <message>
+        <source>Raw PSBT (Base64)</source>
+        <translation type="unfinished">Raw PSBT (Base64)</translation>
+    </message>
+    <message>
+        <source>Raw PSBT data (Base64 encoded):</source>
+        <translation type="unfinished">Raw PSBT data (Base64 encoded):</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished">Close</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;%1&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3&gt;%1&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>⚠️ &lt;b&gt;Warning:&lt;/b&gt; Broadcasting this transaction is irreversible. </source>
+        <translation type="unfinished">⚠️ &lt;b&gt;คำเตือน:&lt;/b&gt; การกระจายธุรกรรมนี้ไม่สามารถย้อนกลับได้ </translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Inputs:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;อินพุต:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Network Fee:&lt;/b&gt; %1 TSC (~%2 sat/vB)</source>
+        <translation type="unfinished">&lt;b&gt;ค่าธรรมเนียมเครือข่าย:&lt;/b&gt; %1 TSC (~%2 sat/vB)</translation>
+    </message>
+    <message>
+        <source>abcd1234...5678</source>
+        <translation type="unfinished">abcd1234...5678</translation>
+    </message>
+    <message>
+        <source>%1 TSC</source>
+        <translation type="unfinished">%1 TSC</translation>
+    </message>
+    <message>
+        <source>efgh5678...9012</source>
+        <translation type="unfinished">efgh5678...9012</translation>
+    </message>
+    <message>
+        <source>bc1q...vault</source>
+        <translation type="unfinished">bc1q...vault</translation>
+    </message>
+    <message>
+        <source>bc1q...change</source>
+        <translation type="unfinished">bc1q...change</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to broadcast this transaction?\n\n</source>
+        <translation type="unfinished">คุณแน่ใจหรือไม่ว่าต้องการกระจายธุรกรรมนี้?\n\n</translation>
+    </message>
+</context>
+<context>
+    <name>RepoContractBuilder</name>
+    <message>
+        <source>Repo Contract Builder</source>
+        <translation type="unfinished">Repo Contract Builder</translation>
+    </message>
+    <message>
+        <source>Validation Error</source>
+        <translation type="unfinished">Validation Error</translation>
+    </message>
+    <message>
+        <source>Collateral amount must be greater than zero.</source>
+        <translation type="unfinished">Collateral amount must be greater than zero.</translation>
+    </message>
+    <message>
+        <source>Principal amount must be greater than zero.</source>
+        <translation type="unfinished">Principal amount must be greater than zero.</translation>
+    </message>
+    <message>
+        <source>Lender receive address is required.</source>
+        <translation type="unfinished">Lender receive address is required.</translation>
+    </message>
+    <message>
+        <source>Borrower repay address is required.</source>
+        <translation type="unfinished">Borrower repay address is required.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Wallet model not available</source>
+        <translation type="unfinished">Wallet model not available</translation>
+    </message>
+    <message>
+        <source>Exception occurred: %1</source>
+        <translation type="unfinished">Exception occurred: %1</translation>
+    </message>
+    <message>
+        <source>Unknown exception occurred while creating offer</source>
+        <translation type="unfinished">Unknown exception occurred while creating offer</translation>
+    </message>
+    <message>
+        <source>Your Role</source>
+        <translation type="unfinished">Your Role</translation>
+    </message>
+    <message>
+        <source>Lender (providing principal)</source>
+        <translation type="unfinished">Lender (providing principal)</translation>
+    </message>
+    <message>
+        <source>Borrower (providing collateral)</source>
+        <translation type="unfinished">Borrower (providing collateral)</translation>
+    </message>
+    <message>
+        <source>Collateral Leg</source>
+        <translation type="unfinished">Collateral Leg</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation type="unfinished">Amount:</translation>
+    </message>
+    <message>
+        <source>TSC</source>
+        <translation type="unfinished">TSC</translation>
+    </message>
+    <message>
+        <source>Principal Leg</source>
+        <translation type="unfinished">Principal Leg</translation>
+    </message>
+    <message>
+        <source>Asset:</source>
+        <translation type="unfinished">Asset:</translation>
+    </message>
+    <message>
+        <source>  Price:</source>
+        <translation type="unfinished">  Price:</translation>
+    </message>
+    <message>
+        <source>TSC per TSC</source>
+        <translation type="unfinished">TSC per TSC</translation>
+    </message>
+    <message>
+        <source>LTV:</source>
+        <translation type="unfinished">LTV:</translation>
+    </message>
+    <message>
+        <source>  → Principal:</source>
+        <translation type="unfinished">  → Principal:</translation>
+    </message>
+    <message>
+        <source>Interest</source>
+        <translation type="unfinished">Interest</translation>
+    </message>
+    <message>
+        <source>  Rate:</source>
+        <translation type="unfinished">  Rate:</translation>
+    </message>
+    <message>
+        <source>→ Interest:</source>
+        <translation type="unfinished">→ Interest:</translation>
+    </message>
+    <message>
+        <source>  → Repay:</source>
+        <translation type="unfinished">  → Repay:</translation>
+    </message>
+    <message>
+        <source>1.60657534 TSC</source>
+        <translation type="unfinished">1.60657534 TSC</translation>
+    </message>
+    <message>
+        <source>Interest Asset Price:</source>
+        <translation type="unfinished">Interest Asset Price:</translation>
+    </message>
+    <message>
+        <source>TSC per ASSET</source>
+        <translation type="unfinished">TSC per ASSET</translation>
+    </message>
+    <message>
+        <source>Maturity</source>
+        <translation type="unfinished">Maturity</translation>
+    </message>
+    <message>
+        <source>Period:</source>
+        <translation type="unfinished">Period:</translation>
+    </message>
+    <message>
+        <source>Days</source>
+        <translation type="unfinished">Days</translation>
+    </message>
+    <message>
+        <source>Weeks</source>
+        <translation type="unfinished">Weeks</translation>
+    </message>
+    <message>
+        <source>Months</source>
+        <translation type="unfinished">Months</translation>
+    </message>
+    <message>
+        <source>Years</source>
+        <translation type="unfinished">Years</translation>
+    </message>
+    <message>
+        <source>  Safety:</source>
+        <translation type="unfinished">  Safety:</translation>
+    </message>
+    <message>
+        <source> blks</source>
+        <translation type="unfinished"> blks</translation>
+    </message>
+    <message>
+        <source>Absolute height</source>
+        <translation type="unfinished">Absolute height</translation>
+    </message>
+    <message>
+        <source>Current:</source>
+        <translation type="unfinished">Current:</translation>
+    </message>
+    <message>
+        <source>Loading...</source>
+        <translation type="unfinished">Loading...</translation>
+    </message>
+    <message>
+        <source>  → Target:</source>
+        <translation type="unfinished">  → Target:</translation>
+    </message>
+    <message>
+        <source>Calculating...</source>
+        <translation type="unfinished">Calculating...</translation>
+    </message>
+    <message>
+        <source>Pricing Breakdown</source>
+        <translation type="unfinished">Pricing Breakdown</translation>
+    </message>
+    <message>
+        <source>Absolute</source>
+        <translation type="unfinished">Absolute</translation>
+    </message>
+    <message>
+        <source>Per Principal</source>
+        <translation type="unfinished">Per Principal</translation>
+    </message>
+    <message>
+        <source>Principal + Interest PV:</source>
+        <translation type="unfinished">Principal + Interest PV:</translation>
+    </message>
+    <message>
+        <source>Collateral PV:</source>
+        <translation type="unfinished">Collateral PV:</translation>
+    </message>
+    <message>
+        <source>Collateral Option Value:</source>
+        <translation type="unfinished">Collateral Option Value:</translation>
+    </message>
+    <message>
+        <source>Lender MTM:</source>
+        <translation type="unfinished">Lender MTM:</translation>
+    </message>
+    <message>
+        <source>Borrower MTM:</source>
+        <translation type="unfinished">Borrower MTM:</translation>
+    </message>
+    <message>
+        <source>View Greeks</source>
+        <translation type="unfinished">View Greeks</translation>
+    </message>
+    <message>
+        <source>Addresses (Advanced)</source>
+        <translation type="unfinished">Addresses (Advanced)</translation>
+    </message>
+    <message>
+        <source>Borrower Repay Address:</source>
+        <translation type="unfinished">Borrower Repay Address:</translation>
+    </message>
+    <message>
+        <source>bc1p...</source>
+        <translation type="unfinished">bc1p...</translation>
+    </message>
+    <message>
+        <source>Generate New</source>
+        <translation type="unfinished">Generate New</translation>
+    </message>
+    <message>
+        <source>Manual entry</source>
+        <translation type="unfinished">Manual entry</translation>
+    </message>
+    <message>
+        <source>Enable to enter the counterparty's borrower address manually.</source>
+        <translation type="unfinished">Enable to enter the counterparty's borrower address manually.</translation>
+    </message>
+    <message>
+        <source>Lender Receive Address:</source>
+        <translation type="unfinished">Lender Receive Address:</translation>
+    </message>
+    <message>
+        <source>Will auto-generate if empty</source>
+        <translation type="unfinished">Will auto-generate if empty</translation>
+    </message>
+    <message>
+        <source>Address where lender receives principal repayment. Auto-generated if left empty.</source>
+        <translation type="unfinished">Address where lender receives principal repayment. Auto-generated if left empty.</translation>
+    </message>
+    <message>
+        <source>Generate a new address from your wallet</source>
+        <translation type="unfinished">Generate a new address from your wallet</translation>
+    </message>
+    <message>
+        <source>Enable to enter the counterparty's lender address manually.</source>
+        <translation type="unfinished">Enable to enter the counterparty's lender address manually.</translation>
+    </message>
+    <message>
+        <source>Fee Policy</source>
+        <translation type="unfinished">Fee Policy</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation type="unfinished">Priority:</translation>
+    </message>
+    <message>
+        <source>Low Priority (~2 sat/vB)</source>
+        <translation type="unfinished">Low Priority (~2 sat/vB)</translation>
+    </message>
+    <message>
+        <source>Medium Priority (~10 sat/vB)</source>
+        <translation type="unfinished">Medium Priority (~10 sat/vB)</translation>
+    </message>
+    <message>
+        <source>High Priority (~50 sat/vB)</source>
+        <translation type="unfinished">High Priority (~50 sat/vB)</translation>
+    </message>
+    <message>
+        <source>Session Transport</source>
+        <translation type="unfinished">Session Transport</translation>
+    </message>
+    <message>
+        <source>Protocol:</source>
+        <translation type="unfinished">Protocol:</translation>
+    </message>
+    <message>
+        <source>Auto (Recommended)</source>
+        <translation type="unfinished">Auto (Recommended)</translation>
+    </message>
+    <message>
+        <source>WebSocket Relay</source>
+        <translation type="unfinished">WebSocket Relay</translation>
+    </message>
+    <message>
+        <source>Tor Hidden Service</source>
+        <translation type="unfinished">Tor Hidden Service</translation>
+    </message>
+    <message>
+        <source>Choose how to establish secure bilateral sessions.\nAuto: Uses WebSocket for fast, reliable connections.\nWebSocket: Fast through central relay.\nTor: Maximum privacy, slower setup.</source>
+        <translation type="unfinished">Choose how to establish secure bilateral sessions.\nAuto: Uses WebSocket for fast, reliable connections.\nWebSocket: Fast through central relay.\nTor: Maximum privacy, slower setup.</translation>
+    </message>
+    <message>
+        <source>Will be provided by taker</source>
+        <translation type="unfinished">Will be provided by taker</translation>
+    </message>
+    <message>
+        <source>Error: No wallet</source>
+        <translation type="unfinished">Error: No wallet</translation>
+    </message>
+    <message>
+        <source>Address Generation Failed</source>
+        <translation type="unfinished">Address Generation Failed</translation>
+    </message>
+    <message>
+        <source>Wallet model not available. Please enter address manually or restart wallet.</source>
+        <translation type="unfinished">Wallet model not available. Please enter address manually or restart wallet.</translation>
+    </message>
+    <message>
+        <source>Paste counterparty borrower address</source>
+        <translation type="unfinished">Paste counterparty borrower address</translation>
+    </message>
+    <message>
+        <source>Paste counterparty lender address</source>
+        <translation type="unfinished">Paste counterparty lender address</translation>
+    </message>
+    <message>
+        <source>TSC (Native)</source>
+        <translation type="unfinished">TSC (Native)</translation>
+    </message>
+    <message>
+        <source>● Tor: Not Started</source>
+        <translation type="unfinished">● Tor: Not Started</translation>
+    </message>
+    <message>
+        <source>● Tor: Starting... (this may take 10-30 seconds)</source>
+        <translation type="unfinished">● Tor: Starting... (this may take 10-30 seconds)</translation>
+    </message>
+    <message>
+        <source>● Tor: Ready</source>
+        <translation type="unfinished">● Tor: Ready</translation>
+    </message>
+    <message>
+        <source>● Tor: Failed (%1)</source>
+        <translation type="unfinished">● Tor: Failed (%1)</translation>
+    </message>
+    <message>
+        <source>● Tor: Stopped</source>
+        <translation type="unfinished">● Tor: Stopped</translation>
+    </message>
+    <message>
+        <source>Repo Contract - Review &amp;&amp; Create Offer</source>
+        <translation type="unfinished">Repo Contract - Review &amp;&amp; Create Offer</translation>
+    </message>
+    <message>
+        <source>Review the contract summary below. Click 'Finish' to create the offer.</source>
+        <translation type="unfinished">Review the contract summary below. Click 'Finish' to create the offer.</translation>
+    </message>
+    <message>
+        <source>Greeks</source>
+        <translation type="unfinished">Greeks</translation>
+    </message>
+    <message>
+        <source>Greeks Error</source>
+        <translation type="unfinished">Greeks Error</translation>
+    </message>
+    <message>
+        <source>Failed to open Greeks visualization:\n\n%1</source>
+        <translation type="unfinished">Failed to open Greeks visualization:\n\n%1</translation>
+    </message>
+    <message>
+        <source> %</source>
+        <translation type="unfinished"> %</translation>
+    </message>
+    <message>
+        <source> % p.a.</source>
+        <translation type="unfinished"> % p.a.</translation>
+    </message>
+    <message>
+        <source>0.00657534</source>
+        <translation type="unfinished">0.00657534</translation>
+    </message>
+    <message>
+        <source>--</source>
+        <translation type="unfinished">--</translation>
+    </message>
+    <message>
+        <source>%1 TSC</source>
+        <translation type="unfinished">%1 TSC</translation>
+    </message>
+    <message>
+        <source>+%1 TSC</source>
+        <translation type="unfinished">+%1 TSC</translation>
+    </message>
+    <message>
+        <source>0.00000000 TSC</source>
+        <translation type="unfinished">0.00000000 TSC</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Summary:&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3&gt;สรุป:&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Role:&lt;/b&gt; %1&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;บทบาท:&lt;/b&gt; %1&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>Lender</source>
+        <translation type="unfinished">ผู้ให้กู้</translation>
+    </message>
+    <message>
+        <source>Borrower</source>
+        <translation type="unfinished">ผู้กู้</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Collateral:&lt;/b&gt; %1 %2&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;หลักประกัน:&lt;/b&gt; %1 %2&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Principal:&lt;/b&gt; %1 %2&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;เงินต้น:&lt;/b&gt; %1 %2&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Interest Rate:&lt;/b&gt; %1% per annum (%2 %3)&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;อัตราดอกเบี้ย:&lt;/b&gt; %1% ต่อปี (%2 %3)&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Interest Amount:&lt;/b&gt; %1 %2&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;จำนวนดอกเบี้ย:&lt;/b&gt; %1 %2&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Repay Amount:&lt;/b&gt; %1 %2&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;จำนวนชำระคืน:&lt;/b&gt; %1 %2&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Principal Repayment:&lt;/b&gt; %1 %2&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;การชำระคืนเงินต้น:&lt;/b&gt; %1 %2&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Interest Payment:&lt;/b&gt; %1 %2 (separate)&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;การชำระดอกเบี้ย:&lt;/b&gt; %1 %2 (แยกต่างหาก)&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Maturity:&lt;/b&gt; Block %1 (~%2 %3)&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ครบกำหนด:&lt;/b&gt; บล็อค %1 (~%2 %3)&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Covenant Details:&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3&gt;รายละเอียด Covenant:&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Vault Script:&lt;/b&gt; 2-leaf Taproot&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;Vault Script:&lt;/b&gt; 2-leaf Taproot&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li style='margin-left: 20px;'&gt;• Leaf A (Repayment): OP_OUTPUTMATCH_ASSET + Borrower sig&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li style='margin-left: 20px;'&gt;• Leaf A (การชำระคืน): OP_OUTPUTMATCH_ASSET + ลายเซ็นผู้กู้&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li style='margin-left: 20px;'&gt;• Leaf B (Default): CLTV(%1) + Lender sig&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li style='margin-left: 20px;'&gt;• Leaf B (การผิดนัด): CLTV(%1) + ลายเซ็นผู้ให้กู้&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Deterministic sinks:&lt;/b&gt; Committed via TapMatch(spk)&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ซิงค์เชิงกำหนด:&lt;/b&gt; ยืนยันผ่าน TapMatch(spk)&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Fair-Sign Policy:&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3&gt;นโยบาย Fair-Sign:&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Adaptor signatures:&lt;/b&gt; REQUIRED&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ลายเซ็นอะแดปเตอร์:&lt;/b&gt; จำเป็น&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Reveal mode:&lt;/b&gt; Lock-step (2-phase commit)&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;โหมดเปิดเผย:&lt;/b&gt; Lock-step (2-phase commit)&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Ceremony timeout:&lt;/b&gt; 600s (10 minutes)&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;หมดเวลาพิธีกรรม:&lt;/b&gt; 600s (10 นาที)&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Addresses:&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3&gt;ที่อยู่:&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Borrower Repay:&lt;/b&gt; &lt;code&gt;%1&lt;/code&gt;&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;การชำระคืนผู้กู้:&lt;/b&gt; &lt;code&gt;%1&lt;/code&gt;&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Lender Receive:&lt;/b&gt; &lt;code&gt;%1&lt;/code&gt;&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;การรับของผู้ให้กู้:&lt;/b&gt; &lt;code&gt;%1&lt;/code&gt;&lt;/li&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>ReviewContractOfferDialog</name>
+    <message>
+        <source>Review Contract Offer</source>
+        <translation type="unfinished">Review Contract Offer</translation>
+    </message>
+    <message>
+        <source>&lt;h2&gt;Contract Offer Review&lt;/h2&gt;</source>
+        <translation type="unfinished">&lt;h2&gt;Contract Offer Review&lt;/h2&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Offer ID:&lt;/b&gt; %1</source>
+        <translation type="unfinished">&lt;b&gt;Offer ID:&lt;/b&gt; %1</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation type="unfinished">pending</translation>
+    </message>
+    <message>
+        <source>Maker's Terms</source>
+        <translation type="unfinished">Maker's Terms</translation>
+    </message>
+    <message>
+        <source>Maker's Proof of Funds (%1)</source>
+        <translation type="unfinished">Maker's Proof of Funds (%1)</translation>
+    </message>
+    <message>
+        <source>✓ Maker's Proof of Funds - %1 %2 verified (expand for details)</source>
+        <translation type="unfinished">✓ Maker's Proof of Funds - %1 %2 verified (expand for details)</translation>
+    </message>
+    <message>
+        <source>Pricing Analysis</source>
+        <translation type="unfinished">Pricing Analysis</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Absolute&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Absolute&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Per Principal&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Per Principal&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Principal + Interest PV:</source>
+        <translation type="unfinished">Principal + Interest PV:</translation>
+    </message>
+    <message>
+        <source>Collateral PV:</source>
+        <translation type="unfinished">Collateral PV:</translation>
+    </message>
+    <message>
+        <source>Collateral Option Value:</source>
+        <translation type="unfinished">Collateral Option Value:</translation>
+    </message>
+    <message>
+        <source>Your MTM (Lender):</source>
+        <translation type="unfinished">Your MTM (Lender):</translation>
+    </message>
+    <message>
+        <source>Your MTM (Borrower):</source>
+        <translation type="unfinished">Your MTM (Borrower):</translation>
+    </message>
+    <message>
+        <source>⚠ &lt;b&gt;Warning:&lt;/b&gt; This contract has negative mark-to-market for you at current market prices.</source>
+        <translation type="unfinished">⚠ &lt;b&gt;Warning:&lt;/b&gt; This contract has negative mark-to-market for you at current market prices.</translation>
+    </message>
+    <message>
+        <source>Pricing data unavailable. Please ensure market data is calibrated.</source>
+        <translation type="unfinished">Pricing data unavailable. Please ensure market data is calibrated.</translation>
+    </message>
+    <message>
+        <source>Your Addresses (Advanced)</source>
+        <translation type="unfinished">Your Addresses (Advanced)</translation>
+    </message>
+    <message>
+        <source>Long Margin Recovery (you):</source>
+        <translation type="unfinished">Long Margin Recovery (you):</translation>
+    </message>
+    <message>
+        <source>bc1p... (where IM vault returns)</source>
+        <translation type="unfinished">bc1p... (where IM vault returns)</translation>
+    </message>
+    <message>
+        <source>Generate New</source>
+        <translation type="unfinished">Generate New</translation>
+    </message>
+    <message>
+        <source>Long Settlement (auto):</source>
+        <translation type="unfinished">Long Settlement (auto):</translation>
+    </message>
+    <message>
+        <source>Auto-generated</source>
+        <translation type="unfinished">Auto-generated</translation>
+    </message>
+    <message>
+        <source>Short Margin (maker):</source>
+        <translation type="unfinished">Short Margin (maker):</translation>
+    </message>
+    <message>
+        <source>Short Margin Recovery (you):</source>
+        <translation type="unfinished">Short Margin Recovery (you):</translation>
+    </message>
+    <message>
+        <source>Short Settlement (auto):</source>
+        <translation type="unfinished">Short Settlement (auto):</translation>
+    </message>
+    <message>
+        <source>Long Margin (maker):</source>
+        <translation type="unfinished">Long Margin (maker):</translation>
+    </message>
+    <message>
+        <source>Margin Recovery:</source>
+        <translation type="unfinished">Margin Recovery:</translation>
+    </message>
+    <message>
+        <source>bc1p...</source>
+        <translation type="unfinished">bc1p...</translation>
+    </message>
+    <message>
+        <source>Your Receive Address (Bob):</source>
+        <translation type="unfinished">Your Receive Address (Bob):</translation>
+    </message>
+    <message>
+        <source>bc1p... (where you receive swapped asset)</source>
+        <translation type="unfinished">bc1p... (where you receive swapped asset)</translation>
+    </message>
+    <message>
+        <source>Maker's Receive Address (Alice):</source>
+        <translation type="unfinished">Maker's Receive Address (Alice):</translation>
+    </message>
+    <message>
+        <source>Borrower Repay Address (you):</source>
+        <translation type="unfinished">Borrower Repay Address (you):</translation>
+    </message>
+    <message>
+        <source>bc1p... (Taproot address)</source>
+        <translation type="unfinished">bc1p... (Taproot address)</translation>
+    </message>
+    <message>
+        <source>Lender Receive Address (maker):</source>
+        <translation type="unfinished">Lender Receive Address (maker):</translation>
+    </message>
+    <message>
+        <source>Provided by maker</source>
+        <translation type="unfinished">Provided by maker</translation>
+    </message>
+    <message>
+        <source>Lender Receive Address (you):</source>
+        <translation type="unfinished">Lender Receive Address (you):</translation>
+    </message>
+    <message>
+        <source>Borrower Repay Address (maker):</source>
+        <translation type="unfinished">Borrower Repay Address (maker):</translation>
+    </message>
+    <message>
+        <source>Borrower Repay Address:</source>
+        <translation type="unfinished">Borrower Repay Address:</translation>
+    </message>
+    <message>
+        <source>Lender Receive Address:</source>
+        <translation type="unfinished">Lender Receive Address:</translation>
+    </message>
+    <message>
+        <source>Show Raw JSON</source>
+        <translation type="unfinished">Show Raw JSON</translation>
+    </message>
+    <message>
+        <source>View the raw JSON of this offer/contract</source>
+        <translation type="unfinished">View the raw JSON of this offer/contract</translation>
+    </message>
+    <message>
+        <source>Show Script Preview</source>
+        <translation type="unfinished">Show Script Preview</translation>
+    </message>
+    <message>
+        <source>Preview the Bitcoin script for this contract (if available)</source>
+        <translation type="unfinished">Preview the Bitcoin script for this contract (if available)</translation>
+    </message>
+    <message>
+        <source>View Pricing</source>
+        <translation type="unfinished">View Pricing</translation>
+    </message>
+    <message>
+        <source>View detailed pricing breakdown</source>
+        <translation type="unfinished">View detailed pricing breakdown</translation>
+    </message>
+    <message>
+        <source>View Greeks</source>
+        <translation type="unfinished">View Greeks</translation>
+    </message>
+    <message>
+        <source>View option Greeks (delta, gamma, vega, theta, rho)</source>
+        <translation type="unfinished">View option Greeks (delta, gamma, vega, theta, rho)</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancel</translation>
+    </message>
+    <message>
+        <source>Send Trade Request</source>
+        <translation type="unfinished">Send Trade Request</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Contract Type:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Contract Type:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>Option</source>
+        <translation type="unfinished">Option</translation>
+    </message>
+    <message>
+        <source>Forward</source>
+        <translation type="unfinished">Forward</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Maker Role:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Maker Role:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>Long</source>
+        <translation type="unfinished">Long</translation>
+    </message>
+    <message>
+        <source>Short</source>
+        <translation type="unfinished">Short</translation>
+    </message>
+    <message>
+        <source>&lt;h3 style='color:#1976d2;'&gt;Long Party&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3 style='color:#1976d2;'&gt;Long Party&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Delivers:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Delivers:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Initial Margin:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2 (%3%)&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Initial Margin:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2 (%3%)&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;IM Recovery:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;IM Recovery:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Settlement Receive:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Settlement Receive:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h3 style='color:#d32f2f;'&gt;Short Party&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3 style='color:#d32f2f;'&gt;Short Party&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h3 style='color:#f57c00;'&gt;Premium&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3 style='color:#f57c00;'&gt;Premium&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Amount:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Amount:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Payer:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Payer:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Payee Address:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Payee Address:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h3 style='color:#388e3c;'&gt;Deadlines&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3 style='color:#388e3c;'&gt;Deadlines&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Short Delivery:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Block %1 (~%2 days)&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Short Delivery:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Block %1 (~%2 days)&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>TBD</source>
+        <translation type="unfinished">TBD</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Long Delivery:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Block %1 (~%2 days)&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Long Delivery:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Block %1 (~%2 days)&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Safety Parameter:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Safety Parameter:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Reorg Protection:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 blocks&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Reorg Protection:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 blocks&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Contract Type:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Spot Atomic Swap&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Contract Type:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Spot Atomic Swap&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Maker Role:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Alice&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Maker Role:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Alice&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h3 style='color:#1976d2;'&gt;Maker (Alice)&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3 style='color:#1976d2;'&gt;Maker (Alice)&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Sends:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Sends:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Receives:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Receives:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Receive Address:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Receive Address:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h3 style='color:#d32f2f;'&gt;Taker (You - Bob)&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3 style='color:#d32f2f;'&gt;Taker (You - Bob)&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;You Send:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;You Send:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;You Receive:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;You Receive:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Your Receive Address:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;i&gt;(Enter below)&lt;/i&gt;&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Your Receive Address:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;i&gt;(Enter below)&lt;/i&gt;&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h3 style='color:#388e3c;'&gt;Exchange Rate&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3 style='color:#388e3c;'&gt;Exchange Rate&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td colspan='2'&gt;&lt;b&gt;%1 %2 per 1 %3&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td colspan='2'&gt;&lt;b&gt;%1 %2 per 1 %3&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation type="unfinished">Unknown</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Collateral Amount:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Collateral Amount:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Principal Amount:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Principal Amount:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Interest Amount:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Interest Amount:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1 %2&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;APR:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1%&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;APR:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1%&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;LTV:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1%&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;LTV:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1%&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Maturity Height:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Maturity Height:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Lender Receive Address:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Lender Receive Address:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Wallet model not available.</source>
+        <translation type="unfinished">Wallet model not available.</translation>
+    </message>
+    <message>
+        <source>Validation Error</source>
+        <translation type="unfinished">Validation Error</translation>
+    </message>
+    <message>
+        <source>Your receive address is required.</source>
+        <translation type="unfinished">Your receive address is required.</translation>
+    </message>
+    <message>
+        <source>Receive address is invalid. Provide a valid Taproot address (bc1p...).</source>
+        <translation type="unfinished">Receive address is invalid. Provide a valid Taproot address (bc1p...).</translation>
+    </message>
+    <message>
+        <source>Borrower repayment address is required.</source>
+        <translation type="unfinished">Borrower repayment address is required.</translation>
+    </message>
+    <message>
+        <source>Borrower address is invalid. Provide a Taproot address you control.</source>
+        <translation type="unfinished">Borrower address is invalid. Provide a Taproot address you control.</translation>
+    </message>
+    <message>
+        <source>Lender receive address is required.</source>
+        <translation type="unfinished">Lender receive address is required.</translation>
+    </message>
+    <message>
+        <source>Lender address is invalid. Provide a Taproot address you control.</source>
+        <translation type="unfinished">Lender address is invalid. Provide a Taproot address you control.</translation>
+    </message>
+    <message>
+        <source>Borrower address is invalid.</source>
+        <translation type="unfinished">Borrower address is invalid.</translation>
+    </message>
+    <message>
+        <source>Offer identifier missing. Unable to submit trade request.</source>
+        <translation type="unfinished">Offer identifier missing. Unable to submit trade request.</translation>
+    </message>
+    <message>
+        <source>Missing Address</source>
+        <translation type="unfinished">Missing Address</translation>
+    </message>
+    <message>
+        <source>Please provide your receive address (where you'll receive the swapped asset)</source>
+        <translation type="unfinished">Please provide your receive address (where you'll receive the swapped asset)</translation>
+    </message>
+    <message>
+        <source>Invalid Offer</source>
+        <translation type="unfinished">Invalid Offer</translation>
+    </message>
+    <message>
+        <source>Cannot determine taker role: maker_role is '%1'</source>
+        <translation type="unfinished">Cannot determine taker role: maker_role is '%1'</translation>
+    </message>
+    <message>
+        <source>Please provide your margin recovery address (Long IM destination)</source>
+        <translation type="unfinished">Please provide your margin recovery address (Long IM destination)</translation>
+    </message>
+    <message>
+        <source>Forward long settlement</source>
+        <translation type="unfinished">Forward long settlement</translation>
+    </message>
+    <message>
+        <source>Please provide your margin recovery address (Short IM destination)</source>
+        <translation type="unfinished">Please provide your margin recovery address (Short IM destination)</translation>
+    </message>
+    <message>
+        <source>Forward short settlement</source>
+        <translation type="unfinished">Forward short settlement</translation>
+    </message>
+    <message>
+        <source>Forward premium receive</source>
+        <translation type="unfinished">Forward premium receive</translation>
+    </message>
+    <message>
+        <source>You will receive premium of %1 %2. Unable to generate receive address.</source>
+        <translation type="unfinished">You will receive premium of %1 %2. Unable to generate receive address.</translation>
+    </message>
+    <message>
+        <source>Proof Generation Failed</source>
+        <translation type="unfinished">Proof Generation Failed</translation>
+    </message>
+    <message>
+        <source>Proof Generation Error</source>
+        <translation type="unfinished">Proof Generation Error</translation>
+    </message>
+    <message>
+        <source>Request Failed</source>
+        <translation type="unfinished">Request Failed</translation>
+    </message>
+    <message>
+        <source>Trade request could not be submitted:\n\n%1</source>
+        <translation type="unfinished">Trade request could not be submitted:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Request Submitted</source>
+        <translation type="unfinished">Request Submitted</translation>
+    </message>
+    <message>
+        <source>Repo borrower repay</source>
+        <translation type="unfinished">Repo borrower repay</translation>
+    </message>
+    <message>
+        <source>Repo lender receive</source>
+        <translation type="unfinished">Repo lender receive</translation>
+    </message>
+    <message>
+        <source>Offer Raw JSON</source>
+        <translation type="unfinished">Offer Raw JSON</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Raw JSON Representation:&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Raw JSON Representation:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Copy to Clipboard</source>
+        <translation type="unfinished">Copy to Clipboard</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished">Close</translation>
+    </message>
+    <message>
+        <source>Script Preview</source>
+        <translation type="unfinished">Script Preview</translation>
+    </message>
+    <message>
+        <source>Bitcoin Script Preview</source>
+        <translation type="unfinished">Bitcoin Script Preview</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Script (Hex):&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Bitcoin Script (Hex):&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Pricing</source>
+        <translation type="unfinished">Pricing</translation>
+    </message>
+    <message>
+        <source>Wallet model not available</source>
+        <translation type="unfinished">Wallet model not available</translation>
+    </message>
+    <message>
+        <source>Pricing Error</source>
+        <translation type="unfinished">Pricing Error</translation>
+    </message>
+    <message>
+        <source>Failed to show pricing:\n\n%1</source>
+        <translation type="unfinished">Failed to show pricing:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Greeks</source>
+        <translation type="unfinished">Greeks</translation>
+    </message>
+    <message>
+        <source>Greeks Error</source>
+        <translation type="unfinished">Greeks Error</translation>
+    </message>
+    <message>
+        <source>Failed to show Greeks:\n\n%1</source>
+        <translation type="unfinished">Failed to show Greeks:\n\n%1</translation>
+    </message>
+    <message>
+        <source>&lt;b style='color:red;font-size:14pt;'&gt;✗ PROOF VERIFICATION FAILED&lt;/b&gt;&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b style='color:red;font-size:14pt;'&gt;✗ การยืนยันหลักฐานล้มเหลว&lt;/b&gt;&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b style='color:green;'&gt;✓ All proofs verified&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b style='color:green;'&gt;✓ ยืนยันหลักฐานทั้งหมดแล้ว&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b style='color:red;font-size:14pt;'&gt;✗ INSUFFICIENT FUNDS&lt;/b&gt;&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b style='color:red;font-size:14pt;'&gt;✗ เงินทุนไม่เพียงพอ&lt;/b&gt;&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b style='color:green;'&gt;✓ Sufficient funds proven&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b style='color:green;'&gt;✓ พิสูจน์เงินทุนเพียงพอแล้ว&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>%1 TSC</source>
+        <translation type="unfinished">%1 TSC</translation>
+    </message>
+    <message>
+        <source>+%1 TSC</source>
+        <translation type="unfinished">+%1 TSC</translation>
+    </message>
+    <message>
+        <source>0.00000000 TSC</source>
+        <translation type="unfinished">0.00000000 TSC</translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;Provide your margin recovery address (where your IM vault returns). </source>
+        <translation type="unfinished">&lt;i&gt;ระบุที่อยู่การกู้คืนมาร์จิ้นของคุณ (ที่ vault IM ของคุณส่งคืน) </translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;Provide your receive address where you will receive the swapped asset. </source>
+        <translation type="unfinished">&lt;i&gt;ระบุที่อยู่รับที่คุณจะได้รับสินทรัพย์ที่แลกเปลี่ยน </translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;Provide the repayment address where you (borrower) will send collateral back. </source>
+        <translation type="unfinished">&lt;i&gt;ระบุที่อยู่การชำระคืนที่คุณ (ผู้กู้) จะส่งหลักประกันกลับ </translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;Provide the address where you (lender) will receive principal repayment. </source>
+        <translation type="unfinished">&lt;i&gt;ระบุที่อยู่ที่คุณ (ผู้ให้กู้) จะได้รับการชำระคืนเงินต้น </translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;&lt;b&gt;&lt;font color='#f57c00'&gt;This is a term sheet. </source>
+        <translation type="unfinished">&lt;p&gt;&lt;b&gt;&lt;font color='#f57c00'&gt;นี่คือเงื่อนไขเบื้องต้น </translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;&lt;b&gt;&lt;font color='#f57c00'&gt;Risk Note:&lt;/font&gt;&lt;/b&gt; </source>
+        <translation type="unfinished">&lt;p&gt;&lt;b&gt;&lt;font color='#f57c00'&gt;หมายเหตุความเสี่ยง:&lt;/font&gt;&lt;/b&gt; </translation>
+    </message>
+    <message>
+        <source>Could not automatically generate proof of funds:\n\n%1\n\nDo you want to proceed without proof?\n\n</source>
+        <translation type="unfinished">ไม่สามารถสร้างหลักฐานเงินทุนโดยอัตโนมัติ:\n\n%1\n\nคุณต้องการดำเนินการต่อโดยไม่มีหลักฐานหรือไม่?\n\n</translation>
+    </message>
+    <message>
+        <source>An RPC error occurred while generating proof of funds.\n\nDo you want to proceed without proof?\n\n</source>
+        <translation type="unfinished">เกิดข้อผิดพลาด RPC ขณะสร้างหลักฐานเงินทุน\n\nคุณต้องการดำเนินการต่อโดยไม่มีหลักฐานหรือไม่?\n\n</translation>
+    </message>
+    <message>
+        <source>An error occurred while generating proof of funds:\n\n%1\n\nDo you want to proceed without proof?\n\n</source>
+        <translation type="unfinished">เกิดข้อผิดพลาดขณะสร้างหลักฐานเงินทุน:\n\n%1\n\nคุณต้องการดำเนินการต่อโดยไม่มีหลักฐานหรือไม่?\n\n</translation>
+    </message>
+    <message>
+        <source>An unknown error occurred while generating proof of funds.\n\nDo you want to proceed without proof?\n\n</source>
+        <translation type="unfinished">เกิดข้อผิดพลาดที่ไม่รู้จักขณะสร้างหลักฐานเงินทุน\n\nคุณต้องการดำเนินการต่อโดยไม่มีหลักฐานหรือไม่?\n\n</translation>
+    </message>
+    <message>
+        <source>Your trade request has been submitted!\n\n</source>
+        <translation type="unfinished">ส่งคำขอซื้อขายของคุณแล้ว!\n\n</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Script Type:&lt;/b&gt; Taproot v1 (P2TR)&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;ประเภทสคริปต์:&lt;/b&gt; Taproot v1 (P2TR)&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>ReviewOfferDialog</name>
+    <message>
+        <source>Review Offer</source>
+        <translation type="unfinished">Review Offer</translation>
+    </message>
+    <message>
+        <source>Offer Details</source>
+        <translation type="unfinished">Offer Details</translation>
+    </message>
+    <message>
+        <source>Contract Terms</source>
+        <translation type="unfinished">Contract Terms</translation>
+    </message>
+    <message>
+        <source>Risk Assessment</source>
+        <translation type="unfinished">Risk Assessment</translation>
+    </message>
+    <message>
+        <source>✗ Reject</source>
+        <translation type="unfinished">✗ Reject</translation>
+    </message>
+    <message>
+        <source>✓ Accept Offer</source>
+        <translation type="unfinished">✓ Accept Offer</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Offer ID:&lt;/b&gt; %1</source>
+        <translation type="unfinished">&lt;b&gt;Offer ID:&lt;/b&gt; %1</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;From:&lt;/b&gt; Cosign Session %1&lt;br&gt;&lt;b&gt;SAS:&lt;/b&gt; %2</source>
+        <translation type="unfinished">&lt;b&gt;From:&lt;/b&gt; Cosign Session %1&lt;br&gt;&lt;b&gt;SAS:&lt;/b&gt; %2</translation>
+    </message>
+    <message>
+        <source>Contract type not supported in this version.</source>
+        <translation type="unfinished">Contract type not supported in this version.</translation>
+    </message>
+    <message>
+        <source>Low</source>
+        <translation type="unfinished">Low</translation>
+    </message>
+    <message>
+        <source>Medium</source>
+        <translation type="unfinished">Medium</translation>
+    </message>
+    <message>
+        <source>High</source>
+        <translation type="unfinished">High</translation>
+    </message>
+    <message>
+        <source>Confirm Acceptance</source>
+        <translation type="unfinished">Confirm Acceptance</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to accept this offer? You will be committed to funding the contract.</source>
+        <translation type="unfinished">Are you sure you want to accept this offer? You will be committed to funding the contract.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Wallet model not available.</source>
+        <translation type="unfinished">Wallet model not available.</translation>
+    </message>
+    <message>
+        <source>Acceptance Failed</source>
+        <translation type="unfinished">Acceptance Failed</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation type="unfinished">Error: %1</translation>
+    </message>
+    <message>
+        <source>Offer Accepted</source>
+        <translation type="unfinished">Offer Accepted</translation>
+    </message>
+    <message>
+        <source>Offer accepted successfully. Proceed to open the contract.</source>
+        <translation type="unfinished">Offer accepted successfully. Proceed to open the contract.</translation>
+    </message>
+    <message>
+        <source>&lt;ul style='margin: 0; padding-left: 20px;'&gt;</source>
+        <translation type="unfinished">&lt;ul style='margin: 0; padding-left: 20px;'&gt;</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation type="unfinished">N/A</translation>
+    </message>
+</context>
+<context>
+    <name>RiskTab</name>
+    <message>
+        <source>Open Positions</source>
+        <translation type="unfinished">Open Positions</translation>
+    </message>
+    <message>
+        <source>Include wallet balances</source>
+        <translation type="unfinished">Include wallet balances</translation>
+    </message>
+    <message>
+        <source>Check All</source>
+        <translation type="unfinished">Check All</translation>
+    </message>
+    <message>
+        <source>Uncheck All</source>
+        <translation type="unfinished">Uncheck All</translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation type="unfinished">Refresh</translation>
+    </message>
+    <message>
+        <source>Contract</source>
+        <translation type="unfinished">Contract</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">Type</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation type="unfinished">Role</translation>
+    </message>
+    <message>
+        <source>MTM</source>
+        <translation type="unfinished">MTM</translation>
+    </message>
+    <message>
+        <source>Check/uncheck contracts to include or exclude them from aggregated risk metrics. Wallet balances are controlled by the checkbox above.</source>
+        <translation type="unfinished">Check/uncheck contracts to include or exclude them from aggregated risk metrics. Wallet balances are controlled by the checkbox above.</translation>
+    </message>
+    <message>
+        <source>Positions: 0</source>
+        <translation type="unfinished">Positions: 0</translation>
+    </message>
+    <message>
+        <source>Total MTM: 0.00</source>
+        <translation type="unfinished">Total MTM: 0.00</translation>
+    </message>
+    <message>
+        <source>Portfolio Risk Metrics</source>
+        <translation type="unfinished">Portfolio Risk Metrics</translation>
+    </message>
+    <message>
+        <source>Metric</source>
+        <translation type="unfinished">Metric</translation>
+    </message>
+    <message>
+        <source>Asset</source>
+        <translation type="unfinished">Asset</translation>
+    </message>
+    <message>
+        <source>Tenor (days)</source>
+        <translation type="unfinished">Tenor (days)</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation type="unfinished">Value</translation>
+    </message>
+    <message>
+        <source>(No contracts selected; showing wallet balances only)</source>
+        <translation type="unfinished">(No contracts selected; showing wallet balances only)</translation>
+    </message>
+    <message>
+        <source>(Contract Greeks for %1 of %2 contracts)</source>
+        <translation type="unfinished">(Contract Greeks for %1 of %2 contracts)</translation>
+    </message>
+    <message>
+        <source>Positions: %1</source>
+        <translation type="unfinished">Positions: %1</translation>
+    </message>
+    <message>
+        <source>Total MTM: %1 TSC (Wallet: %2 TSC)</source>
+        <translation type="unfinished">Total MTM: %1 TSC (Wallet: %2 TSC)</translation>
+    </message>
+    <message>
+        <source>Total MTM: %1 TSC</source>
+        <translation type="unfinished">Total MTM: %1 TSC</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Failed to fetch risk data: %1</source>
+        <translation type="unfinished">Failed to fetch risk data: %1</translation>
+    </message>
+    <message>
+        <source>Wallet Balances</source>
+        <translation type="unfinished">Wallet Balances</translation>
+    </message>
+    <message>
+        <source>Units</source>
+        <translation type="unfinished">Units</translation>
+    </message>
+    <message>
+        <source>Delta (∂V/∂S)</source>
+        <translation type="unfinished">Delta (∂V/∂S)</translation>
+    </message>
+    <message>
+        <source>TOTAL</source>
+        <translation type="unfinished">TOTAL</translation>
+    </message>
+    <message>
+        <source>Vega (∂V/∂σ)</source>
+        <translation type="unfinished">Vega (∂V/∂σ)</translation>
+    </message>
+    <message>
+        <source>Gamma (∂²V/∂S²)</source>
+        <translation type="unfinished">Gamma (∂²V/∂S²)</translation>
+    </message>
+    <message>
+        <source>Cross-Gamma</source>
+        <translation type="unfinished">Cross-Gamma</translation>
+    </message>
+    <message>
+        <source>Rate Delta (∂V/∂r) - Total</source>
+        <translation type="unfinished">Rate Delta (∂V/∂r) - Total</translation>
+    </message>
+    <message>
+        <source>Rate Delta (∂V/∂r) - Bucketed</source>
+        <translation type="unfinished">Rate Delta (∂V/∂r) - Bucketed</translation>
+    </message>
+</context>
+<context>
+    <name>RotateICUDialog</name>
+    <message>
+        <source>Rotate ICU</source>
+        <translation type="unfinished">Rotate ICU</translation>
+    </message>
+    <message>
+        <source>Select Asset</source>
+        <translation type="unfinished">Select Asset</translation>
+    </message>
+    <message>
+        <source>Asset:</source>
+        <translation type="unfinished">Asset:</translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation type="unfinished">Refresh</translation>
+    </message>
+    <message>
+        <source>Current ICU Information</source>
+        <translation type="unfinished">Current ICU Information</translation>
+    </message>
+    <message>
+        <source>ICU Location:</source>
+        <translation type="unfinished">ICU Location:</translation>
+    </message>
+    <message>
+        <source>Current Bond:</source>
+        <translation type="unfinished">Current Bond:</translation>
+    </message>
+    <message>
+        <source>Fees Accumulated:</source>
+        <translation type="unfinished">Fees Accumulated:</translation>
+    </message>
+    <message>
+        <source>Minimum Bond:</source>
+        <translation type="unfinished">Minimum Bond:</translation>
+    </message>
+    <message>
+        <source>Rotation Parameters</source>
+        <translation type="unfinished">Rotation Parameters</translation>
+    </message>
+    <message>
+        <source>New ICU address</source>
+        <translation type="unfinished">New ICU address</translation>
+    </message>
+    <message>
+        <source>Generate Taproot</source>
+        <translation type="unfinished">Generate Taproot</translation>
+    </message>
+    <message>
+        <source>Generate a new Taproot (P2TR) address for ICU</source>
+        <translation type="unfinished">Generate a new Taproot (P2TR) address for ICU</translation>
+    </message>
+    <message>
+        <source>New ICU Address:</source>
+        <translation type="unfinished">New ICU Address:</translation>
+    </message>
+    <message>
+        <source>Must be &gt;= rotation_min_sats</source>
+        <translation type="unfinished">Must be &gt;= rotation_min_sats</translation>
+    </message>
+    <message>
+        <source>New Bond (BTC):</source>
+        <translation type="unfinished">New Bond (BTC):</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished">Close</translation>
+    </message>
+    <message>
+        <source>RPC Error (%1): %2</source>
+        <translation type="unfinished">RPC Error (%1): %2</translation>
+    </message>
+    <message>
+        <source>RPC Error: %1</source>
+        <translation type="unfinished">RPC Error: %1</translation>
+    </message>
+    <message>
+        <source>Failed to list assets: %1</source>
+        <translation type="unfinished">Failed to list assets: %1</translation>
+    </message>
+    <message>
+        <source>Pending confirmation...</source>
+        <translation type="unfinished">Pending confirmation...</translation>
+    </message>
+    <message>
+        <source>Asset info refreshed</source>
+        <translation type="unfinished">Asset info refreshed</translation>
+    </message>
+    <message>
+        <source>Wallet model not initialized</source>
+        <translation type="unfinished">Wallet model not initialized</translation>
+    </message>
+    <message>
+        <source>✓ Generated new Taproot address: %1</source>
+        <translation type="unfinished">✓ Generated new Taproot address: %1</translation>
+    </message>
+    <message>
+        <source>✗ RPC Error (%1): %2</source>
+        <translation type="unfinished">✗ RPC Error (%1): %2</translation>
+    </message>
+    <message>
+        <source>✗ Error: %1</source>
+        <translation type="unfinished">✗ Error: %1</translation>
+    </message>
+    <message>
+        <source>Failed to generate Taproot address: %1</source>
+        <translation type="unfinished">Failed to generate Taproot address: %1</translation>
+    </message>
+    <message>
+        <source>Wallet or client model not initialized</source>
+        <translation type="unfinished">Wallet or client model not initialized</translation>
+    </message>
+    <message>
+        <source>All fields are required for ICU rotation</source>
+        <translation type="unfinished">All fields are required for ICU rotation</translation>
+    </message>
+    <message>
+        <source>Address Not Controlled by Wallet</source>
+        <translation type="unfinished">Address Not Controlled by Wallet</translation>
+    </message>
+    <message>
+        <source>ICU rotation cancelled by user</source>
+        <translation type="unfinished">ICU rotation cancelled by user</translation>
+    </message>
+    <message>
+        <source>Rotating ICU to %1 with bond %2 BTC...</source>
+        <translation type="unfinished">Rotating ICU to %1 with bond %2 BTC...</translation>
+    </message>
+    <message>
+        <source>New bond %1 BTC is below minimum %2 BTC</source>
+        <translation type="unfinished">New bond %1 BTC is below minimum %2 BTC</translation>
+    </message>
+    <message>
+        <source>\n✓ ICU rotation submitted successfully!</source>
+        <translation type="unfinished">\n✓ ICU rotation submitted successfully!</translation>
+    </message>
+    <message>
+        <source>TxID: %1</source>
+        <translation type="unfinished">TxID: %1</translation>
+    </message>
+    <message>
+        <source>New ICU: %1</source>
+        <translation type="unfinished">New ICU: %1</translation>
+    </message>
+    <message>
+        <source>New Bond: %1 BTC</source>
+        <translation type="unfinished">New Bond: %1 BTC</translation>
+    </message>
+    <message>
+        <source>ICU rotated! TxID: %1</source>
+        <translation type="unfinished">ICU rotated! TxID: %1</translation>
+    </message>
+    <message>
+        <source>\n✗ RPC Error (%1): %2</source>
+        <translation type="unfinished">\n✗ RPC Error (%1): %2</translation>
+    </message>
+    <message>
+        <source>\n✗ Error: %1</source>
+        <translation type="unfinished">\n✗ Error: %1</translation>
+    </message>
+    <message>
+        <source>Failed to rotate ICU: %1</source>
+        <translation type="unfinished">Failed to rotate ICU: %1</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Success</source>
+        <translation type="unfinished">Success</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation type="unfinished">N/A</translation>
+    </message>
+    <message>
+        <source>New Bond (TSC):</source>
+        <translation type="unfinished">พันธบัตรใหม่ (TSC):</translation>
+    </message>
+    <message>
+        <source>%1 TSC</source>
+        <translation type="unfinished">%1 TSC</translation>
+    </message>
+    <message>
+        <source>%1 / %2 sats</source>
+        <translation type="unfinished">%1 / %2 sats</translation>
+    </message>
+    <message>
+        <source>WARNING: The ICU address you specified (%1) is not controlled by this wallet.\n\n</source>
+        <translation type="unfinished">คำเตือน: ที่อยู่ ICU ที่คุณระบุ (%1) ไม่ได้ถูกควบคุมโดยกระเป๋าเงินนี้\n\n</translation>
+    </message>
+    <message>
+        <source>Rotating ICU to %1 with bond %2 TSC...</source>
+        <translation type="unfinished">กำลังหมุน ICU ไปยัง %1 พร้อมพันธบัตร %2 TSC...</translation>
+    </message>
+    <message>
+        <source>New bond %1 TSC is below minimum %2 TSC</source>
+        <translation type="unfinished">พันธบัตรใหม่ %1 TSC ต่ำกว่าขั้นต่ำ %2 TSC</translation>
+    </message>
+    <message>
+        <source>New Bond: %1 TSC</source>
+        <translation type="unfinished">พันธบัตรใหม่: %1 TSC</translation>
+    </message>
+</context>
+<context>
+    <name>SASVerificationDialog</name>
+    <message>
+        <source>Verify Short Authentication String (SAS)</source>
+        <translation type="unfinished">Verify Short Authentication String (SAS)</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Handshake Complete - Verify SAS&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Handshake Complete - Verify SAS&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Your SAS:</source>
+        <translation type="unfinished">Your SAS:</translation>
+    </message>
+    <message>
+        <source>Numeric SAS (alternative):</source>
+        <translation type="unfinished">Numeric SAS (alternative):</translation>
+    </message>
+    <message>
+        <source>✓ Yes, Verified</source>
+        <translation type="unfinished">✓ Yes, Verified</translation>
+    </message>
+    <message>
+        <source>✗ No, Abort</source>
+        <translation type="unfinished">✗ No, Abort</translation>
+    </message>
+    <message>
+        <source>SAS Mismatch</source>
+        <translation type="unfinished">SAS Mismatch</translation>
+    </message>
+    <message>
+        <source>This window will close in %1s. You can manage the session under Exchange P2P → Bridge Sessions.</source>
+        <translation type="unfinished">This window will close in %1s. You can manage the session under Exchange P2P → Bridge Sessions.</translation>
+    </message>
+    <message>
+        <source>⚠️ &lt;b&gt;SECURITY CHECK&lt;/b&gt;&lt;br/&gt;</source>
+        <translation type="unfinished">⚠️ &lt;b&gt;การตรวจสอบความปลอดภัย&lt;/b&gt;&lt;br/&gt;</translation>
+    </message>
+    <message>
+        <source>1. Call or message your peer\n</source>
+        <translation type="unfinished">1. โทรหรือส่งข้อความหาคู่ของคุณ\n</translation>
+    </message>
+    <message>
+        <source>SAS verification failed!\n\n</source>
+        <translation type="unfinished">การยืนยัน SAS ล้มเหลว!\n\n</translation>
+    </message>
+</context>
+<context>
+    <name>SpotContractBuilder</name>
+    <message>
+        <source>Spot Contract Builder (Atomic Swap)</source>
+        <translation type="unfinished">Spot Contract Builder (Atomic Swap)</translation>
+    </message>
+    <message>
+        <source>Validation Error</source>
+        <translation type="unfinished">Validation Error</translation>
+    </message>
+    <message>
+        <source>Your offer amount must be greater than zero.</source>
+        <translation type="unfinished">Your offer amount must be greater than zero.</translation>
+    </message>
+    <message>
+        <source>Desired amount must be greater than zero.</source>
+        <translation type="unfinished">Desired amount must be greater than zero.</translation>
+    </message>
+    <message>
+        <source>Your destination address is required.</source>
+        <translation type="unfinished">Your destination address is required.</translation>
+    </message>
+    <message>
+        <source>Cannot swap TSC for TSC.\n\nPlease select different assets for the exchange.</source>
+        <translation type="unfinished">Cannot swap TSC for TSC.\n\nPlease select different assets for the exchange.</translation>
+    </message>
+    <message>
+        <source>Cannot swap the same asset for itself.\n\nPlease select different assets for the exchange.</source>
+        <translation type="unfinished">Cannot swap the same asset for itself.\n\nPlease select different assets for the exchange.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Wallet model not available</source>
+        <translation type="unfinished">Wallet model not available</translation>
+    </message>
+    <message>
+        <source>Spot Propose Failed</source>
+        <translation type="unfinished">Spot Propose Failed</translation>
+    </message>
+    <message>
+        <source>Failed to create spot offer:\n\n%1</source>
+        <translation type="unfinished">Failed to create spot offer:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Exception occurred: %1</source>
+        <translation type="unfinished">Exception occurred: %1</translation>
+    </message>
+    <message>
+        <source>Unknown exception occurred while creating offer</source>
+        <translation type="unfinished">Unknown exception occurred while creating offer</translation>
+    </message>
+    <message>
+        <source>Spot Contract - Atomic Swap</source>
+        <translation type="unfinished">Spot Contract - Atomic Swap</translation>
+    </message>
+    <message>
+        <source>Your Offer (What You Provide)</source>
+        <translation type="unfinished">Your Offer (What You Provide)</translation>
+    </message>
+    <message>
+        <source>TSC</source>
+        <translation type="unfinished">TSC</translation>
+    </message>
+    <message>
+        <source>Desired Exchange (What You Want)</source>
+        <translation type="unfinished">Desired Exchange (What You Want)</translation>
+    </message>
+    <message>
+        <source>Exchange Rate</source>
+        <translation type="unfinished">Exchange Rate</translation>
+    </message>
+    <message>
+        <source>1.00000000 TSC per TSC</source>
+        <translation type="unfinished">1.00000000 TSC per TSC</translation>
+    </message>
+    <message>
+        <source>Settlement Addresses</source>
+        <translation type="unfinished">Settlement Addresses</translation>
+    </message>
+    <message>
+        <source>Your Destination:</source>
+        <translation type="unfinished">Your Destination:</translation>
+    </message>
+    <message>
+        <source>Address where you receive the desired asset</source>
+        <translation type="unfinished">Address where you receive the desired asset</translation>
+    </message>
+    <message>
+        <source>Generate</source>
+        <translation type="unfinished">Generate</translation>
+    </message>
+    <message>
+        <source>Manual entry</source>
+        <translation type="unfinished">Manual entry</translation>
+    </message>
+    <message>
+        <source>Enable to enter address manually.</source>
+        <translation type="unfinished">Enable to enter address manually.</translation>
+    </message>
+    <message>
+        <source>Counterparty Dest:</source>
+        <translation type="unfinished">Counterparty Dest:</translation>
+    </message>
+    <message>
+        <source>Optional - will be provided by acceptor</source>
+        <translation type="unfinished">Optional - will be provided by acceptor</translation>
+    </message>
+    <message>
+        <source>Enable to enter counterparty destination manually.</source>
+        <translation type="unfinished">Enable to enter counterparty destination manually.</translation>
+    </message>
+    <message>
+        <source>Decryption Commitment (Advanced)</source>
+        <translation type="unfinished">Decryption Commitment (Advanced)</translation>
+    </message>
+    <message>
+        <source>Require cryptographic commitment proof of decryption</source>
+        <translation type="unfinished">Require cryptographic commitment proof of decryption</translation>
+    </message>
+    <message>
+        <source>Address Generation Failed</source>
+        <translation type="unfinished">Address Generation Failed</translation>
+    </message>
+    <message>
+        <source>Wallet model not available. Please enter address manually or restart wallet.</source>
+        <translation type="unfinished">Wallet model not available. Please enter address manually or restart wallet.</translation>
+    </message>
+    <message>
+        <source>Paste counterparty destination address</source>
+        <translation type="unfinished">Paste counterparty destination address</translation>
+    </message>
+    <message>
+        <source>Enter amounts to calculate rate</source>
+        <translation type="unfinished">Enter amounts to calculate rate</translation>
+    </message>
+    <message>
+        <source>TSC (Native)</source>
+        <translation type="unfinished">TSC (Native)</translation>
+    </message>
+    <message>
+        <source>Spot Contract - Review &amp;&amp; Create Offer</source>
+        <translation type="unfinished">Spot Contract - Review &amp;&amp; Create Offer</translation>
+    </message>
+    <message>
+        <source>Review the atomic swap summary below. Click 'Finish' to create the offer.</source>
+        <translation type="unfinished">Review the atomic swap summary below. Click 'Finish' to create the offer.</translation>
+    </message>
+    <message>
+        <source>If the asset has governance text that is visible to the holder only, you can request that both parties </source>
+        <translation type="unfinished">หากสินทรัพย์มีข้อความการกำกับดูแลที่มองเห็นได้เฉพาะผู้ถือ คุณสามารถขอให้ทั้งสองฝ่าย </translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Atomic Swap Summary:&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3&gt;สรุปการแลกเปลี่ยนอะตอม:&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Your Offer:&lt;/b&gt; %1 %2&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ข้อเสนอของคุณ:&lt;/b&gt; %1 %2&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;You Receive:&lt;/b&gt; %1 %2&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;คุณรับ:&lt;/b&gt; %1 %2&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Exchange Rate:&lt;/b&gt; %1 %2 per 1 %3&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;อัตราแลกเปลี่ยน:&lt;/b&gt; %1 %2 ต่อ 1 %3&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Settlement:&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3&gt;การชำระหนี้:&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Type:&lt;/b&gt; Atomic swap (instant settlement)&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ประเภท:&lt;/b&gt; การแลกเปลี่ยนอะตอม (การชำระหนี้ทันที)&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Transaction:&lt;/b&gt; Single CoinJoin-style PSBT&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ธุรกรรม:&lt;/b&gt; PSBT แบบ CoinJoin เดี่ยว&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Both parties:&lt;/b&gt; Contribute inputs and receive outputs simultaneously&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ทั้งสองฝ่าย:&lt;/b&gt; มีส่วนร่วมในอินพุตและรับเอาต์พุตพร้อมกัน&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;No maturity:&lt;/b&gt; Settles in one transaction&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ไม่มีครบกำหนด:&lt;/b&gt; ชำระหนี้ในธุรกรรมเดียว&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Fair-Sign Policy:&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3&gt;นโยบาย Fair-Sign:&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Adaptor signatures:&lt;/b&gt; REQUIRED for atomic execution&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ลายเซ็นอะแดปเตอร์:&lt;/b&gt; จำเป็นสำหรับการดำเนินการอะตอม&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Reveal mode:&lt;/b&gt; Lock-step (2-phase commit)&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;โหมดเปิดเผย:&lt;/b&gt; Lock-step (2-phase commit)&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Ceremony timeout:&lt;/b&gt; 600s (10 minutes)&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;หมดเวลาพิธีกรรม:&lt;/b&gt; 600s (10 นาที)&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Addresses:&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3&gt;ที่อยู่:&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Your Destination:&lt;/b&gt; &lt;code&gt;%1&lt;/code&gt;&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ปลายทางของคุณ:&lt;/b&gt; &lt;code&gt;%1&lt;/code&gt;&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Counterparty Destination:&lt;/b&gt; &lt;code&gt;%1&lt;/code&gt;&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ปลายทางคู่สัญญา:&lt;/b&gt; &lt;code&gt;%1&lt;/code&gt;&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;&lt;b&gt;Counterparty Destination:&lt;/b&gt; &lt;i&gt;(will be provided by acceptor)&lt;/i&gt;&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;&lt;b&gt;ปลายทางคู่สัญญา:&lt;/b&gt; &lt;i&gt;(จะให้โดยผู้รับ)&lt;/i&gt;&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Next Steps:&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3&gt;ขั้นตอนถัดไป:&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;1. Offer will be published to the bulletin board&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;1. ข้อเสนอจะถูกเผยแพร่ไปยังกระดานประกาศ&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;2. Counterparty reviews and accepts with their address&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;2. คู่สัญญาตรวจสอบและยอมรับด้วยที่อยู่ของตน&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;3. Both parties build PSBTs and join them&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;3. ทั้งสองฝ่ายสร้าง PSBT และรวมกัน&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;4. &lt;b&gt;Each party adds commitment proof&lt;/b&gt; (proves decryption capability)&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;4. &lt;b&gt;แต่ละฝ่ายเพิ่มหลักฐานความมุ่งมั่น&lt;/b&gt; (พิสูจน์ความสามารถในการถอดรหัส)&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li style='margin-left: 20px;'&gt;• Unwrap DEK from PSBT asset output&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li style='margin-left: 20px;'&gt;• คลาย DEK จากเอาต์พุตสินทรัพย์ PSBT&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li style='margin-left: 20px;'&gt;• Decrypt counterparty's ICU payload&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li style='margin-left: 20px;'&gt;• ถอดรหัส payload ICU ของคู่สัญญา&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li style='margin-left: 20px;'&gt;• Compute hash(canonical_text | own_receive_addr)&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li style='margin-left: 20px;'&gt;• คำนวณ hash(canonical_text | own_receive_addr)&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li style='margin-left: 20px;'&gt;• Add OP_RETURN commitment to transaction&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li style='margin-left: 20px;'&gt;• เพิ่มความมุ่งมั่น OP_RETURN ในธุรกรรม&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;5. Both parties verify commitments then sign&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;5. ทั้งสองฝ่ายยืนยันความมุ่งมั่นแล้วลงนาม&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;6. Transaction is broadcast with 2 OP_RETURN commitment proofs&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;6. ธุรกรรมถูกกระจายพร้อมหลักฐานความมุ่งมั่น OP_RETURN 2 รายการ&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;3. Both parties build and sign the atomic swap PSBT&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;3. ทั้งสองฝ่ายสร้างและลงนาม PSBT การแลกเปลี่ยนอะตอม&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;4. Transaction is broadcast and settles instantly&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;4. ธุรกรรมถูกกระจายและชำระหนี้ทันที&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Commitment Proof Security:&lt;/h3&gt;</source>
+        <translation type="unfinished">&lt;h3&gt;ความปลอดภัยหลักฐานความมุ่งมั่น:&lt;/h3&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;✓ Cryptographic proof of decryption capability&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;✓ หลักฐานการเข้ารหัสของความสามารถในการถอดรหัส&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;✓ No plaintext transmission (extracted from PSBT only)&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;✓ ไม่มีการส่งข้อความธรรมดา (ดึงจาก PSBT เท่านั้น)&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;✓ Commitment binds to specific recipient address&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;✓ ความมุ่งมั่นผูกพันกับที่อยู่ผู้รับเฉพาะ&lt;/li&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;li&gt;✓ Provides proof of acceptance before signing&lt;/li&gt;</source>
+        <translation type="unfinished">&lt;li&gt;✓ ให้หลักฐานการยอมรับก่อนลงนาม&lt;/li&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>StartSessionDialog</name>
+    <message>
+        <source>Start New Cosign Session</source>
+        <translation type="unfinished">Start New Cosign Session</translation>
+    </message>
+    <message>
+        <source>Session Configuration</source>
+        <translation type="unfinished">Session Configuration</translation>
+    </message>
+    <message>
+        <source>e.g., Repo contract negotiation</source>
+        <translation type="unfinished">e.g., Repo contract negotiation</translation>
+    </message>
+    <message>
+        <source>Context (optional):</source>
+        <translation type="unfinished">Context (optional):</translation>
+    </message>
+    <message>
+        <source>Auto (Recommended)</source>
+        <translation type="unfinished">Auto (Recommended)</translation>
+    </message>
+    <message>
+        <source>WebSocket</source>
+        <translation type="unfinished">WebSocket</translation>
+    </message>
+    <message>
+        <source>Tor Hidden Service</source>
+        <translation type="unfinished">Tor Hidden Service</translation>
+    </message>
+    <message>
+        <source>Transport:</source>
+        <translation type="unfinished">Transport:</translation>
+    </message>
+    <message>
+        <source>Relay Server:</source>
+        <translation type="unfinished">Relay Server:</translation>
+    </message>
+    <message>
+        <source>wss://relay.tensorcash.org (optional)</source>
+        <translation type="unfinished">wss://relay.tensorcash.org (optional)</translation>
+    </message>
+    <message>
+        <source> seconds</source>
+        <translation type="unfinished"> seconds</translation>
+    </message>
+    <message>
+        <source>Session will automatically expire after this time (60-86400 seconds)</source>
+        <translation type="unfinished">Session will automatically expire after this time (60-86400 seconds)</translation>
+    </message>
+    <message>
+        <source>TTL (Time to Live):</source>
+        <translation type="unfinished">TTL (Time to Live):</translation>
+    </message>
+    <message>
+        <source>Create Session</source>
+        <translation type="unfinished">Create Session</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancel</translation>
+    </message>
+    <message>
+        <source>Share This Link With Your Peer</source>
+        <translation type="unfinished">Share This Link With Your Peer</translation>
+    </message>
+    <message>
+        <source>Copy Link</source>
+        <translation type="unfinished">Copy Link</translation>
+    </message>
+    <message>
+        <source>Show QR Code</source>
+        <translation type="unfinished">Show QR Code</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation type="unfinished">Done</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Wallet model not available</source>
+        <translation type="unfinished">Wallet model not available</translation>
+    </message>
+    <message>
+        <source>Creating...</source>
+        <translation type="unfinished">Creating...</translation>
+    </message>
+    <message>
+        <source>Failed to create session:\n%1</source>
+        <translation type="unfinished">Failed to create session:\n%1</translation>
+    </message>
+    <message>
+        <source>Session ID: %1</source>
+        <translation type="unfinished">Session ID: %1</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation type="unfinished">Copied</translation>
+    </message>
+    <message>
+        <source>Invite link copied to clipboard!\n\nSend this to your peer so they can join.</source>
+        <translation type="unfinished">Invite link copied to clipboard!\n\nSend this to your peer so they can join.</translation>
+    </message>
+    <message>
+        <source>Session Invite QR Code</source>
+        <translation type="unfinished">Session Invite QR Code</translation>
+    </message>
+    <message>
+        <source>Scan this QR code with your peer's wallet:</source>
+        <translation type="unfinished">Scan this QR code with your peer's wallet:</translation>
+    </message>
+    <message>
+        <source>Failed to generate QR code (data may be too long)</source>
+        <translation type="unfinished">Failed to generate QR code (data may be too long)</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;SAS:&lt;/b&gt; %1&lt;br/&gt;&lt;b&gt;Numeric:&lt;/b&gt; %2</source>
+        <translation type="unfinished">&lt;b&gt;SAS:&lt;/b&gt; %1&lt;br/&gt;&lt;b&gt;Numeric:&lt;/b&gt; %2</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished">Close</translation>
+    </message>
+    <message>
+        <source>&lt;span style='font-size: 16px; font-weight: bold; color: white; background-color: #2196f3; padding: 6px 12px; border-radius: 3px;'&gt;</source>
+        <translation type="unfinished">&lt;span style='font-size: 16px; font-weight: bold; color: white; background-color: #2196f3; padding: 6px 12px; border-radius: 3px;'&gt;</translation>
+    </message>
+    <message>
+        <source>⚠️ &lt;b&gt;Important:&lt;/b&gt; Share this link securely with your peer. </source>
+        <translation type="unfinished">⚠️ &lt;b&gt;สำคัญ:&lt;/b&gt; แชร์ลิงก์นี้อย่างปลอดภัยกับคู่ของคุณ </translation>
+    </message>
+</context>
+<context>
+    <name>TorManager</name>
+    <message>
+        <source>Failed to create Tor data directory</source>
+        <translation type="unfinished">Failed to create Tor data directory</translation>
+    </message>
+    <message>
+        <source>Failed to write Tor configuration</source>
+        <translation type="unfinished">Failed to write Tor configuration</translation>
+    </message>
+    <message>
+        <source>Tor binary not found (checked app bundle and PATH)</source>
+        <translation type="unfinished">Tor binary not found (checked app bundle and PATH)</translation>
+    </message>
+    <message>
+        <source>Tor process failed to start</source>
+        <translation type="unfinished">Tor process failed to start</translation>
+    </message>
+    <message>
+        <source>Tor SOCKS port did not become ready after %1 seconds</source>
+        <translation type="unfinished">Tor SOCKS port did not become ready after %1 seconds</translation>
+    </message>
+    <message>
+        <source>Not Started</source>
+        <translation type="unfinished">Not Started</translation>
+    </message>
+    <message>
+        <source>Starting...</source>
+        <translation type="unfinished">Starting...</translation>
+    </message>
+    <message>
+        <source>Ready</source>
+        <translation type="unfinished">Ready</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation type="unfinished">Failed</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation type="unfinished">Stopped</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation type="unfinished">Unknown</translation>
+    </message>
+    <message>
+        <source>Tor process exited unexpectedly (code %1)</source>
+        <translation type="unfinished">Tor process exited unexpectedly (code %1)</translation>
+    </message>
+    <message>
+        <source>Tor failed to start</source>
+        <translation type="unfinished">Tor failed to start</translation>
+    </message>
+    <message>
+        <source>Tor crashed</source>
+        <translation type="unfinished">Tor crashed</translation>
+    </message>
+    <message>
+        <source>Tor operation timed out</source>
+        <translation type="unfinished">Tor operation timed out</translation>
+    </message>
+    <message>
+        <source>Error writing to Tor process</source>
+        <translation type="unfinished">Error writing to Tor process</translation>
+    </message>
+    <message>
+        <source>Error reading from Tor process</source>
+        <translation type="unfinished">Error reading from Tor process</translation>
+    </message>
+    <message>
+        <source>Unknown Tor process error</source>
+        <translation type="unfinished">Unknown Tor process error</translation>
+    </message>
+    <message>
+        <source>Tor port already in use (another instance running?)</source>
+        <translation type="unfinished">Tor port already in use (another instance running?)</translation>
+    </message>
+</context>
+<context>
+    <name>TradeBoardTab</name>
+    <message>
+        <source>Principal output missing or mismatched</source>
+        <translation type="unfinished">Principal output missing or mismatched</translation>
+    </message>
+    <message>
+        <source>Collateral vault output missing or mismatched</source>
+        <translation type="unfinished">Collateral vault output missing or mismatched</translation>
+    </message>
+    <message>
+        <source>Wallet unavailable</source>
+        <translation type="unfinished">Wallet unavailable</translation>
+    </message>
+    <message>
+        <source>Unable to decode PSBT</source>
+        <translation type="unfinished">Unable to decode PSBT</translation>
+    </message>
+    <message>
+        <source>No wallet-controlled inputs eligible for adaptor preparation (%1)</source>
+        <translation type="unfinished">No wallet-controlled inputs eligible for adaptor preparation (%1)</translation>
+    </message>
+    <message>
+        <source>Initialization Failed</source>
+        <translation type="unfinished">Initialization Failed</translation>
+    </message>
+    <message>
+        <source>Failed to initialize bulletin board:\n\n%1\n\nError details:\n%2\n\nYou can try:\n1. Restart wallet\n2. Manual RPC: cosign.init_bb</source>
+        <translation type="unfinished">Failed to initialize bulletin board:\n\n%1\n\nError details:\n%2\n\nYou can try:\n1. Restart wallet\n2. Manual RPC: cosign.init_bb</translation>
+    </message>
+    <message>
+        <source>Switch to %1 contracts</source>
+        <translation type="unfinished">Switch to %1 contracts</translation>
+    </message>
+    <message>
+        <source>Spot</source>
+        <translation type="unfinished">Spot</translation>
+    </message>
+    <message>
+        <source>Repo</source>
+        <translation type="unfinished">Repo</translation>
+    </message>
+    <message>
+        <source>Forward</source>
+        <translation type="unfinished">Forward</translation>
+    </message>
+    <message>
+        <source>Option</source>
+        <translation type="unfinished">Option</translation>
+    </message>
+    <message>
+        <source>Cross-Chain</source>
+        <translation type="unfinished">Cross-Chain</translation>
+    </message>
+    <message>
+        <source>Profiles</source>
+        <translation type="unfinished">Profiles</translation>
+    </message>
+    <message>
+        <source>Manage external settlement profiles (BTC, ETH, TRON)</source>
+        <translation type="unfinished">Manage external settlement profiles (BTC, ETH, TRON)</translation>
+    </message>
+    <message>
+        <source>Refresh offers list</source>
+        <translation type="unfinished">Refresh offers list</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation type="unfinished">Filter</translation>
+    </message>
+    <message>
+        <source>Filter displayed offers by asset, amount, and other criteria</source>
+        <translation type="unfinished">Filter displayed offers by asset, amount, and other criteria</translation>
+    </message>
+    <message>
+        <source>+ add</source>
+        <translation type="unfinished">+ add</translation>
+    </message>
+    <message>
+        <source>Add a repo offer</source>
+        <translation type="unfinished">Add a repo offer</translation>
+    </message>
+    <message>
+        <source>Maker</source>
+        <translation type="unfinished">Maker</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation type="unfinished">Role</translation>
+    </message>
+    <message>
+        <source>MTM\n(Marks)</source>
+        <translation type="unfinished">MTM\n(Marks)</translation>
+    </message>
+    <message>
+        <source>MTM\n(Market)</source>
+        <translation type="unfinished">MTM\n(Market)</translation>
+    </message>
+    <message>
+        <source>Collateral</source>
+        <translation type="unfinished">Collateral</translation>
+    </message>
+    <message>
+        <source>Principal</source>
+        <translation type="unfinished">Principal</translation>
+    </message>
+    <message>
+        <source>Interest</source>
+        <translation type="unfinished">Interest</translation>
+    </message>
+    <message>
+        <source>Price</source>
+        <translation type="unfinished">Price</translation>
+    </message>
+    <message>
+        <source>APR</source>
+        <translation type="unfinished">APR</translation>
+    </message>
+    <message>
+        <source>LTV</source>
+        <translation type="unfinished">LTV</translation>
+    </message>
+    <message>
+        <source>Tenor</source>
+        <translation type="unfinished">Tenor</translation>
+    </message>
+    <message>
+        <source>Funds\nVerified</source>
+        <translation type="unfinished">Funds\nVerified</translation>
+    </message>
+    <message>
+        <source>Age</source>
+        <translation type="unfinished">Age</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation type="unfinished">Actions</translation>
+    </message>
+    <message>
+        <source>Long\nAsset</source>
+        <translation type="unfinished">Long\nAsset</translation>
+    </message>
+    <message>
+        <source>Short\nAsset</source>
+        <translation type="unfinished">Short\nAsset</translation>
+    </message>
+    <message>
+        <source>Long\nIM %</source>
+        <translation type="unfinished">Long\nIM %</translation>
+    </message>
+    <message>
+        <source>Short\nIM %</source>
+        <translation type="unfinished">Short\nIM %</translation>
+    </message>
+    <message>
+        <source>Proof</source>
+        <translation type="unfinished">Proof</translation>
+    </message>
+    <message>
+        <source>Premium</source>
+        <translation type="unfinished">Premium</translation>
+    </message>
+    <message>
+        <source>Prem\nPayer</source>
+        <translation type="unfinished">Prem\nPayer</translation>
+    </message>
+    <message>
+        <source>Asset\nSend</source>
+        <translation type="unfinished">Asset\nSend</translation>
+    </message>
+    <message>
+        <source>Amount\nSend</source>
+        <translation type="unfinished">Amount\nSend</translation>
+    </message>
+    <message>
+        <source>Asset\nRecv</source>
+        <translation type="unfinished">Asset\nRecv</translation>
+    </message>
+    <message>
+        <source>Amount\nRecv</source>
+        <translation type="unfinished">Amount\nRecv</translation>
+    </message>
+    <message>
+        <source>Chain</source>
+        <translation type="unfinished">Chain</translation>
+    </message>
+    <message>
+        <source>Adapter</source>
+        <translation type="unfinished">Adapter</translation>
+    </message>
+    <message>
+        <source>TSC\nAmount</source>
+        <translation type="unfinished">TSC\nAmount</translation>
+    </message>
+    <message>
+        <source>External\nAmount</source>
+        <translation type="unfinished">External\nAmount</translation>
+    </message>
+    <message>
+        <source>External\nAsset</source>
+        <translation type="unfinished">External\nAsset</translation>
+    </message>
+    <message>
+        <source>Funding\nOrder</source>
+        <translation type="unfinished">Funding\nOrder</translation>
+    </message>
+    <message>
+        <source>Trade Requests</source>
+        <translation type="unfinished">Trade Requests</translation>
+    </message>
+    <message>
+        <source>Offer</source>
+        <translation type="unfinished">Offer</translation>
+    </message>
+    <message>
+        <source>Counterparty</source>
+        <translation type="unfinished">Counterparty</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation type="unfinished">Status</translation>
+    </message>
+    <message>
+        <source>Funds Verified</source>
+        <translation type="unfinished">Funds Verified</translation>
+    </message>
+    <message>
+        <source>Updated</source>
+        <translation type="unfinished">Updated</translation>
+    </message>
+    <message>
+        <source>● Not Connected</source>
+        <translation type="unfinished">● Not Connected</translation>
+    </message>
+    <message>
+        <source>🔐 Tor: Unknown</source>
+        <translation type="unfinished">🔐 Tor: Unknown</translation>
+    </message>
+    <message>
+        <source>Tor status for private cosign bridge sessions</source>
+        <translation type="unfinished">Tor status for private cosign bridge sessions</translation>
+    </message>
+    <message>
+        <source>Force immediate refresh from Nostr relays (bypasses 5-minute cache)</source>
+        <translation type="unfinished">Force immediate refresh from Nostr relays (bypasses 5-minute cache)</translation>
+    </message>
+    <message>
+        <source>Pubkey: Unknown</source>
+        <translation type="unfinished">Pubkey: Unknown</translation>
+    </message>
+    <message>
+        <source>Relays: 0</source>
+        <translation type="unfinished">Relays: 0</translation>
+    </message>
+    <message>
+        <source>Cache: ---</source>
+        <translation type="unfinished">Cache: ---</translation>
+    </message>
+    <message>
+        <source>Force restart bulletin board (re-initialize from scratch)</source>
+        <translation type="unfinished">Force restart bulletin board (re-initialize from scratch)</translation>
+    </message>
+    <message>
+        <source>Clear stuck trade requests and unlock frozen coins</source>
+        <translation type="unfinished">Clear stuck trade requests and unlock frozen coins</translation>
+    </message>
+    <message>
+        <source>Refresh Failed</source>
+        <translation type="unfinished">Refresh Failed</translation>
+    </message>
+    <message>
+        <source>Failed to refresh from Nostr relays: %1</source>
+        <translation type="unfinished">Failed to refresh from Nostr relays: %1</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Wallet model not available</source>
+        <translation type="unfinished">Wallet model not available</translation>
+    </message>
+    <message>
+        <source>Success</source>
+        <translation type="unfinished">Success</translation>
+    </message>
+    <message>
+        <source>Bulletin board restarted successfully!\nPubkey: %1\nRelays: %2</source>
+        <translation type="unfinished">Bulletin board restarted successfully!\nPubkey: %1\nRelays: %2</translation>
+    </message>
+    <message>
+        <source>Failed to restart bulletin board: %1</source>
+        <translation type="unfinished">Failed to restart bulletin board: %1</translation>
+    </message>
+    <message>
+        <source>Cache: Not initialized</source>
+        <translation type="unfinished">Cache: Not initialized</translation>
+    </message>
+    <message>
+        <source>Cache: Refreshing...</source>
+        <translation type="unfinished">Cache: Refreshing...</translation>
+    </message>
+    <message>
+        <source>Cache: Next refresh in %1:%2</source>
+        <translation type="unfinished">Cache: Next refresh in %1:%2</translation>
+    </message>
+    <message>
+        <source>Debug</source>
+        <translation type="unfinished">Debug</translation>
+    </message>
+    <message>
+        <source>Button sender is null!</source>
+        <translation type="unfinished">Button sender is null!</translation>
+    </message>
+    <message>
+        <source>Offer ID is empty!</source>
+        <translation type="unfinished">Offer ID is empty!</translation>
+    </message>
+    <message>
+        <source>Offer not found in cache.</source>
+        <translation type="unfinished">Offer not found in cache.</translation>
+    </message>
+    <message>
+        <source>Invalid Offer</source>
+        <translation type="unfinished">Invalid Offer</translation>
+    </message>
+    <message>
+        <source>This forward/option offer is missing deadline information and cannot be accepted.</source>
+        <translation type="unfinished">This forward/option offer is missing deadline information and cannot be accepted.</translation>
+    </message>
+    <message>
+        <source>Invalid deadlines: Short deadline (%1) must be before Long deadline (%2)</source>
+        <translation type="unfinished">Invalid deadlines: Short deadline (%1) must be before Long deadline (%2)</translation>
+    </message>
+    <message>
+        <source>Offer Expired</source>
+        <translation type="unfinished">Offer Expired</translation>
+    </message>
+    <message>
+        <source>Short deadline (%1) has already passed (current height: %2)</source>
+        <translation type="unfinished">Short deadline (%1) has already passed (current height: %2)</translation>
+    </message>
+    <message>
+        <source>Unknown maker role: %1</source>
+        <translation type="unfinished">Unknown maker role: %1</translation>
+    </message>
+    <message>
+        <source>Insufficient Balance</source>
+        <translation type="unfinished">Insufficient Balance</translation>
+    </message>
+    <message>
+        <source>Incomplete Offer</source>
+        <translation type="unfinished">Incomplete Offer</translation>
+    </message>
+    <message>
+        <source>Trade request sent!\n\nRequest ID: %1\n\nWait for maker to accept.\n\nCheck 'Trade Requests' below.</source>
+        <translation type="unfinished">Trade request sent!\n\nRequest ID: %1\n\nWait for maker to accept.\n\nCheck 'Trade Requests' below.</translation>
+    </message>
+    <message>
+        <source>Failed to request trade: %1</source>
+        <translation type="unfinished">Failed to request trade: %1</translation>
+    </message>
+    <message>
+        <source>Wallet model is null!</source>
+        <translation type="unfinished">Wallet model is null!</translation>
+    </message>
+    <message>
+        <source>Delete Offer</source>
+        <translation type="unfinished">Delete Offer</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to delete this offer?\n\nOffer ID: %1</source>
+        <translation type="unfinished">Are you sure you want to delete this offer?\n\nOffer ID: %1</translation>
+    </message>
+    <message>
+        <source>Offer deleted successfully!\n\nOffer ID: %1\n\nThe offer has been removed from Nostr relays.</source>
+        <translation type="unfinished">Offer deleted successfully!\n\nOffer ID: %1\n\nThe offer has been removed from Nostr relays.</translation>
+    </message>
+    <message>
+        <source>Failed to delete offer.\n\nThe offer may have already been deleted or expired.</source>
+        <translation type="unfinished">Failed to delete offer.\n\nThe offer may have already been deleted or expired.</translation>
+    </message>
+    <message>
+        <source>Unlock Failed</source>
+        <translation type="unfinished">Unlock Failed</translation>
+    </message>
+    <message>
+        <source>Failed to unlock wallet UTXOs:\n\n%1</source>
+        <translation type="unfinished">Failed to unlock wallet UTXOs:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Funds Unlocked</source>
+        <translation type="unfinished">Funds Unlocked</translation>
+    </message>
+    <message>
+        <source>No Locked Funds</source>
+        <translation type="unfinished">No Locked Funds</translation>
+    </message>
+    <message>
+        <source>No locked UTXOs or stuck requests found.</source>
+        <translation type="unfinished">No locked UTXOs or stuck requests found.</translation>
+    </message>
+    <message>
+        <source>repo</source>
+        <translation type="unfinished">repo</translation>
+    </message>
+    <message>
+        <source>forward</source>
+        <translation type="unfinished">forward</translation>
+    </message>
+    <message>
+        <source>option</source>
+        <translation type="unfinished">option</translation>
+    </message>
+    <message>
+        <source>spot</source>
+        <translation type="unfinished">spot</translation>
+    </message>
+    <message>
+        <source>cross-chain</source>
+        <translation type="unfinished">cross-chain</translation>
+    </message>
+    <message>
+        <source>Add a %1 offer</source>
+        <translation type="unfinished">Add a %1 offer</translation>
+    </message>
+    <message>
+        <source>Filter Offers</source>
+        <translation type="unfinished">Filter Offers</translation>
+    </message>
+    <message>
+        <source>Hide assets not in registry</source>
+        <translation type="unfinished">Hide assets not in registry</translation>
+    </message>
+    <message>
+        <source>Only show offers with assets that are in the asset registry</source>
+        <translation type="unfinished">Only show offers with assets that are in the asset registry</translation>
+    </message>
+    <message>
+        <source>Asset Symbol/ID:</source>
+        <translation type="unfinished">Asset Symbol/ID:</translation>
+    </message>
+    <message>
+        <source>e.g., TSC, BTC, or asset ID</source>
+        <translation type="unfinished">e.g., TSC, BTC, or asset ID</translation>
+    </message>
+    <message>
+        <source>Role Filter:</source>
+        <translation type="unfinished">Role Filter:</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation type="unfinished">All</translation>
+    </message>
+    <message>
+        <source>Lender</source>
+        <translation type="unfinished">Lender</translation>
+    </message>
+    <message>
+        <source>Borrower</source>
+        <translation type="unfinished">Borrower</translation>
+    </message>
+    <message>
+        <source>Long</source>
+        <translation type="unfinished">Long</translation>
+    </message>
+    <message>
+        <source>Short</source>
+        <translation type="unfinished">Short</translation>
+    </message>
+    <message>
+        <source>Minimum Amount</source>
+        <translation type="unfinished">Minimum Amount</translation>
+    </message>
+    <message>
+        <source>Enable</source>
+        <translation type="unfinished">Enable</translation>
+    </message>
+    <message>
+        <source>Maximum Amount</source>
+        <translation type="unfinished">Maximum Amount</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation type="unfinished">Reset</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation type="unfinished">Apply</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancel</translation>
+    </message>
+    <message>
+        <source>Repo Offer Created Successfully</source>
+        <translation type="unfinished">Repo Offer Created Successfully</translation>
+    </message>
+    <message>
+        <source>Publish with Proof</source>
+        <translation type="unfinished">Publish with Proof</translation>
+    </message>
+    <message>
+        <source>Publish to Market</source>
+        <translation type="unfinished">Publish to Market</translation>
+    </message>
+    <message>
+        <source>Export Manually</source>
+        <translation type="unfinished">Export Manually</translation>
+    </message>
+    <message>
+        <source>Open Now</source>
+        <translation type="unfinished">Open Now</translation>
+    </message>
+    <message>
+        <source>Decide Later</source>
+        <translation type="unfinished">Decide Later</translation>
+    </message>
+    <message>
+        <source>Proof Generation Failed</source>
+        <translation type="unfinished">Proof Generation Failed</translation>
+    </message>
+    <message>
+        <source>Could not automatically generate proof of funds:\n\n%1\n\nProceeding without proof.</source>
+        <translation type="unfinished">Could not automatically generate proof of funds:\n\n%1\n\nProceeding without proof.</translation>
+    </message>
+    <message>
+        <source>Proof Generation Skipped</source>
+        <translation type="unfinished">Proof Generation Skipped</translation>
+    </message>
+    <message>
+        <source>Could not determine required amount for proof generation.\n\nProceeding without proof.</source>
+        <translation type="unfinished">Could not determine required amount for proof generation.\n\nProceeding without proof.</translation>
+    </message>
+    <message>
+        <source>Proof Generation Error</source>
+        <translation type="unfinished">Proof Generation Error</translation>
+    </message>
+    <message>
+        <source>An RPC error occurred while generating proof of funds.\n\nProceeding without proof.</source>
+        <translation type="unfinished">An RPC error occurred while generating proof of funds.\n\nProceeding without proof.</translation>
+    </message>
+    <message>
+        <source>An error occurred while generating proof of funds:\n\n%1\n\nProceeding without proof.</source>
+        <translation type="unfinished">An error occurred while generating proof of funds:\n\n%1\n\nProceeding without proof.</translation>
+    </message>
+    <message>
+        <source>An unknown error occurred while generating proof of funds.\n\nProceeding without proof.</source>
+        <translation type="unfinished">An unknown error occurred while generating proof of funds.\n\nProceeding without proof.</translation>
+    </message>
+    <message>
+        <source>Posted to Bulletin Board</source>
+        <translation type="unfinished">Posted to Bulletin Board</translation>
+    </message>
+    <message>
+        <source>Offer posted to Nostr!\n\nOffer ID: %1\n\nOthers can now discover and request this trade.</source>
+        <translation type="unfinished">Offer posted to Nostr!\n\nOffer ID: %1\n\nOthers can now discover and request this trade.</translation>
+    </message>
+    <message>
+        <source>Posting Failed</source>
+        <translation type="unfinished">Posting Failed</translation>
+    </message>
+    <message>
+        <source>Failed: %1</source>
+        <translation type="unfinished">Failed: %1</translation>
+    </message>
+    <message>
+        <source>Export Offer</source>
+        <translation type="unfinished">Export Offer</translation>
+    </message>
+    <message>
+        <source>How would you like to export the offer?</source>
+        <translation type="unfinished">How would you like to export the offer?</translation>
+    </message>
+    <message>
+        <source>Save to File</source>
+        <translation type="unfinished">Save to File</translation>
+    </message>
+    <message>
+        <source>Copy to Clipboard</source>
+        <translation type="unfinished">Copy to Clipboard</translation>
+    </message>
+    <message>
+        <source>Save Offer JSON</source>
+        <translation type="unfinished">Save Offer JSON</translation>
+    </message>
+    <message>
+        <source>JSON Files (*.json);;All Files (*)</source>
+        <translation type="unfinished">JSON Files (*.json);;All Files (*)</translation>
+    </message>
+    <message>
+        <source>Export Successful</source>
+        <translation type="unfinished">Export Successful</translation>
+    </message>
+    <message>
+        <source>Offer exported to:\n%1</source>
+        <translation type="unfinished">Offer exported to:\n%1</translation>
+    </message>
+    <message>
+        <source>Export Failed</source>
+        <translation type="unfinished">Export Failed</translation>
+    </message>
+    <message>
+        <source>Failed to write file:\n%1</source>
+        <translation type="unfinished">Failed to write file:\n%1</translation>
+    </message>
+    <message>
+        <source>Copied to Clipboard</source>
+        <translation type="unfinished">Copied to Clipboard</translation>
+    </message>
+    <message>
+        <source>Offer JSON copied to clipboard.\n\nOffer ID: %1</source>
+        <translation type="unfinished">Offer JSON copied to clipboard.\n\nOffer ID: %1</translation>
+    </message>
+    <message>
+        <source>Propose Failed</source>
+        <translation type="unfinished">Propose Failed</translation>
+    </message>
+    <message>
+        <source>Failed to create finalized offer:\n%1</source>
+        <translation type="unfinished">Failed to create finalized offer:\n%1</translation>
+    </message>
+    <message>
+        <source>Contract Opened</source>
+        <translation type="unfinished">Contract Opened</translation>
+    </message>
+    <message>
+        <source>Contract opened!\n\nTXID: %1</source>
+        <translation type="unfinished">Contract opened!\n\nTXID: %1</translation>
+    </message>
+    <message>
+        <source>Forward Offer Created</source>
+        <translation type="unfinished">Forward Offer Created</translation>
+    </message>
+    <message>
+        <source>Forward offer posted to bulletin board!\n\nOffer ID: %1</source>
+        <translation type="unfinished">Forward offer posted to bulletin board!\n\nOffer ID: %1</translation>
+    </message>
+    <message>
+        <source>Bulletin Board Error</source>
+        <translation type="unfinished">Bulletin Board Error</translation>
+    </message>
+    <message>
+        <source>Failed to post offer:\n%1</source>
+        <translation type="unfinished">Failed to post offer:\n%1</translation>
+    </message>
+    <message>
+        <source>Forward offer JSON copied to clipboard.\n\nOffer ID: %1</source>
+        <translation type="unfinished">Forward offer JSON copied to clipboard.\n\nOffer ID: %1</translation>
+    </message>
+    <message>
+        <source>Option Offer Created</source>
+        <translation type="unfinished">Option Offer Created</translation>
+    </message>
+    <message>
+        <source>Option offer posted to bulletin board!\n\nOffer ID: %1</source>
+        <translation type="unfinished">Option offer posted to bulletin board!\n\nOffer ID: %1</translation>
+    </message>
+    <message>
+        <source>Option offer JSON copied to clipboard.\n\nOffer ID: %1</source>
+        <translation type="unfinished">Option offer JSON copied to clipboard.\n\nOffer ID: %1</translation>
+    </message>
+    <message>
+        <source>Spot Swap Offer Created</source>
+        <translation type="unfinished">Spot Swap Offer Created</translation>
+    </message>
+    <message>
+        <source>Failed to post spot offer:\n%1</source>
+        <translation type="unfinished">Failed to post spot offer:\n%1</translation>
+    </message>
+    <message>
+        <source>Export Spot Offer</source>
+        <translation type="unfinished">Export Spot Offer</translation>
+    </message>
+    <message>
+        <source>How would you like to export the spot offer?</source>
+        <translation type="unfinished">How would you like to export the spot offer?</translation>
+    </message>
+    <message>
+        <source>Save Spot Offer JSON</source>
+        <translation type="unfinished">Save Spot Offer JSON</translation>
+    </message>
+    <message>
+        <source>Spot offer exported to:\n%1</source>
+        <translation type="unfinished">Spot offer exported to:\n%1</translation>
+    </message>
+    <message>
+        <source>Spot offer JSON copied to clipboard.\n\nOffer ID: %1</source>
+        <translation type="unfinished">Spot offer JSON copied to clipboard.\n\nOffer ID: %1</translation>
+    </message>
+    <message>
+        <source>Cross-Chain Offer Created</source>
+        <translation type="unfinished">Cross-Chain Offer Created</translation>
+    </message>
+    <message>
+        <source>● Connected</source>
+        <translation type="unfinished">● Connected</translation>
+    </message>
+    <message>
+        <source>Pubkey: %1</source>
+        <translation type="unfinished">Pubkey: %1</translation>
+    </message>
+    <message>
+        <source>Pubkey: Initialized</source>
+        <translation type="unfinished">Pubkey: Initialized</translation>
+    </message>
+    <message>
+        <source>Relays: %1</source>
+        <translation type="unfinished">Relays: %1</translation>
+    </message>
+    <message>
+        <source>● Error</source>
+        <translation type="unfinished">● Error</translation>
+    </message>
+    <message>
+        <source>Pubkey: Error</source>
+        <translation type="unfinished">Pubkey: Error</translation>
+    </message>
+    <message>
+        <source>Status: %1</source>
+        <translation type="unfinished">Status: %1</translation>
+    </message>
+    <message>
+        <source>● Tor: Not Started</source>
+        <translation type="unfinished">● Tor: Not Started</translation>
+    </message>
+    <message>
+        <source>Tor daemon has not been initialized</source>
+        <translation type="unfinished">Tor daemon has not been initialized</translation>
+    </message>
+    <message>
+        <source>● Tor: Starting...</source>
+        <translation type="unfinished">● Tor: Starting...</translation>
+    </message>
+    <message>
+        <source>Tor daemon is starting (may take 10-30 seconds)</source>
+        <translation type="unfinished">Tor daemon is starting (may take 10-30 seconds)</translation>
+    </message>
+    <message>
+        <source>● Tor: Ready</source>
+        <translation type="unfinished">● Tor: Ready</translation>
+    </message>
+    <message>
+        <source>Tor daemon is ready for private cosign sessions\nSOCKS: %1</source>
+        <translation type="unfinished">Tor daemon is ready for private cosign sessions\nSOCKS: %1</translation>
+    </message>
+    <message>
+        <source>● Tor: Failed</source>
+        <translation type="unfinished">● Tor: Failed</translation>
+    </message>
+    <message>
+        <source>Tor daemon failed to start: %1</source>
+        <translation type="unfinished">Tor daemon failed to start: %1</translation>
+    </message>
+    <message>
+        <source>● Tor: Stopped</source>
+        <translation type="unfinished">● Tor: Stopped</translation>
+    </message>
+    <message>
+        <source>Tor daemon was stopped</source>
+        <translation type="unfinished">Tor daemon was stopped</translation>
+    </message>
+    <message>
+        <source>ASSET</source>
+        <translation type="unfinished">ASSET</translation>
+    </message>
+    <message>
+        <source>Verified: %1 units (sufficient)</source>
+        <translation type="unfinished">Verified: %1 units (sufficient)</translation>
+    </message>
+    <message>
+        <source>Verified but INSUFFICIENT: %1 units (need %2)</source>
+        <translation type="unfinished">Verified but INSUFFICIENT: %1 units (need %2)</translation>
+    </message>
+    <message>
+        <source>Proof verification FAILED: %1</source>
+        <translation type="unfinished">Proof verification FAILED: %1</translation>
+    </message>
+    <message>
+        <source>TSC</source>
+        <translation type="unfinished">TSC</translation>
+    </message>
+    <message>
+        <source>TBD</source>
+        <translation type="unfinished">TBD</translation>
+    </message>
+    <message>
+        <source>No proof provided</source>
+        <translation type="unfinished">No proof provided</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation type="unfinished">Delete</translation>
+    </message>
+    <message>
+        <source>Request Trade</source>
+        <translation type="unfinished">Request Trade</translation>
+    </message>
+    <message>
+        <source>View</source>
+        <translation type="unfinished">View</translation>
+    </message>
+    <message>
+        <source>Cross-Chain Offer Details</source>
+        <translation type="unfinished">Cross-Chain Offer Details</translation>
+    </message>
+    <message>
+        <source>Show Raw JSON</source>
+        <translation type="unfinished">Show Raw JSON</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished">Close</translation>
+    </message>
+    <message>
+        <source>Incoming (maker)</source>
+        <translation type="unfinished">Incoming (maker)</translation>
+    </message>
+    <message>
+        <source>Outgoing (taker)</source>
+        <translation type="unfinished">Outgoing (taker)</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation type="unfinished">Unknown</translation>
+    </message>
+    <message>
+        <source>Funds verified: %1 units</source>
+        <translation type="unfinished">Funds verified: %1 units</translation>
+    </message>
+    <message>
+        <source>Verification FAILED: %1</source>
+        <translation type="unfinished">Verification FAILED: %1</translation>
+    </message>
+    <message>
+        <source>Finalize</source>
+        <translation type="unfinished">Finalize</translation>
+    </message>
+    <message>
+        <source>Offer Not Found</source>
+        <translation type="unfinished">Offer Not Found</translation>
+    </message>
+    <message>
+        <source>Original offer not found in cache.\n\nTry refreshing the offers list.</source>
+        <translation type="unfinished">Original offer not found in cache.\n\nTry refreshing the offers list.</translation>
+    </message>
+    <message>
+        <source>Original offer is not a valid term sheet.\n\nCannot finalize.</source>
+        <translation type="unfinished">Original offer is not a valid term sheet.\n\nCannot finalize.</translation>
+    </message>
+    <message>
+        <source>Proof Verification Failed</source>
+        <translation type="unfinished">Proof Verification Failed</translation>
+    </message>
+    <message>
+        <source>Insufficient Funds</source>
+        <translation type="unfinished">Insufficient Funds</translation>
+    </message>
+    <message>
+        <source>Invalid Role</source>
+        <translation type="unfinished">Invalid Role</translation>
+    </message>
+    <message>
+        <source>Spot maker role must be 'alice', got: '%1'</source>
+        <translation type="unfinished">Spot maker role must be 'alice', got: '%1'</translation>
+    </message>
+    <message>
+        <source>Missing Address</source>
+        <translation type="unfinished">Missing Address</translation>
+    </message>
+    <message>
+        <source>Taker did not provide Bob's receive address.\n\nCannot finalize the offer.</source>
+        <translation type="unfinished">Taker did not provide Bob's receive address.\n\nCannot finalize the offer.</translation>
+    </message>
+    <message>
+        <source>Missing Maker Address</source>
+        <translation type="unfinished">Missing Maker Address</translation>
+    </message>
+    <message>
+        <source>Original term sheet is missing Alice's receive address.\n\nCannot finalize.</source>
+        <translation type="unfinished">Original term sheet is missing Alice's receive address.\n\nCannot finalize.</translation>
+    </message>
+    <message>
+        <source>Finalization Failed</source>
+        <translation type="unfinished">Finalization Failed</translation>
+    </message>
+    <message>
+        <source>Failed to regenerate contract ID:\n\n%1</source>
+        <translation type="unfinished">Failed to regenerate contract ID:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Forward/Options maker role must be 'long' or 'short', got: '%1'</source>
+        <translation type="unfinished">Forward/Options maker role must be 'long' or 'short', got: '%1'</translation>
+    </message>
+    <message>
+        <source>Missing Taker Addresses</source>
+        <translation type="unfinished">Missing Taker Addresses</translation>
+    </message>
+    <message>
+        <source>Taker (Short) did not provide required addresses.\n\nCannot finalize.</source>
+        <translation type="unfinished">Taker (Short) did not provide required addresses.\n\nCannot finalize.</translation>
+    </message>
+    <message>
+        <source>Taker (Long) did not provide required addresses.\n\nCannot finalize.</source>
+        <translation type="unfinished">Taker (Long) did not provide required addresses.\n\nCannot finalize.</translation>
+    </message>
+    <message>
+        <source>Forward Finalization Failed</source>
+        <translation type="unfinished">Forward Finalization Failed</translation>
+    </message>
+    <message>
+        <source>Failed to create finalized forward/options contract:\n\n%1</source>
+        <translation type="unfinished">Failed to create finalized forward/options contract:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Taker did not provide a lender receive address.\n\nCannot finalize the offer.</source>
+        <translation type="unfinished">Taker did not provide a lender receive address.\n\nCannot finalize the offer.</translation>
+    </message>
+    <message>
+        <source>Original term sheet is missing maker's borrower address.\n\nCannot finalize.</source>
+        <translation type="unfinished">Original term sheet is missing maker's borrower address.\n\nCannot finalize.</translation>
+    </message>
+    <message>
+        <source>Taker did not provide a borrower repayment address.\n\nCannot finalize the offer.</source>
+        <translation type="unfinished">Taker did not provide a borrower repayment address.\n\nCannot finalize the offer.</translation>
+    </message>
+    <message>
+        <source>Original term sheet is missing maker's lender address.\n\nCannot finalize.</source>
+        <translation type="unfinished">Original term sheet is missing maker's lender address.\n\nCannot finalize.</translation>
+    </message>
+    <message>
+        <source>Maker role is unknown or invalid.\n\nCannot finalize.</source>
+        <translation type="unfinished">Maker role is unknown or invalid.\n\nCannot finalize.</translation>
+    </message>
+    <message>
+        <source>Failed to create finalized offer:\n\n%1</source>
+        <translation type="unfinished">Failed to create finalized offer:\n\n%1</translation>
+    </message>
+    <message>
+        <source>(handshaking...)</source>
+        <translation type="unfinished">(handshaking...)</translation>
+    </message>
+    <message>
+        <source>Failed to accept trade request: %1</source>
+        <translation type="unfinished">Failed to accept trade request: %1</translation>
+    </message>
+    <message>
+        <source>Reject</source>
+        <translation type="unfinished">Reject</translation>
+    </message>
+    <message>
+        <source>Request Rejected</source>
+        <translation type="unfinished">Request Rejected</translation>
+    </message>
+    <message>
+        <source>Trade request was rejected.</source>
+        <translation type="unfinished">Trade request was rejected.</translation>
+    </message>
+    <message>
+        <source>Failed to reject trade request.</source>
+        <translation type="unfinished">Failed to reject trade request.</translation>
+    </message>
+    <message>
+        <source>Cancel Trade Request</source>
+        <translation type="unfinished">Cancel Trade Request</translation>
+    </message>
+    <message>
+        <source>Cancel trade request %1?\n\nOffer: %2</source>
+        <translation type="unfinished">Cancel trade request %1?\n\nOffer: %2</translation>
+    </message>
+    <message>
+        <source>Request Cancelled</source>
+        <translation type="unfinished">Request Cancelled</translation>
+    </message>
+    <message>
+        <source>Trade request was cancelled successfully.</source>
+        <translation type="unfinished">Trade request was cancelled successfully.</translation>
+    </message>
+    <message>
+        <source>Cancellation Failed</source>
+        <translation type="unfinished">Cancellation Failed</translation>
+    </message>
+    <message>
+        <source>Failed to cancel trade request. It may have already been accepted or processed.</source>
+        <translation type="unfinished">Failed to cancel trade request. It may have already been accepted or processed.</translation>
+    </message>
+    <message>
+        <source>Join Session</source>
+        <translation type="unfinished">Join Session</translation>
+    </message>
+    <message>
+        <source>Session Joined</source>
+        <translation type="unfinished">Session Joined</translation>
+    </message>
+    <message>
+        <source>Failed to join session: %1</source>
+        <translation type="unfinished">Failed to join session: %1</translation>
+    </message>
+    <message>
+        <source>Auto-Join Failed</source>
+        <translation type="unfinished">Auto-Join Failed</translation>
+    </message>
+    <message>
+        <source>%1s ago</source>
+        <translation type="unfinished">%1s ago</translation>
+    </message>
+    <message>
+        <source>%1m ago</source>
+        <translation type="unfinished">%1m ago</translation>
+    </message>
+    <message>
+        <source>%1h ago</source>
+        <translation type="unfinished">%1h ago</translation>
+    </message>
+    <message>
+        <source>%1d ago</source>
+        <translation type="unfinished">%1d ago</translation>
+    </message>
+    <message>
+        <source>Offer %1</source>
+        <translation type="unfinished">Offer %1</translation>
+    </message>
+    <message>
+        <source>Offer (unknown)</source>
+        <translation type="unfinished">Offer (unknown)</translation>
+    </message>
+    <message>
+        <source>Repo: %1 %2 ↔ %3 %4</source>
+        <translation type="unfinished">Repo: %1 %2 ↔ %3 %4</translation>
+    </message>
+    <message>
+        <source>Repo Contract</source>
+        <translation type="unfinished">Repo Contract</translation>
+    </message>
+    <message>
+        <source>Option: %1 %2 ↔ %3 %4 + %5 premium</source>
+        <translation type="unfinished">Option: %1 %2 ↔ %3 %4 + %5 premium</translation>
+    </message>
+    <message>
+        <source>Option: %1 %2 ↔ %3 %4</source>
+        <translation type="unfinished">Option: %1 %2 ↔ %3 %4</translation>
+    </message>
+    <message>
+        <source>Forward: %1 %2 ↔ %3 %4 (IM: %5 + %6)</source>
+        <translation type="unfinished">Forward: %1 %2 ↔ %3 %4 (IM: %5 + %6)</translation>
+    </message>
+    <message>
+        <source>Forward: %1 %2 ↔ %3 %4</source>
+        <translation type="unfinished">Forward: %1 %2 ↔ %3 %4</translation>
+    </message>
+    <message>
+        <source>%1 Contract</source>
+        <translation type="unfinished">%1 Contract</translation>
+    </message>
+    <message>
+        <source>Spot: %1 %2 ↔ %3 %4</source>
+        <translation type="unfinished">Spot: %1 %2 ↔ %3 %4</translation>
+    </message>
+    <message>
+        <source>Spot Contract</source>
+        <translation type="unfinished">Spot Contract</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation type="unfinished">Pending</translation>
+    </message>
+    <message>
+        <source>Accepted (invite expired)</source>
+        <translation type="unfinished">Accepted (invite expired)</translation>
+    </message>
+    <message>
+        <source>%1s left</source>
+        <translation type="unfinished">%1s left</translation>
+    </message>
+    <message>
+        <source>%1m left</source>
+        <translation type="unfinished">%1m left</translation>
+    </message>
+    <message>
+        <source>%1h left</source>
+        <translation type="unfinished">%1h left</translation>
+    </message>
+    <message>
+        <source>Accepted (%1)</source>
+        <translation type="unfinished">Accepted (%1)</translation>
+    </message>
+    <message>
+        <source>Accepted (invite ready)</source>
+        <translation type="unfinished">Accepted (invite ready)</translation>
+    </message>
+    <message>
+        <source>Accepted</source>
+        <translation type="unfinished">Accepted</translation>
+    </message>
+    <message>
+        <source>Rejected</source>
+        <translation type="unfinished">Rejected</translation>
+    </message>
+    <message>
+        <source>Cancelled</source>
+        <translation type="unfinished">Cancelled</translation>
+    </message>
+    <message>
+        <source>augmented_psbt check</source>
+        <translation type="unfinished">augmented_psbt check</translation>
+    </message>
+    <message>
+        <source>Invalid augmented PSBT</source>
+        <translation type="unfinished">Invalid augmented PSBT</translation>
+    </message>
+    <message>
+        <source>base_psbt check</source>
+        <translation type="unfinished">base_psbt check</translation>
+    </message>
+    <message>
+        <source>Invalid PSBT from maker</source>
+        <translation type="unfinished">Invalid PSBT from maker</translation>
+    </message>
+    <message>
+        <source>contract type</source>
+        <translation type="unfinished">contract type</translation>
+    </message>
+    <message>
+        <source>Unable to determine contract type</source>
+        <translation type="unfinished">Unable to determine contract type</translation>
+    </message>
+    <message>
+        <source>Ceremony Preparation Failed</source>
+        <translation type="unfinished">Ceremony Preparation Failed</translation>
+    </message>
+    <message>
+        <source>Cannot determine if this is a repo or forward contract.\n\nContract ID: %1</source>
+        <translation type="unfinished">Cannot determine if this is a repo or forward contract.\n\nContract ID: %1</translation>
+    </message>
+    <message>
+        <source>RPC mismatch</source>
+        <translation type="unfinished">RPC mismatch</translation>
+    </message>
+    <message>
+        <source>Internal error: contract type mismatch</source>
+        <translation type="unfinished">Internal error: contract type mismatch</translation>
+    </message>
+    <message>
+        <source>Internal error: attempted to use forward RPC for %1 contract</source>
+        <translation type="unfinished">Internal error: attempted to use forward RPC for %1 contract</translation>
+    </message>
+    <message>
+        <source>augment base</source>
+        <translation type="unfinished">augment base</translation>
+    </message>
+    <message>
+        <source>Could not add your funding to the forward opening transaction:\n\n%1</source>
+        <translation type="unfinished">Could not add your funding to the forward opening transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>build atomic</source>
+        <translation type="unfinished">build atomic</translation>
+    </message>
+    <message>
+        <source>Could not build the atomic swap transaction:\n\n%1</source>
+        <translation type="unfinished">Could not build the atomic swap transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Internal error: attempted to use repo RPC for %1 contract</source>
+        <translation type="unfinished">Internal error: attempted to use repo RPC for %1 contract</translation>
+    </message>
+    <message>
+        <source>Could not add your funding to the opening transaction:\n\n%1</source>
+        <translation type="unfinished">Could not add your funding to the opening transaction:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Your augmented PSBT does not include any inputs this wallet can sign.\n\n%1</source>
+        <translation type="unfinished">Your augmented PSBT does not include any inputs this wallet can sign.\n\n%1</translation>
+    </message>
+    <message>
+        <source>send base</source>
+        <translation type="unfinished">send base</translation>
+    </message>
+    <message>
+        <source>Parse Error</source>
+        <translation type="unfinished">Parse Error</translation>
+    </message>
+    <message>
+        <source>Failed to parse finalized offer JSON:\n%1</source>
+        <translation type="unfinished">Failed to parse finalized offer JSON:\n%1</translation>
+    </message>
+    <message>
+        <source>Finalized offer is missing offer ID.</source>
+        <translation type="unfinished">Finalized offer is missing offer ID.</translation>
+    </message>
+    <message>
+        <source>Unknown Request</source>
+        <translation type="unfinished">Unknown Request</translation>
+    </message>
+    <message>
+        <source>Received finalized offer for unknown request %1.\n\nPlease refresh the Trade Board.</source>
+        <translation type="unfinished">Received finalized offer for unknown request %1.\n\nPlease refresh the Trade Board.</translation>
+    </message>
+    <message>
+        <source>Unknown Contract</source>
+        <translation type="unfinished">Unknown Contract</translation>
+    </message>
+    <message>
+        <source>The finalized offer %1 did not include a contract type. Please refresh the Trade Board.</source>
+        <translation type="unfinished">The finalized offer %1 did not include a contract type. Please refresh the Trade Board.</translation>
+    </message>
+    <message>
+        <source>Final Contract JSON</source>
+        <translation type="unfinished">Final Contract JSON</translation>
+    </message>
+    <message>
+        <source>Accept &amp;&amp; Send to Maker</source>
+        <translation type="unfinished">Accept &amp;&amp; Send to Maker</translation>
+    </message>
+    <message>
+        <source>Decline</source>
+        <translation type="unfinished">Decline</translation>
+    </message>
+    <message>
+        <source>Ownership Validation Failed</source>
+        <translation type="unfinished">Ownership Validation Failed</translation>
+    </message>
+    <message>
+        <source>Your contract address is not owned by this wallet. Update settings to allow external addresses or fix the address.</source>
+        <translation type="unfinished">Your contract address is not owned by this wallet. Update settings to allow external addresses or fix the address.</translation>
+    </message>
+    <message>
+        <source>Importing finalized contract %1 and transmitting your acceptance...</source>
+        <translation type="unfinished">Importing finalized contract %1 and transmitting your acceptance...</translation>
+    </message>
+    <message>
+        <source>Sending Acceptance</source>
+        <translation type="unfinished">Sending Acceptance</translation>
+    </message>
+    <message>
+        <source>Internal watcher disposed</source>
+        <translation type="unfinished">Internal watcher disposed</translation>
+    </message>
+    <message>
+        <source>Acceptance Sent</source>
+        <translation type="unfinished">Acceptance Sent</translation>
+    </message>
+    <message>
+        <source>Your funding could not be used for the ceremony because no signable inputs were found.\n\n%1</source>
+        <translation type="unfinished">Your funding could not be used for the ceremony because no signable inputs were found.\n\n%1</translation>
+    </message>
+    <message>
+        <source>Offer Accepted</source>
+        <translation type="unfinished">Offer Accepted</translation>
+    </message>
+    <message>
+        <source>Failed to import finalized offer:\n\n%1</source>
+        <translation type="unfinished">Failed to import finalized offer:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to accept offer:\n\n%1</source>
+        <translation type="unfinished">Failed to accept offer:\n\n%1</translation>
+    </message>
+    <message>
+        <source>The acceptance RPC did not return the required 'acceptance' field.</source>
+        <translation type="unfinished">The acceptance RPC did not return the required 'acceptance' field.</translation>
+    </message>
+    <message>
+        <source>Failed to parse acceptance payload:\n\n%1</source>
+        <translation type="unfinished">Failed to parse acceptance payload:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Unexpected acceptance payload error.</source>
+        <translation type="unfinished">Unexpected acceptance payload error.</translation>
+    </message>
+    <message>
+        <source>Failed to send acceptance to maker:\n\n%1</source>
+        <translation type="unfinished">Failed to send acceptance to maker:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Acceptance failed due to an unexpected error:\n\n%1</source>
+        <translation type="unfinished">Acceptance failed due to an unexpected error:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Acceptance Failed</source>
+        <translation type="unfinished">Acceptance Failed</translation>
+    </message>
+    <message>
+        <source>Importing taker acceptance and preparing ceremony invite...</source>
+        <translation type="unfinished">Importing taker acceptance and preparing ceremony invite...</translation>
+    </message>
+    <message>
+        <source>Confirming Acceptance</source>
+        <translation type="unfinished">Confirming Acceptance</translation>
+    </message>
+    <message>
+        <source>Failed to import taker's acceptance:\n\n%1</source>
+        <translation type="unfinished">Failed to import taker's acceptance:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to send ceremony invite to taker:\n\n%1</source>
+        <translation type="unfinished">Failed to send ceremony invite to taker:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Opening ceremony could not be started:\n\n%1</source>
+        <translation type="unfinished">Opening ceremony could not be started:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Ceremony Not Started</source>
+        <translation type="unfinished">Ceremony Not Started</translation>
+    </message>
+    <message>
+        <source>Contract Type Error</source>
+        <translation type="unfinished">Contract Type Error</translation>
+    </message>
+    <message>
+        <source>Import Failed</source>
+        <translation type="unfinished">Import Failed</translation>
+    </message>
+    <message>
+        <source>Failed to import taker's forward acceptance:\n\n%1</source>
+        <translation type="unfinished">Failed to import taker's forward acceptance:\n\n%1</translation>
+    </message>
+    <message>
+        <source>RPC Mismatch</source>
+        <translation type="unfinished">RPC Mismatch</translation>
+    </message>
+    <message>
+        <source>Build Base PSBT Failed</source>
+        <translation type="unfinished">Build Base PSBT Failed</translation>
+    </message>
+    <message>
+        <source>Failed to build forward opening PSBT:\n\n%1</source>
+        <translation type="unfinished">Failed to build forward opening PSBT:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to build maker's base PSBT:\n\n%1</source>
+        <translation type="unfinished">Failed to build maker's base PSBT:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Send Base PSBT Failed</source>
+        <translation type="unfinished">Send Base PSBT Failed</translation>
+    </message>
+    <message>
+        <source>Failed to send maker's base PSBT to taker:\n\n%1</source>
+        <translation type="unfinished">Failed to send maker's base PSBT to taker:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Session Dropped</source>
+        <translation type="unfinished">Session Dropped</translation>
+    </message>
+    <message>
+        <source>Manual Action Required</source>
+        <translation type="unfinished">Manual Action Required</translation>
+    </message>
+    <message>
+        <source>Reconnect Failed</source>
+        <translation type="unfinished">Reconnect Failed</translation>
+    </message>
+    <message>
+        <source>Manual Intervention Required</source>
+        <translation type="unfinished">Manual Intervention Required</translation>
+    </message>
+    <message>
+        <source>Session Recovery Failed</source>
+        <translation type="unfinished">Session Recovery Failed</translation>
+    </message>
+    <message>
+        <source>Could not create a replacement session:\n\n%1</source>
+        <translation type="unfinished">Could not create a replacement session:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to parse acceptance JSON:\n%1</source>
+        <translation type="unfinished">Failed to parse acceptance JSON:\n%1</translation>
+    </message>
+    <message>
+        <source>Invalid Acceptance</source>
+        <translation type="unfinished">Invalid Acceptance</translation>
+    </message>
+    <message>
+        <source>Acceptance is missing offer ID.</source>
+        <translation type="unfinished">Acceptance is missing offer ID.</translation>
+    </message>
+    <message>
+        <source>Received acceptance for unknown request %1.\n\nPlease refresh the Trade Board.</source>
+        <translation type="unfinished">Received acceptance for unknown request %1.\n\nPlease refresh the Trade Board.</translation>
+    </message>
+    <message>
+        <source>Acceptance JSON</source>
+        <translation type="unfinished">Acceptance JSON</translation>
+    </message>
+    <message>
+        <source>View Acceptance JSON</source>
+        <translation type="unfinished">View Acceptance JSON</translation>
+    </message>
+    <message>
+        <source>Confirm &amp;&amp; Launch Ceremony</source>
+        <translation type="unfinished">Confirm &amp;&amp; Launch Ceremony</translation>
+    </message>
+    <message>
+        <source>Dialog Error</source>
+        <translation type="unfinished">Dialog Error</translation>
+    </message>
+    <message>
+        <source>Failed to display confirmation dialog:\n\n%1</source>
+        <translation type="unfinished">Failed to display confirmation dialog:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to display confirmation dialog due to an internal error.</source>
+        <translation type="unfinished">Failed to display confirmation dialog due to an internal error.</translation>
+    </message>
+    <message>
+        <source>Ceremony completed successfully</source>
+        <translation type="unfinished">Ceremony completed successfully</translation>
+    </message>
+    <message>
+        <source>Decoded PSBT missing unsigned transaction</source>
+        <translation type="unfinished">Decoded PSBT missing unsigned transaction</translation>
+    </message>
+    <message>
+        <source>Peer PSBT contains unsigned non-Taproot funding inputs that this wallet cannot sign (%1)</source>
+        <translation type="unfinished">Peer PSBT contains unsigned non-Taproot funding inputs that this wallet cannot sign (%1)</translation>
+    </message>
+    <message>
+        <source>%1 failed: %2</source>
+        <translation type="unfinished">%1 failed: %2</translation>
+    </message>
+    <message>
+        <source>Ceremony cancelled by user</source>
+        <translation type="unfinished">Ceremony cancelled by user</translation>
+    </message>
+    <message>
+        <source>Using staged peer PSBT for %1</source>
+        <translation type="unfinished">Using staged peer PSBT for %1</translation>
+    </message>
+    <message>
+        <source>Retrieved buffered %1 from peer (type=%2)</source>
+        <translation type="unfinished">Retrieved buffered %1 from peer (type=%2)</translation>
+    </message>
+    <message>
+        <source>Waiting for %1 (buffered: %2)</source>
+        <translation type="unfinished">Waiting for %1 (buffered: %2)</translation>
+    </message>
+    <message>
+        <source>Unwrapped response envelope for %1</source>
+        <translation type="unfinished">Unwrapped response envelope for %1</translation>
+    </message>
+    <message>
+        <source>Buffering out-of-order message type=%1 (expecting %2)</source>
+        <translation type="unfinished">Buffering out-of-order message type=%1 (expecting %2)</translation>
+    </message>
+    <message>
+        <source>Received %1 from peer (type=%2)</source>
+        <translation type="unfinished">Received %1 from peer (type=%2)</translation>
+    </message>
+    <message>
+        <source>payload missing PSBT</source>
+        <translation type="unfinished">payload missing PSBT</translation>
+    </message>
+    <message>
+        <source>timeout waiting for peer</source>
+        <translation type="unfinished">timeout waiting for peer</translation>
+    </message>
+    <message>
+        <source>timeout waiting for peer (%1)</source>
+        <translation type="unfinished">timeout waiting for peer (%1)</translation>
+    </message>
+    <message>
+        <source>Drained %1 buffered message(s) between phases: %2</source>
+        <translation type="unfinished">Drained %1 buffered message(s) between phases: %2</translation>
+    </message>
+    <message>
+        <source>Synchronizing base PSBT with peer</source>
+        <translation type="unfinished">Synchronizing base PSBT with peer</translation>
+    </message>
+    <message>
+        <source>Phase 0 - synchronizing base PSBTs</source>
+        <translation type="unfinished">Phase 0 - synchronizing base PSBTs</translation>
+    </message>
+    <message>
+        <source>Maker base PSBT is missing</source>
+        <translation type="unfinished">Maker base PSBT is missing</translation>
+    </message>
+    <message>
+        <source>Cached augmented PSBT is missing</source>
+        <translation type="unfinished">Cached augmented PSBT is missing</translation>
+    </message>
+    <message>
+        <source>PSBT send</source>
+        <translation type="unfinished">PSBT send</translation>
+    </message>
+    <message>
+        <source>PSBT receive</source>
+        <translation type="unfinished">PSBT receive</translation>
+    </message>
+    <message>
+        <source>PSBT decode</source>
+        <translation type="unfinished">PSBT decode</translation>
+    </message>
+    <message>
+        <source>PSBT immutability violation: taker's augmented PSBT is missing maker input %1</source>
+        <translation type="unfinished">PSBT immutability violation: taker's augmented PSBT is missing maker input %1</translation>
+    </message>
+    <message>
+        <source>maker base verify</source>
+        <translation type="unfinished">maker base verify</translation>
+    </message>
+    <message>
+        <source>PSBT immutability violation: merged PSBT hash differs from taker's locked hash</source>
+        <translation type="unfinished">PSBT immutability violation: merged PSBT hash differs from taker's locked hash</translation>
+    </message>
+    <message>
+        <source>PSBT immutability violation: maker's PSBT differs from cached base</source>
+        <translation type="unfinished">PSBT immutability violation: maker's PSBT differs from cached base</translation>
+    </message>
+    <message>
+        <source>PSBT construction error: augmented PSBT is missing maker input %1</source>
+        <translation type="unfinished">PSBT construction error: augmented PSBT is missing maker input %1</translation>
+    </message>
+    <message>
+        <source>✓ Phase 0 complete - base PSBTs synchronized</source>
+        <translation type="unfinished">✓ Phase 0 complete - base PSBTs synchronized</translation>
+    </message>
+    <message>
+        <source>Performing BIP-322 attestation</source>
+        <translation type="unfinished">Performing BIP-322 attestation</translation>
+    </message>
+    <message>
+        <source>Phase 1 - BIP-322 peer attestation</source>
+        <translation type="unfinished">Phase 1 - BIP-322 peer attestation</translation>
+    </message>
+    <message>
+        <source>Cannot determine address for BIP-322 attestation</source>
+        <translation type="unfinished">Cannot determine address for BIP-322 attestation</translation>
+    </message>
+    <message>
+        <source>attestation challenge</source>
+        <translation type="unfinished">attestation challenge</translation>
+    </message>
+    <message>
+        <source>Received BIP-322 challenge</source>
+        <translation type="unfinished">Received BIP-322 challenge</translation>
+    </message>
+    <message>
+        <source>Wallet unlock required to sign BIP-322 challenge</source>
+        <translation type="unfinished">Wallet unlock required to sign BIP-322 challenge</translation>
+    </message>
+    <message>
+        <source>Failed to sign BIP-322 challenge</source>
+        <translation type="unfinished">Failed to sign BIP-322 challenge</translation>
+    </message>
+    <message>
+        <source>Signed BIP-322 challenge</source>
+        <translation type="unfinished">Signed BIP-322 challenge</translation>
+    </message>
+    <message>
+        <source>attestation verification</source>
+        <translation type="unfinished">attestation verification</translation>
+    </message>
+    <message>
+        <source>verification failed</source>
+        <translation type="unfinished">verification failed</translation>
+    </message>
+    <message>
+        <source>✓ Phase 1 complete - Peer identity attested via BIP-322</source>
+        <translation type="unfinished">✓ Phase 1 complete - Peer identity attested via BIP-322</translation>
+    </message>
+    <message>
+        <source>BIP-322 signing failed: UniValue exception</source>
+        <translation type="unfinished">BIP-322 signing failed: UniValue exception</translation>
+    </message>
+    <message>
+        <source>BIP-322 signing failed: %1</source>
+        <translation type="unfinished">BIP-322 signing failed: %1</translation>
+    </message>
+    <message>
+        <source>prepare</source>
+        <translation type="unfinished">prepare</translation>
+    </message>
+    <message>
+        <source>Exchanging nonce commitments</source>
+        <translation type="unfinished">Exchanging nonce commitments</translation>
+    </message>
+    <message>
+        <source>Phase 2 - preparing nonces</source>
+        <translation type="unfinished">Phase 2 - preparing nonces</translation>
+    </message>
+    <message>
+        <source>nonce send</source>
+        <translation type="unfinished">nonce send</translation>
+    </message>
+    <message>
+        <source>nonce receive</source>
+        <translation type="unfinished">nonce receive</translation>
+    </message>
+    <message>
+        <source>merge nonces</source>
+        <translation type="unfinished">merge nonces</translation>
+    </message>
+    <message>
+        <source>✓ Phase 2 complete - Nonces merged</source>
+        <translation type="unfinished">✓ Phase 2 complete - Nonces merged</translation>
+    </message>
+    <message>
+        <source>Exchanging partial signatures</source>
+        <translation type="unfinished">Exchanging partial signatures</translation>
+    </message>
+    <message>
+        <source>Phase 3 - creating partial signatures</source>
+        <translation type="unfinished">Phase 3 - creating partial signatures</translation>
+    </message>
+    <message>
+        <source>partial</source>
+        <translation type="unfinished">partial</translation>
+    </message>
+    <message>
+        <source>partial send</source>
+        <translation type="unfinished">partial send</translation>
+    </message>
+    <message>
+        <source>partial receive</source>
+        <translation type="unfinished">partial receive</translation>
+    </message>
+    <message>
+        <source>merge partials</source>
+        <translation type="unfinished">merge partials</translation>
+    </message>
+    <message>
+        <source>✓ Phase 3 complete - Partial signatures merged</source>
+        <translation type="unfinished">✓ Phase 3 complete - Partial signatures merged</translation>
+    </message>
+    <message>
+        <source>Finalizing ceremony</source>
+        <translation type="unfinished">Finalizing ceremony</translation>
+    </message>
+    <message>
+        <source>Phase 4 - completing ceremony</source>
+        <translation type="unfinished">Phase 4 - completing ceremony</translation>
+    </message>
+    <message>
+        <source>complete</source>
+        <translation type="unfinished">complete</translation>
+    </message>
+    <message>
+        <source>complete send</source>
+        <translation type="unfinished">complete send</translation>
+    </message>
+    <message>
+        <source>complete receive</source>
+        <translation type="unfinished">complete receive</translation>
+    </message>
+    <message>
+        <source>merge complete</source>
+        <translation type="unfinished">merge complete</translation>
+    </message>
+    <message>
+        <source>✓ Merged both parties' completed signatures</source>
+        <translation type="unfinished">✓ Merged both parties' completed signatures</translation>
+    </message>
+    <message>
+        <source>Signed remaining wallet inputs</source>
+        <translation type="unfinished">Signed remaining wallet inputs</translation>
+    </message>
+    <message>
+        <source>RPC returned empty PSBT</source>
+        <translation type="unfinished">RPC returned empty PSBT</translation>
+    </message>
+    <message>
+        <source>✓ Phase 4 complete</source>
+        <translation type="unfinished">✓ Phase 4 complete</translation>
+    </message>
+    <message>
+        <source>Ceremony Not Ready</source>
+        <translation type="unfinished">Ceremony Not Ready</translation>
+    </message>
+    <message>
+        <source>Maker's base PSBT is missing. Cannot start ceremony.</source>
+        <translation type="unfinished">Maker's base PSBT is missing. Cannot start ceremony.</translation>
+    </message>
+    <message>
+        <source>Taker's augmented PSBT is missing. Wait for the taker to send ceremony_ready again.</source>
+        <translation type="unfinished">Taker's augmented PSBT is missing. Wait for the taker to send ceremony_ready again.</translation>
+    </message>
+    <message>
+        <source>Opening Ceremony</source>
+        <translation type="unfinished">Opening Ceremony</translation>
+    </message>
+    <message>
+        <source>Cancel Ceremony</source>
+        <translation type="unfinished">Cancel Ceremony</translation>
+    </message>
+    <message>
+        <source>Cancelling ceremony...</source>
+        <translation type="unfinished">Cancelling ceremony...</translation>
+    </message>
+    <message>
+        <source>Phase 0/4: Synchronizing base PSBT</source>
+        <translation type="unfinished">Phase 0/4: Synchronizing base PSBT</translation>
+    </message>
+    <message>
+        <source>Phase 1/4: BIP-322 peer attestation</source>
+        <translation type="unfinished">Phase 1/4: BIP-322 peer attestation</translation>
+    </message>
+    <message>
+        <source>Phase 2/4: Exchanging nonce commitments</source>
+        <translation type="unfinished">Phase 2/4: Exchanging nonce commitments</translation>
+    </message>
+    <message>
+        <source>Phase 3/4: Exchanging partial signatures</source>
+        <translation type="unfinished">Phase 3/4: Exchanging partial signatures</translation>
+    </message>
+    <message>
+        <source>Phase 4/4: Finalizing transaction</source>
+        <translation type="unfinished">Phase 4/4: Finalizing transaction</translation>
+    </message>
+    <message>
+        <source>Ceremony Cancelled</source>
+        <translation type="unfinished">Ceremony Cancelled</translation>
+    </message>
+    <message>
+        <source>Opening ceremony was cancelled. You can restart it from the Trade Board when ready.</source>
+        <translation type="unfinished">Opening ceremony was cancelled. You can restart it from the Trade Board when ready.</translation>
+    </message>
+    <message>
+        <source>Ceremony Failed</source>
+        <translation type="unfinished">Ceremony Failed</translation>
+    </message>
+    <message>
+        <source>Ceremony Result Missing</source>
+        <translation type="unfinished">Ceremony Result Missing</translation>
+    </message>
+    <message>
+        <source>Signing Failed</source>
+        <translation type="unfinished">Signing Failed</translation>
+    </message>
+    <message>
+        <source>Refusing to broadcast: sighash ANYONECANPAY detected in PSBT inputs (input %1).</source>
+        <translation type="unfinished">Refusing to broadcast: sighash ANYONECANPAY detected in PSBT inputs (input %1).</translation>
+    </message>
+    <message>
+        <source>Broadcast Failed</source>
+        <translation type="unfinished">Broadcast Failed</translation>
+    </message>
+    <message>
+        <source>Session aborted by user in SAS dialog</source>
+        <translation type="unfinished">Session aborted by user in SAS dialog</translation>
+    </message>
+    <message>
+        <source>Send Failed</source>
+        <translation type="unfinished">Send Failed</translation>
+    </message>
+    <message>
+        <source>Failed to deliver finalized offer to taker:\n\n%1</source>
+        <translation type="unfinished">Failed to deliver finalized offer to taker:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Session Reconnected</source>
+        <translation type="unfinished">Session Reconnected</translation>
+    </message>
+    <message>
+        <source>Handshake Failed</source>
+        <translation type="unfinished">Handshake Failed</translation>
+    </message>
+    <message>
+        <source>Acceptance Retry Failed</source>
+        <translation type="unfinished">Acceptance Retry Failed</translation>
+    </message>
+    <message>
+        <source>Failed to re-send acceptance:\n\n%1</source>
+        <translation type="unfinished">Failed to re-send acceptance:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to parse ceremony invitation:\n%1</source>
+        <translation type="unfinished">Failed to parse ceremony invitation:\n%1</translation>
+    </message>
+    <message>
+        <source>Invalid Invitation</source>
+        <translation type="unfinished">Invalid Invitation</translation>
+    </message>
+    <message>
+        <source>Ceremony invitation is missing offer ID.</source>
+        <translation type="unfinished">Ceremony invitation is missing offer ID.</translation>
+    </message>
+    <message>
+        <source>Opening ceremony cannot start because the session state is missing. Please retry the invite.</source>
+        <translation type="unfinished">Opening ceremony cannot start because the session state is missing. Please retry the invite.</translation>
+    </message>
+    <message>
+        <source>Maker's base PSBT is missing. Cannot proceed with ceremony.</source>
+        <translation type="unfinished">Maker's base PSBT is missing. Cannot proceed with ceremony.</translation>
+    </message>
+    <message>
+        <source>Contract Type Unknown</source>
+        <translation type="unfinished">Contract Type Unknown</translation>
+    </message>
+    <message>
+        <source>Cannot determine contract type for %1.\n\nPlease refresh the Trade Board.</source>
+        <translation type="unfinished">Cannot determine contract type for %1.\n\nPlease refresh the Trade Board.</translation>
+    </message>
+    <message>
+        <source>Augmentation Failed</source>
+        <translation type="unfinished">Augmentation Failed</translation>
+    </message>
+    <message>
+        <source>Failed to augment maker's forward base PSBT:\n\n%1</source>
+        <translation type="unfinished">Failed to augment maker's forward base PSBT:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to build spot atomic swap PSBT:\n\n%1</source>
+        <translation type="unfinished">Failed to build spot atomic swap PSBT:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to augment maker's repo base PSBT:\n\n%1</source>
+        <translation type="unfinished">Failed to augment maker's repo base PSBT:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Non-Taproot Funding Detected</source>
+        <translation type="unfinished">Non-Taproot Funding Detected</translation>
+    </message>
+    <message>
+        <source>Use Taproot Only</source>
+        <translation type="unfinished">Use Taproot Only</translation>
+    </message>
+    <message>
+        <source>Pre-sign and Continue</source>
+        <translation type="unfinished">Pre-sign and Continue</translation>
+    </message>
+    <message>
+        <source>Taproot Funding Required</source>
+        <translation type="unfinished">Taproot Funding Required</translation>
+    </message>
+    <message>
+        <source>Failed to sign your non-Taproot funding inputs:\n\n%1</source>
+        <translation type="unfinished">Failed to sign your non-Taproot funding inputs:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Communication Error</source>
+        <translation type="unfinished">Communication Error</translation>
+    </message>
+    <message>
+        <source>Failed to notify maker that you're ready:\n\n%1</source>
+        <translation type="unfinished">Failed to notify maker that you're ready:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Ceremony Complete</source>
+        <translation type="unfinished">Ceremony Complete</translation>
+    </message>
+    <message>
+        <source>ERROR: Failed to parse contract offer JSON</source>
+        <translation type="unfinished">ERROR: Failed to parse contract offer JSON</translation>
+    </message>
+    <message>
+        <source>ERROR: Cannot determine contract type</source>
+        <translation type="unfinished">ERROR: Cannot determine contract type</translation>
+    </message>
+    <message>
+        <source>(not set)</source>
+        <translation type="unfinished">(not set)</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Contract Type:&lt;/b&gt; Repo Contract&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Contract Type:&lt;/b&gt; Repo Contract&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Your Role:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Your Role:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Principal:&lt;/b&gt; %1 %2&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Principal:&lt;/b&gt; %1 %2&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Collateral:&lt;/b&gt; %1 %2&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Collateral:&lt;/b&gt; %1 %2&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Interest:&lt;/b&gt; %1 %2&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Interest:&lt;/b&gt; %1 %2&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;APR:&lt;/b&gt; %1%&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;APR:&lt;/b&gt; %1%&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;LTV:&lt;/b&gt; %1%&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;LTV:&lt;/b&gt; %1%&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Tenor:&lt;/b&gt; %1 days&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Tenor:&lt;/b&gt; %1 days&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Maturity Height:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Maturity Height:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Your Receive Address:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Your Receive Address:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Borrower Repay Address:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Borrower Repay Address:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Your Refund Address:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Your Refund Address:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Lender Repay-to Address:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Lender Repay-to Address:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Contract Type:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Contract Type:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Options Contract</source>
+        <translation type="unfinished">Options Contract</translation>
+    </message>
+    <message>
+        <source>Forward Contract</source>
+        <translation type="unfinished">Forward Contract</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Your Role:&lt;/b&gt; %1 Party&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Your Role:&lt;/b&gt; %1 Party&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;You Deliver:&lt;/b&gt; %1 %2&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;You Deliver:&lt;/b&gt; %1 %2&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;You Receive:&lt;/b&gt; %1 %2&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;You Receive:&lt;/b&gt; %1 %2&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Your Initial Margin:&lt;/b&gt; %1 %2 (%3%)&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Your Initial Margin:&lt;/b&gt; %1 %2 (%3%)&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Your Margin Destination:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Your Margin Destination:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Your Settlement Receive:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Your Settlement Receive:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Your Settlement Deadline:&lt;/b&gt; Block %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Your Settlement Deadline:&lt;/b&gt; Block %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Premium:&lt;/b&gt; %1 %2 (%3)&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Premium:&lt;/b&gt; %1 %2 (%3)&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>you pay</source>
+        <translation type="unfinished">you pay</translation>
+    </message>
+    <message>
+        <source>you receive</source>
+        <translation type="unfinished">you receive</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Contract Type:&lt;/b&gt; Spot Swap&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Contract Type:&lt;/b&gt; Spot Swap&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>Alice</source>
+        <translation type="unfinished">Alice</translation>
+    </message>
+    <message>
+        <source>Bob</source>
+        <translation type="unfinished">Bob</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;You Send:&lt;/b&gt; %1 %2&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;You Send:&lt;/b&gt; %1 %2&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Unknown contract type:&lt;/b&gt; %1</source>
+        <translation type="unfinished">&lt;b&gt;Unknown contract type:&lt;/b&gt; %1</translation>
+    </message>
+    <message>
+        <source>Proof of Funds (Alice sends %1 %2): Available %3 %2 — %4</source>
+        <translation type="unfinished">Proof of Funds (Alice sends %1 %2): Available %3 %2 — %4</translation>
+    </message>
+    <message>
+        <source>✓ VERIFIED</source>
+        <translation type="unfinished">✓ VERIFIED</translation>
+    </message>
+    <message>
+        <source>✗ INSUFFICIENT</source>
+        <translation type="unfinished">✗ INSUFFICIENT</translation>
+    </message>
+    <message>
+        <source>Proof of Funds (Bob sends %1 %2): Available %3 %2 — %4</source>
+        <translation type="unfinished">Proof of Funds (Bob sends %1 %2): Available %3 %2 — %4</translation>
+    </message>
+    <message>
+        <source>⚠ Address verification failed - review addresses manually</source>
+        <translation type="unfinished">⚠ Address verification failed - review addresses manually</translation>
+    </message>
+    <message>
+        <source>Acceptance Parse Error</source>
+        <translation type="unfinished">Acceptance Parse Error</translation>
+    </message>
+    <message>
+        <source>Failed to parse acceptance JSON:\n\n%1</source>
+        <translation type="unfinished">Failed to parse acceptance JSON:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Build Failed</source>
+        <translation type="unfinished">Build Failed</translation>
+    </message>
+    <message>
+        <source>Ceremony Invited</source>
+        <translation type="unfinished">Ceremony Invited</translation>
+    </message>
+    <message>
+        <source>Contract terms unavailable. Please refresh the Trade Board.</source>
+        <translation type="unfinished">Contract terms unavailable. Please refresh the Trade Board.</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;You Borrow:&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;You Borrow:&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;You Pledge as Collateral:&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;You Pledge as Collateral:&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;You Repay:&lt;/b&gt; %1 %2 (principal + interest)</source>
+        <translation type="unfinished">&lt;b&gt;You Repay:&lt;/b&gt; %1 %2 (principal + interest)</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;You Repay (Principal):&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;You Repay (Principal):&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;You Repay (Interest):&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;You Repay (Interest):&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;You Lend:&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;You Lend:&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Borrower Pledges:&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;Borrower Pledges:&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Borrower Repays:&lt;/b&gt; %1 %2 (principal + interest)</source>
+        <translation type="unfinished">&lt;b&gt;Borrower Repays:&lt;/b&gt; %1 %2 (principal + interest)</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Borrower Repays (Principal):&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;Borrower Repays (Principal):&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Borrower Repays (Interest):&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;Borrower Repays (Interest):&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Principal:&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;Principal:&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Interest:&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;Interest:&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Collateral:&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;Collateral:&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;APR:&lt;/b&gt; %1%</source>
+        <translation type="unfinished">&lt;b&gt;APR:&lt;/b&gt; %1%</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;APR (from offer):&lt;/b&gt; %1%</source>
+        <translation type="unfinished">&lt;b&gt;APR (from offer):&lt;/b&gt; %1%</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;APR:&lt;/b&gt; N/A (insufficient price data)</source>
+        <translation type="unfinished">&lt;b&gt;APR:&lt;/b&gt; N/A (insufficient price data)</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;LTV:&lt;/b&gt; %1%</source>
+        <translation type="unfinished">&lt;b&gt;LTV:&lt;/b&gt; %1%</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;LTV:&lt;/b&gt; 0% (no price; implied price: %1 %2 per %3)</source>
+        <translation type="unfinished">&lt;b&gt;LTV:&lt;/b&gt; 0% (no price; implied price: %1 %2 per %3)</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Maturity:&lt;/b&gt; block %1 (~%2 days)</source>
+        <translation type="unfinished">&lt;b&gt;Maturity:&lt;/b&gt; block %1 (~%2 days)</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Your refund/return address:&lt;/b&gt; %1</source>
+        <translation type="unfinished">&lt;b&gt;Your refund/return address:&lt;/b&gt; %1</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Repay to (maker):&lt;/b&gt; %1</source>
+        <translation type="unfinished">&lt;b&gt;Repay to (maker):&lt;/b&gt; %1</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Your repay-to address:&lt;/b&gt; %1</source>
+        <translation type="unfinished">&lt;b&gt;Your repay-to address:&lt;/b&gt; %1</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Borrower refund address:&lt;/b&gt; %1</source>
+        <translation type="unfinished">&lt;b&gt;Borrower refund address:&lt;/b&gt; %1</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;You Post as Initial Margin:&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;You Post as Initial Margin:&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;You Deliver at Maturity:&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;You Deliver at Maturity:&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;You Receive at Maturity:&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;You Receive at Maturity:&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Short Party Posts:&lt;/b&gt; %1 %2 (initial margin)</source>
+        <translation type="unfinished">&lt;b&gt;Short Party Posts:&lt;/b&gt; %1 %2 (initial margin)</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;You Pay Premium:&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;You Pay Premium:&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;You Receive Premium:&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;You Receive Premium:&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Your Initial Margin:&lt;/b&gt; %1%</source>
+        <translation type="unfinished">&lt;b&gt;Your Initial Margin:&lt;/b&gt; %1%</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Long Party Posts:&lt;/b&gt; %1 %2 (initial margin)</source>
+        <translation type="unfinished">&lt;b&gt;Long Party Posts:&lt;/b&gt; %1 %2 (initial margin)</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Long Delivers:&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;Long Delivers:&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Short Delivers:&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;Short Delivers:&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Long Initial Margin:&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;Long Initial Margin:&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Short Initial Margin:&lt;/b&gt; %1 %2</source>
+        <translation type="unfinished">&lt;b&gt;Short Initial Margin:&lt;/b&gt; %1 %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Short Deadline:&lt;/b&gt; block %1 (~%2 days)</source>
+        <translation type="unfinished">&lt;b&gt;Short Deadline:&lt;/b&gt; block %1 (~%2 days)</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Long Deadline:&lt;/b&gt; block %1 (~%2 days)</source>
+        <translation type="unfinished">&lt;b&gt;Long Deadline:&lt;/b&gt; block %1 (~%2 days)</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Your margin refund address:&lt;/b&gt; %1</source>
+        <translation type="unfinished">&lt;b&gt;Your margin refund address:&lt;/b&gt; %1</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Your settlement receive address:&lt;/b&gt; %1</source>
+        <translation type="unfinished">&lt;b&gt;Your settlement receive address:&lt;/b&gt; %1</translation>
+    </message>
+    <message>
+        <source>ETH</source>
+        <translation type="unfinished">ETH</translation>
+    </message>
+    <message>
+        <source>Configure ETH provider and start cross-chain manager</source>
+        <translation type="unfinished">กำหนดค่าผู้ให้บริการ ETH และเริ่มตัวจัดการข้ามเชน</translation>
+    </message>
+    <message>
+        <source>ETH Provider</source>
+        <translation type="unfinished">ผู้ให้บริการ ETH</translation>
+    </message>
+    <message>
+        <source>Enter Ethereum JSON-RPC URL\n(e.g. https://sepolia.infura.io/v3/YOUR_KEY):</source>
+        <translation type="unfinished">ป้อน URL JSON-RPC ของ Ethereum\n(เช่น https://sepolia.infura.io/v3/YOUR_KEY):</translation>
+    </message>
+    <message>
+        <source>Secondary Provider (Optional)</source>
+        <translation type="unfinished">ผู้ให้บริการรอง (ไม่บังคับ)</translation>
+    </message>
+    <message>
+        <source>Enter secondary ETH RPC URL for dual-provider verification\n(leave empty to skip):</source>
+        <translation type="unfinished">ป้อน URL RPC ETH รองสำหรับการยืนยันแบบ dual-provider\n(เว้นว่างเพื่อข้าม):</translation>
+    </message>
+    <message>
+        <source>ETH ●</source>
+        <translation type="unfinished">ETH ●</translation>
+    </message>
+    <message>
+        <source>Manager Started</source>
+        <translation type="unfinished">เริ่มตัวจัดการแล้ว</translation>
+    </message>
+    <message>
+        <source>Cross-chain manager started.\n\nMode: %1\nDual provider: %2\nActive swaps: %3</source>
+        <translation type="unfinished">เริ่มตัวจัดการข้ามเชนแล้ว\n\nโหมด: %1\nDual provider: %2\nการแลกเปลี่ยนที่ใช้งานอยู่: %3</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation type="unfinished">ใช่</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation type="unfinished">ไม่</translation>
+    </message>
+    <message>
+        <source>Manager Failed</source>
+        <translation type="unfinished">ตัวจัดการล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Failed to start cross-chain manager:\n\n%1</source>
+        <translation type="unfinished">ล้มเหลวในการเริ่มตัวจัดการข้ามเชน:\n\n%1</translation>
+    </message>
+    <message>
+        <source>No ETH Profile</source>
+        <translation type="unfinished">ไม่มีโปรไฟล์ ETH</translation>
+    </message>
+    <message>
+        <source>You need an Ethereum settlement profile to accept cross-chain offers.\n\n</source>
+        <translation type="unfinished">คุณต้องมีโปรไฟล์การชำระหนี้ Ethereum เพื่อรับข้อเสนอข้ามเชน\n\n</translation>
+    </message>
+    <message>
+        <source>Cross-Chain Request Sent</source>
+        <translation type="unfinished">ส่งคำขอข้ามเชนแล้ว</translation>
+    </message>
+    <message>
+        <source>Trade request sent for cross-chain offer %1.\n\n</source>
+        <translation type="unfinished">ส่งคำขอซื้อขายสำหรับข้อเสนอข้ามเชน %1 แล้ว\n\n</translation>
+    </message>
+    <message>
+        <source>Not enough TSC for Initial Margin (%1) + premium (%2)\n\n</source>
+        <translation type="unfinished">TSC ไม่เพียงพอสำหรับ Initial Margin (%1) + เบี้ยประกัน (%2)\n\n</translation>
+    </message>
+    <message>
+        <source>Long party's margin address is missing from this finalized offer. </source>
+        <translation type="unfinished">ที่อยู่มาร์จิ้นของฝ่าย Long หายไปจากข้อเสนอที่สรุปแล้วนี้ </translation>
+    </message>
+    <message>
+        <source>Short party's margin address is missing from this finalized offer. </source>
+        <translation type="unfinished">ที่อยู่มาร์จิ้นของฝ่าย Short หายไปจากข้อเสนอที่สรุปแล้วนี้ </translation>
+    </message>
+    <message>
+        <source>Unlocked %1 wallet UTXO(s) and cleared %2 GUI lock(s).\n\n</source>
+        <translation type="unfinished">ปลดล็อค UTXO กระเป๋าเงิน %1 รายการและล้าง GUI lock %2 รายการ\n\n</translation>
+    </message>
+    <message>
+        <source>e.g., TSC or asset ID</source>
+        <translation type="unfinished">เช่น TSC หรือ ID สินทรัพย์</translation>
+    </message>
+    <message>
+        <source>Repo contract offer created!\n\nOffer ID: %1\n\n</source>
+        <translation type="unfinished">สร้างข้อเสนอ Repo contract แล้ว!\n\nรหัสข้อเสนอ: %1\n\n</translation>
+    </message>
+    <message>
+        <source>Forward contract offer created!\n\nOffer ID: %1\n\n</source>
+        <translation type="unfinished">สร้างข้อเสนอ Forward contract แล้ว!\n\nรหัสข้อเสนอ: %1\n\n</translation>
+    </message>
+    <message>
+        <source>Option contract offer created!\n\nOffer ID: %1\n\n</source>
+        <translation type="unfinished">สร้างข้อเสนอ Option contract แล้ว!\n\nรหัสข้อเสนอ: %1\n\n</translation>
+    </message>
+    <message>
+        <source>Spot atomic swap offer created!\n\nOffer ID: %1\n\n</source>
+        <translation type="unfinished">สร้างข้อเสนอ Spot atomic swap แล้ว!\n\nรหัสข้อเสนอ: %1\n\n</translation>
+    </message>
+    <message>
+        <source>Spot swap offer posted to bulletin board!\n\nOffer ID: %1\n\n</source>
+        <translation type="unfinished">โพสต์ข้อเสนอ Spot swap ไปยังกระดานประกาศแล้ว!\n\nรหัสข้อเสนอ: %1\n\n</translation>
+    </message>
+    <message>
+        <source>Cross-chain settlement offer published!\n\nOffer ID: %1\n\n</source>
+        <translation type="unfinished">เผยแพร่ข้อเสนอการชำระหนี้ข้ามเชนแล้ว!\n\nรหัสข้อเสนอ: %1\n\n</translation>
+    </message>
+    <message>
+        <source>-</source>
+        <translation type="unfinished">-</translation>
+    </message>
+    <message>
+        <source>Taker's proof verification FAILED:\n\n%1\n\n</source>
+        <translation type="unfinished">การยืนยันหลักฐานของผู้รับล้มเหลว:\n\n%1\n\n</translation>
+    </message>
+    <message>
+        <source>Taker has INSUFFICIENT funds for this contract:\n\n</source>
+        <translation type="unfinished">ผู้รับมีเงินทุนไม่เพียงพอสำหรับสัญญานี้:\n\n</translation>
+    </message>
+    <message>
+        <source>Successfully joined trade session!\n\n</source>
+        <translation type="unfinished">เข้าร่วมเซสชันการซื้อขายสำเร็จ!\n\n</translation>
+    </message>
+    <message>
+        <source>Could not join trade session: %1\n\n</source>
+        <translation type="unfinished">ไม่สามารถเข้าร่วมเซสชันการซื้อขาย: %1\n\n</translation>
+    </message>
+    <message>
+        <source>%1 • %2 %3 → %4</source>
+        <translation type="unfinished">%1 • %2 %3 → %4</translation>
+    </message>
+    <message>
+        <source>%1 • %2</source>
+        <translation type="unfinished">%1 • %2</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Maker has delivered the finalized contract.&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;ผู้สร้างได้ส่งมอบสัญญาสรุปแล้ว&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Warning:&lt;/b&gt; After you accept, the wallet automatically transmits </source>
+        <translation type="unfinished">&lt;b&gt;คำเตือน:&lt;/b&gt; หลังจากคุณยอมรับ กระเป๋าเงินจะส่งอัตโนมัติ </translation>
+    </message>
+    <message>
+        <source>✓ Acceptance sent to maker.\n\n</source>
+        <translation type="unfinished">✓ ส่งการยอมรับถึงผู้สร้างแล้ว\n\n</translation>
+    </message>
+    <message>
+        <source>The cosign session was lost while attempting to send your acceptance.\n\n</source>
+        <translation type="unfinished">เซสชันการลงนามร่วมหายไปขณะพยายามส่งการยอมรับของคุณ\n\n</translation>
+    </message>
+    <message>
+        <source>Spot contracts cannot be accepted via this flow.\n\n</source>
+        <translation type="unfinished">ไม่สามารถยอมรับสัญญา Spot ผ่านกระบวนการนี้\n\n</translation>
+    </message>
+    <message>
+        <source>The cosign session was lost while notifying the taker to start the ceremony.\n\n</source>
+        <translation type="unfinished">เซสชันการลงนามร่วมหายไปขณะแจ้งผู้รับให้เริ่มพิธีกรรม\n\n</translation>
+    </message>
+    <message>
+        <source>Cannot determine contract type for contract %1</source>
+        <translation type="unfinished">ไม่สามารถกำหนดประเภทสัญญาสำหรับสัญญา %1</translation>
+    </message>
+    <message>
+        <source>Configuration Missing</source>
+        <translation type="unfinished">การกำหนดค่าหายไป</translation>
+    </message>
+    <message>
+        <source>Set -xchain_eth_htlc_address in your config to accept cross-chain offers.</source>
+        <translation type="unfinished">ตั้งค่า -xchain_eth_htlc_address ในการกำหนดค่าของคุณเพื่อรับข้อเสนอข้ามเชน</translation>
+    </message>
+    <message>
+        <source>Cross-Chain Accept</source>
+        <translation type="unfinished">การยอมรับข้ามเชน</translation>
+    </message>
+    <message>
+        <source>Taker accepted cross-chain offer %1.\n\nSwap ID: %2\n</source>
+        <translation type="unfinished">ผู้รับยอมรับข้อเสนอข้ามเชน %1\n\nรหัส Swap: %2\n</translation>
+    </message>
+    <message>
+        <source>Lock ETH?</source>
+        <translation type="unfinished">ล็อค ETH?</translation>
+    </message>
+    <message>
+        <source>Maker confirmed cross-chain swap parameters.\n\n</source>
+        <translation type="unfinished">ผู้สร้างยืนยันพารามิเตอร์การแลกเปลี่ยนข้ามเชนแล้ว\n\n</translation>
+    </message>
+    <message>
+        <source>Lock Deferred</source>
+        <translation type="unfinished">เลื่อนการล็อค</translation>
+    </message>
+    <message>
+        <source>You can lock ETH later from the Cross-Chain active trades view.</source>
+        <translation type="unfinished">คุณสามารถล็อค ETH ในภายหลังจากมุมมองการซื้อขายที่ใช้งานอยู่ข้ามเชน</translation>
+    </message>
+    <message>
+        <source>ETH Locked</source>
+        <translation type="unfinished">ล็อค ETH แล้ว</translation>
+    </message>
+    <message>
+        <source>ETH lock transaction broadcast!\n\nTx: %1\n\n</source>
+        <translation type="unfinished">กระจายธุรกรรมล็อค ETH แล้ว!\n\nTx: %1\n\n</translation>
+    </message>
+    <message>
+        <source>Lock Failed</source>
+        <translation type="unfinished">การล็อคล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Failed to lock ETH:\n\n%1</source>
+        <translation type="unfinished">ล้มเหลวในการล็อค ETH:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Cosign session %1 was dropped (%2).\n\n</source>
+        <translation type="unfinished">เซสชันการลงนามร่วม %1 ถูกยกเลิก (%2)\n\n</translation>
+    </message>
+    <message>
+        <source>The maker's session was lost but no invite link is cached.\n</source>
+        <translation type="unfinished">เซสชันของผู้สร้างหายไปแต่ไม่มีลิงก์คำเชิญที่แคชไว้\n</translation>
+    </message>
+    <message>
+        <source>Automatic re-join attempt failed:\n\n%1\n\n</source>
+        <translation type="unfinished">การพยายามเข้าร่วมอัตโนมัติล้มเหลว:\n\n%1\n\n</translation>
+    </message>
+    <message>
+        <source>The finalized offer payload is not cached locally. </source>
+        <translation type="unfinished">payload ข้อเสนอสรุปไม่ได้แคชไว้ในเครื่อง </translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Taker accepted your finalized contract.&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;ผู้รับยอมรับสัญญาสรุปของคุณ&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Warning:&lt;/b&gt; Confirming will fund your leg immediately and broadcast once the adaptor </source>
+        <translation type="unfinished">&lt;b&gt;คำเตือน:&lt;/b&gt; การยืนยันจะชำระเงินขาของคุณทันทีและกระจายเมื่ออะแดปเตอร์ </translation>
+    </message>
+    <message>
+        <source>Executing fully automated adaptor ceremony...\n\n</source>
+        <translation type="unfinished">กำลังดำเนินการพิธีกรรมอะแดปเตอร์อัตโนมัติเต็มรูปแบบ...\n\n</translation>
+    </message>
+    <message>
+        <source>Adaptor ceremony failed:\n\n%1\n\n</source>
+        <translation type="unfinished">พิธีกรรมอะแดปเตอร์ล้มเหลว:\n\n%1\n\n</translation>
+    </message>
+    <message>
+        <source>Adaptor ceremony failed.\n\n</source>
+        <translation type="unfinished">พิธีกรรมอะแดปเตอร์ล้มเหลว\n\n</translation>
+    </message>
+    <message>
+        <source>Adaptor ceremony reported success but did not return a PSBT.\n\n</source>
+        <translation type="unfinished">พิธีกรรมอะแดปเตอร์รายงานความสำเร็จแต่ไม่ส่งคืน PSBT\n\n</translation>
+    </message>
+    <message>
+        <source>Failed to sign non-adaptor inputs:\n\n%1\n\n</source>
+        <translation type="unfinished">ล้มเหลวในการลงนามอินพุตที่ไม่ใช่อะแดปเตอร์:\n\n%1\n\n</translation>
+    </message>
+    <message>
+        <source>Ceremony succeeded but broadcast failed:\n\n%1\n\n</source>
+        <translation type="unfinished">พิธีกรรมสำเร็จแต่การกระจายล้มเหลว:\n\n%1\n\n</translation>
+    </message>
+    <message>
+        <source>✓ Contract opened successfully!\n\n</source>
+        <translation type="unfinished">✓ เปิดสัญญาสำเร็จ!\n\n</translation>
+    </message>
+    <message>
+        <source>Reconnected to taker and re-sent the finalized contract.\n\n</source>
+        <translation type="unfinished">เชื่อมต่อกับผู้รับอีกครั้งและส่งสัญญาสรุปซ้ำ\n\n</translation>
+    </message>
+    <message>
+        <source>Failed to complete handshake:\n\n%1\n\n</source>
+        <translation type="unfinished">ล้มเหลวในการทำ handshake ให้เสร็จสมบูรณ์:\n\n%1\n\n</translation>
+    </message>
+    <message>
+        <source>Reconnected to cosign session.\n\n</source>
+        <translation type="unfinished">เชื่อมต่อกับเซสชันการลงนามร่วมอีกครั้ง\n\n</translation>
+    </message>
+    <message>
+        <source>Failed to complete handshake for session %1:\n\n%2\n\n</source>
+        <translation type="unfinished">ล้มเหลวในการทำ handshake สำหรับเซสชัน %1:\n\n%2\n\n</translation>
+    </message>
+    <message>
+        <source>• Fund the principal leg\n</source>
+        <translation type="unfinished">• ชำระเงินขาหลัก\n</translation>
+    </message>
+    <message>
+        <source>• Fund your collateral\n</source>
+        <translation type="unfinished">• ชำระเงินหลักประกันของคุณ\n</translation>
+    </message>
+    <message>
+        <source>Your augmented PSBT contains non-Taproot funding inputs.\n\n</source>
+        <translation type="unfinished">PSBT เสริมของคุณมีอินพุตการชำระเงินที่ไม่ใช่ Taproot\n\n</translation>
+    </message>
+    <message>
+        <source>This contract requires Taproot-only funding for atomic adaptor ceremonies.\n\n</source>
+        <translation type="unfinished">สัญญานี้ต้องการการชำระเงินแบบ Taproot เท่านั้นสำหรับพิธีกรรมอะแดปเตอร์อะตอม\n\n</translation>
+    </message>
+    <message>
+        <source>✓ Adaptor ceremony completed successfully!\n\n</source>
+        <translation type="unfinished">✓ พิธีกรรมอะแดปเตอร์เสร็จสมบูรณ์สำเร็จ!\n\n</translation>
+    </message>
+    <message>
+        <source>Missing bob_address for spot acceptance.\n\n</source>
+        <translation type="unfinished">ขาด bob_address สำหรับการยอมรับ spot\n\n</translation>
+    </message>
+    <message>
+        <source>Failed to import taker's acceptance:\n\n%1\n\n</source>
+        <translation type="unfinished">ล้มเหลวในการนำเข้าการยอมรับของผู้รับ:\n\n%1\n\n</translation>
+    </message>
+    <message>
+        <source>Failed to build your leg of the opening transaction:\n\n%1\n\n</source>
+        <translation type="unfinished">ล้มเหลวในการสร้างขาพื้นฐานของธุรกรรมเปิด:\n\n%1\n\n</translation>
+    </message>
+    <message>
+        <source>✓ Your base PSBT has been sent to the taker.\n\n</source>
+        <translation type="unfinished">✓ ส่ง PSBT พื้นฐานของคุณไปยังผู้รับแล้ว\n\n</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation type="unfinished">n/a</translation>
+    </message>
+    <message>
+        <source>Empty payload</source>
+        <translation type="unfinished">payload ว่างเปล่า</translation>
+    </message>
+    <message>
+        <source>Invalid JSON</source>
+        <translation type="unfinished">JSON ไม่ถูกต้อง</translation>
+    </message>
+    <message>
+        <source>Peer reported ceremony error</source>
+        <translation type="unfinished">คู่รายงานข้อผิดพลาดพิธีกรรม</translation>
+    </message>
+    <message>
+        <source>Peer reported ceremony error: %1</source>
+        <translation type="unfinished">คู่รายงานข้อผิดพลาดพิธีกรรม: %1</translation>
+    </message>
+    <message>
+        <source>PSBT not found in payload</source>
+        <translation type="unfinished">ไม่พบ PSBT ใน payload</translation>
+    </message>
+    <message>
+        <source>Unknown exception</source>
+        <translation type="unfinished">ข้อยกเว้นที่ไม่รู้จัก</translation>
+    </message>
+    <message>
+        <source>Ceremony exception: %1</source>
+        <translation type="unfinished">ข้อยกเว้นพิธีกรรม: %1</translation>
+    </message>
+    <message>
+        <source>Ceremony exception: unknown</source>
+        <translation type="unfinished">ข้อยกเว้นพิธีกรรม: ไม่รู้จัก</translation>
+    </message>
+</context>
+<context>
+    <name>TreasuryPage</name>
+    <message>
+        <source>Asset Holder</source>
+        <translation type="unfinished">Asset Holder</translation>
+    </message>
+    <message>
+        <source>Asset Issuer</source>
+        <translation type="unfinished">Asset Issuer</translation>
+    </message>
+    <message>
+        <source>(embedded in binary)</source>
+        <translation type="unfinished">(embedded in binary)</translation>
+    </message>
+    <message>
+        <source>Register Asset</source>
+        <translation type="unfinished">Register Asset</translation>
+    </message>
+    <message>
+        <source>Mint</source>
+        <translation type="unfinished">Mint</translation>
+    </message>
+    <message>
+        <source>Burn</source>
+        <translation type="unfinished">Burn</translation>
+    </message>
+    <message>
+        <source>ICU Dashboard</source>
+        <translation type="unfinished">ICU Dashboard</translation>
+    </message>
+    <message>
+        <source>Compliance</source>
+        <translation type="unfinished">Compliance</translation>
+    </message>
+    <message>
+        <source>Distribution</source>
+        <translation type="unfinished">Distribution</translation>
+    </message>
+    <message>
+        <source>Ticker</source>
+        <translation type="unfinished">Ticker</translation>
+    </message>
+    <message>
+        <source>Asset ID</source>
+        <translation type="unfinished">Asset ID</translation>
+    </message>
+    <message>
+        <source>ICU TxID</source>
+        <translation type="unfinished">ICU TxID</translation>
+    </message>
+    <message>
+        <source>Vout</source>
+        <translation type="unfinished">Vout</translation>
+    </message>
+    <message>
+        <source>Bond (BTC)</source>
+        <translation type="unfinished">Bond (BTC)</translation>
+    </message>
+    <message>
+        <source>Fees Accum</source>
+        <translation type="unfinished">Fees Accum</translation>
+    </message>
+    <message>
+        <source>Unlock Target</source>
+        <translation type="unfinished">Unlock Target</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation type="unfinished">Progress</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation type="unfinished">Status</translation>
+    </message>
+    <message>
+        <source>My Assets</source>
+        <translation type="unfinished">My Assets</translation>
+    </message>
+    <message>
+        <source>Governance</source>
+        <translation type="unfinished">Governance</translation>
+    </message>
+    <message>
+        <source>Balance</source>
+        <translation type="unfinished">Balance</translation>
+    </message>
+    <message>
+        <source>Max Issuance</source>
+        <translation type="unfinished">Max Issuance</translation>
+    </message>
+    <message>
+        <source>Total Issued</source>
+        <translation type="unfinished">Total Issued</translation>
+    </message>
+    <message>
+        <source>Gov BPS</source>
+        <translation type="unfinished">Gov BPS</translation>
+    </message>
+    <message>
+        <source>Text Vis</source>
+        <translation type="unfinished">Text Vis</translation>
+    </message>
+    <message>
+        <source>Script Families</source>
+        <translation type="unfinished">Script Families</translation>
+    </message>
+    <message>
+        <source>TFR Req</source>
+        <translation type="unfinished">TFR Req</translation>
+    </message>
+    <message>
+        <source>Wallet or client model not available</source>
+        <translation type="unfinished">Wallet or client model not available</translation>
+    </message>
+    <message>
+        <source>Template PSBT field not initialized</source>
+        <translation type="unfinished">Template PSBT field not initialized</translation>
+    </message>
+    <message>
+        <source>Template PSBT missing. Run 'Prepare Rotation' first.</source>
+        <translation type="unfinished">Template PSBT missing. Run 'Prepare Rotation' first.</translation>
+    </message>
+    <message>
+        <source>[INFO] merge_rotation succeeded</source>
+        <translation type="unfinished">[INFO] merge_rotation succeeded</translation>
+    </message>
+    <message>
+        <source>  Ballots merged: %1</source>
+        <translation type="unfinished">  Ballots merged: %1</translation>
+    </message>
+    <message>
+        <source>  Total ballot units: %1</source>
+        <translation type="unfinished">  Total ballot units: %1</translation>
+    </message>
+    <message>
+        <source>  Required units: %1</source>
+        <translation type="unfinished">  Required units: %1</translation>
+    </message>
+    <message>
+        <source>  ✓ Quorum met</source>
+        <translation type="unfinished">  ✓ Quorum met</translation>
+    </message>
+    <message>
+        <source>  ⚠ Quorum NOT met yet</source>
+        <translation type="unfinished">  ⚠ Quorum NOT met yet</translation>
+    </message>
+    <message>
+        <source>  ⚠ Asset delta detected: %1 units</source>
+        <translation type="unfinished">  ⚠ Asset delta detected: %1 units</translation>
+    </message>
+    <message>
+        <source>merge_rotation detected asset delta %1 (should be 0).</source>
+        <translation type="unfinished">merge_rotation detected asset delta %1 (should be 0).</translation>
+    </message>
+    <message>
+        <source>RPC Error %1: %2</source>
+        <translation type="unfinished">RPC Error %1: %2</translation>
+    </message>
+    <message>
+        <source>[ERROR] %1</source>
+        <translation type="unfinished">[ERROR] %1</translation>
+    </message>
+    <message>
+        <source>Failed to merge ballots: %1</source>
+        <translation type="unfinished">Failed to merge ballots: %1</translation>
+    </message>
+    <message>
+        <source>Prepare a rotation PSBT to review the proposal details.</source>
+        <translation type="unfinished">Prepare a rotation PSBT to review the proposal details.</translation>
+    </message>
+    <message>
+        <source>Failed to decode PSBT: %1</source>
+        <translation type="unfinished">Failed to decode PSBT: %1</translation>
+    </message>
+    <message>
+        <source>This PSBT does not contain governance metadata.</source>
+        <translation type="unfinished">This PSBT does not contain governance metadata.</translation>
+    </message>
+    <message>
+        <source>===== GOVERNANCE PROPOSAL SUMMARY =====</source>
+        <translation type="unfinished">===== GOVERNANCE PROPOSAL SUMMARY =====</translation>
+    </message>
+    <message>
+        <source>(unable to fetch)</source>
+        <translation type="unfinished">(unable to fetch)</translation>
+    </message>
+    <message>
+        <source>QUORUM:</source>
+        <translation type="unfinished">QUORUM:</translation>
+    </message>
+    <message>
+        <source>  CURRENT:  %1 bps (%2%)</source>
+        <translation type="unfinished">  CURRENT:  %1 bps (%2%)</translation>
+    </message>
+    <message>
+        <source>  PROPOSED: %1 bps (%2%)</source>
+        <translation type="unfinished">  PROPOSED: %1 bps (%2%)</translation>
+    </message>
+    <message>
+        <source>  No change: %1 bps (%2%)</source>
+        <translation type="unfinished">  No change: %1 bps (%2%)</translation>
+    </message>
+    <message>
+        <source>ISSUANCE CAP:</source>
+        <translation type="unfinished">ISSUANCE CAP:</translation>
+    </message>
+    <message>
+        <source>  CURRENT:  %1 (%2 units)</source>
+        <translation type="unfinished">  CURRENT:  %1 (%2 units)</translation>
+    </message>
+    <message>
+        <source>  PROPOSED: %1 (%2 units)</source>
+        <translation type="unfinished">  PROPOSED: %1 (%2 units)</translation>
+    </message>
+    <message>
+        <source>  No change: %1 (%2 units)</source>
+        <translation type="unfinished">  No change: %1 (%2 units)</translation>
+    </message>
+    <message>
+        <source>GOVERNANCE TEXT:</source>
+        <translation type="unfinished">GOVERNANCE TEXT:</translation>
+    </message>
+    <message>
+        <source>  Proposed Hash: %1</source>
+        <translation type="unfinished">  Proposed Hash: %1</translation>
+    </message>
+    <message>
+        <source>  Current Hash:  %1</source>
+        <translation type="unfinished">  Current Hash:  %1</translation>
+    </message>
+    <message>
+        <source>  --- CURRENT TEXT ---</source>
+        <translation type="unfinished">  --- CURRENT TEXT ---</translation>
+    </message>
+    <message>
+        <source>  (empty or encrypted)</source>
+        <translation type="unfinished">  (empty or encrypted)</translation>
+    </message>
+    <message>
+        <source>  --- PROPOSED TEXT ---</source>
+        <translation type="unfinished">  --- PROPOSED TEXT ---</translation>
+    </message>
+    <message>
+        <source>WITNESS BUNDLE (Master Key Shares):</source>
+        <translation type="unfinished">WITNESS BUNDLE (Master Key Shares):</translation>
+    </message>
+    <message>
+        <source>  --- CURRENT WITNESS ---</source>
+        <translation type="unfinished">  --- CURRENT WITNESS ---</translation>
+    </message>
+    <message>
+        <source>  --- PROPOSED WITNESS ---</source>
+        <translation type="unfinished">  --- PROPOSED WITNESS ---</translation>
+    </message>
+    <message>
+        <source>⚠ Unable to fetch current policy for comparison: %1</source>
+        <translation type="unfinished">⚠ Unable to fetch current policy for comparison: %1</translation>
+    </message>
+    <message>
+        <source>PROPOSED VALUES:</source>
+        <translation type="unfinished">PROPOSED VALUES:</translation>
+    </message>
+    <message>
+        <source>  Quorum: %1 bps (%2%)</source>
+        <translation type="unfinished">  Quorum: %1 bps (%2%)</translation>
+    </message>
+    <message>
+        <source>  Settled Supply: %1 units</source>
+        <translation type="unfinished">  Settled Supply: %1 units</translation>
+    </message>
+    <message>
+        <source>  Canonical Hash: %1</source>
+        <translation type="unfinished">  Canonical Hash: %1</translation>
+    </message>
+    <message>
+        <source>Available</source>
+        <translation type="unfinished">Available</translation>
+    </message>
+    <message>
+        <source>Asset Details</source>
+        <translation type="unfinished">Asset Details</translation>
+    </message>
+    <message>
+        <source>e.g., GOLD (3-11 uppercase chars)</source>
+        <translation type="unfinished">e.g., GOLD (3-11 uppercase chars)</translation>
+    </message>
+    <message>
+        <source>Ticker:</source>
+        <translation type="unfinished">Ticker:</translation>
+    </message>
+    <message>
+        <source>Decimals:</source>
+        <translation type="unfinished">Decimals:</translation>
+    </message>
+    <message>
+        <source>64 hex chars or leave blank to generate</source>
+        <translation type="unfinished">64 hex chars or leave blank to generate</translation>
+    </message>
+    <message>
+        <source>Generate</source>
+        <translation type="unfinished">Generate</translation>
+    </message>
+    <message>
+        <source>Asset ID:</source>
+        <translation type="unfinished">Asset ID:</translation>
+    </message>
+    <message>
+        <source>Advanced: Policy Settings and Allowed Script Families</source>
+        <translation type="unfinished">Advanced: Policy Settings and Allowed Script Families</translation>
+    </message>
+    <message>
+        <source>Advanced policy and script family configuration. Most users can leave these at default values.</source>
+        <translation type="unfinished">Advanced policy and script family configuration. Most users can leave these at default values.</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Policy Settings:&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Policy Settings:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>MINT_ALLOWED</source>
+        <translation type="unfinished">MINT_ALLOWED</translation>
+    </message>
+    <message>
+        <source>Allow the issuer to mint new units of this asset.</source>
+        <translation type="unfinished">Allow the issuer to mint new units of this asset.</translation>
+    </message>
+    <message>
+        <source>BURN_ALLOWED</source>
+        <translation type="unfinished">BURN_ALLOWED</translation>
+    </message>
+    <message>
+        <source>Allow holders to burn (destroy) their units of this asset.</source>
+        <translation type="unfinished">Allow holders to burn (destroy) their units of this asset.</translation>
+    </message>
+    <message>
+        <source>BURN_REQUIRE_ICU</source>
+        <translation type="unfinished">BURN_REQUIRE_ICU</translation>
+    </message>
+    <message>
+        <source>Require the issuer's signature (ICU) to burn units. Prevents holders from burning without issuer approval.</source>
+        <translation type="unfinished">Require the issuer's signature (ICU) to burn units. Prevents holders from burning without issuer approval.</translation>
+    </message>
+    <message>
+        <source>BURN_JOINT_REQUIRED</source>
+        <translation type="unfinished">BURN_JOINT_REQUIRED</translation>
+    </message>
+    <message>
+        <source>The issuer cannot burn balances directly. Burns require joint authorization from both the issuer and the holder.\n\nRestriction: When enabled, only P2PKH and P2WPKH script families are allowed.</source>
+        <translation type="unfinished">The issuer cannot burn balances directly. Burns require joint authorization from both the issuer and the holder.\n\nRestriction: When enabled, only P2PKH and P2WPKH script families are allowed.</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Allowed Script Families:&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Allowed Script Families:&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>P2PKH (Legacy)</source>
+        <translation type="unfinished">P2PKH (Legacy)</translation>
+    </message>
+    <message>
+        <source>Pay-to-Public-Key-Hash: Legacy Bitcoin address format (1...).</source>
+        <translation type="unfinished">Pay-to-Public-Key-Hash: Legacy Bitcoin address format (1...).</translation>
+    </message>
+    <message>
+        <source>P2WPKH (SegWit)</source>
+        <translation type="unfinished">P2WPKH (SegWit)</translation>
+    </message>
+    <message>
+        <source>Pay-to-Witness-Public-Key-Hash: Native SegWit address format (bc1q...).</source>
+        <translation type="unfinished">Pay-to-Witness-Public-Key-Hash: Native SegWit address format (bc1q...).</translation>
+    </message>
+    <message>
+        <source>P2WSH (SegWit Script)</source>
+        <translation type="unfinished">P2WSH (SegWit Script)</translation>
+    </message>
+    <message>
+        <source>Pay-to-Witness-Script-Hash: SegWit multisig and complex script support (bc1q...).</source>
+        <translation type="unfinished">Pay-to-Witness-Script-Hash: SegWit multisig and complex script support (bc1q...).</translation>
+    </message>
+    <message>
+        <source>P2TR (Taproot)</source>
+        <translation type="unfinished">P2TR (Taproot)</translation>
+    </message>
+    <message>
+        <source>Pay-to-Taproot: Advanced privacy and script capabilities (bc1p...).</source>
+        <translation type="unfinished">Pay-to-Taproot: Advanced privacy and script capabilities (bc1p...).</translation>
+    </message>
+    <message>
+        <source>Bond and Unlock Settings</source>
+        <translation type="unfinished">Bond and Unlock Settings</translation>
+    </message>
+    <message>
+        <source>Asset registration requires a bond that will be locked until sufficient fees are accumulated.</source>
+        <translation type="unfinished">Asset registration requires a bond that will be locked until sufficient fees are accumulated.</translation>
+    </message>
+    <message>
+        <source>Minimum 5.0 TSC</source>
+        <translation type="unfinished">Minimum 5.0 TSC</translation>
+    </message>
+    <message>
+        <source>You commit this amount of TSC to register the asset. This bond will be locked until transaction fees from asset operations accumulate to the Unlock Fees amount, at which point the bond can be spent and the ICU (Issuer Control UTXO) can be rotated to a dust output.</source>
+        <translation type="unfinished">You commit this amount of TSC to register the asset. This bond will be locked until transaction fees from asset operations accumulate to the Unlock Fees amount, at which point the bond can be spent and the ICU (Issuer Control UTXO) can be rotated to a dust output.</translation>
+    </message>
+    <message>
+        <source>Bond Amount (TSC):</source>
+        <translation type="unfinished">Bond Amount (TSC):</translation>
+    </message>
+    <message>
+        <source>e.g., 5.1 (must be &gt;= bond amount)</source>
+        <translation type="unfinished">e.g., 5.1 (must be &gt;= bond amount)</translation>
+    </message>
+    <message>
+        <source>When miner fees accumulated from asset transactions reach this amount (in TSC), the bond can be spent and the ICU can be rotated to a dust output.</source>
+        <translation type="unfinished">When miner fees accumulated from asset transactions reach this amount (in TSC), the bond can be spent and the ICU can be rotated to a dust output.</translation>
+    </message>
+    <message>
+        <source>Unlock Fees (TSC):</source>
+        <translation type="unfinished">Unlock Fees (TSC):</translation>
+    </message>
+    <message>
+        <source>Governance Settings (Optional)</source>
+        <translation type="unfinished">Governance Settings (Optional)</translation>
+    </message>
+    <message>
+        <source>Governance document (e.g., 'Board requires 2/3 majority for all decisions')</source>
+        <translation type="unfinished">Governance document (e.g., 'Board requires 2/3 majority for all decisions')</translation>
+    </message>
+    <message>
+        <source>Canonical Text:</source>
+        <translation type="unfinished">Canonical Text:</translation>
+    </message>
+    <message>
+        <source>Public (all can read)</source>
+        <translation type="unfinished">Public (all can read)</translation>
+    </message>
+    <message>
+        <source>Holder-Only (encrypted)</source>
+        <translation type="unfinished">Holder-Only (encrypted)</translation>
+    </message>
+    <message>
+        <source>Visibility:</source>
+        <translation type="unfinished">Visibility:</translation>
+    </message>
+    <message>
+        <source> bps</source>
+        <translation type="unfinished"> bps</translation>
+    </message>
+    <message>
+        <source>Policy Quorum:</source>
+        <translation type="unfinished">Policy Quorum:</translation>
+    </message>
+    <message>
+        <source>Unlimited</source>
+        <translation type="unfinished">Unlimited</translation>
+    </message>
+    <message>
+        <source>Maximum issuable supply in coins (will be multiplied by 10^decimals)</source>
+        <translation type="unfinished">Maximum issuable supply in coins (will be multiplied by 10^decimals)</translation>
+    </message>
+    <message>
+        <source>Issuance Cap (coins):</source>
+        <translation type="unfinished">Issuance Cap (coins):</translation>
+    </message>
+    <message>
+        <source>Use Compression (zstd)</source>
+        <translation type="unfinished">Use Compression (zstd)</translation>
+    </message>
+    <message>
+        <source>Enable deterministic zstd compression for governance text to reduce blockchain space usage.</source>
+        <translation type="unfinished">Enable deterministic zstd compression for governance text to reduce blockchain space usage.</translation>
+    </message>
+    <message>
+        <source>Payload size: 0 bytes</source>
+        <translation type="unfinished">Payload size: 0 bytes</translation>
+    </message>
+    <message>
+        <source>Size Estimate:</source>
+        <translation type="unfinished">Size Estimate:</translation>
+    </message>
+    <message>
+        <source>Compute Hash</source>
+        <translation type="unfinished">Compute Hash</translation>
+    </message>
+    <message>
+        <source>Compute the canonical hash of the governance text. Copy this hash to include in your witness attestation.</source>
+        <translation type="unfinished">Compute the canonical hash of the governance text. Copy this hash to include in your witness attestation.</translation>
+    </message>
+    <message>
+        <source>(no hash computed)</source>
+        <translation type="unfinished">(no hash computed)</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation type="unfinished">Copy</translation>
+    </message>
+    <message>
+        <source>Text Hash:</source>
+        <translation type="unfinished">Text Hash:</translation>
+    </message>
+    <message>
+        <source>Optional: Witness text (e.g., DocuSign envelope ID, PGP signature, or attestation details).\nThis will be automatically wrapped in a JSON bundle with version, timestamp, and canonical_hash.</source>
+        <translation type="unfinished">Optional: Witness text (e.g., DocuSign envelope ID, PGP signature, or attestation details).\nThis will be automatically wrapped in a JSON bundle with version, timestamp, and canonical_hash.</translation>
+    </message>
+    <message>
+        <source>Witness Text:</source>
+        <translation type="unfinished">Witness Text:</translation>
+    </message>
+    <message>
+        <source>Compliance (Optional)</source>
+        <translation type="unfinished">Compliance (Optional)</translation>
+    </message>
+    <message>
+        <source>Require ZK proof for transfers (KYC_REQUIRED)</source>
+        <translation type="unfinished">Require ZK proof for transfers (KYC_REQUIRED)</translation>
+    </message>
+    <message>
+        <source>Require TFR anchor for transfers (TFR_ANCHOR_REQUIRED)</source>
+        <translation type="unfinished">Require TFR anchor for transfers (TFR_ANCHOR_REQUIRED)</translation>
+    </message>
+    <message>
+        <source>If enabled, all transfers must include a TFR (Transfer Flags Required) anchor hash that binds the transaction to off-chain regulatory reporting.</source>
+        <translation type="unfinished">If enabled, all transfers must include a TFR (Transfer Flags Required) anchor hash that binds the transaction to off-chain regulatory reporting.</translation>
+    </message>
+    <message>
+        <source>HDV1 (Holder Delegation v1)</source>
+        <translation type="unfinished">HDV1 (Holder Delegation v1)</translation>
+    </message>
+    <message>
+        <source>Circuit:</source>
+        <translation type="unfinished">Circuit:</translation>
+    </message>
+    <message>
+        <source>/path/to/verification_key.bin</source>
+        <translation type="unfinished">/path/to/verification_key.bin</translation>
+    </message>
+    <message>
+        <source>Browse...</source>
+        <translation type="unfinished">Browse...</translation>
+    </message>
+    <message>
+        <source>Verification Key:</source>
+        <translation type="unfinished">Verification Key:</translation>
+    </message>
+    <message>
+        <source> blocks</source>
+        <translation type="unfinished"> blocks</translation>
+    </message>
+    <message>
+        <source>Maximum age for compliance roots (blocks). 1008 blocks ≈ 1 week @ 10min/block</source>
+        <translation type="unfinished">Maximum age for compliance roots (blocks). 1008 blocks ≈ 1 week @ 10min/block</translation>
+    </message>
+    <message>
+        <source>Max Root Age:</source>
+        <translation type="unfinished">Max Root Age:</translation>
+    </message>
+    <message>
+        <source>(computed after VK load)</source>
+        <translation type="unfinished">(computed after VK load)</translation>
+    </message>
+    <message>
+        <source>VK Commitment:</source>
+        <translation type="unfinished">VK Commitment:</translation>
+    </message>
+    <message>
+        <source>Initial compliance root (64 hex chars) - generate using Compliance tab</source>
+        <translation type="unfinished">Initial compliance root (64 hex chars) - generate using Compliance tab</translation>
+    </message>
+    <message>
+        <source>Initial Compliance Root:</source>
+        <translation type="unfinished">Initial Compliance Root:</translation>
+    </message>
+    <message>
+        <source>Select Asset</source>
+        <translation type="unfinished">Select Asset</translation>
+    </message>
+    <message>
+        <source>Asset:</source>
+        <translation type="unfinished">Asset:</translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation type="unfinished">Refresh</translation>
+    </message>
+    <message>
+        <source>Asset Information</source>
+        <translation type="unfinished">Asset Information</translation>
+    </message>
+    <message>
+        <source>Policy:</source>
+        <translation type="unfinished">Policy:</translation>
+    </message>
+    <message>
+        <source>Bond:</source>
+        <translation type="unfinished">Bond:</translation>
+    </message>
+    <message>
+        <source>Fees Accumulated:</source>
+        <translation type="unfinished">Fees Accumulated:</translation>
+    </message>
+    <message>
+        <source>Current ICU:</source>
+        <translation type="unfinished">Current ICU:</translation>
+    </message>
+    <message>
+        <source>Key Wrapping:</source>
+        <translation type="unfinished">Key Wrapping:</translation>
+    </message>
+    <message>
+        <source>Mint Parameters</source>
+        <translation type="unfinished">Mint Parameters</translation>
+    </message>
+    <message>
+        <source>Amount in base units</source>
+        <translation type="unfinished">Amount in base units</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation type="unfinished">Amount:</translation>
+    </message>
+    <message>
+        <source>Destination address for minted assets</source>
+        <translation type="unfinished">Destination address for minted assets</translation>
+    </message>
+    <message>
+        <source>Generate a new taproot address for mint destination</source>
+        <translation type="unfinished">Generate a new taproot address for mint destination</translation>
+    </message>
+    <message>
+        <source>Address Generation Failed</source>
+        <translation type="unfinished">Address Generation Failed</translation>
+    </message>
+    <message>
+        <source>Could not generate a new taproot destination.</source>
+        <translation type="unfinished">Could not generate a new taproot destination.</translation>
+    </message>
+    <message>
+        <source>Destination:</source>
+        <translation type="unfinished">Destination:</translation>
+    </message>
+    <message>
+        <source>New ICU address (rotation)</source>
+        <translation type="unfinished">New ICU address (rotation)</translation>
+    </message>
+    <message>
+        <source>Generate a new taproot address for ICU rotation</source>
+        <translation type="unfinished">Generate a new taproot address for ICU rotation</translation>
+    </message>
+    <message>
+        <source>Could not generate a new taproot ICU address.</source>
+        <translation type="unfinished">Could not generate a new taproot ICU address.</translation>
+    </message>
+    <message>
+        <source>New ICU Address:</source>
+        <translation type="unfinished">New ICU Address:</translation>
+    </message>
+    <message>
+        <source>Auto-wrap DEK (recommended for WRAP_REQUIRED assets)</source>
+        <translation type="unfinished">Auto-wrap DEK (recommended for WRAP_REQUIRED assets)</translation>
+    </message>
+    <message>
+        <source>Auto Key Wrapping:</source>
+        <translation type="unfinished">Auto Key Wrapping:</translation>
+    </message>
+    <message>
+        <source>Manual wrapped_key (hex) - advanced use only</source>
+        <translation type="unfinished">Manual wrapped_key (hex) - advanced use only</translation>
+    </message>
+    <message>
+        <source>Manually provide a pre-wrapped DEK.\nOnly used if auto-wrap is disabled.</source>
+        <translation type="unfinished">Manually provide a pre-wrapped DEK.\nOnly used if auto-wrap is disabled.</translation>
+    </message>
+    <message>
+        <source>Manual Wrapped Key:</source>
+        <translation type="unfinished">Manual Wrapped Key:</translation>
+    </message>
+    <message>
+        <source>Mint Asset</source>
+        <translation type="unfinished">Mint Asset</translation>
+    </message>
+    <message>
+        <source>Manual UTXO Entry (for burning non-wallet UTXOs)</source>
+        <translation type="unfinished">Manual UTXO Entry (for burning non-wallet UTXOs)</translation>
+    </message>
+    <message>
+        <source>Transaction ID (64 hex chars)</source>
+        <translation type="unfinished">Transaction ID (64 hex chars)</translation>
+    </message>
+    <message>
+        <source>UTXO TxID:</source>
+        <translation type="unfinished">UTXO TxID:</translation>
+    </message>
+    <message>
+        <source>Output index</source>
+        <translation type="unfinished">Output index</translation>
+    </message>
+    <message>
+        <source>UTXO Vout:</source>
+        <translation type="unfinished">UTXO Vout:</translation>
+    </message>
+    <message>
+        <source>Use Manual UTXO</source>
+        <translation type="unfinished">Use Manual UTXO</translation>
+    </message>
+    <message>
+        <source>Wallet-Owned Asset UTXOs (Select to Burn)</source>
+        <translation type="unfinished">Wallet-Owned Asset UTXOs (Select to Burn)</translation>
+    </message>
+    <message>
+        <source>TxID</source>
+        <translation type="unfinished">TxID</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation type="unfinished">Amount</translation>
+    </message>
+    <message>
+        <source>Confirmations</source>
+        <translation type="unfinished">Confirmations</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation type="unfinished">Address</translation>
+    </message>
+    <message>
+        <source>Burn Information</source>
+        <translation type="unfinished">Burn Information</translation>
+    </message>
+    <message>
+        <source>None selected</source>
+        <translation type="unfinished">None selected</translation>
+    </message>
+    <message>
+        <source>Selected UTXO:</source>
+        <translation type="unfinished">Selected UTXO:</translation>
+    </message>
+    <message>
+        <source>Burn Selected Asset UTXO</source>
+        <translation type="unfinished">Burn Selected Asset UTXO</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation type="unfinished">Filter</translation>
+    </message>
+    <message>
+        <source>Search by ticker or asset ID</source>
+        <translation type="unfinished">Search by ticker or asset ID</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation type="unfinished">All</translation>
+    </message>
+    <message>
+        <source>Locked</source>
+        <translation type="unfinished">Locked</translation>
+    </message>
+    <message>
+        <source>Unlocked</source>
+        <translation type="unfinished">Unlocked</translation>
+    </message>
+    <message>
+        <source>Governance Text</source>
+        <translation type="unfinished">Governance Text</translation>
+    </message>
+    <message>
+        <source>Select an asset to view ICU text</source>
+        <translation type="unfinished">Select an asset to view ICU text</translation>
+    </message>
+    <message>
+        <source>Decrypt ICU</source>
+        <translation type="unfinished">Decrypt ICU</translation>
+    </message>
+    <message>
+        <source>Rotate ICU</source>
+        <translation type="unfinished">Rotate ICU</translation>
+    </message>
+    <message>
+        <source>View Rotation History</source>
+        <translation type="unfinished">View Rotation History</translation>
+    </message>
+    <message>
+        <source>View Previous ICU</source>
+        <translation type="unfinished">View Previous ICU</translation>
+    </message>
+    <message>
+        <source>Click on an asset row above to view its ICU text</source>
+        <translation type="unfinished">Click on an asset row above to view its ICU text</translation>
+    </message>
+    <message>
+        <source>(Pre-Registration Mode - Generate Initial Root)</source>
+        <translation type="unfinished">(Pre-Registration Mode - Generate Initial Root)</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Tip:&lt;/b&gt; Select 'Pre-Registration Mode' to generate an initial compliance root before registering a KYC asset.</source>
+        <translation type="unfinished">&lt;b&gt;Tip:&lt;/b&gt; Select 'Pre-Registration Mode' to generate an initial compliance root before registering a KYC asset.</translation>
+    </message>
+    <message>
+        <source>This asset does not have compliance requirements.</source>
+        <translation type="unfinished">This asset does not have compliance requirements.</translation>
+    </message>
+    <message>
+        <source>Current ZK Parameters</source>
+        <translation type="unfinished">Current ZK Parameters</translation>
+    </message>
+    <message>
+        <source>Current Root:</source>
+        <translation type="unfinished">Current Root:</translation>
+    </message>
+    <message>
+        <source>Whether TFR (Transfer Flags Required) anchor is required for this asset. TFR anchors bind transactions to off-chain reporting for regulatory compliance.</source>
+        <translation type="unfinished">Whether TFR (Transfer Flags Required) anchor is required for this asset. TFR anchors bind transactions to off-chain reporting for regulatory compliance.</translation>
+    </message>
+    <message>
+        <source>TFR Anchor Required:</source>
+        <translation type="unfinished">TFR Anchor Required:</translation>
+    </message>
+    <message>
+        <source>Update Compliance Root (Issuer)</source>
+        <translation type="unfinished">Update Compliance Root (Issuer)</translation>
+    </message>
+    <message>
+        <source>HD v1 (master_secret, country, age)</source>
+        <translation type="unfinished">HD v1 (master_secret, country, age)</translation>
+    </message>
+    <message>
+        <source>ZK circuit to use for compliance proofs. Must match the circuit used during asset registration.</source>
+        <translation type="unfinished">ZK circuit to use for compliance proofs. Must match the circuit used during asset registration.</translation>
+    </message>
+    <message>
+        <source>KYC Identities (format: pubkey,country,age,index):</source>
+        <translation type="unfinished">KYC Identities (format: pubkey,country,age,index):</translation>
+    </message>
+    <message>
+        <source>0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798,840,35,0\n02c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5,840,42,1</source>
+        <translation type="unfinished">0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798,840,35,0\n02c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5,840,42,1</translation>
+    </message>
+    <message>
+        <source>One identity per line.\nFormat: master_pubkey_hex,country_code,age,tree_index\nExample: 0279be...,840,35,0</source>
+        <translation type="unfinished">One identity per line.\nFormat: master_pubkey_hex,country_code,age,tree_index\nExample: 0279be...,840,35,0</translation>
+    </message>
+    <message>
+        <source>Build Merkle Tree</source>
+        <translation type="unfinished">Build Merkle Tree</translation>
+    </message>
+    <message>
+        <source>New Root:</source>
+        <translation type="unfinished">New Root:</translation>
+    </message>
+    <message>
+        <source>Rotate Compliance Root</source>
+        <translation type="unfinished">Rotate Compliance Root</translation>
+    </message>
+    <message>
+        <source>Export Merkle Proofs</source>
+        <translation type="unfinished">Export Merkle Proofs</translation>
+    </message>
+    <message>
+        <source>Copy to Registration</source>
+        <translation type="unfinished">Copy to Registration</translation>
+    </message>
+    <message>
+        <source>Copy the generated compliance root to the Registration tab's Initial Compliance Root field</source>
+        <translation type="unfinished">Copy the generated compliance root to the Registration tab's Initial Compliance Root field</translation>
+    </message>
+    <message>
+        <source>Generate ZK Proof (Holder)</source>
+        <translation type="unfinished">Generate ZK Proof (Holder)</translation>
+    </message>
+    <message>
+        <source>Step 1: Generate KYC Master Key</source>
+        <translation type="unfinished">Step 1: Generate KYC Master Key</translation>
+    </message>
+    <message>
+        <source>Generate a master public key to share with the asset issuer for KYC compliance registration.</source>
+        <translation type="unfinished">Generate a master public key to share with the asset issuer for KYC compliance registration.</translation>
+    </message>
+    <message>
+        <source>Generate Master Key</source>
+        <translation type="unfinished">Generate Master Key</translation>
+    </message>
+    <message>
+        <source>Generate a new address and extract its public key for KYC registration</source>
+        <translation type="unfinished">Generate a new address and extract its public key for KYC registration</translation>
+    </message>
+    <message>
+        <source>Master Public Key:</source>
+        <translation type="unfinished">Master Public Key:</translation>
+    </message>
+    <message>
+        <source>Click 'Generate Master Key' to create</source>
+        <translation type="unfinished">Click 'Generate Master Key' to create</translation>
+    </message>
+    <message>
+        <source>Copy master public key to clipboard to share with issuer</source>
+        <translation type="unfinished">Copy master public key to clipboard to share with issuer</translation>
+    </message>
+    <message>
+        <source>Address: -</source>
+        <translation type="unfinished">Address: -</translation>
+    </message>
+    <message>
+        <source>Step 2: Generate ZK Proof (after receiving merkle proof from issuer)</source>
+        <translation type="unfinished">Step 2: Generate ZK Proof (after receiving merkle proof from issuer)</translation>
+    </message>
+    <message>
+        <source>ZK circuit to use for proof generation. Must match the circuit used by the asset issuer.</source>
+        <translation type="unfinished">ZK circuit to use for proof generation. Must match the circuit used by the asset issuer.</translation>
+    </message>
+    <message>
+        <source>Proving Key:</source>
+        <translation type="unfinished">Proving Key:</translation>
+    </message>
+    <message>
+        <source>Path to proving_key.bin (or click Download)</source>
+        <translation type="unfinished">Path to proving_key.bin (or click Download)</translation>
+    </message>
+    <message>
+        <source>Path to the proving key file for the selected circuit. Required for generating ZK proofs.</source>
+        <translation type="unfinished">Path to the proving key file for the selected circuit. Required for generating ZK proofs.</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation type="unfinished">Download</translation>
+    </message>
+    <message>
+        <source>Download proving key (108 MB) from ghcr.io</source>
+        <translation type="unfinished">Download proving key (108 MB) from ghcr.io</translation>
+    </message>
+    <message>
+        <source>UTXO Txid:</source>
+        <translation type="unfinished">UTXO Txid:</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation type="unfinished">Transaction ID</translation>
+    </message>
+    <message>
+        <source>Transaction ID of the UTXO you want to spend. This identifies which asset UTXO to generate a proof for.</source>
+        <translation type="unfinished">Transaction ID of the UTXO you want to spend. This identifies which asset UTXO to generate a proof for.</translation>
+    </message>
+    <message>
+        <source>Vout:</source>
+        <translation type="unfinished">Vout:</translation>
+    </message>
+    <message>
+        <source>Output index (vout) of the UTXO within the transaction.</source>
+        <translation type="unfinished">Output index (vout) of the UTXO within the transaction.</translation>
+    </message>
+    <message>
+        <source>Witness JSON:</source>
+        <translation type="unfinished">Witness JSON:</translation>
+    </message>
+    <message>
+        <source>{\"master_secret\": \"...\", \"country\": 840, \"age\": 25, ...}</source>
+        <translation type="unfinished">{\"master_secret\": \"...\", \"country\": 840, \"age\": 25, ...}</translation>
+    </message>
+    <message>
+        <source>Merkle Proof (from issuer):</source>
+        <translation type="unfinished">Merkle Proof (from issuer):</translation>
+    </message>
+    <message>
+        <source>[\"sibling1_hex\", \"sibling2_hex\", ...]</source>
+        <translation type="unfinished">[\"sibling1_hex\", \"sibling2_hex\", ...]</translation>
+    </message>
+    <message>
+        <source>TFR Anchor (if required):</source>
+        <translation type="unfinished">TFR Anchor (if required):</translation>
+    </message>
+    <message>
+        <source>SHA256 hash of off-chain reporting packet (64 hex chars)</source>
+        <translation type="unfinished">SHA256 hash of off-chain reporting packet (64 hex chars)</translation>
+    </message>
+    <message>
+        <source>If TFR_ANCHOR_REQUIRED flag is set for this asset, you must provide a SHA256 hash that binds the transaction to off-chain regulatory reporting. This anchor becomes part of the ZK proof's public input. See asset policy for TFR requirements.</source>
+        <translation type="unfinished">If TFR_ANCHOR_REQUIRED flag is set for this asset, you must provide a SHA256 hash that binds the transaction to off-chain regulatory reporting. This anchor becomes part of the ZK proof's public input. See asset policy for TFR requirements.</translation>
+    </message>
+    <message>
+        <source>Generate Proof</source>
+        <translation type="unfinished">Generate Proof</translation>
+    </message>
+    <message>
+        <source>Proof Output (hex):</source>
+        <translation type="unfinished">Proof Output (hex):</translation>
+    </message>
+    <message>
+        <source>Distribution Target</source>
+        <translation type="unfinished">Distribution Target</translation>
+    </message>
+    <message>
+        <source>Target Asset:</source>
+        <translation type="unfinished">Target Asset:</translation>
+    </message>
+    <message>
+        <source>Select an asset</source>
+        <translation type="unfinished">Select an asset</translation>
+    </message>
+    <message>
+        <source>Info:</source>
+        <translation type="unfinished">Info:</translation>
+    </message>
+    <message>
+        <source>Settled Supply:</source>
+        <translation type="unfinished">Settled Supply:</translation>
+    </message>
+    <message>
+        <source>Distribution Parameters</source>
+        <translation type="unfinished">Distribution Parameters</translation>
+    </message>
+    <message>
+        <source>Amount to distribute</source>
+        <translation type="unfinished">Amount to distribute</translation>
+    </message>
+    <message>
+        <source>TSC (Native)</source>
+        <translation type="unfinished">TSC (Native)</translation>
+    </message>
+    <message>
+        <source>Balance: N/A</source>
+        <translation type="unfinished">Balance: N/A</translation>
+    </message>
+    <message>
+        <source>Distribute:</source>
+        <translation type="unfinished">Distribute:</translation>
+    </message>
+    <message>
+        <source>Minimum payment per recipient (satoshis for TSC, raw units for assets)</source>
+        <translation type="unfinished">Minimum payment per recipient (satoshis for TSC, raw units for assets)</translation>
+    </message>
+    <message>
+        <source>Min Dust Threshold:</source>
+        <translation type="unfinished">Min Dust Threshold:</translation>
+    </message>
+    <message>
+        <source>Maximum recipients per transaction</source>
+        <translation type="unfinished">Maximum recipients per transaction</translation>
+    </message>
+    <message>
+        <source>Max Recipients:</source>
+        <translation type="unfinished">Max Recipients:</translation>
+    </message>
+    <message>
+        <source>Use specific height</source>
+        <translation type="unfinished">Use specific height</translation>
+    </message>
+    <message>
+        <source>Enable to use a historical block height for the UTXO snapshot</source>
+        <translation type="unfinished">Enable to use a historical block height for the UTXO snapshot</translation>
+    </message>
+    <message>
+        <source>Block height for UTXO snapshot (leave unchecked to use current tip)</source>
+        <translation type="unfinished">Block height for UTXO snapshot (leave unchecked to use current tip)</translation>
+    </message>
+    <message>
+        <source>Snapshot Height:</source>
+        <translation type="unfinished">Snapshot Height:</translation>
+    </message>
+    <message>
+        <source>Preview Distribution</source>
+        <translation type="unfinished">Preview Distribution</translation>
+    </message>
+    <message>
+        <source>Calculate distribution without broadcasting (dry run)</source>
+        <translation type="unfinished">Calculate distribution without broadcasting (dry run)</translation>
+    </message>
+    <message>
+        <source>Execute Distribution</source>
+        <translation type="unfinished">Execute Distribution</translation>
+    </message>
+    <message>
+        <source>Create and broadcast distribution transaction</source>
+        <translation type="unfinished">Create and broadcast distribution transaction</translation>
+    </message>
+    <message>
+        <source>Scanning UTXO set... %p%</source>
+        <translation type="unfinished">Scanning UTXO set... %p%</translation>
+    </message>
+    <message>
+        <source>Holdings</source>
+        <translation type="unfinished">Holdings</translation>
+    </message>
+    <message>
+        <source>Nostr-Based Proposal Discovery</source>
+        <translation type="unfinished">Nostr-Based Proposal Discovery</translation>
+    </message>
+    <message>
+        <source>Bulletin Board:</source>
+        <translation type="unfinished">Bulletin Board:</translation>
+    </message>
+    <message>
+        <source>● Not Initialized</source>
+        <translation type="unfinished">● Not Initialized</translation>
+    </message>
+    <message>
+        <source>Last refresh: Never</source>
+        <translation type="unfinished">Last refresh: Never</translation>
+    </message>
+    <message>
+        <source>Filter:</source>
+        <translation type="unfinished">Filter:</translation>
+    </message>
+    <message>
+        <source>All Assets</source>
+        <translation type="unfinished">All Assets</translation>
+    </message>
+    <message>
+        <source>Force Refresh</source>
+        <translation type="unfinished">Force Refresh</translation>
+    </message>
+    <message>
+        <source>Asset</source>
+        <translation type="unfinished">Asset</translation>
+    </message>
+    <message>
+        <source>Title</source>
+        <translation type="unfinished">Title</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation type="unfinished">Created</translation>
+    </message>
+    <message>
+        <source>Expires</source>
+        <translation type="unfinished">Expires</translation>
+    </message>
+    <message>
+        <source>Verified</source>
+        <translation type="unfinished">Verified</translation>
+    </message>
+    <message>
+        <source>Access</source>
+        <translation type="unfinished">Access</translation>
+    </message>
+    <message>
+        <source>View Details</source>
+        <translation type="unfinished">View Details</translation>
+    </message>
+    <message>
+        <source>Request Private Access</source>
+        <translation type="unfinished">Request Private Access</translation>
+    </message>
+    <message>
+        <source>Request access to this private governance proposal via encrypted DM</source>
+        <translation type="unfinished">Request access to this private governance proposal via encrypted DM</translation>
+    </message>
+    <message>
+        <source>Vote on Selected</source>
+        <translation type="unfinished">Vote on Selected</translation>
+    </message>
+    <message>
+        <source>Private Governance Access Requests</source>
+        <translation type="unfinished">Private Governance Access Requests</translation>
+    </message>
+    <message>
+        <source>Check for New Requests</source>
+        <translation type="unfinished">Check for New Requests</translation>
+    </message>
+    <message>
+        <source>Auto-approve verified requests</source>
+        <translation type="unfinished">Auto-approve verified requests</translation>
+    </message>
+    <message>
+        <source>Proposal</source>
+        <translation type="unfinished">Proposal</translation>
+    </message>
+    <message>
+        <source>Holder Pubkey</source>
+        <translation type="unfinished">Holder Pubkey</translation>
+    </message>
+    <message>
+        <source>UTXO</source>
+        <translation type="unfinished">UTXO</translation>
+    </message>
+    <message>
+        <source>Asset Units</source>
+        <translation type="unfinished">Asset Units</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation type="unfinished">Actions</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;PSBT Preparation&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;PSBT Preparation&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>This asset does not have governance features.</source>
+        <translation type="unfinished">This asset does not have governance features.</translation>
+    </message>
+    <message>
+        <source>Current Governance Parameters</source>
+        <translation type="unfinished">Current Governance Parameters</translation>
+    </message>
+    <message>
+        <source>Quorum (bps):</source>
+        <translation type="unfinished">Quorum (bps):</translation>
+    </message>
+    <message>
+        <source>1. Prepare Rotation (Issuer)</source>
+        <translation type="unfinished">1. Prepare Rotation (Issuer)</translation>
+    </message>
+    <message>
+        <source> coins</source>
+        <translation type="unfinished"> coins</translation>
+    </message>
+    <message>
+        <source>New Issuance Cap:</source>
+        <translation type="unfinished">New Issuance Cap:</translation>
+    </message>
+    <message>
+        <source>New Quorum:</source>
+        <translation type="unfinished">New Quorum:</translation>
+    </message>
+    <message>
+        <source>Rotate Governance Text (optional):</source>
+        <translation type="unfinished">Rotate Governance Text (optional):</translation>
+    </message>
+    <message>
+        <source>Enter new governance text here (leave empty to keep current)</source>
+        <translation type="unfinished">Enter new governance text here (leave empty to keep current)</translation>
+    </message>
+    <message>
+        <source>Witness Text (optional):</source>
+        <translation type="unfinished">Witness Text (optional):</translation>
+    </message>
+    <message>
+        <source>Optional witness/metadata text</source>
+        <translation type="unfinished">Optional witness/metadata text</translation>
+    </message>
+    <message>
+        <source>Text Visibility:</source>
+        <translation type="unfinished">Text Visibility:</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation type="unfinished">Public</translation>
+    </message>
+    <message>
+        <source>Holder Only</source>
+        <translation type="unfinished">Holder Only</translation>
+    </message>
+    <message>
+        <source>Precheck Text</source>
+        <translation type="unfinished">Precheck Text</translation>
+    </message>
+    <message>
+        <source>Canonical Hash:</source>
+        <translation type="unfinished">Canonical Hash:</translation>
+    </message>
+    <message>
+        <source>Prepare Rotation</source>
+        <translation type="unfinished">Prepare Rotation</translation>
+    </message>
+    <message>
+        <source>Template PSBT:</source>
+        <translation type="unfinished">Template PSBT:</translation>
+    </message>
+    <message>
+        <source>Copy PSBT</source>
+        <translation type="unfinished">Copy PSBT</translation>
+    </message>
+    <message>
+        <source>✓ PSBT copied to clipboard</source>
+        <translation type="unfinished">✓ PSBT copied to clipboard</translation>
+    </message>
+    <message>
+        <source>Publish to Network</source>
+        <translation type="unfinished">Publish to Network</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>Exception in onGovNostrPublish: %1</source>
+        <translation type="unfinished">Exception in onGovNostrPublish: %1</translation>
+    </message>
+    <message>
+        <source>Unknown exception in onGovNostrPublish</source>
+        <translation type="unfinished">Unknown exception in onGovNostrPublish</translation>
+    </message>
+    <message>
+        <source>PSBT will appear here after clicking 'Prepare Rotation'</source>
+        <translation type="unfinished">PSBT will appear here after clicking 'Prepare Rotation'</translation>
+    </message>
+    <message>
+        <source>Proposal Summary:</source>
+        <translation type="unfinished">Proposal Summary:</translation>
+    </message>
+    <message>
+        <source>Proposal details will appear once a template PSBT is generated.</source>
+        <translation type="unfinished">Proposal details will appear once a template PSBT is generated.</translation>
+    </message>
+    <message>
+        <source>Required units: -</source>
+        <translation type="unfinished">Required units: -</translation>
+    </message>
+    <message>
+        <source>2. Cast Ballot (Holder)</source>
+        <translation type="unfinished">2. Cast Ballot (Holder)</translation>
+    </message>
+    <message>
+        <source>Template PSBT from Issuer:</source>
+        <translation type="unfinished">Template PSBT from Issuer:</translation>
+    </message>
+    <message>
+        <source>Paste PSBT from issuer here</source>
+        <translation type="unfinished">Paste PSBT from issuer here</translation>
+    </message>
+    <message>
+        <source>Proposal details will appear once the issuer PSBT is pasted.</source>
+        <translation type="unfinished">Proposal details will appear once the issuer PSBT is pasted.</translation>
+    </message>
+    <message>
+        <source>Select UTXOs to vote with:</source>
+        <translation type="unfinished">Select UTXOs to vote with:</translation>
+    </message>
+    <message>
+        <source>Txid</source>
+        <translation type="unfinished">Txid</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation type="unfinished">Select</translation>
+    </message>
+    <message>
+        <source>Cast Ballot</source>
+        <translation type="unfinished">Cast Ballot</translation>
+    </message>
+    <message>
+        <source>Signed PSBT (send to issuer):</source>
+        <translation type="unfinished">Signed PSBT (send to issuer):</translation>
+    </message>
+    <message>
+        <source>3. Finalize &amp;&amp; Broadcast (Issuer)</source>
+        <translation type="unfinished">3. Finalize &amp;&amp; Broadcast (Issuer)</translation>
+    </message>
+    <message>
+        <source>Select Proposal:</source>
+        <translation type="unfinished">Select Proposal:</translation>
+    </message>
+    <message>
+        <source>Select a proposal to fetch ballots</source>
+        <translation type="unfinished">Select a proposal to fetch ballots</translation>
+    </message>
+    <message>
+        <source>Refresh List</source>
+        <translation type="unfinished">Refresh List</translation>
+    </message>
+    <message>
+        <source>Fetch Ballots</source>
+        <translation type="unfinished">Fetch Ballots</translation>
+    </message>
+    <message>
+        <source>Signed ballot PSBTs (auto-populated or paste manually):</source>
+        <translation type="unfinished">Signed ballot PSBTs (auto-populated or paste manually):</translation>
+    </message>
+    <message>
+        <source>Will be populated when you fetch ballots, or paste manually</source>
+        <translation type="unfinished">Will be populated when you fetch ballots, or paste manually</translation>
+    </message>
+    <message>
+        <source>Merge Ballots</source>
+        <translation type="unfinished">Merge Ballots</translation>
+    </message>
+    <message>
+        <source>No ballots loaded</source>
+        <translation type="unfinished">No ballots loaded</translation>
+    </message>
+    <message>
+        <source>Merged PSBT:</source>
+        <translation type="unfinished">Merged PSBT:</translation>
+    </message>
+    <message>
+        <source>Resulting PSBT after merging ballots</source>
+        <translation type="unfinished">Resulting PSBT after merging ballots</translation>
+    </message>
+    <message>
+        <source>Finalize &amp;&amp; Broadcast</source>
+        <translation type="unfinished">Finalize &amp;&amp; Broadcast</translation>
+    </message>
+    <message>
+        <source>Assets Error</source>
+        <translation type="unfinished">Assets Error</translation>
+    </message>
+    <message>
+        <source>Assets Success</source>
+        <translation type="unfinished">Assets Success</translation>
+    </message>
+    <message>
+        <source>Wallet or client model not initialized</source>
+        <translation type="unfinished">Wallet or client model not initialized</translation>
+    </message>
+    <message>
+        <source>Ticker must be 3-11 characters</source>
+        <translation type="unfinished">Ticker must be 3-11 characters</translation>
+    </message>
+    <message>
+        <source>Ticker '%1' is reserved and cannot be used for assets</source>
+        <translation type="unfinished">Ticker '%1' is reserved and cannot be used for assets</translation>
+    </message>
+    <message>
+        <source>Asset ID must be 64 hex characters</source>
+        <translation type="unfinished">Asset ID must be 64 hex characters</translation>
+    </message>
+    <message>
+        <source>Bond amount must be at least 5.0 TSC</source>
+        <translation type="unfinished">Bond amount must be at least 5.0 TSC</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Asset Registration Summary&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Asset Registration Summary&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Ticker:&lt;/b&gt; %1&lt;br/&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Ticker:&lt;/b&gt; %1&lt;br/&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Asset ID:&lt;/b&gt; %1&lt;br/&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Asset ID:&lt;/b&gt; %1&lt;br/&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Decimals:&lt;/b&gt; %1&lt;br/&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Decimals:&lt;/b&gt; %1&lt;br/&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Policy Bits:&lt;/b&gt; 0x%1&lt;br/&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Policy Bits:&lt;/b&gt; 0x%1&lt;br/&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Script Families:&lt;/b&gt; 0x%1&lt;br/&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Script Families:&lt;/b&gt; 0x%1&lt;br/&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bond Amount:&lt;/b&gt; %1 TSC&lt;br/&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Bond Amount:&lt;/b&gt; %1 TSC&lt;br/&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Unlock Fees:&lt;/b&gt; %1 TSC&lt;br/&gt;&lt;br/&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Unlock Fees:&lt;/b&gt; %1 TSC&lt;br/&gt;&lt;br/&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b style='color: #FF6600;'&gt;⚠️ WARNING:&lt;/b&gt;&lt;br/&gt;</source>
+        <translation type="unfinished">&lt;b style='color: #FF6600;'&gt;⚠️ WARNING:&lt;/b&gt;&lt;br/&gt;</translation>
+    </message>
+    <message>
+        <source>By submitting this transaction, you are locking &lt;b&gt;%1 TSC&lt;/b&gt; as a bond until miners have accumulated &lt;b&gt;%2 TSC&lt;/b&gt; in fees from asset transactions.&lt;br/&gt;&lt;br/&gt;</source>
+        <translation type="unfinished">By submitting this transaction, you are locking &lt;b&gt;%1 TSC&lt;/b&gt; as a bond until miners have accumulated &lt;b&gt;%2 TSC&lt;/b&gt; in fees from asset transactions.&lt;br/&gt;&lt;br/&gt;</translation>
+    </message>
+    <message>
+        <source>Do you want to proceed with asset registration?</source>
+        <translation type="unfinished">Do you want to proceed with asset registration?</translation>
+    </message>
+    <message>
+        <source>Confirm Asset Registration</source>
+        <translation type="unfinished">Confirm Asset Registration</translation>
+    </message>
+    <message>
+        <source>Asset registration cancelled by user.</source>
+        <translation type="unfinished">Asset registration cancelled by user.</translation>
+    </message>
+    <message>
+        <source>Registering asset %1...</source>
+        <translation type="unfinished">Registering asset %1...</translation>
+    </message>
+    <message>
+        <source>Asset ID: %1</source>
+        <translation type="unfinished">Asset ID: %1</translation>
+    </message>
+    <message>
+        <source>Policy: 0x%1, Families: 0x%2</source>
+        <translation type="unfinished">Policy: 0x%1, Families: 0x%2</translation>
+    </message>
+    <message>
+        <source>✗ Wallet unlock required to register asset</source>
+        <translation type="unfinished">✗ Wallet unlock required to register asset</translation>
+    </message>
+    <message>
+        <source>Wallet locked. Please unlock the wallet to register a new asset.</source>
+        <translation type="unfinished">Wallet locked. Please unlock the wallet to register a new asset.</translation>
+    </message>
+    <message>
+        <source>Adding ICU governance parameters...</source>
+        <translation type="unfinished">Adding ICU governance parameters...</translation>
+    </message>
+    <message>
+        <source>Failed to convert witness bundle to UniValue</source>
+        <translation type="unfinished">Failed to convert witness bundle to UniValue</translation>
+    </message>
+    <message>
+        <source>Failed to build ICU payload: %1</source>
+        <translation type="unfinished">Failed to build ICU payload: %1</translation>
+    </message>
+    <message>
+        <source>  Witness bundle updated with canonical_hash</source>
+        <translation type="unfinished">  Witness bundle updated with canonical_hash</translation>
+    </message>
+    <message>
+        <source>  Compression: enabled (zstd)</source>
+        <translation type="unfinished">  Compression: enabled (zstd)</translation>
+    </message>
+    <message>
+        <source>  ICU payload size: %1 bytes</source>
+        <translation type="unfinished">  ICU payload size: %1 bytes</translation>
+    </message>
+    <message>
+        <source>  Canonical hash: %1</source>
+        <translation type="unfinished">  Canonical hash: %1</translation>
+    </message>
+    <message>
+        <source>  Witness hash: %1</source>
+        <translation type="unfinished">  Witness hash: %1</translation>
+    </message>
+    <message>
+        <source>  Payload hex (first 32 bytes): %1...</source>
+        <translation type="unfinished">  Payload hex (first 32 bytes): %1...</translation>
+    </message>
+    <message>
+        <source>  Visibility: %1</source>
+        <translation type="unfinished">  Visibility: %1</translation>
+    </message>
+    <message>
+        <source>  WRAP_REQUIRED enabled (automatic for holder-only)</source>
+        <translation type="unfinished">  WRAP_REQUIRED enabled (automatic for holder-only)</translation>
+    </message>
+    <message>
+        <source>  Policy quorum: %1 bps (%2%)</source>
+        <translation type="unfinished">  Policy quorum: %1 bps (%2%)</translation>
+    </message>
+    <message>
+        <source>  Issuance cap: %1 coins (%2 units)</source>
+        <translation type="unfinished">  Issuance cap: %1 coins (%2 units)</translation>
+    </message>
+    <message>
+        <source>TFR_ANCHOR_REQUIRED flag set</source>
+        <translation type="unfinished">TFR_ANCHOR_REQUIRED flag set</translation>
+    </message>
+    <message>
+        <source>Adding ZK compliance parameters...</source>
+        <translation type="unfinished">Adding ZK compliance parameters...</translation>
+    </message>
+    <message>
+        <source>Initial compliance root must be 64 hex characters</source>
+        <translation type="unfinished">Initial compliance root must be 64 hex characters</translation>
+    </message>
+    <message>
+        <source>  Initial compliance root: %1...</source>
+        <translation type="unfinished">  Initial compliance root: %1...</translation>
+    </message>
+    <message>
+        <source>  [WARN] No initial compliance root provided - asset will start with no KYC identities</source>
+        <translation type="unfinished">  [WARN] No initial compliance root provided - asset will start with no KYC identities</translation>
+    </message>
+    <message>
+        <source>  VK data size: %1 bytes</source>
+        <translation type="unfinished">  VK data size: %1 bytes</translation>
+    </message>
+    <message>
+        <source>  Max root age: %1 blocks</source>
+        <translation type="unfinished">  Max root age: %1 blocks</translation>
+    </message>
+    <message>
+        <source>  Circuit: %1</source>
+        <translation type="unfinished">  Circuit: %1</translation>
+    </message>
+    <message>
+        <source>\n✓ Registration submitted successfully!</source>
+        <translation type="unfinished">\n✓ Registration submitted successfully!</translation>
+    </message>
+    <message>
+        <source>TxID: %1</source>
+        <translation type="unfinished">TxID: %1</translation>
+    </message>
+    <message>
+        <source>ICU Address: %1</source>
+        <translation type="unfinished">ICU Address: %1</translation>
+    </message>
+    <message>
+        <source>Asset %1 registered! TxID: %2</source>
+        <translation type="unfinished">Asset %1 registered! TxID: %2</translation>
+    </message>
+    <message>
+        <source>\n✗ RPC Error (%1): %2</source>
+        <translation type="unfinished">\n✗ RPC Error (%1): %2</translation>
+    </message>
+    <message>
+        <source>\n✗ Error: %1</source>
+        <translation type="unfinished">\n✗ Error: %1</translation>
+    </message>
+    <message>
+        <source>RPC Error: %1</source>
+        <translation type="unfinished">RPC Error: %1</translation>
+    </message>
+    <message>
+        <source>Failed to register asset: %1</source>
+        <translation type="unfinished">Failed to register asset: %1</translation>
+    </message>
+    <message>
+        <source>Asset info refreshed</source>
+        <translation type="unfinished">Asset info refreshed</translation>
+    </message>
+    <message>
+        <source>All fields are required for minting</source>
+        <translation type="unfinished">All fields are required for minting</translation>
+    </message>
+    <message>
+        <source>Mint amount must be greater than zero</source>
+        <translation type="unfinished">Mint amount must be greater than zero</translation>
+    </message>
+    <message>
+        <source>Address Not Controlled by Wallet</source>
+        <translation type="unfinished">Address Not Controlled by Wallet</translation>
+    </message>
+    <message>
+        <source>Mint operation cancelled by user</source>
+        <translation type="unfinished">Mint operation cancelled by user</translation>
+    </message>
+    <message>
+        <source>Confirm Mint Asset</source>
+        <translation type="unfinished">Confirm Mint Asset</translation>
+    </message>
+    <message>
+        <source>Mint operation cancelled by user.</source>
+        <translation type="unfinished">Mint operation cancelled by user.</translation>
+    </message>
+    <message>
+        <source>Minting %1 units of asset...</source>
+        <translation type="unfinished">Minting %1 units of asset...</translation>
+    </message>
+    <message>
+        <source>[ERROR] Wallet unlock required to mint asset</source>
+        <translation type="unfinished">[ERROR] Wallet unlock required to mint asset</translation>
+    </message>
+    <message>
+        <source>Wallet locked. Please unlock the wallet to mint this asset.</source>
+        <translation type="unfinished">Wallet locked. Please unlock the wallet to mint this asset.</translation>
+    </message>
+    <message>
+        <source>[INFO] Auto-wrapping DEK enabled</source>
+        <translation type="unfinished">[INFO] Auto-wrapping DEK enabled</translation>
+    </message>
+    <message>
+        <source>[INFO] Using manual wrapped key</source>
+        <translation type="unfinished">[INFO] Using manual wrapped key</translation>
+    </message>
+    <message>
+        <source>[WARN] Auto-wrap disabled and no manual key provided - may fail for WRAP_REQUIRED assets</source>
+        <translation type="unfinished">[WARN] Auto-wrap disabled and no manual key provided - may fail for WRAP_REQUIRED assets</translation>
+    </message>
+    <message>
+        <source>\n✓ Mint submitted successfully!</source>
+        <translation type="unfinished">\n✓ Mint submitted successfully!</translation>
+    </message>
+    <message>
+        <source>Minted %1 units! TxID: %2</source>
+        <translation type="unfinished">Minted %1 units! TxID: %2</translation>
+    </message>
+    <message>
+        <source>Failed to mint asset: %1</source>
+        <translation type="unfinished">Failed to mint asset: %1</translation>
+    </message>
+    <message>
+        <source>TxID must be 64 hex characters</source>
+        <translation type="unfinished">TxID must be 64 hex characters</translation>
+    </message>
+    <message>
+        <source>Vout must be a non-negative integer</source>
+        <translation type="unfinished">Vout must be a non-negative integer</translation>
+    </message>
+    <message>
+        <source>No asset selected</source>
+        <translation type="unfinished">No asset selected</translation>
+    </message>
+    <message>
+        <source>UTXO %1:%2 not found or already spent</source>
+        <translation type="unfinished">UTXO %1:%2 not found or already spent</translation>
+    </message>
+    <message>
+        <source>UTXO %1:%2 does not contain asset data</source>
+        <translation type="unfinished">UTXO %1:%2 does not contain asset data</translation>
+    </message>
+    <message>
+        <source>UTXO contains different asset!\nExpected: %1\nFound: %2</source>
+        <translation type="unfinished">UTXO contains different asset!\nExpected: %1\nFound: %2</translation>
+    </message>
+    <message>
+        <source>✓ Manual UTXO selected and verified: %1:%2</source>
+        <translation type="unfinished">✓ Manual UTXO selected and verified: %1:%2</translation>
+    </message>
+    <message>
+        <source>RPC Error (%1): %2</source>
+        <translation type="unfinished">RPC Error (%1): %2</translation>
+    </message>
+    <message>
+        <source>Error validating UTXO: %1</source>
+        <translation type="unfinished">Error validating UTXO: %1</translation>
+    </message>
+    <message>
+        <source>No asset UTXO selected</source>
+        <translation type="unfinished">No asset UTXO selected</translation>
+    </message>
+    <message>
+        <source>New ICU address required</source>
+        <translation type="unfinished">New ICU address required</translation>
+    </message>
+    <message>
+        <source>Burn operation cancelled by user</source>
+        <translation type="unfinished">Burn operation cancelled by user</translation>
+    </message>
+    <message>
+        <source>Burning asset UTXO %1:%2...</source>
+        <translation type="unfinished">Burning asset UTXO %1:%2...</translation>
+    </message>
+    <message>
+        <source>[ERROR] Wallet unlock required to burn asset</source>
+        <translation type="unfinished">[ERROR] Wallet unlock required to burn asset</translation>
+    </message>
+    <message>
+        <source>Wallet locked. Please unlock the wallet to burn this asset.</source>
+        <translation type="unfinished">Wallet locked. Please unlock the wallet to burn this asset.</translation>
+    </message>
+    <message>
+        <source>\n✓ Burn submitted successfully!</source>
+        <translation type="unfinished">\n✓ Burn submitted successfully!</translation>
+    </message>
+    <message>
+        <source>Asset burned! TxID: %1</source>
+        <translation type="unfinished">Asset burned! TxID: %1</translation>
+    </message>
+    <message>
+        <source>Failed to burn asset: %1</source>
+        <translation type="unfinished">Failed to burn asset: %1</translation>
+    </message>
+    <message>
+        <source>Loading ICU text...</source>
+        <translation type="unfinished">Loading ICU text...</translation>
+    </message>
+    <message>
+        <source>[Error: No client model available]</source>
+        <translation type="unfinished">[Error: No client model available]</translation>
+    </message>
+    <message>
+        <source>Quorum: %1 bps (%2%)</source>
+        <translation type="unfinished">Quorum: %1 bps (%2%)</translation>
+    </message>
+    <message>
+        <source>Cap: Unlimited</source>
+        <translation type="unfinished">Cap: Unlimited</translation>
+    </message>
+    <message>
+        <source>Cap: %1 units</source>
+        <translation type="unfinished">Cap: %1 units</translation>
+    </message>
+    <message>
+        <source>Visibility: Public</source>
+        <translation type="unfinished">Visibility: Public</translation>
+    </message>
+    <message>
+        <source>=== CANONICAL TEXT ===\n\n</source>
+        <translation type="unfinished">=== CANONICAL TEXT ===\n\n</translation>
+    </message>
+    <message>
+        <source>\n\n=== WITNESS SECTION ===\n\n</source>
+        <translation type="unfinished">\n\n=== WITNESS SECTION ===\n\n</translation>
+    </message>
+    <message>
+        <source>\n\n=== WITNESS SECTION ===\n\n[No witness bundle found]</source>
+        <translation type="unfinished">\n\n=== WITNESS SECTION ===\n\n[No witness bundle found]</translation>
+    </message>
+    <message>
+        <source>\n\n=== WITNESS SECTION ===\n\n[Failed to parse witness bundle]</source>
+        <translation type="unfinished">\n\n=== WITNESS SECTION ===\n\n[Failed to parse witness bundle]</translation>
+    </message>
+    <message>
+        <source>=== CANONICAL TEXT ===\n\n[No canonical text found in ICU]</source>
+        <translation type="unfinished">=== CANONICAL TEXT ===\n\n[No canonical text found in ICU]</translation>
+    </message>
+    <message>
+        <source>\n\n=== WITNESS SECTION ===\n\n[Failed to fetch witness bundle]</source>
+        <translation type="unfinished">\n\n=== WITNESS SECTION ===\n\n[Failed to fetch witness bundle]</translation>
+    </message>
+    <message>
+        <source>Visibility: Holder-Only (Encrypted)</source>
+        <translation type="unfinished">Visibility: Holder-Only (Encrypted)</translation>
+    </message>
+    <message>
+        <source>[Error: Decrypted but no plaintext field]</source>
+        <translation type="unfinished">[Error: Decrypted but no plaintext field]</translation>
+    </message>
+    <message>
+        <source>Visibility: Holder-Only (Decrypted ✓)</source>
+        <translation type="unfinished">Visibility: Holder-Only (Decrypted ✓)</translation>
+    </message>
+    <message>
+        <source>[Error: Failed to parse canonical ICU payload]</source>
+        <translation type="unfinished">[Error: Failed to parse canonical ICU payload]</translation>
+    </message>
+    <message>
+        <source>No ICU data</source>
+        <translation type="unfinished">No ICU data</translation>
+    </message>
+    <message>
+        <source>[No ICU text available]\n\n%1</source>
+        <translation type="unfinished">[No ICU text available]\n\n%1</translation>
+    </message>
+    <message>
+        <source>[RPC Error %1: %2]</source>
+        <translation type="unfinished">[RPC Error %1: %2]</translation>
+    </message>
+    <message>
+        <source>[Error: %1]</source>
+        <translation type="unfinished">[Error: %1]</translation>
+    </message>
+    <message>
+        <source>[DEBUG] Querying asset_id: %1</source>
+        <translation type="unfinished">[DEBUG] Querying asset_id: %1</translation>
+    </message>
+    <message>
+        <source>[DEBUG] getassetpolicy returned NULL</source>
+        <translation type="unfinished">[DEBUG] getassetpolicy returned NULL</translation>
+    </message>
+    <message>
+        <source>[DEBUG] Policy missing icu_txid field</source>
+        <translation type="unfinished">[DEBUG] Policy missing icu_txid field</translation>
+    </message>
+    <message>
+        <source>[DEBUG] Policy found successfully</source>
+        <translation type="unfinished">[DEBUG] Policy found successfully</translation>
+    </message>
+    <message>
+        <source>Pending confirmation...</source>
+        <translation type="unfinished">Pending confirmation...</translation>
+    </message>
+    <message>
+        <source>Asset not yet confirmed. Please wait for the registration transaction to be mined.</source>
+        <translation type="unfinished">Asset not yet confirmed. Please wait for the registration transaction to be mined.</translation>
+    </message>
+    <message>
+        <source>⚠ WRAP_REQUIRED - Keywrap enforcement enabled</source>
+        <translation type="unfinished">⚠ WRAP_REQUIRED - Keywrap enforcement enabled</translation>
+    </message>
+    <message>
+        <source>[INFO] This asset requires ICU_KEYWRAP on all transfers</source>
+        <translation type="unfinished">[INFO] This asset requires ICU_KEYWRAP on all transfers</translation>
+    </message>
+    <message>
+        <source>Optional (no enforcement)</source>
+        <translation type="unfinished">Optional (no enforcement)</translation>
+    </message>
+    <message>
+        <source>Not configured</source>
+        <translation type="unfinished">Not configured</translation>
+    </message>
+    <message>
+        <source>Asset registration pending confirmation</source>
+        <translation type="unfinished">Asset registration pending confirmation</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation type="unfinished">Error: %1</translation>
+    </message>
+    <message>
+        <source>Asset info unavailable - likely pending confirmation</source>
+        <translation type="unfinished">Asset info unavailable - likely pending confirmation</translation>
+    </message>
+    <message>
+        <source>Calling listassetutxos with:</source>
+        <translation type="unfinished">Calling listassetutxos with:</translation>
+    </message>
+    <message>
+        <source>  assets: [%1]</source>
+        <translation type="unfinished">  assets: [%1]</translation>
+    </message>
+    <message>
+        <source>  minconf: 0, maxconf: 9999999</source>
+        <translation type="unfinished">  minconf: 0, maxconf: 9999999</translation>
+    </message>
+    <message>
+        <source>listassetutxos returned non-array result</source>
+        <translation type="unfinished">listassetutxos returned non-array result</translation>
+    </message>
+    <message>
+        <source>Found %1 UTXOs for asset</source>
+        <translation type="unfinished">Found %1 UTXOs for asset</translation>
+    </message>
+    <message>
+        <source>listtransactions returned non-array</source>
+        <translation type="unfinished">listtransactions returned non-array</translation>
+    </message>
+    <message>
+        <source>Scanning transactions for ICUs...</source>
+        <translation type="unfinished">Scanning transactions for ICUs...</translation>
+    </message>
+    <message>
+        <source>Found %1 ICUs we control</source>
+        <translation type="unfinished">Found %1 ICUs we control</translation>
+    </message>
+    <message>
+        <source>refreshAssetList failed: %1</source>
+        <translation type="unfinished">refreshAssetList failed: %1</translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation type="unfinished">Unconfirmed</translation>
+    </message>
+    <message>
+        <source>⚠ BURN_JOINT_REQUIRED enabled: Only P2PKH and P2WPKH families allowed</source>
+        <translation type="unfinished">⚠ BURN_JOINT_REQUIRED enabled: Only P2PKH and P2WPKH families allowed</translation>
+    </message>
+    <message>
+        <source>Payload size: ~%1 bytes (compressed)</source>
+        <translation type="unfinished">Payload size: ~%1 bytes (compressed)</translation>
+    </message>
+    <message>
+        <source>Payload size: %1 bytes</source>
+        <translation type="unfinished">Payload size: %1 bytes</translation>
+    </message>
+    <message>
+        <source>Canonical text is empty</source>
+        <translation type="unfinished">Canonical text is empty</translation>
+    </message>
+    <message>
+        <source>✓ Canonical text precheck passed</source>
+        <translation type="unfinished">✓ Canonical text precheck passed</translation>
+    </message>
+    <message>
+        <source>  Canonical hash (LE): %1</source>
+        <translation type="unfinished">  Canonical hash (LE): %1</translation>
+    </message>
+    <message>
+        <source>  Witness text (if provided) will be automatically wrapped in JSON bundle during registration</source>
+        <translation type="unfinished">  Witness text (if provided) will be automatically wrapped in JSON bundle during registration</translation>
+    </message>
+    <message>
+        <source>✓ Canonical hash copied to clipboard</source>
+        <translation type="unfinished">✓ Canonical hash copied to clipboard</translation>
+    </message>
+    <message>
+        <source>Select Verification Key File</source>
+        <translation type="unfinished">Select Verification Key File</translation>
+    </message>
+    <message>
+        <source>Binary Files (*.bin);;All Files (*)</source>
+        <translation type="unfinished">Binary Files (*.bin);;All Files (*)</translation>
+    </message>
+    <message>
+        <source>✓ VK file loaded: %1 bytes</source>
+        <translation type="unfinished">✓ VK file loaded: %1 bytes</translation>
+    </message>
+    <message>
+        <source>  VK commitment: %1...</source>
+        <translation type="unfinished">  VK commitment: %1...</translation>
+    </message>
+    <message>
+        <source>Failed to read VK file: %1</source>
+        <translation type="unfinished">Failed to read VK file: %1</translation>
+    </message>
+    <message>
+        <source>Downloaded and verified</source>
+        <translation type="unfinished">Downloaded and verified</translation>
+    </message>
+    <message>
+        <source>[OK] Proving key available: %1</source>
+        <translation type="unfinished">[OK] Proving key available: %1</translation>
+    </message>
+    <message>
+        <source>Not available: %1</source>
+        <translation type="unfinished">Not available: %1</translation>
+    </message>
+    <message>
+        <source>[ERROR] Proving key: %1</source>
+        <translation type="unfinished">[ERROR] Proving key: %1</translation>
+    </message>
+    <message>
+        <source>[INFO] Pre-Registration Mode</source>
+        <translation type="unfinished">[INFO] Pre-Registration Mode</translation>
+    </message>
+    <message>
+        <source>  Use 'Build Merkle Tree' to generate an initial compliance root</source>
+        <translation type="unfinished">  Use 'Build Merkle Tree' to generate an initial compliance root</translation>
+    </message>
+    <message>
+        <source>  Then copy the root to the Registration tab</source>
+        <translation type="unfinished">  Then copy the root to the Registration tab</translation>
+    </message>
+    <message>
+        <source>[INFO] Loading ZK parameters for asset %1</source>
+        <translation type="unfinished">[INFO] Loading ZK parameters for asset %1</translation>
+    </message>
+    <message>
+        <source>%1 seconds</source>
+        <translation type="unfinished">%1 seconds</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation type="unfinished">Yes</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation type="unfinished">No</translation>
+    </message>
+    <message>
+        <source>[INFO] TFR anchor is REQUIRED for this asset</source>
+        <translation type="unfinished">[INFO] TFR anchor is REQUIRED for this asset</translation>
+    </message>
+    <message>
+        <source>[INFO] This asset does not have compliance/KYC requirements configured</source>
+        <translation type="unfinished">[INFO] This asset does not have compliance/KYC requirements configured</translation>
+    </message>
+    <message>
+        <source>[INFO] ZK proof generation is not required for this asset</source>
+        <translation type="unfinished">[INFO] ZK proof generation is not required for this asset</translation>
+    </message>
+    <message>
+        <source>[OK] ZK parameters loaded successfully</source>
+        <translation type="unfinished">[OK] ZK parameters loaded successfully</translation>
+    </message>
+    <message>
+        <source>RPC %1: %2</source>
+        <translation type="unfinished">RPC %1: %2</translation>
+    </message>
+    <message>
+        <source>[ERROR] Could not load asset policy: %1</source>
+        <translation type="unfinished">[ERROR] Could not load asset policy: %1</translation>
+    </message>
+    <message>
+        <source>[INFO] This asset may not be registered or may not have compliance requirements</source>
+        <translation type="unfinished">[INFO] This asset may not be registered or may not have compliance requirements</translation>
+    </message>
+    <message>
+        <source>[WARNING] Could not load asset policy: %1</source>
+        <translation type="unfinished">[WARNING] Could not load asset policy: %1</translation>
+    </message>
+    <message>
+        <source>[INFO] Building Merkle tree from identity list...</source>
+        <translation type="unfinished">[INFO] Building Merkle tree from identity list...</translation>
+    </message>
+    <message>
+        <source>[ERROR] Identity list is empty</source>
+        <translation type="unfinished">[ERROR] Identity list is empty</translation>
+    </message>
+    <message>
+        <source>Please enter at least one identity in format:\npubkey,country,age,index</source>
+        <translation type="unfinished">Please enter at least one identity in format:\npubkey,country,age,index</translation>
+    </message>
+    <message>
+        <source>[WARN] Line %1: Invalid format (need: pubkey,country,age,index)</source>
+        <translation type="unfinished">[WARN] Line %1: Invalid format (need: pubkey,country,age,index)</translation>
+    </message>
+    <message>
+        <source>No valid identities found. Format:\npubkey,country,age,index</source>
+        <translation type="unfinished">No valid identities found. Format:\npubkey,country,age,index</translation>
+    </message>
+    <message>
+        <source>[INFO] Parsed %1 identities, calling generatecomplianceroot...</source>
+        <translation type="unfinished">[INFO] Parsed %1 identities, calling generatecomplianceroot...</translation>
+    </message>
+    <message>
+        <source>[INFO] Using circuit: %1</source>
+        <translation type="unfinished">[INFO] Using circuit: %1</translation>
+    </message>
+    <message>
+        <source>✓ Merkle tree built successfully</source>
+        <translation type="unfinished">✓ Merkle tree built successfully</translation>
+    </message>
+    <message>
+        <source>  Root: %1...</source>
+        <translation type="unfinished">  Root: %1...</translation>
+    </message>
+    <message>
+        <source>  Identities: %1</source>
+        <translation type="unfinished">  Identities: %1</translation>
+    </message>
+    <message>
+        <source>  Tree depth: %1</source>
+        <translation type="unfinished">  Tree depth: %1</translation>
+    </message>
+    <message>
+        <source>Compliance root generated successfully</source>
+        <translation type="unfinished">Compliance root generated successfully</translation>
+    </message>
+    <message>
+        <source>Failed to build Merkle tree: %1</source>
+        <translation type="unfinished">Failed to build Merkle tree: %1</translation>
+    </message>
+    <message>
+        <source>No Merkle tree data available. Build a tree first.</source>
+        <translation type="unfinished">No Merkle tree data available. Build a tree first.</translation>
+    </message>
+    <message>
+        <source>JSON Files (*.json);;All Files (*)</source>
+        <translation type="unfinished">JSON Files (*.json);;All Files (*)</translation>
+    </message>
+    <message>
+        <source>Failed to open file for writing</source>
+        <translation type="unfinished">Failed to open file for writing</translation>
+    </message>
+    <message>
+        <source>[OK] Merkle proofs exported to: %1</source>
+        <translation type="unfinished">[OK] Merkle proofs exported to: %1</translation>
+    </message>
+    <message>
+        <source>Merkle proofs exported successfully!</source>
+        <translation type="unfinished">Merkle proofs exported successfully!</translation>
+    </message>
+    <message>
+        <source>Failed to export proofs: %1</source>
+        <translation type="unfinished">Failed to export proofs: %1</translation>
+    </message>
+    <message>
+        <source>No compliance root available. Build a Merkle tree first.</source>
+        <translation type="unfinished">No compliance root available. Build a Merkle tree first.</translation>
+    </message>
+    <message>
+        <source>[INFO] Rotating compliance root for asset %1...</source>
+        <translation type="unfinished">[INFO] Rotating compliance root for asset %1...</translation>
+    </message>
+    <message>
+        <source>[ERROR] Wallet unlock required to rotate compliance root</source>
+        <translation type="unfinished">[ERROR] Wallet unlock required to rotate compliance root</translation>
+    </message>
+    <message>
+        <source>Wallet locked. Please unlock the wallet to rotate the compliance root.</source>
+        <translation type="unfinished">Wallet locked. Please unlock the wallet to rotate the compliance root.</translation>
+    </message>
+    <message>
+        <source>✓ Compliance root rotation transaction created</source>
+        <translation type="unfinished">✓ Compliance root rotation transaction created</translation>
+    </message>
+    <message>
+        <source>  Txid: %1</source>
+        <translation type="unfinished">  Txid: %1</translation>
+    </message>
+    <message>
+        <source>  New Root: %1...</source>
+        <translation type="unfinished">  New Root: %1...</translation>
+    </message>
+    <message>
+        <source>Compliance root updated successfully!</source>
+        <translation type="unfinished">Compliance root updated successfully!</translation>
+    </message>
+    <message>
+        <source>Failed to rotate compliance root: %1</source>
+        <translation type="unfinished">Failed to rotate compliance root: %1</translation>
+    </message>
+    <message>
+        <source>[OK] Compliance root copied to Registration tab</source>
+        <translation type="unfinished">[OK] Compliance root copied to Registration tab</translation>
+    </message>
+    <message>
+        <source>Compliance root copied!\nSwitch to Registration tab to register your KYC asset.</source>
+        <translation type="unfinished">Compliance root copied!\nSwitch to Registration tab to register your KYC asset.</translation>
+    </message>
+    <message>
+        <source>[INFO] Generating new master key for KYC...</source>
+        <translation type="unfinished">[INFO] Generating new master key for KYC...</translation>
+    </message>
+    <message>
+        <source>Could not extract public key from address. Try using a legacy address type.</source>
+        <translation type="unfinished">Could not extract public key from address. Try using a legacy address type.</translation>
+    </message>
+    <message>
+        <source>Address: %1</source>
+        <translation type="unfinished">Address: %1</translation>
+    </message>
+    <message>
+        <source>Use dumpprivkey %1 to get private key for ZK proof generation</source>
+        <translation type="unfinished">Use dumpprivkey %1 to get private key for ZK proof generation</translation>
+    </message>
+    <message>
+        <source>[OK] Master key generated</source>
+        <translation type="unfinished">[OK] Master key generated</translation>
+    </message>
+    <message>
+        <source>  Address: %1</source>
+        <translation type="unfinished">  Address: %1</translation>
+    </message>
+    <message>
+        <source>  Public Key: %1...</source>
+        <translation type="unfinished">  Public Key: %1...</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Share this public key with the asset issuer.</source>
+        <translation type="unfinished">IMPORTANT: Share this public key with the asset issuer.</translation>
+    </message>
+    <message>
+        <source>Keep your private key safe - you'll need it to generate ZK proofs.</source>
+        <translation type="unfinished">Keep your private key safe - you'll need it to generate ZK proofs.</translation>
+    </message>
+    <message>
+        <source>To get private key later: dumpprivkey %1</source>
+        <translation type="unfinished">To get private key later: dumpprivkey %1</translation>
+    </message>
+    <message>
+        <source>Master key generated! Copy the public key to share with issuer.</source>
+        <translation type="unfinished">Master key generated! Copy the public key to share with issuer.</translation>
+    </message>
+    <message>
+        <source>Failed to generate master key: %1</source>
+        <translation type="unfinished">Failed to generate master key: %1</translation>
+    </message>
+    <message>
+        <source>No master key to copy. Generate one first.</source>
+        <translation type="unfinished">No master key to copy. Generate one first.</translation>
+    </message>
+    <message>
+        <source>[OK] Master public key copied to clipboard</source>
+        <translation type="unfinished">[OK] Master public key copied to clipboard</translation>
+    </message>
+    <message>
+        <source>Public key copied! Share this with the asset issuer for KYC registration.</source>
+        <translation type="unfinished">Public key copied! Share this with the asset issuer for KYC registration.</translation>
+    </message>
+    <message>
+        <source>Select Proving Key File</source>
+        <translation type="unfinished">Select Proving Key File</translation>
+    </message>
+    <message>
+        <source>Manual override</source>
+        <translation type="unfinished">Manual override</translation>
+    </message>
+    <message>
+        <source>[INFO] Proving key file selected: %1</source>
+        <translation type="unfinished">[INFO] Proving key file selected: %1</translation>
+    </message>
+    <message>
+        <source>UTXO txid required</source>
+        <translation type="unfinished">UTXO txid required</translation>
+    </message>
+    <message>
+        <source>Witness JSON required</source>
+        <translation type="unfinished">Witness JSON required</translation>
+    </message>
+    <message>
+        <source>[INFO] Generating ZK proof for asset %1</source>
+        <translation type="unfinished">[INFO] Generating ZK proof for asset %1</translation>
+    </message>
+    <message>
+        <source>[OK] ZK proof generated successfully</source>
+        <translation type="unfinished">[OK] ZK proof generated successfully</translation>
+    </message>
+    <message>
+        <source>  Proof size: %1 bytes</source>
+        <translation type="unfinished">  Proof size: %1 bytes</translation>
+    </message>
+    <message>
+        <source>ZK proof generated!</source>
+        <translation type="unfinished">ZK proof generated!</translation>
+    </message>
+    <message>
+        <source>Failed to generate ZK proof: %1</source>
+        <translation type="unfinished">Failed to generate ZK proof: %1</translation>
+    </message>
+    <message>
+        <source>[INFO] Loading governance parameters for asset %1</source>
+        <translation type="unfinished">[INFO] Loading governance parameters for asset %1</translation>
+    </message>
+    <message>
+        <source>%1 bps (%2%)</source>
+        <translation type="unfinished">%1 bps (%2%)</translation>
+    </message>
+    <message>
+        <source>[INFO] This asset does not have governance features configured (quorum = 0)</source>
+        <translation type="unfinished">[INFO] This asset does not have governance features configured (quorum = 0)</translation>
+    </message>
+    <message>
+        <source>[OK] Governance parameters loaded</source>
+        <translation type="unfinished">[OK] Governance parameters loaded</translation>
+    </message>
+    <message>
+        <source>[WARN] Skipping UTXO %1:%2 (wallet cannot sign this output)</source>
+        <translation type="unfinished">[WARN] Skipping UTXO %1:%2 (wallet cannot sign this output)</translation>
+    </message>
+    <message>
+        <source>[INFO] Found %1 spendable UTXO(s) for voting</source>
+        <translation type="unfinished">[INFO] Found %1 spendable UTXO(s) for voting</translation>
+    </message>
+    <message>
+        <source>[ERROR] Failed to load governance parameters: %1</source>
+        <translation type="unfinished">[ERROR] Failed to load governance parameters: %1</translation>
+    </message>
+    <message>
+        <source>[INFO] Preparing rotation for asset %1</source>
+        <translation type="unfinished">[INFO] Preparing rotation for asset %1</translation>
+    </message>
+    <message>
+        <source>[INFO] Building new governance text payload...</source>
+        <translation type="unfinished">[INFO] Building new governance text payload...</translation>
+    </message>
+    <message>
+        <source>Required units: %1</source>
+        <translation type="unfinished">Required units: %1</translation>
+    </message>
+    <message>
+        <source>Rotation summary:</source>
+        <translation type="unfinished">Rotation summary:</translation>
+    </message>
+    <message>
+        <source>[OK] Rotation prepared successfully</source>
+        <translation type="unfinished">[OK] Rotation prepared successfully</translation>
+    </message>
+    <message>
+        <source>  Required voting units: %1</source>
+        <translation type="unfinished">  Required voting units: %1</translation>
+    </message>
+    <message>
+        <source>  PSBT size: %1 characters</source>
+        <translation type="unfinished">  PSBT size: %1 characters</translation>
+    </message>
+    <message>
+        <source>  ✓ PSBT automatically copied to clipboard</source>
+        <translation type="unfinished">  ✓ PSBT automatically copied to clipboard</translation>
+    </message>
+    <message>
+        <source>  Share the PSBT with token holders for voting</source>
+        <translation type="unfinished">  Share the PSBT with token holders for voting</translation>
+    </message>
+    <message>
+        <source>Rotation template created and copied to clipboard!</source>
+        <translation type="unfinished">Rotation template created and copied to clipboard!</translation>
+    </message>
+    <message>
+        <source>Failed to prepare rotation: %1</source>
+        <translation type="unfinished">Failed to prepare rotation: %1</translation>
+    </message>
+    <message>
+        <source>[ERROR] Unknown exception</source>
+        <translation type="unfinished">[ERROR] Unknown exception</translation>
+    </message>
+    <message>
+        <source>Failed to prepare rotation: Unknown error</source>
+        <translation type="unfinished">Failed to prepare rotation: Unknown error</translation>
+    </message>
+    <message>
+        <source>Template PSBT required</source>
+        <translation type="unfinished">Template PSBT required</translation>
+    </message>
+    <message>
+        <source>[INFO] Casting ballot...</source>
+        <translation type="unfinished">[INFO] Casting ballot...</translation>
+    </message>
+    <message>
+        <source>UTXO table not available</source>
+        <translation type="unfinished">UTXO table not available</translation>
+    </message>
+    <message>
+        <source>No UTXOs selected. Please check at least one UTXO to vote with.</source>
+        <translation type="unfinished">No UTXOs selected. Please check at least one UTXO to vote with.</translation>
+    </message>
+    <message>
+        <source>[INFO] Using %1 UTXO(s) for voting</source>
+        <translation type="unfinished">[INFO] Using %1 UTXO(s) for voting</translation>
+    </message>
+    <message>
+        <source>[ERROR] Wallet unlock required to sign ballot</source>
+        <translation type="unfinished">[ERROR] Wallet unlock required to sign ballot</translation>
+    </message>
+    <message>
+        <source>Wallet locked. Please unlock the wallet to sign the governance ballot.</source>
+        <translation type="unfinished">Wallet locked. Please unlock the wallet to sign the governance ballot.</translation>
+    </message>
+    <message>
+        <source>[OK] Ballot cast successfully</source>
+        <translation type="unfinished">[OK] Ballot cast successfully</translation>
+    </message>
+    <message>
+        <source>  Your voting power: %1 units</source>
+        <translation type="unfinished">  Your voting power: %1 units</translation>
+    </message>
+    <message>
+        <source>  Send the signed PSBT back to the issuer</source>
+        <translation type="unfinished">  Send the signed PSBT back to the issuer</translation>
+    </message>
+    <message>
+        <source>Ballot cast with %1 units!</source>
+        <translation type="unfinished">Ballot cast with %1 units!</translation>
+    </message>
+    <message>
+        <source>Failed to cast ballot: %1</source>
+        <translation type="unfinished">Failed to cast ballot: %1</translation>
+    </message>
+    <message>
+        <source>[ERROR] Failed to list proposals: %1</source>
+        <translation type="unfinished">[ERROR] Failed to list proposals: %1</translation>
+    </message>
+    <message>
+        <source>No proposals found</source>
+        <translation type="unfinished">No proposals found</translation>
+    </message>
+    <message>
+        <source>[INFO] No proposals found</source>
+        <translation type="unfinished">[INFO] No proposals found</translation>
+    </message>
+    <message>
+        <source>[OK] Loaded %1 proposal(s)</source>
+        <translation type="unfinished">[OK] Loaded %1 proposal(s)</translation>
+    </message>
+    <message>
+        <source>Refresh Failed</source>
+        <translation type="unfinished">Refresh Failed</translation>
+    </message>
+    <message>
+        <source>Failed to refresh proposals list:\n\n%1</source>
+        <translation type="unfinished">Failed to refresh proposals list:\n\n%1</translation>
+    </message>
+    <message>
+        <source>No Proposal Selected</source>
+        <translation type="unfinished">No Proposal Selected</translation>
+    </message>
+    <message>
+        <source>Please select a proposal from the dropdown to fetch ballots for.</source>
+        <translation type="unfinished">Please select a proposal from the dropdown to fetch ballots for.</translation>
+    </message>
+    <message>
+        <source>Fetch Failed</source>
+        <translation type="unfinished">Fetch Failed</translation>
+    </message>
+    <message>
+        <source>Failed to fetch ballots:\n\n%1</source>
+        <translation type="unfinished">Failed to fetch ballots:\n\n%1</translation>
+    </message>
+    <message>
+        <source>cosign.list_ballots returned invalid response format</source>
+        <translation type="unfinished">cosign.list_ballots returned invalid response format</translation>
+    </message>
+    <message>
+        <source>ballots field is not an array</source>
+        <translation type="unfinished">ballots field is not an array</translation>
+    </message>
+    <message>
+        <source>Template PSBT Missing</source>
+        <translation type="unfinished">Template PSBT Missing</translation>
+    </message>
+    <message>
+        <source>=== BALLOT VALIDATION REPORT ===\n</source>
+        <translation type="unfinished">=== BALLOT VALIDATION REPORT ===\n</translation>
+    </message>
+    <message>
+        <source>Ballot %1: ✓ VALID (%2 units)</source>
+        <translation type="unfinished">Ballot %1: ✓ VALID (%2 units)</translation>
+    </message>
+    <message>
+        <source>Ballot %1: ✗ INVALID (%2)</source>
+        <translation type="unfinished">Ballot %1: ✗ INVALID (%2)</translation>
+    </message>
+    <message>
+        <source>Ballot %1: ✗ VALIDATION ERROR (%2)</source>
+        <translation type="unfinished">Ballot %1: ✗ VALIDATION ERROR (%2)</translation>
+    </message>
+    <message>
+        <source>Ballot %1: ✗ EXCEPTION (%2)</source>
+        <translation type="unfinished">Ballot %1: ✗ EXCEPTION (%2)</translation>
+    </message>
+    <message>
+        <source>\n=== SUMMARY ===</source>
+        <translation type="unfinished">\n=== SUMMARY ===</translation>
+    </message>
+    <message>
+        <source>Valid ballots: %1 (%2 units)</source>
+        <translation type="unfinished">Valid ballots: %1 (%2 units)</translation>
+    </message>
+    <message>
+        <source>Invalid ballots: %1 (%2 claimed units)</source>
+        <translation type="unfinished">Invalid ballots: %1 (%2 claimed units)</translation>
+    </message>
+    <message>
+        <source>%1 valid ballots (%2 units) | %3 invalid</source>
+        <translation type="unfinished">%1 valid ballots (%2 units) | %3 invalid</translation>
+    </message>
+    <message>
+        <source>Ballots Validated</source>
+        <translation type="unfinished">Ballots Validated</translation>
+    </message>
+    <message>
+        <source>Some Ballots Invalid</source>
+        <translation type="unfinished">Some Ballots Invalid</translation>
+    </message>
+    <message>
+        <source>Signed ballot PSBTs required</source>
+        <translation type="unfinished">Signed ballot PSBTs required</translation>
+    </message>
+    <message>
+        <source>No valid ballot PSBTs found</source>
+        <translation type="unfinished">No valid ballot PSBTs found</translation>
+    </message>
+    <message>
+        <source>[INFO] Merging %1 ballot(s)...</source>
+        <translation type="unfinished">[INFO] Merging %1 ballot(s)...</translation>
+    </message>
+    <message>
+        <source>[OK] Ballots merged. Ready for finalization.</source>
+        <translation type="unfinished">[OK] Ballots merged. Ready for finalization.</translation>
+    </message>
+    <message>
+        <source>✓ Governance text precheck passed</source>
+        <translation type="unfinished">✓ Governance text precheck passed</translation>
+    </message>
+    <message>
+        <source>  Text size: %1 bytes</source>
+        <translation type="unfinished">  Text size: %1 bytes</translation>
+    </message>
+    <message>
+        <source>No hash to copy. Click 'Precheck Text' first.</source>
+        <translation type="unfinished">No hash to copy. Click 'Precheck Text' first.</translation>
+    </message>
+    <message>
+        <source>[INFO] Re-merging %1 ballot(s) before finalization...</source>
+        <translation type="unfinished">[INFO] Re-merging %1 ballot(s) before finalization...</translation>
+    </message>
+    <message>
+        <source>Merged PSBT required</source>
+        <translation type="unfinished">Merged PSBT required</translation>
+    </message>
+    <message>
+        <source>[INFO] Finalizing rotation...</source>
+        <translation type="unfinished">[INFO] Finalizing rotation...</translation>
+    </message>
+    <message>
+        <source>[OK] Rotation finalized and broadcast</source>
+        <translation type="unfinished">[OK] Rotation finalized and broadcast</translation>
+    </message>
+    <message>
+        <source>  ✓ Transaction already confirmed</source>
+        <translation type="unfinished">  ✓ Transaction already confirmed</translation>
+    </message>
+    <message>
+        <source>  ✓ Transaction accepted to mempool</source>
+        <translation type="unfinished">  ✓ Transaction accepted to mempool</translation>
+    </message>
+    <message>
+        <source>  ⚠ Broadcast disabled (dry run)</source>
+        <translation type="unfinished">  ⚠ Broadcast disabled (dry run)</translation>
+    </message>
+    <message>
+        <source>  ⚠ Transaction not found in mempool</source>
+        <translation type="unfinished">  ⚠ Transaction not found in mempool</translation>
+    </message>
+    <message>
+        <source>    Reject reason: %1</source>
+        <translation type="unfinished">    Reject reason: %1</translation>
+    </message>
+    <message>
+        <source>    Details: %1</source>
+        <translation type="unfinished">    Details: %1</translation>
+    </message>
+    <message>
+        <source>    (Check node logs for additional context.)</source>
+        <translation type="unfinished">    (Check node logs for additional context.)</translation>
+    </message>
+    <message>
+        <source>Governance rotation complete! Txid: %1</source>
+        <translation type="unfinished">Governance rotation complete! Txid: %1</translation>
+    </message>
+    <message>
+        <source>Failed to finalize rotation: %1</source>
+        <translation type="unfinished">Failed to finalize rotation: %1</translation>
+    </message>
+    <message>
+        <source>[DECRYPTION FAILED - Wallet does not have DEK]</source>
+        <translation type="unfinished">[DECRYPTION FAILED - Wallet does not have DEK]</translation>
+    </message>
+    <message>
+        <source>[ERROR: %1]</source>
+        <translation type="unfinished">[ERROR: %1]</translation>
+    </message>
+    <message>
+        <source>[ERROR: Unexpected failure]</source>
+        <translation type="unfinished">[ERROR: Unexpected failure]</translation>
+    </message>
+    <message>
+        <source>No Asset Selected</source>
+        <translation type="unfinished">No Asset Selected</translation>
+    </message>
+    <message>
+        <source>Please select an asset from the table to view its rotation history.</source>
+        <translation type="unfinished">Please select an asset from the table to view its rotation history.</translation>
+    </message>
+    <message>
+        <source>Policy Not Found</source>
+        <translation type="unfinished">Policy Not Found</translation>
+    </message>
+    <message>
+        <source>Could not retrieve policy information for this asset.</source>
+        <translation type="unfinished">Could not retrieve policy information for this asset.</translation>
+    </message>
+    <message>
+        <source>=== POLICY ROTATION HISTORY ===\n\n</source>
+        <translation type="unfinished">=== POLICY ROTATION HISTORY ===\n\n</translation>
+    </message>
+    <message>
+        <source>Asset ID: %1\n\n</source>
+        <translation type="unfinished">Asset ID: %1\n\n</translation>
+    </message>
+    <message>
+        <source>Current ICU:\n</source>
+        <translation type="unfinished">Current ICU:\n</translation>
+    </message>
+    <message>
+        <source>  TxID: %1\n</source>
+        <translation type="unfinished">  TxID: %1\n</translation>
+    </message>
+    <message>
+        <source>  Vout: %1\n\n</source>
+        <translation type="unfinished">  Vout: %1\n\n</translation>
+    </message>
+    <message>
+        <source>Current Governance Quorum: %1 bps (%2%)\n</source>
+        <translation type="unfinished">Current Governance Quorum: %1 bps (%2%)\n</translation>
+    </message>
+    <message>
+        <source>Current Issuance Cap: Unlimited\n</source>
+        <translation type="unfinished">Current Issuance Cap: Unlimited\n</translation>
+    </message>
+    <message>
+        <source>Current Issuance Cap: %1 units\n</source>
+        <translation type="unfinished">Current Issuance Cap: %1 units\n</translation>
+    </message>
+    <message>
+        <source>\n--- Rotation History ---\n\n</source>
+        <translation type="unfinished">\n--- Rotation History ---\n\n</translation>
+    </message>
+    <message>
+        <source>Total rotations: %1\n\n</source>
+        <translation type="unfinished">Total rotations: %1\n\n</translation>
+    </message>
+    <message>
+        <source>━━━ Epoch %1 ━━━\n</source>
+        <translation type="unfinished">━━━ Epoch %1 ━━━\n</translation>
+    </message>
+    <message>
+        <source>  Block Height: %1\n</source>
+        <translation type="unfinished">  Block Height: %1\n</translation>
+    </message>
+    <message>
+        <source>  Rotation TxID: %1\n</source>
+        <translation type="unfinished">  Rotation TxID: %1\n</translation>
+    </message>
+    <message>
+        <source>  Date: %1\n</source>
+        <translation type="unfinished">  Date: %1\n</translation>
+    </message>
+    <message>
+        <source>  Quorum: %1 bps (%2%)\n</source>
+        <translation type="unfinished">  Quorum: %1 bps (%2%)\n</translation>
+    </message>
+    <message>
+        <source>  Issuance Cap: Unlimited\n</source>
+        <translation type="unfinished">  Issuance Cap: Unlimited\n</translation>
+    </message>
+    <message>
+        <source>  Issuance Cap: %1 units\n</source>
+        <translation type="unfinished">  Issuance Cap: %1 units\n</translation>
+    </message>
+    <message>
+        <source>  ICU Commit: %1...\n</source>
+        <translation type="unfinished">  ICU Commit: %1...\n</translation>
+    </message>
+    <message>
+        <source>[No prior rotations found]\n</source>
+        <translation type="unfinished">[No prior rotations found]\n</translation>
+    </message>
+    <message>
+        <source>\nThis asset has not been rotated yet (policy_epoch = 0).\n</source>
+        <translation type="unfinished">\nThis asset has not been rotated yet (policy_epoch = 0).\n</translation>
+    </message>
+    <message>
+        <source>[No rotation history available]\n</source>
+        <translation type="unfinished">[No rotation history available]\n</translation>
+    </message>
+    <message>
+        <source>\nNote: Rotation history tracking may not be enabled for this asset.\n</source>
+        <translation type="unfinished">\nNote: Rotation history tracking may not be enabled for this asset.\n</translation>
+    </message>
+    <message>
+        <source>This could indicate an older asset created before history tracking was implemented.\n</source>
+        <translation type="unfinished">This could indicate an older asset created before history tracking was implemented.\n</translation>
+    </message>
+    <message>
+        <source>Policy Rotation History</source>
+        <translation type="unfinished">Policy Rotation History</translation>
+    </message>
+    <message>
+        <source>RPC Error</source>
+        <translation type="unfinished">RPC Error</translation>
+    </message>
+    <message>
+        <source>Failed to retrieve rotation history: %1</source>
+        <translation type="unfinished">Failed to retrieve rotation history: %1</translation>
+    </message>
+    <message>
+        <source>Please select an asset from the table to view its previous ICU.</source>
+        <translation type="unfinished">Please select an asset from the table to view its previous ICU.</translation>
+    </message>
+    <message>
+        <source>No Prior ICU</source>
+        <translation type="unfinished">No Prior ICU</translation>
+    </message>
+    <message>
+        <source>Could not retrieve prior ICU for this asset.</source>
+        <translation type="unfinished">Could not retrieve prior ICU for this asset.</translation>
+    </message>
+    <message>
+        <source>=== PREVIOUS ICU (Epoch %1) ===\n\n</source>
+        <translation type="unfinished">=== PREVIOUS ICU (Epoch %1) ===\n\n</translation>
+    </message>
+    <message>
+        <source>ICU Commit: %1...\n\n</source>
+        <translation type="unfinished">ICU Commit: %1...\n\n</translation>
+    </message>
+    <message>
+        <source>Visibility: Holder-Only (Encrypted)\n</source>
+        <translation type="unfinished">Visibility: Holder-Only (Encrypted)\n</translation>
+    </message>
+    <message>
+        <source>Attempting decryption...\n\n</source>
+        <translation type="unfinished">Attempting decryption...\n\n</translation>
+    </message>
+    <message>
+        <source>━━━ Decrypted ICU Text ━━━\n\n</source>
+        <translation type="unfinished">━━━ Decrypted ICU Text ━━━\n\n</translation>
+    </message>
+    <message>
+        <source>✗ Decryption failed (DEK not available in this wallet)\n\n</source>
+        <translation type="unfinished">✗ Decryption failed (DEK not available in this wallet)\n\n</translation>
+    </message>
+    <message>
+        <source>Encrypted payload: %1...\n</source>
+        <translation type="unfinished">Encrypted payload: %1...\n</translation>
+    </message>
+    <message>
+        <source>✗ Decryption failed: %1\n\n</source>
+        <translation type="unfinished">✗ Decryption failed: %1\n\n</translation>
+    </message>
+    <message>
+        <source>Visibility: Public\n\n</source>
+        <translation type="unfinished">Visibility: Public\n\n</translation>
+    </message>
+    <message>
+        <source>━━━ ICU Text ━━━\n\n</source>
+        <translation type="unfinished">━━━ ICU Text ━━━\n\n</translation>
+    </message>
+    <message>
+        <source>Previous ICU Text (Epoch %1)</source>
+        <translation type="unfinished">Previous ICU Text (Epoch %1)</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished">Close</translation>
+    </message>
+    <message>
+        <source>Failed to retrieve previous ICU: %1</source>
+        <translation type="unfinished">Failed to retrieve previous ICU: %1</translation>
+    </message>
+    <message>
+        <source>Not Initialized</source>
+        <translation type="unfinished">Not Initialized</translation>
+    </message>
+    <message>
+        <source>Wallet or client model not initialized.</source>
+        <translation type="unfinished">Wallet or client model not initialized.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation type="unfinished">Search</translation>
+    </message>
+    <message>
+        <source>Search my assets</source>
+        <translation type="unfinished">Search my assets</translation>
+    </message>
+    <message>
+        <source>Compliance Proof</source>
+        <translation type="unfinished">Compliance Proof</translation>
+    </message>
+    <message>
+        <source>Cast Governance Ballot</source>
+        <translation type="unfinished">Cast Governance Ballot</translation>
+    </message>
+    <message>
+        <source>Failed to refresh proposals: %1</source>
+        <translation type="unfinished">Failed to refresh proposals: %1</translation>
+    </message>
+    <message>
+        <source>(No title)</source>
+        <translation type="unfinished">(No title)</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation type="unfinished">Expired</translation>
+    </message>
+    <message>
+        <source>Active</source>
+        <translation type="unfinished">Active</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation type="unfinished">Pending</translation>
+    </message>
+    <message>
+        <source>GRANTED</source>
+        <translation type="unfinished">GRANTED</translation>
+    </message>
+    <message>
+        <source>VERIFY FAILED</source>
+        <translation type="unfinished">VERIFY FAILED</translation>
+    </message>
+    <message>
+        <source>PRIVATE - USE BUTTON BELOW</source>
+        <translation type="unfinished">PRIVATE - USE BUTTON BELOW</translation>
+    </message>
+    <message>
+        <source>New Governance Proposal</source>
+        <translation type="unfinished">New Governance Proposal</translation>
+    </message>
+    <message>
+        <source>Untitled proposal</source>
+        <translation type="unfinished">Untitled proposal</translation>
+    </message>
+    <message>
+        <source>Last refresh: %1</source>
+        <translation type="unfinished">Last refresh: %1</translation>
+    </message>
+    <message>
+        <source>Refreshing...</source>
+        <translation type="unfinished">Refreshing...</translation>
+    </message>
+    <message>
+        <source>✓ Force refreshed governance proposals from Nostr relays</source>
+        <translation type="unfinished">✓ Force refreshed governance proposals from Nostr relays</translation>
+    </message>
+    <message>
+        <source>Failed to force refresh governance proposals</source>
+        <translation type="unfinished">Failed to force refresh governance proposals</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation type="unfinished">Unknown</translation>
+    </message>
+    <message>
+        <source>✓ Yes</source>
+        <translation type="unfinished">✓ Yes</translation>
+    </message>
+    <message>
+        <source>✗ No</source>
+        <translation type="unfinished">✗ No</translation>
+    </message>
+    <message>
+        <source>✓ Approve</source>
+        <translation type="unfinished">✓ Approve</translation>
+    </message>
+    <message>
+        <source>✗ Deny</source>
+        <translation type="unfinished">✗ Deny</translation>
+    </message>
+    <message>
+        <source>Unverified</source>
+        <translation type="unfinished">Unverified</translation>
+    </message>
+    <message>
+        <source>Sent</source>
+        <translation type="unfinished">Sent</translation>
+    </message>
+    <message>
+        <source>✓ Approved at %1</source>
+        <translation type="unfinished">✓ Approved at %1</translation>
+    </message>
+    <message>
+        <source>Auto</source>
+        <translation type="unfinished">Auto</translation>
+    </message>
+    <message>
+        <source>✓ Auto-approved at %1</source>
+        <translation type="unfinished">✓ Auto-approved at %1</translation>
+    </message>
+    <message>
+        <source>Access Requests Processed</source>
+        <translation type="unfinished">Access Requests Processed</translation>
+    </message>
+    <message>
+        <source>Processed %1 requests.\nAuto-sent responses to verified holders.</source>
+        <translation type="unfinished">Processed %1 requests.\nAuto-sent responses to verified holders.</translation>
+    </message>
+    <message>
+        <source>Failed to process access requests (UniValue error)</source>
+        <translation type="unfinished">Failed to process access requests (UniValue error)</translation>
+    </message>
+    <message>
+        <source>Failed to process access requests:\n%1</source>
+        <translation type="unfinished">Failed to process access requests:\n%1</translation>
+    </message>
+    <message>
+        <source>✓ Manually Approved</source>
+        <translation type="unfinished">✓ Manually Approved</translation>
+    </message>
+    <message>
+        <source>Failed to approve request:\n%1</source>
+        <translation type="unfinished">Failed to approve request:\n%1</translation>
+    </message>
+    <message>
+        <source>Deny Access Request</source>
+        <translation type="unfinished">Deny Access Request</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to deny access to this holder?\n\nProposal: %1\nHolder: %2\n\nNo response will be sent (denial by silence).</source>
+        <translation type="unfinished">Are you sure you want to deny access to this holder?\n\nProposal: %1\nHolder: %2\n\nNo response will be sent (denial by silence).</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation type="unfinished">Denied</translation>
+    </message>
+    <message>
+        <source>✗ Denied</source>
+        <translation type="unfinished">✗ Denied</translation>
+    </message>
+    <message>
+        <source>Failed to deny request:\n%1</source>
+        <translation type="unfinished">Failed to deny request:\n%1</translation>
+    </message>
+    <message>
+        <source>No Selection</source>
+        <translation type="unfinished">No Selection</translation>
+    </message>
+    <message>
+        <source>Please select a proposal to vote on.</source>
+        <translation type="unfinished">Please select a proposal to vote on.</translation>
+    </message>
+    <message>
+        <source>Invalid Selection</source>
+        <translation type="unfinished">Invalid Selection</translation>
+    </message>
+    <message>
+        <source>Selected row has no data.</source>
+        <translation type="unfinished">Selected row has no data.</translation>
+    </message>
+    <message>
+        <source>No PSBT</source>
+        <translation type="unfinished">No PSBT</translation>
+    </message>
+    <message>
+        <source>This proposal does not have a template PSBT attached.</source>
+        <translation type="unfinished">This proposal does not have a template PSBT attached.</translation>
+    </message>
+    <message>
+        <source>Invalid Proposal</source>
+        <translation type="unfinished">Invalid Proposal</translation>
+    </message>
+    <message>
+        <source>Proposal is missing asset_id or proposal_id.</source>
+        <translation type="unfinished">Proposal is missing asset_id or proposal_id.</translation>
+    </message>
+    <message>
+        <source>Vote Failed</source>
+        <translation type="unfinished">Vote Failed</translation>
+    </message>
+    <message>
+        <source>Failed to list asset UTXOs:\n\n%1</source>
+        <translation type="unfinished">Failed to list asset UTXOs:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Select Voting UTXOs</source>
+        <translation type="unfinished">Select Voting UTXOs</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Total voting power:&lt;/b&gt; %1 units (%2 UTXOs selected)</source>
+        <translation type="unfinished">&lt;b&gt;Total voting power:&lt;/b&gt; %1 units (%2 UTXOs selected)</translation>
+    </message>
+    <message>
+        <source>Please select at least one UTXO to vote with.</source>
+        <translation type="unfinished">Please select at least one UTXO to vote with.</translation>
+    </message>
+    <message>
+        <source>Wallet Locked</source>
+        <translation type="unfinished">Wallet Locked</translation>
+    </message>
+    <message>
+        <source>Please unlock the wallet to sign the governance ballot.</source>
+        <translation type="unfinished">Please unlock the wallet to sign the governance ballot.</translation>
+    </message>
+    <message>
+        <source>Failed to call ballot RPC:\n\n%1</source>
+        <translation type="unfinished">Failed to call ballot RPC:\n\n%1</translation>
+    </message>
+    <message>
+        <source>ballot RPC returned invalid response (missing psbt field)</source>
+        <translation type="unfinished">ballot RPC returned invalid response (missing psbt field)</translation>
+    </message>
+    <message>
+        <source>Cannot submit private ballot: issuer nostr pubkey missing from proposal data</source>
+        <translation type="unfinished">Cannot submit private ballot: issuer nostr pubkey missing from proposal data</translation>
+    </message>
+    <message>
+        <source>Failed to send private ballot via DM:\n\n%1</source>
+        <translation type="unfinished">Failed to send private ballot via DM:\n\n%1</translation>
+    </message>
+    <message>
+        <source>Failed to send private ballot: Invalid response from bridge</source>
+        <translation type="unfinished">Failed to send private ballot: Invalid response from bridge</translation>
+    </message>
+    <message>
+        <source>Failed to publish ballot to Nostr:\n\n%1</source>
+        <translation type="unfinished">Failed to publish ballot to Nostr:\n\n%1</translation>
+    </message>
+    <message>
+        <source>cosign.publish_ballot returned invalid response (missing ballot_id)</source>
+        <translation type="unfinished">cosign.publish_ballot returned invalid response (missing ballot_id)</translation>
+    </message>
+    <message>
+        <source>%1 UTXOs selected</source>
+        <translation type="unfinished">%1 UTXOs selected</translation>
+    </message>
+    <message>
+        <source>Vote Submitted</source>
+        <translation type="unfinished">Vote Submitted</translation>
+    </message>
+    <message>
+        <source>Failed to sign ballot:\n\n%1</source>
+        <translation type="unfinished">Failed to sign ballot:\n\n%1</translation>
+    </message>
+    <message>
+        <source>===== PROPOSAL FROM NETWORK =====</source>
+        <translation type="unfinished">===== PROPOSAL FROM NETWORK =====</translation>
+    </message>
+    <message>
+        <source>Proposal ID: %1</source>
+        <translation type="unfinished">Proposal ID: %1</translation>
+    </message>
+    <message>
+        <source>Asset: %1</source>
+        <translation type="unfinished">Asset: %1</translation>
+    </message>
+    <message>
+        <source>Issuance Cap: %1 units</source>
+        <translation type="unfinished">Issuance Cap: %1 units</translation>
+    </message>
+    <message>
+        <source>===== AUTOMATIC VERIFICATION (ANTI-MALLEABILITY) =====</source>
+        <translation type="unfinished">===== AUTOMATIC VERIFICATION (ANTI-MALLEABILITY) =====</translation>
+    </message>
+    <message>
+        <source>Current Asset Registry:</source>
+        <translation type="unfinished">Current Asset Registry:</translation>
+    </message>
+    <message>
+        <source>  Compression: %1</source>
+        <translation type="unfinished">  Compression: %1</translation>
+    </message>
+    <message>
+        <source>  Visibility: %1 (%2)</source>
+        <translation type="unfinished">  Visibility: %1 (%2)</translation>
+    </message>
+    <message>
+        <source>Text Hash: %1</source>
+        <translation type="unfinished">Text Hash: %1</translation>
+    </message>
+    <message>
+        <source>✓ VERIFIED</source>
+        <translation type="unfinished">✓ VERIFIED</translation>
+    </message>
+    <message>
+        <source>✗ MISMATCH</source>
+        <translation type="unfinished">✗ MISMATCH</translation>
+    </message>
+    <message>
+        <source>Witness Hash: %1</source>
+        <translation type="unfinished">Witness Hash: %1</translation>
+    </message>
+    <message>
+        <source>Built ICU Payload: %1 bytes</source>
+        <translation type="unfinished">Built ICU Payload: %1 bytes</translation>
+    </message>
+    <message>
+        <source>✓ Payload reconstruction successful</source>
+        <translation type="unfinished">✓ Payload reconstruction successful</translation>
+    </message>
+    <message>
+        <source>This payload will produce the chunk_commit in the OP_RETURN.</source>
+        <translation type="unfinished">This payload will produce the chunk_commit in the OP_RETURN.</translation>
+    </message>
+    <message>
+        <source>If text/witness hashes match, the rotation is honest!</source>
+        <translation type="unfinished">If text/witness hashes match, the rotation is honest!</translation>
+    </message>
+    <message>
+        <source>✗ VERIFICATION FAILED - Hash mismatch detected!</source>
+        <translation type="unfinished">✗ VERIFICATION FAILED - Hash mismatch detected!</translation>
+    </message>
+    <message>
+        <source>⚠ DO NOT SIGN THIS BALLOT - Possible tampering!</source>
+        <translation type="unfinished">⚠ DO NOT SIGN THIS BALLOT - Possible tampering!</translation>
+    </message>
+    <message>
+        <source>⚠ Automatic verification failed: %1</source>
+        <translation type="unfinished">⚠ Automatic verification failed: %1</translation>
+    </message>
+    <message>
+        <source>You may need to verify manually via RPC.</source>
+        <translation type="unfinished">You may need to verify manually via RPC.</translation>
+    </message>
+    <message>
+        <source>⚠ Missing data for automatic verification</source>
+        <translation type="unfinished">⚠ Missing data for automatic verification</translation>
+    </message>
+    <message>
+        <source>✓✓✓ SAFE TO SIGN - All verifications passed ✓✓✓</source>
+        <translation type="unfinished">✓✓✓ SAFE TO SIGN - All verifications passed ✓✓✓</translation>
+    </message>
+    <message>
+        <source>⚠⚠⚠ REVIEW CAREFULLY - Verification incomplete ⚠⚠⚠</source>
+        <translation type="unfinished">⚠⚠⚠ REVIEW CAREFULLY - Verification incomplete ⚠⚠⚠</translation>
+    </message>
+    <message>
+        <source>Governance Text Preview:</source>
+        <translation type="unfinished">Governance Text Preview:</translation>
+    </message>
+    <message>
+        <source>Review full details with 'View Details' button before voting.</source>
+        <translation type="unfinished">Review full details with 'View Details' button before voting.</translation>
+    </message>
+    <message>
+        <source>Vote Ready</source>
+        <translation type="unfinished">Vote Ready</translation>
+    </message>
+    <message>
+        <source>Please select a proposal to view details.</source>
+        <translation type="unfinished">Please select a proposal to view details.</translation>
+    </message>
+    <message>
+        <source>Proposal Details - Full Review</source>
+        <translation type="unfinished">Proposal Details - Full Review</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Proposal ID:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Proposal ID:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Asset ID:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Asset ID:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Issuer Pubkey:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Issuer Pubkey:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Created:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Created:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Expires:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Expires:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Flow Type:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Flow Type:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;ICU Ownership Verified:&lt;/b&gt; %1&lt;br&gt;</source>
+        <translation type="unfinished">&lt;b&gt;ICU Ownership Verified:&lt;/b&gt; %1&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>✓ Yes (BIP-322)</source>
+        <translation type="unfinished">✓ Yes (BIP-322)</translation>
+    </message>
+    <message>
+        <source>⚠ Pending</source>
+        <translation type="unfinished">⚠ Pending</translation>
+    </message>
+    <message>
+        <source>&lt;br&gt;&lt;b&gt;Policy Changes:&lt;/b&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;br&gt;&lt;b&gt;Policy Changes:&lt;/b&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;table style='margin-left: 20px; border-spacing: 10px 5px;'&gt;</source>
+        <translation type="unfinished">&lt;table style='margin-left: 20px; border-spacing: 10px 5px;'&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Quorum:&lt;/b&gt;&lt;/td&gt;&lt;td style='color: %4;'&gt;%1 bps (%2%) %5 &lt;b&gt;%3 bps (%6%)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Quorum:&lt;/b&gt;&lt;/td&gt;&lt;td style='color: %4;'&gt;%1 bps (%2%) %5 &lt;b&gt;%3 bps (%6%)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;tr&gt;&lt;td&gt;&lt;b&gt;Issuance Cap:&lt;/b&gt;&lt;/td&gt;&lt;td style='color: %4;'&gt;%1 units %5 &lt;b&gt;%2 units&lt;/b&gt; (%3% change)&lt;/td&gt;&lt;/tr&gt;</source>
+        <translation type="unfinished">&lt;tr&gt;&lt;td&gt;&lt;b&gt;Issuance Cap:&lt;/b&gt;&lt;/td&gt;&lt;td style='color: %4;'&gt;%1 units %5 &lt;b&gt;%2 units&lt;/b&gt; (%3% change)&lt;/td&gt;&lt;/tr&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;/table&gt;</source>
+        <translation type="unfinished">&lt;/table&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;br&gt;&lt;i&gt;Note: This proposal requires %1% of asset holders to vote for it to pass.&lt;/i&gt;&lt;br&gt;</source>
+        <translation type="unfinished">&lt;br&gt;&lt;i&gt;Note: This proposal requires %1% of asset holders to vote for it to pass.&lt;/i&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;⚠ Private Proposal - Access Required&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;⚠ Private Proposal - Access Required&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Canonical Hash: %1\nComputed Hash: %2\nVerification: %3\n\n</source>
+        <translation type="unfinished">Canonical Hash: %1\nComputed Hash: %2\nVerification: %3\n\n</translation>
+    </message>
+    <message>
+        <source>✗ FAILED - DO NOT VOTE</source>
+        <translation type="unfinished">✗ FAILED - DO NOT VOTE</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Governance Text (may be 140KB compressed):&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Governance Text (may be 140KB compressed):&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Witness Bundle (JSON):&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Witness Bundle (JSON):&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Save to File</source>
+        <translation type="unfinished">Save to File</translation>
+    </message>
+    <message>
+        <source>Save Proposal Details</source>
+        <translation type="unfinished">Save Proposal Details</translation>
+    </message>
+    <message>
+        <source>Text Files (*.txt);;All Files (*)</source>
+        <translation type="unfinished">Text Files (*.txt);;All Files (*)</translation>
+    </message>
+    <message>
+        <source>Saved</source>
+        <translation type="unfinished">Saved</translation>
+    </message>
+    <message>
+        <source>Proposal details saved to:\n%1</source>
+        <translation type="unfinished">Proposal details saved to:\n%1</translation>
+    </message>
+    <message>
+        <source>Could not write to file:\n%1</source>
+        <translation type="unfinished">Could not write to file:\n%1</translation>
+    </message>
+    <message>
+        <source>Copy All to Clipboard</source>
+        <translation type="unfinished">Copy All to Clipboard</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation type="unfinished">Copied</translation>
+    </message>
+    <message>
+        <source>Full proposal details copied to clipboard!</source>
+        <translation type="unfinished">Full proposal details copied to clipboard!</translation>
+    </message>
+    <message>
+        <source>Please select a private proposal to request access.</source>
+        <translation type="unfinished">Please select a private proposal to request access.</translation>
+    </message>
+    <message>
+        <source>Not Private</source>
+        <translation type="unfinished">Not Private</translation>
+    </message>
+    <message>
+        <source>This proposal is not private. Use the regular Vote button instead.</source>
+        <translation type="unfinished">This proposal is not private. Use the regular Vote button instead.</translation>
+    </message>
+    <message>
+        <source>Request Private Proposal Access</source>
+        <translation type="unfinished">Request Private Proposal Access</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Request Access to Private Governance Proposal&lt;/b&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Request Access to Private Governance Proposal&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Asset: %1\nProposal ID: %2</source>
+        <translation type="unfinished">Asset: %1\nProposal ID: %2</translation>
+    </message>
+    <message>
+        <source>No Asset UTXOs</source>
+        <translation type="unfinished">No Asset UTXOs</translation>
+    </message>
+    <message>
+        <source>Request Access</source>
+        <translation type="unfinished">Request Access</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancel</translation>
+    </message>
+    <message>
+        <source>No UTXO Selected</source>
+        <translation type="unfinished">No UTXO Selected</translation>
+    </message>
+    <message>
+        <source>Please select a UTXO to prove ownership.</source>
+        <translation type="unfinished">Please select a UTXO to prove ownership.</translation>
+    </message>
+    <message>
+        <source>✗ Failed to get holder nostr pubkey from bridge</source>
+        <translation type="unfinished">✗ Failed to get holder nostr pubkey from bridge</translation>
+    </message>
+    <message>
+        <source>Bridge Not Ready</source>
+        <translation type="unfinished">Bridge Not Ready</translation>
+    </message>
+    <message>
+        <source>Could not get nostr pubkey from bridge. Make sure the bridge is initialized.</source>
+        <translation type="unfinished">Could not get nostr pubkey from bridge. Make sure the bridge is initialized.</translation>
+    </message>
+    <message>
+        <source>Holder nostr pubkey: %1</source>
+        <translation type="unfinished">Holder nostr pubkey: %1</translation>
+    </message>
+    <message>
+        <source>Generating BIP-322 signature for message:\n%1</source>
+        <translation type="unfinished">Generating BIP-322 signature for message:\n%1</translation>
+    </message>
+    <message>
+        <source>✗ Failed to generate BIP-322 signature</source>
+        <translation type="unfinished">✗ Failed to generate BIP-322 signature</translation>
+    </message>
+    <message>
+        <source>Signature Failed</source>
+        <translation type="unfinished">Signature Failed</translation>
+    </message>
+    <message>
+        <source>Failed to sign the ownership proof message.</source>
+        <translation type="unfinished">Failed to sign the ownership proof message.</translation>
+    </message>
+    <message>
+        <source>✓ Generated signature: %1...</source>
+        <translation type="unfinished">✓ Generated signature: %1...</translation>
+    </message>
+    <message>
+        <source>Sending access request via encrypted DM...</source>
+        <translation type="unfinished">Sending access request via encrypted DM...</translation>
+    </message>
+    <message>
+        <source>✓ Request sent successfully!</source>
+        <translation type="unfinished">✓ Request sent successfully!</translation>
+    </message>
+    <message>
+        <source>Session ID: %1</source>
+        <translation type="unfinished">Session ID: %1</translation>
+    </message>
+    <message>
+        <source>Status: %1</source>
+        <translation type="unfinished">Status: %1</translation>
+    </message>
+    <message>
+        <source>Message: %1</source>
+        <translation type="unfinished">Message: %1</translation>
+    </message>
+    <message>
+        <source>Access Request Sent</source>
+        <translation type="unfinished">Access Request Sent</translation>
+    </message>
+    <message>
+        <source>✗ RPC error: %1</source>
+        <translation type="unfinished">✗ RPC error: %1</translation>
+    </message>
+    <message>
+        <source>Request Failed</source>
+        <translation type="unfinished">Request Failed</translation>
+    </message>
+    <message>
+        <source>Failed to send access request:\n%1</source>
+        <translation type="unfinished">Failed to send access request:\n%1</translation>
+    </message>
+    <message>
+        <source>✗ Error: %1</source>
+        <translation type="unfinished">✗ Error: %1</translation>
+    </message>
+    <message>
+        <source>Not Ready</source>
+        <translation type="unfinished">Not Ready</translation>
+    </message>
+    <message>
+        <source>Wallet or client model not available.</source>
+        <translation type="unfinished">Wallet or client model not available.</translation>
+    </message>
+    <message>
+        <source>Internal error: govPSBTEdit is null</source>
+        <translation type="unfinished">Internal error: govPSBTEdit is null</translation>
+    </message>
+    <message>
+        <source>Please prepare a rotation PSBT first using the 'Prepare Rotation' section below.</source>
+        <translation type="unfinished">Please prepare a rotation PSBT first using the 'Prepare Rotation' section below.</translation>
+    </message>
+    <message>
+        <source>Internal error: govAssetCombo is null</source>
+        <translation type="unfinished">Internal error: govAssetCombo is null</translation>
+    </message>
+    <message>
+        <source>No Asset</source>
+        <translation type="unfinished">No Asset</translation>
+    </message>
+    <message>
+        <source>Please select an asset first.</source>
+        <translation type="unfinished">Please select an asset first.</translation>
+    </message>
+    <message>
+        <source>Internal error: UI widgets not initialized</source>
+        <translation type="unfinished">Internal error: UI widgets not initialized</translation>
+    </message>
+    <message>
+        <source>Auto-wrapped witness text into JSON bundle</source>
+        <translation type="unfinished">Auto-wrapped witness text into JSON bundle</translation>
+    </message>
+    <message>
+        <source>Publish Failed</source>
+        <translation type="unfinished">Publish Failed</translation>
+    </message>
+    <message>
+        <source>Failed to create witness bundle: %1</source>
+        <translation type="unfinished">Failed to create witness bundle: %1</translation>
+    </message>
+    <message>
+        <source>Failed to create witness bundle: Unknown exception</source>
+        <translation type="unfinished">Failed to create witness bundle: Unknown exception</translation>
+    </message>
+    <message>
+        <source>[DEBUG] Starting publish...</source>
+        <translation type="unfinished">[DEBUG] Starting publish...</translation>
+    </message>
+    <message>
+        <source>[ERROR] Wallet unlock required to sign attestation</source>
+        <translation type="unfinished">[ERROR] Wallet unlock required to sign attestation</translation>
+    </message>
+    <message>
+        <source>Please unlock the wallet to sign the governance attestation.</source>
+        <translation type="unfinished">Please unlock the wallet to sign the governance attestation.</translation>
+    </message>
+    <message>
+        <source>[DEBUG] Fetching asset policy...</source>
+        <translation type="unfinished">[DEBUG] Fetching asset policy...</translation>
+    </message>
+    <message>
+        <source>[DEBUG] Got asset policy</source>
+        <translation type="unfinished">[DEBUG] Got asset policy</translation>
+    </message>
+    <message>
+        <source>[DEBUG] gettxout failed: %1</source>
+        <translation type="unfinished">[DEBUG] gettxout failed: %1</translation>
+    </message>
+    <message>
+        <source>[DEBUG] gettxout exception: %1</source>
+        <translation type="unfinished">[DEBUG] gettxout exception: %1</translation>
+    </message>
+    <message>
+        <source>[DEBUG] Falling back to gettransaction for ICU address</source>
+        <translation type="unfinished">[DEBUG] Falling back to gettransaction for ICU address</translation>
+    </message>
+    <message>
+        <source>[DEBUG] ICU address: %1</source>
+        <translation type="unfinished">[DEBUG] ICU address: %1</translation>
+    </message>
+    <message>
+        <source>[DEBUG] BIP-322 signature created</source>
+        <translation type="unfinished">[DEBUG] BIP-322 signature created</translation>
+    </message>
+    <message>
+        <source>[DEBUG] Getting Nostr pubkey...</source>
+        <translation type="unfinished">[DEBUG] Getting Nostr pubkey...</translation>
+    </message>
+    <message>
+        <source>[DEBUG] Got pubkey: %1</source>
+        <translation type="unfinished">[DEBUG] Got pubkey: %1</translation>
+    </message>
+    <message>
+        <source>[DEBUG] Building proposal object...</source>
+        <translation type="unfinished">[DEBUG] Building proposal object...</translation>
+    </message>
+    <message>
+        <source>Governance Rotation for %1</source>
+        <translation type="unfinished">Governance Rotation for %1</translation>
+    </message>
+    <message>
+        <source>[DEBUG] Preparing to call RPC...</source>
+        <translation type="unfinished">[DEBUG] Preparing to call RPC...</translation>
+    </message>
+    <message>
+        <source>\n=== Publishing to Network ===</source>
+        <translation type="unfinished">\n=== Publishing to Network ===</translation>
+    </message>
+    <message>
+        <source>[DEBUG] Calling cosign.publish_governance...</source>
+        <translation type="unfinished">[DEBUG] Calling cosign.publish_governance...</translation>
+    </message>
+    <message>
+        <source>[DEBUG] RPC returned</source>
+        <translation type="unfinished">[DEBUG] RPC returned</translation>
+    </message>
+    <message>
+        <source>✓ Successfully published to network</source>
+        <translation type="unfinished">✓ Successfully published to network</translation>
+    </message>
+    <message>
+        <source>Published Proposal ID: %1</source>
+        <translation type="unfinished">Published Proposal ID: %1</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation type="unfinished">Published</translation>
+    </message>
+    <message>
+        <source>✗ Failed to publish: %1</source>
+        <translation type="unfinished">✗ Failed to publish: %1</translation>
+    </message>
+    <message>
+        <source>Failed to publish proposal:\n\n%1</source>
+        <translation type="unfinished">Failed to publish proposal:\n\n%1</translation>
+    </message>
+    <message>
+        <source>✗ Failed to publish: Unknown exception</source>
+        <translation type="unfinished">✗ Failed to publish: Unknown exception</translation>
+    </message>
+    <message>
+        <source>Failed to publish proposal: Unknown exception</source>
+        <translation type="unfinished">Failed to publish proposal: Unknown exception</translation>
+    </message>
+    <message>
+        <source>● Connected</source>
+        <translation type="unfinished">● Connected</translation>
+    </message>
+    <message>
+        <source>● Not Initialized (init in Exchange P2P tab)</source>
+        <translation type="unfinished">● Not Initialized (init in Exchange P2P tab)</translation>
+    </message>
+    <message>
+        <source>Could not load asset info</source>
+        <translation type="unfinished">Could not load asset info</translation>
+    </message>
+    <message>
+        <source>Balance: 0</source>
+        <translation type="unfinished">Balance: 0</translation>
+    </message>
+    <message>
+        <source>Invalid Input</source>
+        <translation type="unfinished">Invalid Input</translation>
+    </message>
+    <message>
+        <source>Please select a target asset and enter an amount.</source>
+        <translation type="unfinished">Please select a target asset and enter an amount.</translation>
+    </message>
+    <message>
+        <source>Distribution Error</source>
+        <translation type="unfinished">Distribution Error</translation>
+    </message>
+    <message>
+        <source>Preview ready. Click 'Execute Distribution' to broadcast.</source>
+        <translation type="unfinished">Preview ready. Click 'Execute Distribution' to broadcast.</translation>
+    </message>
+    <message>
+        <source>Confirm Distribution</source>
+        <translation type="unfinished">Confirm Distribution</translation>
+    </message>
+    <message>
+        <source>Wallet unlock required to execute distribution.</source>
+        <translation type="unfinished">Wallet unlock required to execute distribution.</translation>
+    </message>
+    <message>
+        <source>Please unlock the wallet to execute the distribution transaction.</source>
+        <translation type="unfinished">Please unlock the wallet to execute the distribution transaction.</translation>
+    </message>
+    <message>
+        <source>Distribution Successful</source>
+        <translation type="unfinished">Distribution Successful</translation>
+    </message>
+    <message>
+        <source>Bond (TSC)</source>
+        <translation type="unfinished">พันธบัตร (TSC)</translation>
+    </message>
+    <message>
+        <source>(0.00%)</source>
+        <translation type="unfinished">(0.00%)</translation>
+    </message>
+    <message>
+        <source>The Merkle root of initial KYC identities.\n</source>
+        <translation type="unfinished">Merkle root ของข้อมูล KYC เริ่มต้น\n</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation type="unfinished">N/A</translation>
+    </message>
+    <message>
+        <source>Automatically wrap the Data Encryption Key in minted output.\n</source>
+        <translation type="unfinished">ห่อ Data Encryption Key ในเอาต์พุตที่สร้างโดยอัตโนมัติ\n</translation>
+    </message>
+    <message>
+        <source>-</source>
+        <translation type="unfinished">-</translation>
+    </message>
+    <message>
+        <source>When enabled, verified access requests are automatically approved and responses sent.\n</source>
+        <translation type="unfinished">เมื่อเปิดใช้งาน คำขอเข้าถึงที่ยืนยันแล้วจะได้รับการอนุมัติโดยอัตโนมัติและส่งการตอบสนอง\n</translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;This table shows holders who have requested access to your private governance proposals.&lt;br&gt;</source>
+        <translation type="unfinished">&lt;i&gt;ตารางนี้แสดงผู้ถือที่ขอเข้าถึงข้อเสนอการกำกับดูแลส่วนตัวของคุณ&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>= %1</source>
+        <translation type="unfinished">= %1</translation>
+    </message>
+    <message>
+        <source>WARNING: Neither the destination address (%1) nor the new ICU address (%2) </source>
+        <translation type="unfinished">คำเตือน: ไม่มีที่อยู่ปลายทาง (%1) หรือที่อยู่ ICU ใหม่ (%2) </translation>
+    </message>
+    <message>
+        <source>WARNING: The destination address (%1) is not controlled by this wallet.\n\n</source>
+        <translation type="unfinished">คำเตือน: ที่อยู่ปลายทาง (%1) ไม่ได้ถูกควบคุมโดยกระเป๋าเงินนี้\n\n</translation>
+    </message>
+    <message>
+        <source>WARNING: The new ICU address (%1) is not controlled by this wallet.\n\n</source>
+        <translation type="unfinished">คำเตือน: ที่อยู่ ICU ใหม่ (%1) ไม่ได้ถูกควบคุมโดยกระเป๋าเงินนี้\n\n</translation>
+    </message>
+    <message>
+        <source>Please confirm the minting operation:\n\n</source>
+        <translation type="unfinished">โปรดยืนยันการดำเนินการ minting:\n\n</translation>
+    </message>
+    <message>
+        <source>[ENCRYPTED - You are not a holder of this asset]\n\n</source>
+        <translation type="unfinished">[เข้ารหัส - คุณไม่ใช่ผู้ถือสินทรัพย์นี้]\n\n</translation>
+    </message>
+    <message>
+        <source>[ENCRYPTED - Decryption failed]\n\n</source>
+        <translation type="unfinished">[เข้ารหัส - การถอดรหัสล้มเหลว]\n\n</translation>
+    </message>
+    <message>
+        <source>[No ICU text available]\n\n</source>
+        <translation type="unfinished">[ไม่มีข้อความ ICU]\n\n</translation>
+    </message>
+    <message>
+        <source>0</source>
+        <translation type="unfinished">0</translation>
+    </message>
+    <message>
+        <source>0%</source>
+        <translation type="unfinished">0%</translation>
+    </message>
+    <message>
+        <source>(%1%)</source>
+        <translation type="unfinished">(%1%)</translation>
+    </message>
+    <message>
+        <source>  %1: %2</source>
+        <translation type="unfinished">  %1: %2</translation>
+    </message>
+    <message>
+        <source>Cannot validate ballots without template PSBT.\n\n</source>
+        <translation type="unfinished">ไม่สามารถตรวจสอบบัตรลงคะแนนโดยไม่มี PSBT ของเทมเพลต\n\n</translation>
+    </message>
+    <message>
+        <source>Ballot Validation Complete:\n\n</source>
+        <translation type="unfinished">การตรวจสอบบัตรลงคะแนนเสร็จสมบูรณ์:\n\n</translation>
+    </message>
+    <message>
+        <source>This asset has not been rotated yet (policy_epoch=0).\n\n</source>
+        <translation type="unfinished">สินทรัพย์นี้ยังไม่ได้หมุน (policy_epoch=0)\n\n</translation>
+    </message>
+    <message>
+        <source>✓</source>
+        <translation type="unfinished">✓</translation>
+    </message>
+    <message>
+        <source>%1: %2</source>
+        <translation type="unfinished">%1: %2</translation>
+    </message>
+    <message>
+        <source>You don't own any UTXOs for this asset.\n\n</source>
+        <translation type="unfinished">คุณไม่มี UTXO ใดสำหรับสินทรัพย์นี้\n\n</translation>
+    </message>
+    <message>
+        <source>Select which UTXOs to use for voting:\n\n</source>
+        <translation type="unfinished">เลือก UTXO ที่จะใช้สำหรับการลงคะแนน:\n\n</translation>
+    </message>
+    <message>
+        <source>Your ballot has been signed and published to the bulletin board!\n\n</source>
+        <translation type="unfinished">บัตรลงคะแนนของคุณได้รับการลงนามและเผยแพร่ไปยังกระดานประกาศแล้ว!\n\n</translation>
+    </message>
+    <message>
+        <source>The proposal PSBT has been loaded into the ballot section below.\n\n</source>
+        <translation type="unfinished">โหลด PSBT ของข้อเสนอไปยังส่วนบัตรลงคะแนนด้านล่างแล้ว\n\n</translation>
+    </message>
+    <message>
+        <source>This is a private governance proposal.\n\n</source>
+        <translation type="unfinished">นี่คือข้อเสนอการกำกับดูแลส่วนตัว\n\n</translation>
+    </message>
+    <message>
+        <source>You must prove ownership of the asset to request access.\n</source>
+        <translation type="unfinished">คุณต้องพิสูจน์ความเป็นเจ้าของสินทรัพย์เพื่อขอเข้าถึง\n</translation>
+    </message>
+    <message>
+        <source>Your wallet does not contain any UTXOs with this asset.\n\n</source>
+        <translation type="unfinished">กระเป๋าเงินของคุณไม่มี UTXO ที่มีสินทรัพย์นี้\n\n</translation>
+    </message>
+    <message>
+        <source>Your access request has been sent to the issuer via encrypted DM.\n\n</source>
+        <translation type="unfinished">ส่งคำขอเข้าถึงของคุณไปยังผู้ออกผ่าน DM ที่เข้ารหัสแล้ว\n\n</translation>
+    </message>
+    <message>
+        <source>Governance proposal has been published to the network!\n\nProposal ID: %1\n\n</source>
+        <translation type="unfinished">เผยแพร่ข้อเสนอการกำกับดูแลไปยังเครือข่ายแล้ว!\n\nรหัสข้อเสนอ: %1\n\n</translation>
+    </message>
+    <message>
+        <source>This will create and broadcast a distribution transaction.\n\n</source>
+        <translation type="unfinished">การดำเนินการนี้จะสร้างและกระจายธุรกรรมการจัดจำหน่าย\n\n</translation>
+    </message>
+</context>
+<context>
+    <name>ZKParamsManager</name>
+    <message>
+        <source>Download Proving Key</source>
+        <translation type="unfinished">ดาวน์โหลด Proving Key</translation>
+    </message>
+    <message>
+        <source>Download cancelled by user</source>
+        <translation type="unfinished">ผู้ใช้ยกเลิกการดาวน์โหลด</translation>
+    </message>
+    <message>
+        <source>Fetching manifest...</source>
+        <translation type="unfinished">กำลังดึงข้อมูล manifest...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">ยกเลิก</translation>
+    </message>
+    <message>
+        <source>Failed to fetch manifest: %1</source>
+        <translation type="unfinished">ไม่สามารถดึงข้อมูล manifest: %1</translation>
+    </message>
+    <message>
+        <source>Invalid manifest JSON</source>
+        <translation type="unfinished">JSON manifest ไม่ถูกต้อง</translation>
+    </message>
+    <message>
+        <source>No layers in manifest</source>
+        <translation type="unfinished">ไม่มีเลเยอร์ใน manifest</translation>
+    </message>
+    <message>
+        <source>No digest in manifest layer</source>
+        <translation type="unfinished">ไม่มี digest ในเลเยอร์ manifest</translation>
+    </message>
+    <message>
+        <source>Cannot create file: %1</source>
+        <translation type="unfinished">ไม่สามารถสร้างไฟล์: %1</translation>
+    </message>
+    <message>
+        <source>Downloading proving key (108 MB)...</source>
+        <translation type="unfinished">กำลังดาวน์โหลด proving key (108 MB)...</translation>
+    </message>
+    <message>
+        <source>Download failed</source>
+        <translation type="unfinished">การดาวน์โหลดล้มเหลว</translation>
+    </message>
+    <message>
+        <source>SHA256 verification failed — file corrupted</source>
+        <translation type="unfinished">การตรวจสอบ SHA256 ล้มเหลว — ไฟล์เสียหาย</translation>
+    </message>
+    <message>
+        <source>Failed to move downloaded file to final location</source>
+        <translation type="unfinished">ไม่สามารถย้ายไฟล์ที่ดาวน์โหลดไปยังตำแหน่งสุดท้าย</translation>
+    </message>
+    <message>
+        <source>Download cancelled</source>
+        <translation type="unfinished">การดาวน์โหลดถูกยกเลิก</translation>
+    </message>
+    <message>
+        <source>The ZK proving key (108 MB) needs to be downloaded.\n\n</source>
+        <translation type="unfinished">จำเป็นต้องดาวน์โหลด ZK proving key (108 MB)\n\n</translation>
+    </message>
+</context>
+</TS>

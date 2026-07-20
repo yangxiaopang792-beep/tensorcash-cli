@@ -1,0 +1,52 @@
+NOTICE — TensorCash Core
+
+This software is a fork of Bitcoin Core (https://github.com/bitcoin/bitcoin).
+
+================================================================================
+Original Work
+================================================================================
+
+Bitcoin Core is released under the MIT License.
+
+  Copyright (c) 2009-2025 The Bitcoin Core developers
+  Copyright (c) 2009-2025 Bitcoin Developers
+
+The full text of the original license is reproduced in the COPYING file
+distributed with this software.
+
+================================================================================
+TensorCash Modifications
+================================================================================
+
+  Copyright (c) 2024-2025 The TensorCash Core developers
+
+TensorCash Core extends Bitcoin Core with the following functionality:
+
+  - TensorCash chain type (tensor, tensor-test, tensor-reg) with dedicated
+    network parameters, genesis block, and consensus rules
+  - Cross-chain atomic swap contract system (forward, spot, repo contracts)
+  - Confidential compute bridge sessions with SAS verification
+  - Zero-knowledge proof infrastructure (ZK params manager, commitment proofs)
+  - Governance and treasury subsystem
+  - Asset balance tracking and price feeds
+  - Mining API integration for decentralised compute marketplace
+  - AI model marketplace interface
+  - P2P exchange with cross-chain trade view
+  - Post-quantum cryptography (liboqs / secp256k1-zkp integration)
+  - Tor-integrated privacy networking (TorManager)
+  - TensorCash-branded QT desktop interface
+
+All TensorCash modifications are distributed under the same MIT License as the
+original Bitcoin Core software. See the COPYING file for the full license text.
+
+================================================================================
+Attribution
+================================================================================
+
+TensorCash Core would not exist without the foundational work of the Bitcoin
+Core contributors. We gratefully acknowledge their contribution to open-source
+cryptocurrency software.
+
+Files originating from Bitcoin Core retain their original copyright headers.
+Files modified by TensorCash carry dual copyright attribution. Files created
+by TensorCash carry only the TensorCash copyright.
