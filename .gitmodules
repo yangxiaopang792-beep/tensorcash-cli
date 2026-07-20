@@ -1,0 +1,6 @@
+[submodule "shared-utils/secp256k1-zkp"]
+	path = shared-utils/secp256k1-zkp
+	url = https://github.com/ElementsProject/secp256k1-zkp.git
+[submodule "shared-utils/liboqs"]
+	path = shared-utils/liboqs
+	url = https://github.com/open-quantum-safe/liboqs.git
