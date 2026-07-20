@@ -1,7 +1,7 @@
 package=secp256k1
 # Build the shared-utils secp256k1-zkp (same as macOS/Linux jobs) to keep the
 # musig2/adaptor APIs in sync across platforms.
-$(package)_local_dir=../../../../shared-utils/secp256k1-zkp
+$(package)_local_dir=../shared-utils/secp256k1-zkp
 
 define $(package)_set_vars
   $(package)_config_opts=--disable-shared --enable-static --enable-experimental

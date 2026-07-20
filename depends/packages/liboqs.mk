@@ -1,6 +1,6 @@
 package=liboqs
-# Local source lives at repo-root/shared-utils/liboqs. From depends/, that's four levels up.
-$(package)_local_dir=../../../../shared-utils/liboqs
+# Local source lives at repo-root/shared-utils/liboqs. From depends/, go up once.
+$(package)_local_dir=../shared-utils/liboqs
 $(package)_build_subdir=build
 
 define $(package)_set_vars
