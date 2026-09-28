@@ -361,6 +361,10 @@ target_link_libraries(bitcoin-qt
   core_interface
   bitcoinqt
   bitcoin_node
+  # Explicit OpenSSL: static-link transitive propagation through bitcoin_node
+  # is unreliable under MinGW cross builds.
+  OpenSSL::SSL
+  OpenSSL::Crypto
   $<$<PLATFORM_ID:Windows>:ws2_32>
   $<$<PLATFORM_ID:Windows>:wsock32>
   $<$<PLATFORM_ID:Windows>:crypt32>
