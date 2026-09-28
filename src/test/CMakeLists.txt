@@ -221,7 +221,7 @@ target_raw_data_sources(test_bitcoin NAMESPACE test::data
 add_windows_application_manifest(test_bitcoin)
 
 target_link_libraries(test_bitcoin
-  "LINKER:--start-group"
+  "-Wl,--start-group"
   core_interface
   test_util
   bitcoin_cli
@@ -233,7 +233,7 @@ target_link_libraries(test_bitcoin
   # is unreliable under MinGW cross builds.
   OpenSSL::SSL
   OpenSSL::Crypto
-  "LINKER:--end-group"
+  "-Wl,--end-group"
   Boost::headers
   Boost::locale
   Boost::thread

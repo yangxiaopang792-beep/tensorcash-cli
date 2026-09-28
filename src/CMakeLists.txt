@@ -317,7 +317,7 @@ if(ENABLE_WALLET)
     add_windows_resources(bitcoin-wallet bitcoin-wallet-res.rc)
     add_windows_application_manifest(bitcoin-wallet)
     target_link_libraries(bitcoin-wallet
-      "LINKER:--start-group"
+      "-Wl,--start-group"
       core_interface
       bitcoin_wallet
       bitcoin_common
@@ -329,7 +329,7 @@ if(ENABLE_WALLET)
       # here places libssl/libcrypto after the static libs that need them.
       OpenSSL::SSL
       OpenSSL::Crypto
-      "LINKER:--end-group"
+      "-Wl,--end-group"
     )
     install_binary_component(bitcoin-wallet HAS_MANPAGE)
   endif()
@@ -501,7 +501,7 @@ if(BUILD_DAEMON)
     add_windows_resources(bitcoind bitcoind-res.rc)
     add_windows_application_manifest(bitcoind)
     target_link_libraries(bitcoind
-      "LINKER:--start-group"
+      "-Wl,--start-group"
       core_interface
       bitcoin_node
       $<TARGET_NAME_IF_EXISTS:bitcoin_wallet>
@@ -509,7 +509,7 @@ if(BUILD_DAEMON)
       # Explicit OpenSSL (see bitcoin-wallet above).
       OpenSSL::SSL
       OpenSSL::Crypto
-      "LINKER:--end-group"
+      "-Wl,--end-group"
     )
   install_binary_component(bitcoind HAS_MANPAGE)
 endif()
