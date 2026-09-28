@@ -19,7 +19,11 @@ define $(package)_set_vars
   $(package)_b2_opts+=address-model=$($(package)_address_model)
   $(package)_b2_opts+=--layout=system
   $(package)_b2_opts+=--prefix=$($(package)_staging_prefix_dir)
+  $(package)_b2_opts+=--with-atomic
+  $(package)_b2_opts+=--with-chrono
+  $(package)_b2_opts+=--with-date_time
   $(package)_b2_opts+=--with-locale
+  $(package)_b2_opts+=--with-system
   $(package)_b2_opts+=--with-thread
   $(package)_b2_opts+=boost.locale.icu=off
   $(package)_b2_opts+=target-os=windows
