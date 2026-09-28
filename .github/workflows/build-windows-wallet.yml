@@ -41,6 +41,31 @@ jobs:
             git clone --depth 1 https://github.com/Chia-Network/chiavdf.git shared-utils/chiavdf
           fi
 
+      - name: Build libargon2 for mingw (v3 admission verification)
+        run: |
+          set -euo pipefail
+          PREFIX="$GITHUB_WORKSPACE/depends/x86_64-w64-mingw32"
+          if [ -f "$PREFIX/lib/libargon2.a" ] && [ -f "$PREFIX/include/argon2.h" ]; then
+            echo "argon2 already installed in depends prefix, skipping"
+            exit 0
+          fi
+          cd /tmp
+          rm -rf argon2-build && mkdir argon2-build && cd argon2-build
+          curl -sL -o argon2.tar.gz https://github.com/P-H-C/phc-winner-argon2/archive/refs/tags/20190702.tar.gz
+          echo "daf972a89577f8772602bf2eb38b6a3dd3d922bf5724d45e7f9589b5e830442c  argon2.tar.gz" | sha256sum -c -
+          tar xzf argon2.tar.gz
+          cd phc-winner-argon2-20190702
+          # OPTTARGET= (empty): portable ref.c, no -march=native (would tune for
+          # the build machine's CPU and break on users' machines).
+          # NO_THREADS=1: wallet uses a single Argon2 lane; avoids winpthreads.
+          make libargon2.a OPTTARGET= CC="x86_64-w64-mingw32-gcc-posix" \
+            CFLAGS="-O2 -DARGON2_NO_THREADS -Iinclude -Isrc"
+          x86_64-w64-mingw32-gcc-ranlib libargon2.a
+          mkdir -p "$PREFIX/include" "$PREFIX/lib"
+          cp include/argon2.h "$PREFIX/include/"
+          cp libargon2.a "$PREFIX/lib/"
+          echo "argon2 installed to $PREFIX"
+
       - name: Build GUI installer and CLI wallet
         run: ./scripts/build-windows-x64.sh
 
