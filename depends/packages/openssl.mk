@@ -11,6 +11,14 @@ $(package)_target_mingw32=mingw64
 define $(package)_set_vars
   $(package)_config_opts=no-shared no-tests no-apps no-dso no-asm no-capieng no-winstore
   $(package)_config_opts+=--openssldir=$($(package)_staging_prefix_dir)/ssl
+  # OpenSSL's Configure bakes the compiler into the generated Makefile, and a
+  # Makefile assignment cannot be overridden by environment at build time, so
+  # the cross-compiler must already be visible during Configure. Without this,
+  # Configure falls back to native gcc and produces unusable (ELF) objects.
+  $(package)_config_env+=CC="$(host_CC)"
+  $(package)_config_env+=AR="$(host_AR)"
+  $(package)_config_env+=RANLIB="$(host_RANLIB)"
+  $(package)_config_env+=CROSS_COMPILE="$(host)-"
   $(package)_build_env+=CC="$(host_CC)"
   $(package)_build_env+=AR="$(host_AR)"
   $(package)_build_env+=RANLIB="$(host_RANLIB)"

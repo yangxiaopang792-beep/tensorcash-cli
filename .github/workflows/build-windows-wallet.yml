@@ -50,7 +50,7 @@ jobs:
           echo "=== bitcoin-wallet link.txt ==="
           cat build-windows-x64/src/CMakeFiles/bitcoin-wallet.dir/link.txt || echo "not found"
           echo "=== bitcoin-wallet linkLibs.rsp (one per line) ==="
-          tr ' ' "\n" < build-windows-x64/src/CMakeFiles/bitcoin-wallet.dir/linkLibs.rsp | grep -i "ssl\|crypto\|bitcoin_node" || echo "rsp not found"
+          tr ' ' "\n" < build-windows-x64/src/CMakeFiles/bitcoin-wallet.dir/linkLibs.rsp | grep -i "ssl\|crypto\|bitcoin_node\|start-group\|end-group" || echo "rsp not found"
           echo "=== bitcoind link.txt ==="
           cat build-windows-x64/src/CMakeFiles/bitcoind.dir/link.txt || echo "not found"
           echo "=== OpenSSL in CMakeCache ==="

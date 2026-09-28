@@ -30,6 +30,14 @@
 #include <vector>
 #include <algorithm>
 
+#ifdef WIN32
+// MinGW does not provide POSIX setenv()/unsetenv().
+static int win32_setenv(const char* name, const char* value, int /*overwrite*/) { return _putenv_s(name, value); }
+static int win32_unsetenv(const char* name) { return _putenv_s(name, ""); }
+#define setenv win32_setenv
+#define unsetenv win32_unsetenv
+#endif
+
 namespace {
 
 ValidationAPI MakeValidationApi(node::NodeContext& node)
