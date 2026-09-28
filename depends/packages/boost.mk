@@ -33,7 +33,7 @@ define $(package)_preprocess_cmds
 endef
 
 define $(package)_config_cmds
-  ./bootstrap.sh --with-libraries=locale,thread --without-icu --prefix=$($(package)_staging_prefix_dir)
+  ./bootstrap.sh --with-libraries=atomic,chrono,date_time,locale,system,thread --without-icu --prefix=$($(package)_staging_prefix_dir)
 endef
 
 define $(package)_build_cmds
