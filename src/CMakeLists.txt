@@ -323,6 +323,11 @@ if(ENABLE_WALLET)
       bitcoin_util
       bitcoin_node
       Boost::headers
+      # Explicit OpenSSL: static-link transitive propagation of OpenSSL::SSL/Crypto
+      # through bitcoin_node is unreliable under MinGW cross builds; listing them
+      # here places libssl/libcrypto after the static libs that need them.
+      OpenSSL::SSL
+      OpenSSL::Crypto
     )
     install_binary_component(bitcoin-wallet HAS_MANPAGE)
   endif()
@@ -498,6 +503,9 @@ if(BUILD_DAEMON)
       bitcoin_node
       $<TARGET_NAME_IF_EXISTS:bitcoin_wallet>
       $<$<BOOL:${WITH_ZMQ}>:zeromq>
+      # Explicit OpenSSL (see bitcoin-wallet above).
+      OpenSSL::SSL
+      OpenSSL::Crypto
     )
   install_binary_component(bitcoind HAS_MANPAGE)
 endif()
