@@ -228,6 +228,10 @@ target_link_libraries(test_bitcoin
   bitcoin_consensus
   minisketch
   secp256k1
+  # Explicit OpenSSL: static-link transitive propagation through bitcoin_node
+  # is unreliable under MinGW cross builds.
+  OpenSSL::SSL
+  OpenSSL::Crypto
   Boost::headers
   Boost::locale
   Boost::thread
