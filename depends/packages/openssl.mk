@@ -18,7 +18,6 @@ define $(package)_set_vars
   $(package)_config_env+=CC="$(host_CC)"
   $(package)_config_env+=AR="$(host_AR)"
   $(package)_config_env+=RANLIB="$(host_RANLIB)"
-  $(package)_config_env+=CROSS_COMPILE="$(host)-"
   $(package)_build_env+=CC="$(host_CC)"
   $(package)_build_env+=AR="$(host_AR)"
   $(package)_build_env+=RANLIB="$(host_RANLIB)"
