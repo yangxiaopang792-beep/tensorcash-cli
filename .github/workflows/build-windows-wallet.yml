@@ -44,6 +44,16 @@ jobs:
       - name: Build GUI installer and CLI wallet
         run: ./scripts/build-windows-x64.sh
 
+      - name: Dump link commands on failure
+        if: failure()
+        run: |
+          echo "=== bitcoin-wallet link.txt ==="
+          cat build-windows-x64/src/CMakeFiles/bitcoin-wallet.dir/link.txt || echo "not found"
+          echo "=== bitcoind link.txt ==="
+          cat build-windows-x64/src/CMakeFiles/bitcoind.dir/link.txt || echo "not found"
+          echo "=== OpenSSL in CMakeCache ==="
+          grep -i "openssl.*lib" build-windows-x64/CMakeCache.txt | head -10 || true
+
       - name: Upload installer artifact
         uses: actions/upload-artifact@v4
         with:
