@@ -26,7 +26,7 @@ function(add_boost_if_needed)
     cmake_policy(SET CMP0167 OLD)
   endif()
   set(Boost_NO_BOOST_CMAKE ON)
-  find_package(Boost 1.73.0 REQUIRED COMPONENTS locale thread)
+  find_package(Boost 1.73.0 REQUIRED COMPONENTS atomic chrono date_time locale system thread)
   mark_as_advanced(Boost_INCLUDE_DIR)
   set_target_properties(Boost::headers PROPERTIES IMPORTED_GLOBAL TRUE)
   # Force Boost headers onto the normal include path. The macOS runners export
