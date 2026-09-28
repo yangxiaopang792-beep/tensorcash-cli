@@ -321,8 +321,11 @@ add_dependencies(test_bitcoin mock_cosign_bridge)
 if(LIBOQS_LIB)
   # Add ML-DSA unit tests to test_bitcoin
   target_sources(test_bitcoin PRIVATE crypto_mldsa_tests.cpp)
+  # liboqs headers (LIBOQS_INCLUDE_DIR is a cache var from find_path in src/crypto)
+  target_include_directories(test_bitcoin PRIVATE ${LIBOQS_INCLUDE_DIR})
 
   add_executable(mldsa_test_helper mldsa_test_helper.cpp)
+  target_include_directories(mldsa_test_helper PRIVATE ${LIBOQS_INCLUDE_DIR})
   target_link_libraries(mldsa_test_helper
     core_interface
     bitcoin_crypto
