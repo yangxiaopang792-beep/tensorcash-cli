@@ -10,6 +10,7 @@ make -C depends HOST="$HOST" -j"$JOBS"
 
 cmake -S . -B build-windows-x64 \
   --toolchain "depends/$HOST/toolchain.cmake" \
+  -DCMAKE_PREFIX_PATH="$ROOT_DIR/depends/$HOST" \
   -DCMAKE_BUILD_TYPE=Release \
   -DDEFAULT_CHAIN_TYPE=tensor \
   -DBUILD_GUI=ON \
