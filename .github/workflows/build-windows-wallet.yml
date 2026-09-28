@@ -31,9 +31,15 @@ jobs:
       - name: Cache depends
         uses: actions/cache@v4
         with:
-          path: depends/built
+          path: depends/x86_64-w64-mingw32
           key: depends-win64-${{ hashFiles('depends/**') }}
           restore-keys: depends-win64-
+
+      - name: Fetch chiavdf dependency
+        run: |
+          if [ ! -f shared-utils/chiavdf/src/verifier.h ]; then
+            git clone --depth 1 https://github.com/Chia-Network/chiavdf.git shared-utils/chiavdf
+          fi
 
       - name: Build GUI installer and CLI wallet
         run: ./scripts/build-windows-x64.sh
