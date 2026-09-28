@@ -49,7 +49,7 @@ if(LIBOQS_LIB AND LIBOQS_INCLUDE_DIR)
   target_link_libraries(bitcoin_crypto PUBLIC ${LIBOQS_LIB})
   target_compile_definitions(bitcoin_crypto PUBLIC ENABLE_MLDSA=1)
   target_compile_definitions(bitcoin_crypto PRIVATE USE_LIBOQS=1)
-  target_include_directories(bitcoin_crypto PRIVATE ${LIBOQS_INCLUDE_DIR})
+  target_include_directories(bitcoin_crypto PUBLIC ${LIBOQS_INCLUDE_DIR})
   message(STATUS "ML-DSA backend: liboqs (${LIBOQS_LIB})")
 
   # Export LIBOQS_LIB for use in test helper build
