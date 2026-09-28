@@ -358,6 +358,7 @@ add_windows_resources(bitcoin-qt res/bitcoin-qt-res.rc)
 add_windows_application_manifest(bitcoin-qt)
 
 target_link_libraries(bitcoin-qt
+  "LINKER:--start-group"
   core_interface
   bitcoinqt
   bitcoin_node
@@ -365,6 +366,7 @@ target_link_libraries(bitcoin-qt
   # is unreliable under MinGW cross builds.
   OpenSSL::SSL
   OpenSSL::Crypto
+  "LINKER:--end-group"
   $<$<PLATFORM_ID:Windows>:ws2_32>
   $<$<PLATFORM_ID:Windows>:wsock32>
   $<$<PLATFORM_ID:Windows>:crypt32>
