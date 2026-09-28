@@ -407,8 +407,8 @@ BOOST_FIXTURE_TEST_CASE(checkinputs_test, Dersig100Setup)
 
 // Special setup for model registration tests - use TestingSetup since we need TENSOR_REG
 struct ModelRegTestSetup : public TestingSetup {
-    uint m_blocksCountAfterMining;
-    uint m_blocksCountAfterMining_expectation;
+    unsigned int m_blocksCountAfterMining;
+    unsigned int m_blocksCountAfterMining_expectation;
     ModelRegTestSetup() : TestingSetup{ChainType::TENSOR_REG} {
         m_blocksCountAfterMining = 1;
         m_blocksCountAfterMining_expectation = 1;
